@@ -1,0 +1,26 @@
+{
+  "guiX": {
+    "input": 5
+  },
+  "guiY": {
+    "input": 5
+  },
+  "color": {
+    "comments": [
+      "Textformatting codes for the display of the difficulty"
+    ],
+    "input": "GOLD"
+  },
+  "scale": {
+    "comments": [
+      "Scaling of the difficulty text"
+    ],
+    "input": 1.0
+  },
+  "showDifficulty": {
+    "comments": [
+      "Show the the difficulty text"
+    ],
+    "input": true
+  }
+}

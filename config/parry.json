@@ -1,0 +1,6 @@
+{
+    "default_multiplier": 0.5,
+    "consume_animation": true,
+    "prioritize_shield": false,
+    "overrides": []
+}

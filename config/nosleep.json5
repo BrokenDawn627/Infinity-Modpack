@@ -1,0 +1,41 @@
+{
+	// A list of allowed foods to charge the anchor and the amount of charge per item. Non-Food items will be ignored.
+	"foods": {
+		"Apple": 1,
+		"Mushroom Stew": 2,
+		"Bread": 2,
+		"Raw Porkchop": 1,
+		"Cooked Porkchop": 2,
+		"Golden Apple": 3,
+		"Enchanted Golden Apple": 4,
+		"Raw Cod": 1,
+		"Raw Salmon": 1,
+		"Tropical Fish": 1,
+		"Pufferfish": 1,
+		"Cooked Cod": 2,
+		"Cooked Salmon": 2,
+		"Cake": 3,
+		"Cookie": 2,
+		"Melon Slice": 1,
+		"Dried Kelp": 1,
+		"Raw Beef": 1,
+		"Steak": 2,
+		"Raw Chicken": 1,
+		"Cooked Chicken": 2,
+		"Carrot": 1,
+		"Potato": 1,
+		"Baked Potato": 2,
+		"Pumpkin Pie": 3,
+		"Raw Rabbit": 1,
+		"Cooked Rabbit": 2,
+		"Rabbit Stew": 2,
+		"Raw Mutton": 1,
+		"Cooked Mutton": 2,
+		"Beetroot": 1,
+		"Beetroot Soup": 2,
+		"Sweet Berries": 1,
+		"Honey Bottle": 2
+	},
+	// Should bed spawn be disabled?
+	"disableBedSpawn": false
+}

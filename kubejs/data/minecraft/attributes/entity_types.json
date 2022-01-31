@@ -1,0 +1,61 @@
+{
+    "values": {
+        "minecraft:wither": {
+            "minecraft:generic.max_health": 500.0,
+            "minecraft:generic.attack_damage": 19.0,
+            "minecraft:generic.armor": 8.0,
+            "minecraft:generic.armor_toughness": 9.0
+        },
+        "minecraft:ender_dragon": {
+            "minecraft:generic.max_health": 500.0,
+            "minecraft:generic.attack_damage": 22.0,
+            "minecraft:generic.armor": 10.0,
+            "minecraft:generic.armor_toughness": 12.0
+        },
+		"minecraft:zombie": {
+            "minecraft:generic.max_health": 25.0
+        },
+		"minecraft:zombie_villager": {
+            "minecraft:generic.max_health": 25.0
+        },
+		"minecraft:zombified_piglin": {
+            "minecraft:generic.max_health": 25.0
+        },
+		"minecraft:wither_skeleton": {
+            "minecraft:generic.max_health": 25.0
+        },
+		"minecraft:vindicator": {
+            "minecraft:generic.max_health": 30.0
+        },
+		"minecraft:evoker": {
+            "minecraft:generic.max_health": 30.0
+        },
+		"minecraft:skeleton": {
+            "minecraft:generic.max_health": 25.0
+        },
+		"minecraft:witch": {
+            "minecraft:generic.max_health": 30.0
+        },
+		"minecraft:guardian": {
+            "minecraft:generic.max_health": 35.0
+        },
+		"minecraft:husk": {
+            "minecraft:generic.max_health": 25.0
+        },
+		"minecraft:zoglin": {
+            "minecraft:generic.max_health": 45.0
+        },
+		"minecraft:creeper": {
+            "minecraft:generic.max_health": 25.0
+        },
+		"minecraft:enderman": {
+            "minecraft:generic.max_health": 45.0
+        },
+		"minecraft:stray": {
+            "minecraft:generic.max_health": 25.0
+        },
+		"minecraft:drowned": {
+            "minecraft:generic.max_health": 25.0
+        }
+    }
+}

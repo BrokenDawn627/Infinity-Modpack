@@ -1,0 +1,42 @@
+{
+	// Defines the damage taken every 4 seconds
+	"thirst_damage": 1.0,
+	// Defines speed of dehydration, bigger value = slower depletion
+	"hydrating_factor": 1.5,
+	// Defines the rate of the thirst effect's drain, smaller variable = less draining
+	"thirst_effect_factor": 0.032999999821186066,
+	"potion_thirst_quench": 2,
+	// 1.0F = 100%, 0.5F = 50%, 0.0F = 0%
+	"potion_bad_thirst_chance": 0.25,
+	// Counted in ticks, 20 ticks = 1 second
+	"potion_bad_thirst_duration": 300,
+	"milk_thirst_quench": 8,
+	// 1.0F = 100%, 0.5F = 50%, 0.0F = 0%
+	"milk_thirst_chance": 0.4000000059604645,
+	"stew_thirst_quench": 3,
+	// Applies to only food tagged with: #hydrating_food
+	"food_thirst_quench": 1,
+	"flask_thirst_quench": 4,
+	// 1.0F = 100%, 0.5F = 50%, 0.0F = 0%
+	"flask_dirty_thirst_chance": 0.75,
+	// Counted in ticks, 20 ticks = 1 second
+	"flask_dirty_thirst_duration": 500,
+	"water_souce_quench": 1,
+	// 1.0F = 100%, 0.5F = 50%, 0.0F = 0%
+	"water_sip_thirst_chance": 0.75,
+	// Counted in ticks, 20 ticks = 1 second
+	"water_sip_thirst_duration": 600,
+	"sleep_thirst_consumption": 4,
+	"sleep_hunger_consumption": 2,
+	// in ticks
+	"water_boiling_time": 100,
+	"harder_nether": false,
+	// 1.3 = 30% more thirst
+	"nether_factor": 1.2999999523162842,
+	// Set flask extra water amount
+	"extra_flask_size": 0,
+	// Enables alternate textures by the lead texture artist
+	"other_droplet_texture": false,
+	"hud_x": 0,
+	"hud_y": 0
+}

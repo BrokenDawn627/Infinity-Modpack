@@ -1,0 +1,32 @@
+{
+  "ApplyLootingToAlphaFire": true,
+  "UseStandardSoulboundMechanics": false,
+  "VeinMinerMaxBreakByLvl": [
+    7,
+    14,
+    28
+  ],
+  "TreeFellerMaxBreakByLvl": [
+    14,
+    28,
+    56
+  ],
+  "MaxDistanceFromPlayer": 8,
+  "ProtectItemFromBreaking": true,
+  "AutoSmeltWoodModifier": 0.15,
+  "TameProtectsOnlyYourAnimals": true,
+  "chanceForEnderCurseToTeleportv2": 0.4,
+  "chanceForEnderCurseToPreventDamagev2": 0.2,
+  "curse_of_the_end_teleport_range": 14.0,
+  "perLevelChargeMultiplierForPotionRetention": 6,
+  "AlphaFireCauseExtraDamage": true,
+  "ReduceElytraVelocityWithGrapnel": true,
+  "ReduceElytaVelocityWithGrapnelMultiplier": 0.1,
+  "EnableSoulbound": true,
+  "slippery_drop_chance_on_swap": 0.01,
+  "slippery_drop_chance_attack": 0.07,
+  "slippery_multiplier_when_item_dropped_during_attack": 0.1,
+  "slippery_dropChance_on_mine": 0.04,
+  "slippery_drop_shield_when_hit": 0.11,
+  "slippery_drop_on_item_use": 0.01
+}

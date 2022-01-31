@@ -1,0 +1,179 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				bee = true
+				axolotl = true
+				arrow = true
+				cow = true
+				magma_cube = true
+				pig = true
+				skeleton = true
+				llama = true
+				bat = true
+				hoglin = true
+				rabbit = true
+				armor_stand = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				item = true
+				stray = true
+				turtle = true
+				shulker = true
+				salmon = true
+				wither_skeleton = true
+				wandering_trader = true
+				piglin_brute = true
+				goat = true
+				item_frame = true
+				horse = true
+				vindicator = true
+				phantom = true
+				ender_dragon = true
+				evoker = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
+				parrot = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+				chicken = true
+				trader_llama = true
+				donkey = true
+				chest_minecart = true
+				fox = true
+				tropical_fish = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				area_effect_cloud = true
+				zombified_piglin = true
+				piglin = true
+				cat = true
+				zombie = true
+				guardian = true
+				ghast = true
+				sheep = true
+				player = true
+				illusioner = true
+				pufferfish = true
+				potion = true
+				wolf = true
+				villager = true
+				zombie_villager = true
+				elder_guardian = true
+				polar_bear = true
+				strider = true
+				painting = true
+				cave_spider = true
+				witch = true
+				cod = true
+				spider = true
+
+			[light_sources.settings.entities.bewitchment]
+				ghost = true
+				werewolf = true
+				raven = true
+				owl = true
+				snake = true
+				toad = true
+				hellhound = true
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
+
+			[light_sources.settings.entities.icedchaiskeletons]
+				skeleton_knight = true
+				stray_knight = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				snowy_creeper = true
+				bamboo_creeper = true
+				badlands_creeper = true
+				desert_creeper = true
+				dripstone_creeper = true
+				jungle_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
+				spruce_creeper = true
+				hills_creeper = true
+
+			[light_sources.settings.entities.megaparrot]
+				megaparrot = true
+
+			[light_sources.settings.entities.bosses_of_mass_destruction]
+				lich = true
+				soul_star = true
+
+			[light_sources.settings.entities.graveyard]
+				acolyte = true
+				revenant = true
+				skeleton_creeper = true
+				ghoul = true
+				nightmare = true
+
+			[light_sources.settings.entities.hoverpets]
+				ocelot_pet = true
+
+			[light_sources.settings.entities.mythicmounts]
+				direwolf = true
+				dragon = true
+				griffon = true
+				archelon = true
+				nightmare = true
+				acencia = true
+
+			[light_sources.settings.entities.betternether]
+				firefly = true
+				flying_pig = true
+				hydrogen_jellyfish = true
+				skull = true
+				naga = true
+
+			[light_sources.settings.entities.adventurez]
+				deer = true
+				orc = true
+				iguana = true
+				amethyst_golem = true
+				soul_reaper = true
+				nightmare = true
+				mammoth = true
+
+			[light_sources.settings.entities.zombified]
+				arctic_zombie = true
+				miner_zombie = true
+				beserker_zombie = true
+				squirm_zombie = true
+				crystal_zombie = true
+				infernal_zombie = true
+				sludge_zombie = true
+
+			[light_sources.settings.entities.arcanus]
+				magic_missile = true
+
+			[light_sources.settings.entities.tinyskeletons]
+				baby_stray = true
+				baby_wither_skeleton = true
+				baby_skeleton = true
+

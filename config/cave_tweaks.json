@@ -1,0 +1,69 @@
+{
+  "Cave Tweaks": {
+    "Global Toggles": {
+      "enable_spaghetti_2d": true,
+      "enable_spaghetti_3d": true,
+      "enable_cheese": true,
+      "enable_big_entrance": true
+    },
+    "Cave Modifiers": {
+      "cheese_limiter": 0.27,
+      "cheese_scale": 1.0,
+      "cheese_y_stretch": 1.0,
+      "entrance_limiter": 0.37,
+      "spaghetti_3d_min_thickness": 0.065,
+      "spaghetti_3d_max_thickness": 0.088,
+      "spaghetti_3d_scale": 1.0
+    },
+    "Aquifers": {
+      "aquifer_bias": 0.1,
+      "aquifer_xz_scale": 1.0,
+      "aquifer_y_scale": 0.8,
+      "aquifer_type1_min": -0.3,
+      "aquifer_type1_max": 0.8,
+      "aquifer_type2_min": -0.8,
+      "aquifer_type2_max": 0.225
+    },
+    "Cave Biomes": {
+      "min_depth": 16,
+      "height_variation_factor": 1.0,
+      "Humidity (Lush Caves)": {
+        "height_variation_factor": 1.45,
+        "bias": 0.125,
+        "bias_compensator": 0.35,
+        "bias_end_depth": 64
+      },
+      "Temperature": {
+        "height_variation_factor": 4.0,
+        "bias": 0.0,
+        "bias_compensator": 0.0,
+        "bias_end_depth": 64
+      }
+    },
+    "Cave Entrances": {
+      "bonus_factor": 0.105,
+      "limiting_factor": 0.3325,
+      "noise_factor": 1.875,
+      "layer_factor": 1.0,
+      "reduce_pillars": true,
+      "pillar_threshold": 0.075,
+      "pillar_reduction_factor": 5.0,
+      "max_pillar_reduction": 0.6
+    },
+    "Spaghetti Surface Behavior": {
+      "expand_factor": -0.6125,
+      "contract_factor": 1.525,
+      "primary_offset": 0.265,
+      "secondary_offset": 0.1725,
+      "per_block_factor": 0.005,
+      "start_depth": 32
+    },
+    "Spaghetti Twist": {
+      "vanilla_bias": 0.2,
+      "bias_power": 0.65,
+      "modulator_scale": 2.0,
+      "limiter": 0.7225,
+      "bonus_factor": 1.65
+    }
+  }
+}

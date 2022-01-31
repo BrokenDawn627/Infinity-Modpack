@@ -1,0 +1,93 @@
+{
+	/* 
+	   
+	   
+	   ******************************
+	   Fast Leaves Decay
+	   ******************************
+	*/
+	"enableFastDecay": false,
+	/* 
+	   
+	   
+	   ******************************
+	   Wooden TreeAxe Settings
+	   ******************************
+	*/
+	"enableWoodenTreeaxe": true,
+	"attackDamageWood": 3,
+	"attackSpeedAdjustmentWood": -3,
+	/* 
+	   
+	   
+	   ******************************
+	   Copper TreeAxe Settings
+	   ******************************
+	*/
+	"enableCopperTreeaxe": true,
+	"attackDamageCopper": 4,
+	"attackSpeedAdjustmentCopper": -3,
+	"copperDurability": 129,
+	/* 
+	   
+	   
+	   ******************************
+	   Iron TreeAxe Settings
+	   ******************************
+	*/
+	"enableIronTreeaxe": true,
+	"attackDamageIron": 4,
+	"attackSpeedAdjustmentIron": -3,
+	/* 
+	   
+	   
+	   ******************************
+	   Gold TreeAxe Settings
+	   ******************************
+	*/
+	"enableGoldTreeaxe": true,
+	"attackDamageGold": 5,
+	"attackSpeedAdjustmentGold": -3,
+	/* 
+	   
+	   
+	   ******************************
+	   Diamond TreeAxe Settings
+	   ******************************
+	*/
+	"enableDiamondTreeaxe": true,
+	"attackDamageDiamond": 5,
+	"attackSpeedAdjustmentDiamond": -3,
+	/* 
+	   
+	   
+	   ******************************
+	   Emerald TreeAxe Settings
+	   ******************************
+	*/
+	"enableEmeraldTreeaxe": true,
+	"attackDamageEmerald": 5,
+	"attackSpeedAdjustmentEmerald": -3,
+	"emeraldDurability": 725,
+	/* 
+	   
+	   
+	   ******************************
+	   Amethyst TreeAxe Settings
+	   ******************************
+	*/
+	"enableAmethystTreeaxe": true,
+	"attackDamageAmethyst": 5,
+	"attackSpeedAdjustmentAmethyst": -3,
+	"amethystDurability": 850,
+	/* 
+	   
+	   
+	   ******************************
+	   Netherite TreeAxe Settings
+	   ******************************
+	*/
+	"enableNetheriteTreeaxe": true,
+	"attackDamageNetherite": 6,
+	"attackSpeedAdjustmentNetherite": -3
+}

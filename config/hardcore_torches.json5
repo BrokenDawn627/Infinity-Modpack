@@ -1,0 +1,42 @@
+{
+	// Torches will extinguish if broken. default true
+	"torchesExtinguishWhenBroken": true,
+	// Torches are fully expended when broken. Overrides torchesExtinguishWhenBroken. default true
+	"torchesBurnWhenDropped": true,
+	// Torches become unlit in rain. If torchesSmolder is true, they will instead smolder in rain. default true
+	"torchesRain": true,
+	// Only matters if torchesRain is true. In rain, torches will extinguish but emit smoke, and consume fuel at 1/3 the rate until fully extinguished or re-lit. default true
+	"torchesSmolder": true,
+	// Burnt torches drop as vanilla stick when broken instead of a burnt torch. default true
+	"burntStick": true,
+	// The amount of ticks the torch lasts. Default is 48000. 20 ticks per second, 48000 = 20 minutes
+	"defaultTorchFuel": 48000,
+	// The amount of ticks the lantern can last. Default is 144000. 20 ticks per second, 144000 = 60 minutes
+	"defaultLanternFuel": 144000,
+	// The amount a fuel item adds to the lantern by default. default 72000
+	"defLanternFuelItem": 72000,
+	// A lantern must have at least this much fuel (min 1) to be ignited from unlit. Once lit it will continue to burn to 0. default 1
+	"minLanternIgnitionFuel": 1,
+	// Are torches crafted unlit. default false
+	"craftUnlit": false,
+	// Do torches become unlit when placed in storage. default false
+	"unlightInChest": false,
+	// Do torches lose fuel while the player has then in their inventory. default false
+	"tickInInventory": false,
+	// How many torches are crafted. default 4
+	"craftAmount": 4,
+	// Right click torch or lantern to see fuel value. default false
+	"fuelMessage": false,
+	// Max fuel an oil can holds. default 576000
+	"maxCanFuel": 576000,
+	// Do lanterns have to be filled using an oil can. default true
+	"lanternsNeedCan": true,
+	// Can you refuel a torch using an oil can. default false
+	"torchesUseCan": false,
+	// Multiplies the fuel value of all oil can recipes. 0.5 makes all fuel recipes return half as much fuel. default 1
+	"oilRecipeMultiplier": 1,
+	// If true, you can craft animal fat with an oil can to fill it. You can also add custom fill recipes with a datapack, open the mod jar to see the JSON format. default true
+	"enableFatOil": true,
+	// If true, you can craft coal with an oil can to fill it. You can also add custom fill recipes with a datapack, open the mod jar to see the JSON format. default false
+	"enableCoalOil": false
+}

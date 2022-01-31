@@ -1,0 +1,23 @@
+{
+	// Disables trinket support for apples
+	"appleTrinket": false,
+	// How much faster the wax gland should make you
+	"waxGlandMultiplier": 10.0,
+	// The base durability of the infernal scepter
+	"infernalScepterDurability": 64,
+	// Whether Things should prevent beacons from giving someone haste when they already have momentum
+	"nerfBeaconsWithMomentum": true,
+	// Globally disables Things trinket rendering
+	"renderTrinkets": true,
+	// Only disables trinket rendering for apples
+	"renderAppleTrinket": false,
+	// How many ender pearls the displacement tome uses per teleport
+	"displacementTomeFuelConsumption": 1,
+	// How much walking speed the socks should add per level, base is 0.1, default is 0.02
+	"sockPerLevelSpeedAmplifier": 0.019999999552965164,
+	"effectLevels": {
+		"mossNecklaceRegen": 2,
+		"miningGloveMomentum": 2,
+		"riotGauntletStrength": 1
+	}
+}

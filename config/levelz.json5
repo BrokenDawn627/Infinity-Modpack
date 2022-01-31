@@ -1,0 +1,79 @@
+{
+	"maxLevel": 20,
+	// Applies if bonus chest world setting is enabled
+	"startPoints": 5,
+	// Enables starter points for SERVER only
+	"enableStartPoints": false,
+	// If true will reset stats on death
+	"hardMode": false,
+	"resetCurrentXP": true,
+	"dropPlayerXP": true,
+	"disableMobFarms": true,
+	"disableFurnaceXP": false,
+	"xpBaseCost": 50,
+	// XP equation: lvl^2 * multiplicator + base
+	"xpCostMultiplicator": 0.10000000149011612,
+	// Attribute values - Bonus for each lvl
+	"healthBase": 6.0,
+	"healthBonus": 1.0,
+	// Absorption Bonus at max lvl
+	"healthAbsorptionBonus": 6.0,
+	// Levelz Screen Multiplies it by 10
+	"movementBase": 0.09,
+	"movementBonus": 0.001,
+	// Chance of damage misses player at max lvl
+	"movementMissChance": 0.05000000074505806,
+	// Reduces fall damage
+	"movementFallBonus": 0.25,
+	"attackBase": 1.0,
+	"attackBonus": 0.2,
+	// Chance of double meele damage at max lvl
+	"attackDoubleDamageChance": 0.029999999329447746,
+	"defenseBase": 0.0,
+	"defenseBonus": 0.2,
+	// Chance of damage reflection at max lvl
+	"defenseReflectChance": 0.05000000074505806,
+	"luckBase": 0.0,
+	"luckBonus": 0.05,
+	"luckCritBonus": 0.009999999776482582,
+	// Chance of not dying at max lvl
+	"luckSurviveChance": 0.5,
+	"critDmgBonus": 0.20000000298023224,
+	"staminaBase": 1.100000023841858,
+	"staminaBonus": 0.019999999552965164,
+	"staminaHealthBonus": 0.05000000074505806,
+	// Food is more nutritious at max lvl
+	"staminaFoodBonus": 0.30000001192092896,
+	// Price reduction in %
+	"tradeBonus": 1.0,
+	"tradeXPBonus": 0.5,
+	// Disables bad reputation possibility at max lvl
+	"tradeReputation": true,
+	"smithingCostBonus": 0.014999999664723873,
+	// Chance of no tool damage
+	"smithingToolChance": 0.009999999776482582,
+	// Chance of no xp usage on anvil at max lvl
+	"smithingAnvilChance": 0.10000000149011612,
+	// Min level to get chance of more crops drop
+	"farmingBase": 10,
+	// Chance of more crops drop
+	"farmingChanceBonus": 0.009999999776482582,
+	// Breeding twin chance at max lvl
+	"farmingTwinChance": 0.20000000298023224,
+	// Chance of increased enchantment strength
+	"alchemyEnchantmentChance": 0.004999999888241291,
+	// Chance of drinking potion with double value at max lvl
+	"alchemyPotionChance": 0.05000000074505806,
+	"archeryBowExtraDamage": 0.20000000298023224,
+	"archeryCrossbowExtraDamage": 0.20000000298023224,
+	// Chance of double range damage at max lvl
+	"archeryDoubleDamageChance": 0.05000000074505806,
+	// Chance of more ore drop
+	"miningOreChance": 0.009999999776482582,
+	// Tnt power increase at max lvl
+	"miningTntBonus": 0.5,
+	// Locked blocks break slower factor
+	"miningLockedMultiplicator": 2.0,
+	// Highlight locked blocks in red.
+	"highlightLocked": false
+}

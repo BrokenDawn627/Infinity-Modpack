@@ -1,0 +1,26 @@
+{
+	// If the hotbar should display item borders.
+	"hotBar": true,
+	// If item borders should show for common items.
+	"showForCommon": false,
+	// If the borders should have square corners.
+	"squareCorners": false,
+	// If the borders should fully envelop item slots (otherwise they will only show on the bottom portion of the slot).
+	"fullBorder": false,
+	// If the borders draw over items instead of under.
+	"overItems": false,
+	// If the borders should have a more prominent glow.
+	"extraGlow": false,
+	// If automatic borders (based on item rarity) should be enabled.
+	"automaticBorders": true,
+	/* Custom border colors for specific items.  Format: { "<color>": ["list of selectors"] }.  Selectors supported:
+	     Item name - Use item name for vanilla items or include mod name for modded items.  Examples: "minecraft:stick", "iron_ore"
+	     Tag - $ followed by tag name.  Examples: "$minecraft:stone" or "$planks"
+	     Mod name - @ followed by mod identifier.  Examples: "@spoiledeggs"
+	     Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: "!common", "!uncommon", "!rare", "!epic"
+	     Item name color - # followed by color hex code, the hex code must match exactly.  Examples: "#23F632"
+	     Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: "%[Uncommon]"
+	     Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
+	*/
+	"manualBorders": { }
+}

@@ -1,0 +1,10 @@
+{
+	// Canister Stack Size
+	"stackSize": 10,
+	// Wither Rib Drop Chance
+	"witherRibDropChance": 0.15,
+	// Allow Player Starting Tweaks
+	"allowPlayerStartingTweaks": false,
+	// Starting Health of Player (Default:20)
+	"startingHealth": 20
+}

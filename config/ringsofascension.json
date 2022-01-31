@@ -1,0 +1,122 @@
+{
+	// General configs
+	"general": {
+		// The cooldown in seconds of the Ring of Undying
+		"ringUndyingCooldown": 600,
+
+		// The amount of hearts that Ring of Max Health gives you.
+		"ringHealthHearts": 10
+	},
+
+	// Enable/Disable Rings
+	"enableRings": {
+		"ringFireResistance": true,
+		"ringInvisibility": true,
+		"ringRegeneration": true,
+		"ringSlowFalling": true,
+		"ringStrength": true,
+		"ringWaterBreathing": true,
+		"ringSpeed": true,
+		"ringNightVision": true,
+		"ringJumpBoost": true,
+		"ringMining": true,
+		"ringLuck": true,
+		"ringDolphin": true,
+		"ringMagnetism": true,
+		"ringFlight": true,
+		"ringPoisonResistance": true,
+		"ringHungerless": true,
+		"ringGrowth": true,
+		"ringKnockbackResistance": true,
+		"ringHealth": true,
+		"ringSponge": true,
+		"ringExperience": true,
+		"ringWaterWalking": true,
+		"ringWither": true,
+		"ringUndying": true,
+		"ringSlowResistance": true
+	},
+
+	// Sets the amplifier of the effect given by the ring. Example: 0 = Fire Resistance I; 1 = Fire Resistance II
+	"amplifiers": {
+		"ringAmplifierFireResistance": 1,
+		"ringAmplifierInvisibility": 0,
+		"ringAmplifierRegeneration": 0,
+		"ringAmplifierSlowFalling": 0,
+		"ringAmplifierStrength": 0,
+		"ringAmplifierWaterBreathing": 1,
+		"ringAmplifierSpeed": 0,
+		"ringAmplifierNightVision": 0,
+		"ringAmplifierJumpBoost": 0,
+		"ringAmplifierMining": 1,
+		"ringAmplifierLuck": 1,
+		"ringAmplifierDolphin": 0
+	},
+
+	// Sets the Tier of the rings. Higher tier rings are more difficult to find. 0 = Common; 1 = Rare; 2 = Epic; 3 = Legendary; 4 = Mythic
+	"tiers": {
+		"ringTierFireResistance": 0,
+		"ringTierInvisibility": 1,
+		"ringTierRegeneration": 3,
+		"ringTierSlowFalling": 0,
+		"ringTierStrength": 2,
+		"ringTierWaterBreathing": 0,
+		"ringTierSpeed": 1,
+		"ringTierNightVision": 0,
+		"ringTierJumpBoost": 0,
+		"ringTierMining": 2,
+		"ringTierLuck": 3,
+		"ringTierDolphin": 1,
+		"ringTierMagnetism": 2,
+		"ringTierFlight": 4,
+		"ringTierPoisonResistance": 2,
+		"ringTierHungerless": 3,
+		"ringTierGrowth": 2,
+		"ringTierKnockbackResistance": 0,
+		"ringTierHealth": 3,
+		"ringTierSponge": 1,
+		"ringTierExperience": 0,
+		"ringTierWaterWalking": 0,
+		"ringTierWither": 1,
+		"ringTierUndying": 4,
+		"ringTierSlowResistance": 1
+	},
+
+	// Rings Loot
+	"loot": {
+		// The minimum number of rings that can be found inside a single chest. Values below 0 decrease the chance of the rings appearing.
+		"ringMinLoot": -5,
+
+		// The maximum number of rings that can be found inside a single chest.
+		"ringMaxLoot": 1
+	},
+
+	// Loot Tables containing the Rings.
+	"lootLocations": {
+		"ringLocationFireResistance": "minecraft:chests/nether_bridge;minecraft:chests/ruined_portal;minecraft:chests/bastion_treasure",
+		"ringLocationInvisibility": "minecraft:chests/abandoned_mineshaft;minecraft:chests/buried_treasure",
+		"ringLocationRegeneration": "minecraft:chests/stronghold_corridor;minecraft:chests/stronghold_library",
+		"ringLocationSlowFalling": "minecraft:chests/simple_dungeon;minecraft:chests/buried_treasure;minecraft:chests/end_city_treasure",
+		"ringLocationStrength": "minecraft:chests/stronghold_library;minecraft:chests/stronghold_corridor;minecraft:chests/stronghold_crossing;minecraft:chests/bastion_treasure;minecraft:chests/bastion_bridge;minecraft:chests/pillager_outpost",
+		"ringLocationWaterBreathing": "minecraft:chests/spawn_bonus_chest;minecraft:chests/underwater_ruin_big;minecraft:chests/underwater_ruin_small;minecraft:chests/buried_treasure",
+		"ringLocationSpeed": "minecraft:chests/spawn_bonus_chest;minecraft:chests/simple_dungeon;minecraft:chests/buried_treasure",
+		"ringLocationNightVision": "minecraft:chests/spawn_bonus_chest;minecraft:chests/simple_dungeon;minecraft:chests/abandoned_mineshaft",
+		"ringLocationJumpBoost": "minecraft:chests/end_city_treasure;minecraft:chests/igloo_chest;minecraft:chests/desert_pyramid",
+		"ringLocationMining": "minecraft:chests/simple_dungeon;minecraft:chests/abandoned_mineshaft",
+		"ringLocationLuck": "minecraft:chests/simple_dungeon;minecraft:chests/jungle_temple",
+		"ringLocationDolphin": "minecraft:chests/underwater_ruin_big;minecraft:chests/underwater_ruin_small;minecraft:chests/buried_treasure",
+		"ringLocationMagnetism": "minecraft:chests/spawn_bonus_chest;minecraft:chests/simple_dungeon;minecraft:chests/buried_treasure;minecraft:chests/ruined_portal",
+		"ringLocationFlight": "minecraft:chests/end_city_treasure",
+		"ringLocationPoisonResistance": "minecraft:chests/jungle_temple;minecraft:chests/end_city_treasure;minecraft:chests/shipwreck_treasure;minecraft:chests/bastion_treasure;minecraft:chests/bastion_bridge",
+		"ringLocationHungerless": "minecraft:chests/village/village_butcher;minecraft:chests/end_city_treasure;minecraft:chests/woodland_mansion",
+		"ringLocationGrowth": "minecraft:chests/jungle_temple",
+		"ringLocationKnockbackResistance": "minecraft:chests/end_city_treasure;minecraft:chests/bastion_bridge;minecraft:chests/nether_bridge",
+		"ringLocationHealth": "minecraft:chests/end_city_treasure;minecraft:chests/bastion_treasure;minecraft:chests/stronghold_library",
+		"ringLocationSponge": "minecraft:chests/underwater_ruin_big;minecraft:chests/underwater_ruin_small",
+		"ringLocationExperience": "minecraft:chests/spawn_bonus_chest;minecraft:chests/simple_dungeon;minecraft:chests/buried_treasure;minecraft:chests/ruined_portal",
+		"ringLocationWaterWalking": "minecraft:chests/underwater_ruin_big;minecraft:chests/underwater_ruin_small;minecraft:chests/buried_treasure",
+		"ringLocationWither": "minecraft:chests/bastion_treasure",
+		"ringLocationUndying": "minecraft:chests/woodland_mansion",
+		"ringLocationSlowResistance": "minecraft:chests/end_city_treasure;minecraft:chests/shipwreck_treasure;minecraft:chests/bastion_treasure;minecraft:chests/bastion_bridge"
+	}
+}

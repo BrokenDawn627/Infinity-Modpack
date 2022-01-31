@@ -1,0 +1,8 @@
+{
+	// Align player to camera on left & right clicks (delayed by Flick Timeout)
+	"aimOnInteract": true,
+	// Delay in ticks between moments when player can flick towards the target in third person
+	"flickTimeout": 7,
+	// Angle in degrees within the player will slightly follow camera rotation
+	"followYaw": 45
+}

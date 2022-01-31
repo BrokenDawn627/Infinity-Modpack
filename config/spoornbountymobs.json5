@@ -1,0 +1,195 @@
+{
+	// Chance for mob to spawn with a bounty [1/value] [default = 300]
+	"bountyChance": 300,
+	// True if Bounty mobs should glow through walls permanently, else false [default = false]
+	"bountyMobPermanentGlow": false,
+	// Duration in seconds Bounty mobs should glow when they are first found if bountyMobPermanentGlow is false [default = 20]
+	"bountyMobGlowDuration": 20,
+	// Player's Bounty Hunter level increments at this value [default = 10]
+	"playerBountyHunterLevelIntervals": 10,
+	// Bonus health for Player per Bounty Hunter level [default = 2 (one heart)]
+	"playerBonusHealthPerBountyHunterLevel": 2.0,
+	// Bonus damage for Player per Bounty Hunter tier [default = 0.5]
+	"playerBonusDamagePerBountyHunterTier": 0.5,
+	// Percentage of player's Bounty score LOST on death [default = 20, min=0, max=100]
+	"playerDeathBountyScorePenalty": 20.0,
+	// Set to false if you don't want potion particle effects on HUD from Bounty mob attacks [default = true]
+	"showBountyParticleEffects": true,
+	// Set to false to disable broadcast message when a player is near a bounty mob [default = true]
+	"broadcastMessageWhenBountySpawned": true,
+	// Set to false to disable broadcast message when a player kills a bounty mob [default = true]
+	"broadcastMessageWhenPlayerKillBountyMob": true,
+	// Set to false to disable broadcast message when a player increases their Bounty Level [default = true]
+	"broadcastMessageWhenBountyLevelUp": true,
+	// Common tier bounty mobs
+	"COMMON_TIER": {
+		// Spawn weight of this tier (higher number is higher chance of spawn) [default = 20]
+		"spawnChance": 20,
+		// This tier's Mob size scale [default = 1.5]
+		"mobSizeScale": 1.5,
+		// This tier's mob outline color in Decimal format [default = 20228]
+		"glowColor": 20228,
+		// Base bonus health for this tier [default = 20]
+		"baseBonusHealth": 20,
+		// Experience scale for this tier [default = 3]
+		"experienceScale": 3,
+		// Health increase per bounty score milestone [default = 5]
+		"milestoneHealthIncrease": 5,
+		// Damage increase per player bounty score level [default = 0.2]
+		"milestoneDamageIncrease": 0.2,
+		/* Here you can configure what loot drops from bounty mobs.  See comments below for information on each data field.
+		   This works for any modded mobs or items as well, as long as you get the identifier regexes right!
+		   If any identifiers are missing or do not exist in the game, it will simply be skipped and fail safely.
+		   If any of the mob identifiers conflict (e.g. you specify a "minecraft:creeper" entry, but also a wildcard default ".*" entry,
+		   only the first matched drop data in the drops list will be applied.
+		   Example:
+		   
+		   "drops": [
+		   	{
+		   		"entityId": "minecraft:creeper",  // Entity identifier this drop configuration is for
+		   		"dropChance": 0.5,  // Overall chance for each roll to drop an item
+		   		"rolls": 2,  // Number of times to roll for a drop.  This allows for multiple drops.
+		   		// All the items that can drop from this entity
+		   		"items": [
+		   			{
+		   				// Item's minecraft identifier.  This can be another mod's identifier.
+		   				"item": "minecraft:string",
+		   				// Weight for this item.  Higher number means higher chance to drop this item relative to others for each roll.
+		   				"weight": 3
+		   			},
+		   			{
+		   				"item": "minecraft:iron_sword",
+		   				"weight": 4
+		   			},
+		   			{
+		   				"item": "minecraft:gunpowder",
+		   				"weight": 1
+		   			}
+		   		]
+		   	},
+		   	{
+		   		"entityId": "exampleModId:.*",  // EntityId can be a regex, so you can add other mod's entities
+		   		"dropChance": 0.9,
+		   		"rolls": 1,
+		   		"items": [
+		   			{
+		   				"item": "minecraft:.*sword",  // Item drops can use regex as well.  This drops any sword.
+		   				"weight": 1
+		   			}
+		   		]
+		   	},
+		   	{
+		   		"entityId": ".*", // You can use regex for the mob identifier.  ".*" is a wildcard and matches ALL mobs.
+		   		"dropChance": 0.5,
+		   		"rolls": 1,
+		   		"items": [
+		   			{
+		   				"item": "minecraft:diamond",
+		   				"weight": 3
+		   			},
+		   			{
+		   				"item": "minecraft:ender_pearl",
+		   				"weight": 4
+		   			}
+		   		]
+		   	}
+		   ]
+		*/
+		"drops": []
+	},
+	// Uncommon tier bounty mobs
+	"UNCOMMON_TIER": {
+		// Spawn weight of this tier (higher number is higher chance of spawn) [default = 15]
+		"spawnChance": 15,
+		// This tier's Mob size scale [default = 1.75]
+		"mobSizeScale": 1.75,
+		// This tier's mob outline color in Decimal format [default = 8729344]
+		"glowColor": 8729344,
+		// Base bonus health for this tier [default = 30]
+		"baseBonusHealth": 30,
+		// Experience scale for this tier [default = 6]
+		"experienceScale": 6,
+		// Health increase per bounty score milestone [default = 10]
+		"milestoneHealthIncrease": 10,
+		// Damage increase per player bounty score level [default = 0.2]
+		"milestoneDamageIncrease": 0.2,
+		// Drops data.  See COMMON_TIER's config for example configuration schema and documentation.
+		"drops": []
+	},
+	// Rare tier bounty mobs
+	"RARE_TIER": {
+		// Spawn weight of this tier (higher number is higher chance of spawn) [default = 10]
+		"spawnChance": 10,
+		// This tier's Mob size scale [default = 2.0]
+		"mobSizeScale": 2.0,
+		// This tier's mob outline color in Decimal format [default = 3179]
+		"glowColor": 3179,
+		// Base bonus health for this tier [default = 40]
+		"baseBonusHealth": 40,
+		// Experience scale for this tier [default = 9]
+		"experienceScale": 9,
+		// Health increase per bounty score milestone [default = 15]
+		"milestoneHealthIncrease": 15,
+		// Damage increase per player bounty score level [default = 0.3]
+		"milestoneDamageIncrease": 0.3,
+		// Drops data.  See COMMON_TIER's config for example configuration schema and documentation.
+		"drops": []
+	},
+	// Epic tier bounty mobs
+	"EPIC_TIER": {
+		// Spawn weight of this tier (higher number is higher chance of spawn) [default = 6]
+		"spawnChance": 6,
+		// This tier's Mob size scale [default = 2.3]
+		"mobSizeScale": 2.3,
+		// This tier's mob outline color in Decimal format [default = 2949204]
+		"glowColor": 2949204,
+		// Base bonus health for this tier [default = 50]
+		"baseBonusHealth": 50,
+		// Experience scale for this tier [default = 12]
+		"experienceScale": 12,
+		// Health increase per bounty score milestone [default = 20]
+		"milestoneHealthIncrease": 20,
+		// Damage increase per player bounty score level [default = 0.4]
+		"milestoneDamageIncrease": 0.4,
+		// Drops data.  See COMMON_TIER's config for example configuration schema and documentation.
+		"drops": []
+	},
+	// Legendary tier bounty mobs
+	"LEGENDARY_TIER": {
+		// Spawn weight of this tier (higher number is higher chance of spawn) [default = 3]
+		"spawnChance": 3,
+		// This tier's Mob size scale [default = 2.7]
+		"mobSizeScale": 2.7,
+		// This tier's mob outline color in Decimal format [default = 32093]
+		"glowColor": 32093,
+		// Base bonus health for this tier [default = 60]
+		"baseBonusHealth": 60,
+		// Experience scale for this tier [default = 15]
+		"experienceScale": 15,
+		// Health increase per bounty score milestone [default = 25]
+		"milestoneHealthIncrease": 25,
+		// Damage increase per player bounty score level [default = 0.5]
+		"milestoneDamageIncrease": 0.5,
+		// Drops data.  See COMMON_TIER's config for example configuration schema and documentation.
+		"drops": []
+	},
+	// Doom tier bounty mobs
+	"DOOM_TIER": {
+		// Spawn weight of this tier (higher number is higher chance of spawn) [default = 1]
+		"spawnChance": 1,
+		// This tier's Mob size scale [default = 3.0]
+		"mobSizeScale": 3.0,
+		// This tier's mob outline color in Decimal format [default = 7012352]
+		"glowColor": 7012352,
+		// Base bonus health for this tier [default = 70]
+		"baseBonusHealth": 70,
+		// Experience scale for this tier [default = 20]
+		"experienceScale": 20,
+		// Health increase per bounty score milestone [default = 30]
+		"milestoneHealthIncrease": 30,
+		// Damage increase per player bounty score level [default = 0.6]
+		"milestoneDamageIncrease": 0.6,
+		// Drops data.  See COMMON_TIER's config for example configuration schema and documentation.
+		"drops": []
+	}
+}

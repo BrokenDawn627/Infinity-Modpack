@@ -1,0 +1,18 @@
+{
+  "enableBrewing": true,
+  "book1": {
+    "xpFromBrewing": 100,
+    "lowerBoundRandom": 95,
+    "upperBoundRandom": 110
+  },
+  "book2": {
+    "xpFromBrewing": 250,
+    "lowerBoundRandom": 90,
+    "upperBoundRandom": 120
+  },
+  "book3": {
+    "xpFromBrewing": 500,
+    "lowerBoundRandom": 85,
+    "upperBoundRandom": 130
+  }
+}

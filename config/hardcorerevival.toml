@@ -1,0 +1,11 @@
+ticksUntilDeath = 2400
+continueTimerWhileOffline = false
+rescueActionTicks = 40
+rescueRespawnHealth = 1
+rescueRespawnFoodLevel = 5
+rescueRespawnEffects = ["minecraft:hunger|600|0", "minecraft:weakness|1200|0"]
+rescueDistance = 5.0
+glowOnKnockout = true
+allowUnarmedMelee = false
+allowBows = false
+allowPistols = false

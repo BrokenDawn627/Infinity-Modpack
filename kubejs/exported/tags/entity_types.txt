@@ -1,0 +1,132 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 26, 2022, 5:46:48 PM
+
+#requiem:humans
+- bewitchment:vampire
+- bewitchment:werewolf
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray
+- minecraft:polar_bear
+- minecraft:snow_golem
+- minecraft:wither
+- adventurez:summoner
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- adventurez:void_bullet
+- adventurez:fire_breath
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- adventurez:summoner
+
+#gobber2:minion_mobs
+- minecraft:cave_spider
+- minecraft:enderman
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:spider
+- minecraft:wither_skeleton
+- minecraft:zombified_piglin
+
+#tinyskeletons:skeletons
+- tinyskeletons:baby_skeleton
+- tinyskeletons:baby_stray
+- tinyskeletons:baby_wither_skeleton
+
+#bewitchment:encounter_fortune
+- minecraft:husk
+- minecraft:stray
+- minecraft:witch
+- minecraft:vindicator
+- minecraft:blaze
+- bewitchment:hellhound
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- bewitchment:silver_arrow
+
+#bewitchment:taglock_blacklist
+- #c:bosses
+
+#requiem:golems
+- bewitchment:demon
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+- adventurez:stone_golem
+- adventurez:small_stone_golem
+
+#bewitchment:insanity_blacklist
+- minecraft:creeper
+- minecraft:witch
+- minecraft:ravager
+
+#requiem:possession_blacklist
+- bewitchment:leonard
+- bewitchment:baphomet
+- bewitchment:lilith
+- bewitchment:herne
+
+#c:bosses
+- minecraft:ender_dragon
+- minecraft:wither
+- bewitchment:leonard
+- bewitchment:baphomet
+- bewitchment:lilith
+- bewitchment:herne
+
+#bewitchment:has_blood
+- minecraft:player
+- minecraft:villager
+- minecraft:wandering_trader
+- minecraft:witch
+- minecraft:pillager
+- minecraft:vindicator
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:piglin
+- minecraft:piglin_brute
+- bewitchment:vampire
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid

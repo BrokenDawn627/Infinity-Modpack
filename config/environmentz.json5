@@ -1,0 +1,27 @@
+{
+	"icon_x": 7,
+	"icon_y": 52,
+	// Below this biome temp - start undercooling
+	"biome_cold_temp": 0.4000000059604645,
+	// Below this biome temp - start freezing
+	"biome_freeze_temp": 0.20000000298023224,
+	"allow_all_armor": false,
+	// Caution! This could decrease performance
+	"heating_up_block_range": 3,
+	// Protection amount is reduced every second
+	"max_cold_protection_amount": 120,
+	// Protection amount is added every second
+	"cold_protection_amount_addition": 2,
+	// Disables white overlay
+	"cold_overlay": true,
+	// Above this biome temp - start overheating
+	"biome_hot_temp": 1.2000000476837158,
+	// Above this biome temp - start overheating
+	"biome_overheat_temp": 1.600000023841858,
+	// Handles thirst when Dehydration mod is loaded
+	"overheating_exhaustion": 0.20000000298023224,
+	// Protection amount is reduced every second
+	"max_heat_protection_amount": 120,
+	// Protection amount is added every second
+	"heat_protection_amount_addition": 2
+}

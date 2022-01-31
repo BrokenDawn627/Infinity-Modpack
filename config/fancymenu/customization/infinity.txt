@@ -1,0 +1,135 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=400310%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 21
+}
+
+customization {
+  identifier = %id=400358%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604394%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 51
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=400286%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 51
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 51
+}
+
+customization {
+  identifier = %id=376394%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 51
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 2
+  width = 98
+  actionid = d66eb87d-6f34-4fb6-b19a-738737d4b0b91638801103488
+  action = addbutton
+  y = 21
+  label = Author
+  value = https://space.bilibili.com/194073238
+  height = 20
+}
+
+customization {
+  path = resources/title.png
+  orientation = mid-centered
+  x = -134
+  width = 268
+  action = addtexture
+  actionid = 0e2cd4a5-41b7-4feb-aaf4-75cdc6c863e11638801198494
+  y = -93
+  height = 67
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 4
+  actionid = fd08c211-bd00-4a63-afea-3ad1bd336b6f1638801315942
+  action = addtext
+  y = -12
+  scale = 1.0
+  alignment = left
+  value = Infinity - Beta5
+}
+

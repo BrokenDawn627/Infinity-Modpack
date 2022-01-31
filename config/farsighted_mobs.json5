@@ -1,0 +1,8 @@
+{
+	// Default follow range for all hostile mobs. Between 0 and 2048, vanilla = 16.
+	"hostileDefaultRange": 32,
+	// Follow ranges per mob. Vanilla zombie = 35.
+	"followRanges": {
+		"minecraft:zombie": 35
+	}
+}

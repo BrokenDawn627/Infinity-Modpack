@@ -1,0 +1,62 @@
+[graveSettings]
+generateGraves = true
+retrievalType = "ON_USE"
+dropType = "IN_INVENTORY"
+dropPlayerHead = false
+dropGraveBlock = false
+requireGraveItem = false
+generateEmptyGraves = false
+ignoreSpawnProtection = true
+priority = "GRAVE"
+deleteEnchantments = ["minecraft:vanishing_curse"]
+soulboundEnchantments = ["yigd:soulbound"]
+applyBindingCurse = true
+trySoft = true
+tryStrict = true
+blacklistDimensions = []
+graveInVoid = true
+ignoreDeathTypes = []
+graveSpawnHeight = 2
+lastResort = "DROP_ITEMS"
+putXpInGrave = true
+defaultXpDrop = false
+xpDropPercent = 50
+tellDeathPos = true
+
+[graveSettings.graveRobbing]
+enableRobbing = true
+onlyMurderer = false
+afterTime = 1
+timeType = "HOURS"
+robPriority = "INVENTORY"
+
+[graveSettings.graveDeletion]
+canDelete = false
+afterTime = 1
+timeType = "HOURS"
+dropInventory = false
+
+[graveSettings.blockUnderGrave]
+generateBlockUnder = true
+inOverWorld = "minecraft:cobblestone"
+inNether = "minecraft:soul_soil"
+inTheEnd = "minecraft:end_stone"
+inCustom = "minecraft:dirt"
+
+[graveSettings.graveRenderSettings]
+useRenderFeatures = true
+renderGraveSkull = true
+renderGraveOwner = true
+textShadow = true
+adaptRenderer = false
+glowingGrave = false
+glowMinDistance = 0
+[utilitySettings]
+soulboundEnchant = true
+teleportScroll = false
+[commandToggles]
+retrieveGrave = true
+robGrave = true
+selfView = true
+adminView = true
+moderateGraves = true

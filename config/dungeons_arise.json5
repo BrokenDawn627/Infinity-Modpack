@@ -1,0 +1,422 @@
+{
+	/* 
+	   
+	   [Bandit Towers Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"banditTowersGenerates": true,
+	// Base distance between Bandit Towers (in chunks). Must be higher than separation.
+	"banditTowersSpacing": 45,
+	// Base distance between Bandit Towers (in chunks)
+	"banditTowersSeparation": 35,
+	// Number of Jigsaw iterations when generating a structure
+	"banditTowersSize": 50,
+	/* 
+	   
+	   [Bandit Villages Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"banditVillageGenerates": true,
+	// Base distance between Bandit Villages (in chunks). Must be higher than separation.
+	"banditVillageSpacing": 45,
+	// Base distance between Bandit Villages (in chunks)
+	"banditVillageSeparation": 35,
+	// Number of Jigsaw iterations when generating a structure
+	"banditVillageSize": 13,
+	/* 
+	   
+	   [Illager Corsair Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"illagerCorsairGenerates": true,
+	// Base distance between Illager Corsair (in chunks). Must be higher than separation.
+	"illagerCorsairSpacing": 64,
+	// Base distance between Illager Corsair (in chunks)
+	"illagerCorsairSeparation": 48,
+	// Number of Jigsaw iterations when generating a structure
+	"illagerCorsairSize": 10,
+	/* 
+	   
+	   [Illager Galley Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"illagerGalleyGenerates": true,
+	// Base distance between Illager Galley (in chunks). Must be higher than separation.
+	"illagerGalleySpacing": 50,
+	// Base distance between Illager Galley (in chunks)
+	"illagerGalleySeparation": 30,
+	// Number of Jigsaw iterations when generating a structure
+	"illagerGalleySize": 10,
+	/* 
+	   
+	   [Typhon Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"typhonGenerates": true,
+	// Base distance between Typhon (in chunks). Must be higher than separation.
+	"typhonSpacing": 60,
+	// Base distance between Typhon (in chunks)
+	"typhonSeparation": 50,
+	// Number of Jigsaw iterations when generating a structure
+	"typhonSize": 10,
+	/* 
+	   
+	   [Undead Pirate Ships Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"undeadPirateShipGenerates": true,
+	// Base distance between Undead Pirate Ships (in chunks). Must be higher than separation.
+	"undeadPirateShipSpacing": 60,
+	// Base distance between Undead Pirate Ships (in chunks)
+	"undeadPirateShipSeparation": 40,
+	// Number of Jigsaw iterations when generating a structure
+	"undeadPirateShipSize": 10,
+	/* 
+	   
+	   [Illager Campsite Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"illagerCampsiteGenerates": true,
+	// Base distance between Illager Campsite (in chunks). Must be higher than separation.
+	"illagerCampsiteSpacing": 60,
+	// Base distance between Illager Campsite (in chunks)
+	"illagerCampsiteSeparation": 30,
+	// Number of Jigsaw iterations when generating a structure
+	"illagerCampsiteSize": 10,
+	/* 
+	   
+	   [Merchant Campsite Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"merchantCampsiteGenerates": true,
+	// Base distance between Merchant Campsite (in chunks). Must be higher than separation.
+	"merchantCampsiteSpacing": 60,
+	// Base distance between Merchant Campsite (in chunks)
+	"merchantCampsiteSeparation": 40,
+	// Number of Jigsaw iterations when generating a structure
+	"merchantCampsiteSize": 10,
+	/* 
+	   
+	   [Ceryneian Hinds Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"ceryneianHindGenerates": true,
+	// Base distance between Ceryneian Hinds (in chunks). Must be higher than separation.
+	"ceryneianHindSpacing": 80,
+	// Base distance between Ceryneian Hinds (in chunks)
+	"ceryneianHindSeparation": 70,
+	// Number of Jigsaw iterations when generating a structure
+	"ceryneianHindSize": 10,
+	/* 
+	   
+	   [Shiraz Palaces Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"shirazPalaceGenerates": true,
+	// Base distance between Shiraz Palaces (in chunks). Must be higher than separation.
+	"shirazPalaceSpacing": 160,
+	// Base distance between Shiraz Palaces (in chunks)
+	"shirazPalaceSeparation": 140,
+	// Number of Jigsaw iterations when generating a structure
+	"shirazPalaceSize": 50,
+	/* 
+	   
+	   [Heavenly Challenger Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"heavenlyChallengerGenerates": true,
+	// Base distance between Heavenly Challenger (in chunks). Must be higher than separation.
+	"heavenlyChallengerSpacing": 340,
+	// Base distance between Heavenly Challenger (in chunks)
+	"heavenlyChallengerSeparation": 290,
+	// Number of Jigsaw iterations when generating a structure
+	"heavenlyChallengerSize": 20,
+	/* 
+	   
+	   [Heavenly Conqueror Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"heavenlyConquerorGenerates": true,
+	// Base distance between Heavenly Conqueror (in chunks). Must be higher than separation.
+	"heavenlyConquerorSpacing": 230,
+	// Base distance between Heavenly Conqueror (in chunks)
+	"heavenlyConquerorSeparation": 190,
+	// Number of Jigsaw iterations when generating a structure
+	"heavenlyConquerorSize": 20,
+	/* 
+	   
+	   [Heavenly Rider Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"heavenlyRiderGenerates": true,
+	// Base distance between Heavenly Rider (in chunks). Must be higher than separation.
+	"heavenlyRiderSpacing": 180,
+	// Base distance between Heavenly Rider (in chunks)
+	"heavenlyRiderSeparation": 160,
+	// Number of Jigsaw iterations when generating a structure
+	"heavenlyRiderSize": 20,
+	/* 
+	   
+	   [Aviary Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"aviaryGenerates": true,
+	// Base distance between Aviary (in chunks). Must be higher than separation.
+	"aviarySpacing": 200,
+	// Base distance between Aviary (in chunks)
+	"aviarySeparation": 160,
+	// Number of Jigsaw iterations when generating a structure
+	"aviarySize": 20,
+	/* 
+	   
+	   [Lighthouses Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"lighthouseGenerates": true,
+	// Base distance between Lighthouses (in chunks). Must be higher than separation.
+	"lighthouseSpacing": 100,
+	// Base distance between Lighthouses (in chunks)
+	"lighthouseSeparation": 90,
+	// Number of Jigsaw iterations when generating a structure
+	"lighthouseSize": 10,
+	/* 
+	   
+	   [Small Blimps Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"smallBlimpGenerates": true,
+	// Base distance between Small Blimps (in chunks). Must be higher than separation.
+	"smallBlimpSpacing": 80,
+	// Base distance between Small Blimps (in chunks)
+	"smallBlimpSeparation": 60,
+	// Number of Jigsaw iterations when generating a structure
+	"smallBlimpSize": 40,
+	/* 
+	   
+	   [Abandoned Temples Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"abandonedTempleGenerates": true,
+	// Base distance between Abandoned Temples (in chunks). Must be higher than separation.
+	"abandonedTempleSpacing": 30,
+	// Base distance between Abandoned Temples (in chunks)
+	"abandonedTempleSeparation": 20,
+	// Number of Jigsaw iterations when generating a structure
+	"abandonedTempleSize": 30,
+	/* 
+	   
+	   [Illager Forts Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"illagerFortGenerates": true,
+	// Base distance between Illager Forts (in chunks). Must be higher than separation.
+	"illagerFortSpacing": 160,
+	// Base distance between Illager Forts (in chunks)
+	"illagerFortSeparation": 60,
+	// Number of Jigsaw iterations when generating a structure
+	"illagerFortSize": 10,
+	/* 
+	   
+	   [Monasteries Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"monasteryGenerates": true,
+	// Base distance between Monasteries (in chunks). Must be higher than separation.
+	"monasterySpacing": 150,
+	// Base distance between Monasteries (in chunks)
+	"monasterySeparation": 90,
+	// Number of Jigsaw iterations when generating a structure
+	"monasterySize": 8,
+	/* 
+	   
+	   [Thornborn Towers Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"thornbornTowersGenerates": true,
+	// Base distance between Thornborn Towers (in chunks). Must be higher than separation.
+	"thornbornTowersSpacing": 80,
+	// Base distance between Thornborn Towers (in chunks)
+	"thornbornTowersSeparation": 70,
+	// Number of Jigsaw iterations when generating a structure
+	"thornbornTowersSize": 80,
+	/* 
+	   
+	   [Giant Mushrooms Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"giantMushroomGenerates": true,
+	// Base distance between Giant Mushrooms (in chunks). Must be higher than separation.
+	"giantMushroomSpacing": 80,
+	// Base distance between Giant Mushrooms (in chunks)
+	"giantMushroomSeparation": 40,
+	// Number of Jigsaw iterations when generating a structure
+	"giantMushroomSize": 10,
+	/* 
+	   
+	   [Mushroom Houses Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"mushroomHouseGenerates": true,
+	// Base distance between Mushroom Houses (in chunks). Must be higher than separation.
+	"mushroomHouseSpacing": 80,
+	// Base distance between Mushroom Houses (in chunks)
+	"mushroomHouseSeparation": 40,
+	// Number of Jigsaw iterations when generating a structure
+	"mushroomHouseSize": 10,
+	/* 
+	   
+	   [Mushroom Mines Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"mushroomMinesGenerates": true,
+	// Base distance between Mushroom Mines (in chunks). Must be higher than separation.
+	"mushroomMinesSpacing": 80,
+	// Base distance between Mushroom Mines (in chunks)
+	"mushroomMinesSeparation": 40,
+	// Number of Jigsaw iterations when generating a structure
+	"mushroomMinesSize": 40,
+	/* 
+	   
+	   [Mushroom Villages Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"mushroomVillageGenerates": true,
+	// Base distance between Mushroom Villages (in chunks). Must be higher than separation.
+	"mushroomVillageSpacing": 60,
+	// Base distance between Mushroom Villages (in chunks)
+	"mushroomVillageSeparation": 20,
+	// Number of Jigsaw iterations when generating a structure
+	"mushroomVillageSize": 6,
+	/* 
+	   
+	   [Infested Temples Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"infestedTempleGenerates": true,
+	// Base distance between Infested Temples (in chunks). Must be higher than separation.
+	"infestedTempleSpacing": 140,
+	// Base distance between Infested Temples (in chunks)
+	"infestedTempleSeparation": 100,
+	// Number of Jigsaw iterations when generating a structure
+	"infestedTempleSize": 100,
+	/* 
+	   
+	   [Plague Asylum Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"plagueAsylumGenerates": true,
+	// Base distance between Plague Asylum (in chunks). Must be higher than separation.
+	"plagueAsylumSpacing": 240,
+	// Base distance between Plague Asylum (in chunks)
+	"plagueAsylumSeparation": 200,
+	// Number of Jigsaw iterations when generating a structure
+	"plagueAsylumSize": 35,
+	/* 
+	   
+	   [Jungle Tree Houses Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"jungleTreeHouseGenerates": true,
+	// Base distance between Jungle Tree Houses (in chunks). Must be higher than separation.
+	"jungleTreeHouseSpacing": 60,
+	// Base distance between Jungle Tree Houses (in chunks)
+	"jungleTreeHouseSeparation": 40,
+	// Number of Jigsaw iterations when generating a structure
+	"jungleTreeHouseSize": 10,
+	/* 
+	   
+	   [Coliseum Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"coliseumGenerates": true,
+	// Base distance between Coliseums (in chunks). Must be higher than separation.
+	"coliseumSpacing": 240,
+	// Base distance between Coliseums (in chunks)
+	"coliseumSeparation": 200,
+	// Number of Jigsaw iterations when generating a structure
+	"coliseumSize": 10,
+	/* 
+	   
+	   [Fishing Huts Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"fishingHutGenerates": true,
+	// Base distance between Fishing Huts (in chunks). Must be higher than separation.
+	"fishingHutSpacing": 20,
+	// Base distance between Fishing Huts (in chunks)
+	"fishingHutSeparation": 5,
+	// Number of Jigsaw iterations when generating a structure
+	"fishingHutSize": 10,
+	/* 
+	   
+	   [Small Prairie Houses Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"smallPrairieHouseGenerates": true,
+	// Base distance between Small Prairie Houses (in chunks). Must be higher than separation.
+	"smallPrairieHouseSpacing": 25,
+	// Base distance between Small Prairie Houses (in chunks)
+	"smallPrairieHouseSeparation": 10,
+	// Number of Jigsaw iterations when generating a structure
+	"smallPrairieHouseSize": 10,
+	/* 
+	   
+	   [Wishing Wells Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"wishingWellGenerates": true,
+	// Base distance between Wishing Wells (in chunks). Must be higher than separation.
+	"wishingWellSpacing": 40,
+	// Base distance between Wishing Wells (in chunks)
+	"wishingWellSeparation": 30,
+	// Number of Jigsaw iterations when generating a structure
+	"wishingWellSize": 10,
+	/* 
+	   
+	   [Illager Windmills Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"illagerWindmillGenerates": true,
+	// Base distance between Illager Windmills (in chunks). Must be higher than separation.
+	"illagerWindmillSpacing": 40,
+	// Base distance between Illager Windmills (in chunks)
+	"illagerWindmillSeparation": 30,
+	// Number of Jigsaw iterations when generating a structure
+	"illagerWindmillSize": 5,
+	/* 
+	   
+	   [Foundries Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"foundryGenerates": true,
+	// Base distance between Foundries (in chunks). Must be higher than separation.
+	"foundrySpacing": 120,
+	// Base distance between Foundries (in chunks)
+	"foundrySeparation": 60,
+	// Number of Jigsaw iterations when generating a structure
+	"foundrySize": 20,
+	/* 
+	   
+	   [Mining Systems Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"miningSystemGenerates": true,
+	// Base distance between Mining Systems (in chunks). Must be higher than separation.
+	"miningSystemSpacing": 60,
+	// Base distance between Mining Systems (in chunks)
+	"miningSystemSeparation": 20,
+	// Number of Jigsaw iterations when generating a structure
+	"miningSystemSize": 20,
+	/* 
+	   
+	   [Scorched Mines Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"scorchedMinesGenerates": true,
+	// Base distance between Scorched Mines (in chunks). Must be higher than separation.
+	"scorchedMinesSpacing": 120,
+	// Base distance between Scorched Mines (in chunks)
+	"scorchedMinesSeparation": 60,
+	// Number of Jigsaw iterations when generating a structure
+	"scorchedMinesSize": 12
+}

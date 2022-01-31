@@ -1,0 +1,22 @@
+{
+  "general": {
+    "allowVoidFloatingEnchantment": true
+  },
+  "tools": {
+    "enderitePickaxeAD": 4,
+    "enderiteAxeAD": 8,
+    "enderiteHoeAD": -2,
+    "enderiteShovelAD": 4.5,
+    "enderiteSwordAD": 6,
+    "enderiteBowAD": 2.5,
+    "enderiteBowArrowSpeed": 3.5,
+    "enderiteCrossbowAD": 3.0,
+    "enderiteCrossbowArrowSpeed": 3.65
+  },
+  "worldGeneration": {
+    "enderiteOre": {
+      "veinSize": 3,
+      "veinAmount": 3
+    }
+  }
+}

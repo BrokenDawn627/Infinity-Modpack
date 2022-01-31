@@ -1,0 +1,61 @@
+{
+  "x_enchant": {
+    "autoFishing": true,
+    "suckBlood": true,
+    "weakness": true,
+    "rebirth": true,
+    "moreLoot": true,
+    "moreLootRate": 20.0,
+    "moreMoreLootRate": 1.0,
+    "moreMoreLootMultiplier": 10.0,
+    "hitRateUp": true,
+    "quickShoot": true,
+    "magicImmune": true,
+    "infinityAcceptMending": true,
+    "chatTips": true,
+    "halo": true,
+    "haloRange": 9.0,
+    "attackSpeedHalo": true,
+    "attackSpeedHaloMultiple": 0.5,
+    "thunderHalo": true,
+    "thunderHaloIsTreasure": true,
+    "thunderHaloStruckChance": 10,
+    "attributes": [
+      "attribute.name.generic.max_health",
+      "attribute.name.generic.movement_speed",
+      "attribute.name.generic.attack_damage",
+      "attribute.name.generic.attack_knockback",
+      "attribute.name.generic.attack_speed",
+      "attribute.name.generic.armor",
+      "attribute.name.generic.knockback_resistance",
+      "attribute.name.generic.flying_speed"
+    ]
+  },
+  "xhp": {
+    "enabled": true,
+    "syncWithHud": true,
+    "trigger": "FOCUS",
+    "tips": false,
+    "tipsColor": -16776961,
+    "tipsLocation": [
+      0,
+      0
+    ],
+    "name": true,
+    "hp": true,
+    "visualization": true,
+    "style": "ICON",
+    "friendColor": -14336,
+    "mobColor": -65536,
+    "emptyColor": -8355712,
+    "damageColor": -65536,
+    "criticDamageColor": -65281,
+    "barLength": 20,
+    "barHeight": 3,
+    "damage": true,
+    "distance": 128,
+    "scale": 0.02,
+    "height": 0,
+    "ignoreArmorStandEntity": true
+  }
+}

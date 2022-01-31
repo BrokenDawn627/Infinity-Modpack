@@ -1,0 +1,12 @@
+{
+	// An item won't be protected by Imperishable at all if that item's ID is in this list, for example "minecraft:stone".
+	"globalBlacklist": [],
+	// An item will still despawn even if it has Imperishable if that item's ID is in this list.
+	"despawnProtectionBlacklist": [],
+	// An item will still be destroyed by things like fire even if it has Imperishable if that item's ID is in this list.
+	"damageProtectionBlacklist": [],
+	// An item will still be destroyed by the void even if it has Imperishable if that item's ID is in this list.
+	"voidProtectionBlacklist": [],
+	// An item will still break when it reaches 0 durability even if it has Imperishable if that item's ID is in this list.
+	"breakProtectionBlacklist": []
+}

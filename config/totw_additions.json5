@@ -1,0 +1,26 @@
+{
+	/* 
+	   
+	   [End Towers Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"endTowerGenerates": true,
+	// Base distance between End Towers (in chunks). Must be higher than separation.
+	"endTowerSpacing": 45,
+	// Base distance between End Towers (in chunks)
+	"endTowerSeparation": 35,
+	// Whether this structure should integrate Waystones or not.
+	"endTowerWaystones": true,
+	/* 
+	   
+	   [Nether Towers Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"netherTowerGenerates": true,
+	// Base distance between Nether Towers (in chunks). Must be higher than separation.
+	"netherTowerSpacing": 45,
+	// Base distance between Nether Towers (in chunks)
+	"netherTowerSeparation": 35,
+	// Whether this structure should integrate Waystones or not.
+	"netherTowerWaystones": true
+}

@@ -1,0 +1,16 @@
+{
+  "charged_bolt_chance": 30,
+  "experience_base_amount": 4,
+  "ice_aspect_base_duration": 60,
+  "nocturnal_duration": 60,
+  "paralysis_duration": 40,
+  "poison_aspect_duration": 60,
+  "sugar_rush_duration": 40,
+  "homing_detection_range": 15,
+  "god_of_thunder_chance": 5,
+  "rise_base_duration": 20,
+  "beheading_chance": 5,
+  "consumer_base_chance": 10,
+  "shotgun_base_damage": 6,
+  "double_swing_chance": 5
+}

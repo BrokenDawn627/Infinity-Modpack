@@ -1,0 +1,89 @@
+{
+	/* Rarity of the Imperishable enchantment.
+	   Minecraft must be restarted for a
+	   change of this option to take effect.
+	   
+	   Options:
+	     "COMMON"
+	     "UNCOMMON"
+	     "RARE"
+	     "VERY_RARE"
+	   
+	   Default value is "RARE".
+	*/
+	"imperishableRarity": "RARE",
+	/* Should Imperishable be a treasure enchant?
+	   
+	   Default value is false.
+	*/
+	"imperishableIsTreasure": false,
+	/* Should villagers sell Imperishable enchanted books?
+	   
+	   Default value is true.
+	*/
+	"imperishableSoldByVillagers": true,
+	/* Minimum experience level required to get
+	   Imperishable in an enchanting table.
+	   
+	   Default value is 15.
+	*/
+	"imperishableMinLevel": 15,
+	/* Maximum number of levels above the minimum level
+	   to get Imperishable in an enchanting table.
+	   
+	   Default value is 50.
+	*/
+	"imperishableMaxLevelsAboveMin": 50,
+	/* Should Imperishable prevent items from despawning?
+	   
+	   Default value is true.
+	*/
+	"imperishablePreventsDespawn": true,
+	/* Should Imperishable prevent items from being destroyed?
+	   
+	   Default value is true.
+	*/
+	"imperishableProtectsFromDamage": true,
+	/* Should Imperishable prevent items from
+	   being destroyed in the void?
+	   
+	   Default value is true.
+	*/
+	"imperishableProtectsFromVoid": true,
+	/* Should Imperishable prevent items from breaking?
+	   If true, items don't break when they reach
+	   0 durability, but rather lose any special
+	   properties, such as increased mining speed
+	   on a pickaxe, until they are repaired.
+	   
+	   Default value is true.
+	*/
+	"imperishablePreventsBreaking": true,
+	/* Is the Imperishable enchantment needed
+	   to prevent tools from breaking?
+	   
+	   Default value is true.
+	*/
+	"enchantmentNeededToPreventBreaking": true,
+	/* Block entities keep enchantments when
+	   placed and picked back up.
+	   
+	   Default value is true.
+	*/
+	"blockEntitiesStoreEnchantments": true,
+	/* Enchantments are retained in more situations.
+	   
+	   Default value is true.
+	*/
+	"retainEnchantmentsMoreOften": true,
+	/* Debug mode.
+	   Allows adding and removing the Imperishable
+	   enchantment and changing the durability of
+	   the held item via the hotbar slot keys
+	   
+	   Don't change this unless you're testing this mod.
+	   
+	   Default value is false.
+	*/
+	"debugMode": false
+}

@@ -1,0 +1,27 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = resources/loading.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  path = resources/title.png
+  orientation = mid-centered
+  x = 0
+  width = 400
+  action = addtexture
+  actionid = 1bd69023-9bc1-4475-a6e2-96bf1146b7ac1643183200738
+  y = 0
+  height = 100
+}
+

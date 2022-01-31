@@ -1,0 +1,8 @@
+{
+  //Levels required/consumed per reroll in an Enchantment Table.
+  "levelsPerReroll": 1,
+  //Lapis Lazuli required/consumed per reroll in an Enchantment Table.
+  "lapisPerReroll": 0,
+  //If true, the reroll button will be moved to above the enchant list to avoid overlapping with other mod buttons.
+  "moveButtonAboveList": false
+}
