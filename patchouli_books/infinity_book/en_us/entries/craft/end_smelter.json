@@ -1,0 +1,12 @@
+{
+  "name": "末地石冶炼炉",
+  "icon": "betterend:end_stone_smelter",
+  "category": "patchouli:craft",
+  "pages": [
+    {
+      "type":"patchouli:crafting",
+      "recipe":"betterend:end_stone_smelter",
+      "text":"末地石冶炼炉需要用熔岩桶作为燃料。"
+    }
+  ]
+}

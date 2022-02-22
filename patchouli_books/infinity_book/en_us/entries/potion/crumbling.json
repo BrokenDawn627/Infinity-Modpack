@@ -1,0 +1,12 @@
+{
+  "name": "效果：瓦解",
+  "icon": "minecraft:dirt",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:crumbling'}",
+      "text":"拥有该效果时，脚下的泥土、沙子、沙砾将会被瓦解成掉落物"
+    }
+  ]
+}

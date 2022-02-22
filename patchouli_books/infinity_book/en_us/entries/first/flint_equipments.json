@@ -1,0 +1,25 @@
+{
+  "name": "燧石工具",
+  "icon": "flintytools:flint_pickaxe",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"除了制作骨制工具外，你还可以选择制作燧石工具来开局。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "flintytools:flint_axe",
+      "recipe2": "flintytools:flint_pickaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "flintytools:flint_shovel",
+      "recipe2": "flintytools:flint_hoe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "flintytools:flint_sword"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "背包",
+  "icon": "inmis:plated_backpack",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"各种不一样的背包，材质越好，容量越大"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "inmis:baby_backpack",
+      "recipe2": "inmis:frayed_backpack"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "inmis:plated_backpack",
+      "recipe2": "inmis:gilded_backpack"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "inmis:bejeweled_backpack",
+      "recipe2": "inmis:blazing_backpack"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "inmis:withered_backpack",
+      "recipe2": "inmis:endless_backpack"
+    }
+  ]
+}

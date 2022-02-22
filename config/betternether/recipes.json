@@ -126,7 +126,8 @@
     "wall_mushroom_brown_1 [default: true]": true,
     "wall_mushroom_brown_2 [default: true]": true,
     "wall_mushroom_red_1 [default: true]": true,
-    "wall_mushroom_red_2 [default: true]": true
+    "wall_mushroom_red_2 [default: true]": true,
+    "soul_sand_soul_sandstone [default: true]": true
   },
   "grid": {
     "crafting_table_crimson [default: true]": true,

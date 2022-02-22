@@ -1,5 +1,9 @@
 {
   "items": {
-    "guide_book [default: true]": true
+    "guide_book [default: true]": true,
+    "spawn_egg_diskwing [default: true]": true
+  },
+  "spawnEggs": {
+    "spawn_egg_diskwing [default: true]": true
   }
 }

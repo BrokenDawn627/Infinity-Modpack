@@ -1,0 +1,17 @@
+{
+  "name": "移除自定义心",
+  "icon": "victus:broken_heart",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:void",
+      "text": "你可以通过制作或将空白之心投入火中得到它，可以用于去除自定义心。注意，不会返还自定义心。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:broken",
+      "text": "这可以除去所有的自定义心，你可以通过制作获得或是在战利品箱中找到它。会返回所有的自定义心。"
+    }
+  ]
+}

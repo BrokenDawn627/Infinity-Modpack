@@ -20,14 +20,14 @@
       "Then it increases by 1 per mc day till it reaches 30 and then stops."
     ],
     "input": [
-      "0-0.05","10-0.1","50-0"
+      "0-0.05","10-0.1","100-0"
     ]
   },
   "ignorePlayers": {
     "comments": [
       "Wether difficulty should only increase with at least one online players or not"
     ],
-    "input": false
+    "input": true
   },
   "shouldPunishTimeSkip": {
     "comments": [
@@ -80,7 +80,7 @@
       "mythicmounts:geckotoalizard",
       "hoverpets:cow_pet",
       "minecraft:glow_squid",
-      "adventurez:the_eye",
+      "adventurez:the_eye|REVERSE|ATTRIBUTES",
       "minecraft:trader_llama",
       "bewitchment:raven",
       "mythicmounts:netherbat",
@@ -95,6 +95,10 @@
       "minecraft:turtle",
       "minecraft:sheep",
       "mythicmounts:griffon",
+      "minecraft:wither|REVERSE|ATTRIBUTES",
+      "minecraft:ender_dragon|REVERSE|ATTRIBUTES",
+      "adventurez:void_shadow|REVERSE|ATTRIBUTES",
+      "adventurez:stone_golem|REVERSE|ATTRIBUTES",
       "bosses_of_mass_destruction:gauntlet|REVERSE|ATTRIBUTES",
       "bosses_of_mass_destruction:obsidilith|REVERSE|ATTRIBUTES",
       "minecraft:goat",
@@ -173,7 +177,26 @@
       "betternether:firefly",
       "minecraft:wolf",
       "hoverpets:pufferfish_pet",
-      "minecraft:panda"
+      "minecraft:panda",
+      "dummmmmmy:target_dummy",
+      "dummmmmmy:dummy_number",
+      "mobz:wasp",
+      "mobz:knight4",
+      "mobz:toad_giant",
+      "mobz:boar",
+      "mobz:blackbear",
+      "mobz:metalgolem",
+      "mobz:gchicken",
+      "mobz:brownbear",
+      "mobz:toad",
+      "mobz:tadpode",
+      "mobz:lavagolem",
+      "mobz:boar2",
+      "mobz:boar3",
+      "mobz:stonegolem",
+      "mobz:friend",
+      "mobz:icegolem",
+      "mobz:dog"
     ]
   },
   "mobAttributeWhitelist": {
@@ -246,7 +269,7 @@
     "comments": [
       "Should the scaling health mods difficulty system be used instead of this ones. (Requires scaling health mod)"
     ],
-    "input": true
+    "input": false
   },
   "breakableBlocks": {
     "comments": [
@@ -277,13 +300,13 @@
     "comments": [
       "Chance for a mob to be able to break blocks"
     ],
-    "input": 0.3
+    "input": 0.7
   },
   "breakerInitCooldown": {
     "comments": [
       "Initial cooldown for block breaking mobs"
     ],
-    "input": 120
+    "input": 80
   },
   "breakerCooldown": {
     "comments": [
@@ -295,7 +318,7 @@
     "comments": [
       "Chance for a mob to be able to steal items"
     ],
-    "input": 0.3
+    "input": 0.0
   },
   "breakTileEntities": {
     "comments": [
@@ -316,7 +339,7 @@
     "comments": [
       "Chance for neutral mobs to be aggressive"
     ],
-    "input": 0.2
+    "input": 0.0
   },
   "autoTargets": {
     "comments": [
@@ -341,7 +364,7 @@
     "comments": [
       "Chance for mobs to be able to ride a parrot"
     ],
-    "input": 0.5
+    "input": 0.7
   },
   "equipmentModBlacklist": {
     "comments": [
@@ -392,7 +415,7 @@
     "comments": [
       "Base chance that a mob can have one piece of armor"
     ],
-    "input": 0.1
+    "input": 0.3
   },
   "baseEquipChanceAdd": {
     "comments": [
@@ -410,7 +433,7 @@
     "comments": [
       "Chance for mobs to have a weapon"
     ],
-    "input": 0.05
+    "input": 0.3
   },
   "diffWeaponChance": {
     "comments": [
@@ -436,18 +459,18 @@
     ],
     "input": [
       "0-5-10",
-      "25-5-15",
-      "50-10-17",
-      "100-15-25",
-      "200-20-30",
-      "250-30-35"
+      "10-5-15",
+      "20-10-17",
+      "30-15-25",
+      "40-20-30",
+      "50-30-35"
     ]
   },
   "baseItemChance": {
     "comments": [
       "Chance for mobs to have an item in offhand"
     ],
-    "input": 0.05
+    "input": 0.1
   },
   "diffItemChanceAdd": {
     "comments": [
@@ -459,19 +482,19 @@
     "comments": [
       "Should mobs drop the armor equipped through this mod? (Other methods e.g. through vanilla is not included)"
     ],
-    "input": false
+    "input": true
   },
   "healthIncrease": {
     "comments": [
       "Health will be multiplied by difficulty*0.016*x. Set to 0 to disable"
     ],
-    "input": 1.0
+    "input": 1.3
   },
   "healthMax": {
     "comments": [
       "Health will be multiplied by at maximum this. Set to 0 means no limit"
     ],
-    "input": 5.0
+    "input": 10.0
   },
   "roundHP": {
     "comments": [
@@ -483,25 +506,25 @@
     "comments": [
       "Damage will be multiplied by difficulty*0.008*x. Set to 0 to disable"
     ],
-    "input": 1.0
+    "input": 1.5
   },
   "damageMax": {
     "comments": [
       "Damage will be multiplied by at maximum this. Set to 0 means no limit"
     ],
-    "input": 3.0
+    "input": 10.0
   },
   "speedIncrease": {
     "comments": [
       "Speed will be increased by difficulty*0.0008*x. Set to 0 to disable"
     ],
-    "input": 1.0
+    "input": 1.3
   },
   "speedMax": {
     "comments": [
       "Maximum increase in speed"
     ],
-    "input": 0.1
+    "input": 0.2
   },
   "knockbackIncrease": {
     "comments": [
@@ -531,12 +554,12 @@
     "comments": [
       "Projectile Damage will be multiplied by 1+difficulty*0.008*x. Set to 0 to disable"
     ],
-    "input": 1.0
+    "input": 1.5
   },
   "projectileMax": {
     "comments": [
       "Projectile damage will be multiplied by maximum of this"
     ],
-    "input": 2.0
+    "input": 10.0
   }
 }

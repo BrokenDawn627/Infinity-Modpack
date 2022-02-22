@@ -1,0 +1,40 @@
+{
+  "name": "黑石傀儡",
+  "icon": "adventurez:stone_golem_heart",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:stonecutting",
+      "recipe":"adventurez:stone_holder_block",
+      "text":"通过切石机制作以上的方块，作为祭坛的基座。一共需要四个，摆放在9x9祭坛的四条边的中心。此外，还需要9x9即81个黑石方块。注意：只能在下界召唤。"
+
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"adventurez:gilded_stone",
+      "text":"用于放在基座上召唤黑石傀儡，一共需要四个。",
+      "link_recipe":true
+    },
+    
+    {
+      "type":"patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+            [ "     W     "," GGGGGGGGG "," GGGGGGGGG "," GGGGGGGGG "," GGGGGGGGG ","WGGGG0GGGGW"," GGGGGGGGG "," GGGGGGGGG "," GGGGGGGGG "," GGGGGGGGG ","     W     "]
+        ],
+        "mapping": {
+            "G": "minecraft:blackstone",
+            "W": "adventurez:stone_holder_block",
+            "0": "minecraft:blackstone"
+        },
+        "symmetrical": true
+    },
+      "text":"在四条边中心的基座上放置镶金黑石碎片以召唤。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"adventurez:stone_golem"
+
+    }
+  ]
+}

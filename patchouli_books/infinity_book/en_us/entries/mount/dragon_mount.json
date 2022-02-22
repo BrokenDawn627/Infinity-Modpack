@@ -1,0 +1,19 @@
+{
+  "name": "末影龙坐骑",
+  "icon": "minecraft:dragon_egg",
+  "category": "patchouli:mount",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"孵化龙蛋前需要先击败虚空之影获得出名buff。获得该效果后等待在龙蛋旁(时间较久)龙蛋即可孵化。使用生肉或兽人皮来驯服末影龙,之后等待末影龙成年。当末影龙进入成年阶段时可以装备龙鞍并骑乘，进入壮年阶段可以喷火。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"adventurez:dragon"
+    },
+    {
+      "type":"patchouli:crafting",
+      "recipe":"adventurez:dragon_saddle"
+    }
+  ]
+}

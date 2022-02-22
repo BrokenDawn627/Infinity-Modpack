@@ -1,0 +1,17 @@
+{
+  "name": "夜巫妖",
+  "icon": "bosses_of_mass_destruction:soul_star",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:crafting",
+      "recipe":"infinity:soul_star",
+      "text":"右键使用灵魂之星将其丢出，它将指引你巫妖塔的方位。巫妖塔位于主世界的寒冷群系。你需要在巫妖塔的刷怪笼层的四个基座上各放置一颗灵魂之星来召唤巫妖。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"bosses_of_mass_destruction:lich",
+      "text":"它会召唤烦人的夜魅来扰乱你的攻击。"
+    }
+  ]
+}

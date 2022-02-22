@@ -1,0 +1,21 @@
+{
+  "name": "传送石碑与卷轴",
+  "icon": "waystones:waystone",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"这些物品能够帮助你在多个地点之间传送。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "waystones:waystone",
+      "recipe2": "waystones:return_scroll"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "waystones:bound_scroll",
+      "recipe2":"waystones:warp_stone"
+    }
+  ]
+}

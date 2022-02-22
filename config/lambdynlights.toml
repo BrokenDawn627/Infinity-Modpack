@@ -20,6 +20,7 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
+				zombie_horse = true
 				bee = true
 				axolotl = true
 				arrow = true
@@ -29,8 +30,11 @@ mode = "fancy"
 				skeleton = true
 				llama = true
 				bat = true
+				husk = true
 				hoglin = true
+				experience_bottle = true
 				rabbit = true
+				firework_rocket = true
 				armor_stand = true
 				drowned = true
 				experience_orb = true
@@ -44,22 +48,28 @@ mode = "fancy"
 				wandering_trader = true
 				piglin_brute = true
 				goat = true
+				ocelot = true
 				item_frame = true
 				horse = true
 				vindicator = true
 				phantom = true
 				ender_dragon = true
+				leash_knot = true
 				evoker = true
+				llama_spit = true
 				glow_squid = true
 				glow_item_frame = false
 				squid = true
+				snowball = true
 				parrot = true
 				creeper = true
 				lightning_bolt = true
 				enderman = true
 				chicken = true
+				ravager = true
 				trader_llama = true
 				donkey = true
+				evoker_fangs = true
 				chest_minecart = true
 				fox = true
 				tropical_fish = true
@@ -69,17 +79,25 @@ mode = "fancy"
 				area_effect_cloud = true
 				zombified_piglin = true
 				piglin = true
+				endermite = true
 				cat = true
 				zombie = true
+				ender_pearl = true
 				guardian = true
 				ghast = true
 				sheep = true
+				fireball = true
 				player = true
 				illusioner = true
 				pufferfish = true
 				potion = true
+				trident = true
+				wither_skull = true
+				eye_of_ender = true
 				wolf = true
 				villager = true
+				skeleton_horse = true
+				fishing_bobber = true
 				zombie_villager = true
 				elder_guardian = true
 				polar_bear = true
@@ -89,6 +107,7 @@ mode = "fancy"
 				witch = true
 				cod = true
 				spider = true
+				wither = true
 
 			[light_sources.settings.entities.bewitchment]
 				ghost = true
@@ -99,6 +118,27 @@ mode = "fancy"
 				toad = true
 				hellhound = true
 
+			[light_sources.settings.entities.xtraarrows]
+				golden_ender_arrow = true
+				padded_arrow = true
+				diamond_arrow = true
+				iron_arrow = true
+				golden_lightning_arrow = true
+				netherite_lightning_arrow = true
+				diamond_tracking_arrow = true
+				headless_arrow = true
+				flint_tracking_arrow = true
+				iron_slime_arrow = true
+				netherite_torch_arrow = true
+				flint_vexing_arrow = true
+				netherite_explosive_arrow = true
+				netherite_arrow = true
+				golden_explosive_arrow = true
+				netherite_vexing_arrow = true
+				netherite_tracking_arrow = true
+				netherite_slime_arrow = true
+				netherite_ender_arrow = true
+
 			[light_sources.settings.entities.guardvillagers]
 				guard = true
 
@@ -106,25 +146,105 @@ mode = "fancy"
 				skeleton_knight = true
 				stray_knight = true
 
+			[light_sources.settings.entities.mobz]
+				islandknightnormal = true
+				fulliron = true
+				toad_giant = true
+				ender = true
+				enderzombie = true
+				boar = true
+				frost = true
+				friend = true
+				pigman = true
+				icegolem = true
+				knight4 = true
+				knight3 = true
+				knight2 = true
+				test = true
+				creep = true
+				boar2 = true
+				spi = true
+				boar3 = true
+				mage2 = true
+				islandking = true
+				stonegolem = true
+				knight5 = true
+				metalgolem = true
+				tspider = true
+				spo = true
+				islandknightspecial2 = true
+				dog = true
+				mage = true
+				islandknightspecial = true
+				boss = true
+				bigboss = true
+				spismall = true
+				slimo = true
+				knight = true
+				tadpode = true
+				dwarf = true
+				pillagerboss = true
+				tank = true
+				blackbear = true
+				babyravager = true
+				smallzombie = true
+				illusioner = true
+				armored = true
+				archer2 = true
+				toad = true
+				islandvex = true
+				screeper = true
+				with = true
+				brownbear = true
+				fast = true
+				skeli1 = true
+				skeli2 = true
+				archer = true
+				crip = true
+				skeli3 = true
+				lavagolem = true
+				skeli4 = true
+				withender = true
+				gchicken = true
+
 			[light_sources.settings.entities.creeperoverhaul]
-				snowy_creeper = true
+				swamp_creeper = true
 				bamboo_creeper = true
-				badlands_creeper = true
-				desert_creeper = true
-				dripstone_creeper = true
 				jungle_creeper = true
 				cave_creeper = true
 				beach_creeper = true
 				savannah_creeper = true
 				spruce_creeper = true
 				hills_creeper = true
+				snowy_creeper = true
+				badlands_creeper = true
+				desert_creeper = true
+				dark_oak_creeper = true
+				dripstone_creeper = true
+
+			[light_sources.settings.entities.hookshot]
+				hookshot = true
 
 			[light_sources.settings.entities.megaparrot]
 				megaparrot = true
 
+			[light_sources.settings.entities.archon]
+				ice_ball = true
+
 			[light_sources.settings.entities.bosses_of_mass_destruction]
 				lich = true
+				blue_fireball = true
+				spore_ball = true
+				obsidilith = true
+				petal_blade = true
+				charged_ender_pearl = true
+				comet = true
+				gauntlet = true
 				soul_star = true
+				void_blossom = true
+
+			[light_sources.settings.entities.impaled]
+				atlan = true
 
 			[light_sources.settings.entities.graveyard]
 				acolyte = true
@@ -137,28 +257,46 @@ mode = "fancy"
 				ocelot_pet = true
 
 			[light_sources.settings.entities.mythicmounts]
+				netherbat = true
+				ridinglizard = true
+				courierbird = true
+				moth = true
+				nudibranch = true
 				direwolf = true
 				dragon = true
 				griffon = true
 				archelon = true
 				nightmare = true
 				acencia = true
+				geckotoalizard = true
 
 			[light_sources.settings.entities.betternether]
 				firefly = true
 				flying_pig = true
 				hydrogen_jellyfish = true
 				skull = true
+				jungle_skeleton = true
 				naga = true
+
+			[light_sources.settings.entities.the_aether]
+				aerbunny = true
 
 			[light_sources.settings.entities.adventurez]
 				deer = true
 				orc = true
+				the_eye = true
+				small_stone_golem = true
+				ender_whale = true
+				nightmare = true
+				mammoth = true
+				stone_golem = true
+				void_shade = true
 				iguana = true
 				amethyst_golem = true
 				soul_reaper = true
-				nightmare = true
-				mammoth = true
+				gilded_stone = true
+				void_shadow = true
+				void_bullet = true
 
 			[light_sources.settings.entities.zombified]
 				arctic_zombie = true
@@ -168,12 +306,21 @@ mode = "fancy"
 				crystal_zombie = true
 				infernal_zombie = true
 				sludge_zombie = true
+				brute_zombie = true
 
 			[light_sources.settings.entities.arcanus]
+				arcane_barrier = true
 				magic_missile = true
+
+			[light_sources.settings.entities.edenring]
+				diskwing = true
 
 			[light_sources.settings.entities.tinyskeletons]
 				baby_stray = true
 				baby_wither_skeleton = true
 				baby_skeleton = true
+
+			[light_sources.settings.entities.gateofbabylon]
+				yoyo = true
+				boomerang = true
 

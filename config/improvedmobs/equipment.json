@@ -62,14 +62,6 @@
       910,
       0.72
     ],
-    "bewitchment:athame": [
-      1297,
-      -2.376
-    ],
-    "bewitchment:horned_spear": [
-      955,
-      0.36
-    ],
     "boneequipment:bone_axe": [
       1117,
       -0.936
@@ -102,39 +94,187 @@
       1183,
       -1.464
     ],
-    "enderitemod:enderite_axe": [
-      1,
-      9.424
+    "flintytools:flint_axe": [
+      1183,
+      -1.464
     ],
-    "enderitemod:enderite_bow": [
-      916,
+    "flintytools:flint_sword": [
+      1309,
+      -2.472
+    ],
+    "gateofbabylon:diamond_bow": [
+      519,
       0.0
     ],
-    "enderitemod:enderite_crossbow": [
-      1000,
+    "gateofbabylon:diamond_broadsword": [
+      453,
+      4.376
+    ],
+    "gateofbabylon:diamond_dagger": [
+      831,
+      1.352
+    ],
+    "gateofbabylon:diamond_haladie": [
+      869,
+      1.048
+    ],
+    "gateofbabylon:diamond_katana": [
+      693,
+      2.456
+    ],
+    "gateofbabylon:diamond_rapier": [
+      933,
+      0.536
+    ],
+    "gateofbabylon:diamond_waraxe": [
+      453,
+      4.376
+    ],
+    "gateofbabylon:golden_bow": [
+      1225,
       0.0
     ],
-    "enderitemod:enderite_sword": [
-      1,
-      8.528
+    "gateofbabylon:golden_broadsword": [
+      1248,
+      -1.984
+    ],
+    "gateofbabylon:golden_dagger": [
+      1392,
+      -3.136
+    ],
+    "gateofbabylon:golden_haladie": [
+      1418,
+      -3.344
+    ],
+    "gateofbabylon:golden_katana": [
+      1290,
+      -2.32
+    ],
+    "gateofbabylon:golden_rapier": [
+      1418,
+      -3.344
+    ],
+    "gateofbabylon:golden_waraxe": [
+      1290,
+      -2.32
+    ],
+    "gateofbabylon:iron_bow": [
+      925,
+      0.0
+    ],
+    "gateofbabylon:iron_broadsword": [
+      975,
+      0.2
+    ],
+    "gateofbabylon:iron_dagger": [
+      1263,
+      -2.104
+    ],
+    "gateofbabylon:iron_haladie": [
+      1297,
+      -2.376
+    ],
+    "gateofbabylon:iron_katana": [
+      1087,
+      -0.696
+    ],
+    "gateofbabylon:iron_rapier": [
+      1327,
+      -2.616
+    ],
+    "gateofbabylon:iron_waraxe": [
+      975,
+      0.2
+    ],
+    "gateofbabylon:netherite_bow": [
+      284,
+      0.0
+    ],
+    "gateofbabylon:netherite_broadsword": [
+      168,
+      6.656
+    ],
+    "gateofbabylon:netherite_dagger": [
+      690,
+      2.48
+    ],
+    "gateofbabylon:netherite_haladie": [
+      690,
+      2.48
+    ],
+    "gateofbabylon:netherite_katana": [
+      498,
+      4.016
+    ],
+    "gateofbabylon:netherite_rapier": [
+      762,
+      1.904
+    ],
+    "gateofbabylon:netherite_waraxe": [
+      168,
+      6.656
+    ],
+    "gateofbabylon:stone_bow": [
+      1087,
+      0.0
+    ],
+    "gateofbabylon:stone_broadsword": [
+      1122,
+      -0.976
+    ],
+    "gateofbabylon:stone_dagger": [
+      1332,
+      -2.656
+    ],
+    "gateofbabylon:stone_haladie": [
+      1362,
+      -2.896
+    ],
+    "gateofbabylon:stone_katana": [
+      1218,
+      -1.744
+    ],
+    "gateofbabylon:stone_rapier": [
+      1388,
+      -3.104
+    ],
+    "gateofbabylon:stone_waraxe": [
+      1172,
+      -1.376
+    ],
+    "gateofbabylon:wooden_broadsword": [
+      1240,
+      -1.92
+    ],
+    "gateofbabylon:wooden_dagger": [
+      1384,
+      -3.072
+    ],
+    "gateofbabylon:wooden_haladie": [
+      1410,
+      -3.28
+    ],
+    "gateofbabylon:wooden_katana": [
+      1282,
+      -2.256
+    ],
+    "gateofbabylon:wooden_rapier": [
+      1410,
+      -3.28
+    ],
+    "gateofbabylon:wooden_waraxe": [
+      1282,
+      -2.256
     ],
     "gobber2:gobber2_axe": [
       1,
-      8.72
-    ],
-    "gobber2:gobber2_axe_end": [
-      1,
-      21.6
+      8.256
     ],
     "gobber2:gobber2_axe_nether": [
       1,
-      13.104
+      12.576
     ],
     "gobber2:gobber2_bow": [
-      1,
-      0.0
-    ],
-    "gobber2:gobber2_bow_end": [
       1,
       0.0
     ],
@@ -144,67 +284,63 @@
     ],
     "gobber2:gobber2_sword": [
       1,
-      8.72
-    ],
-    "gobber2:gobber2_sword_end": [
-      1,
-      21.6
+      8.256
     ],
     "gobber2:gobber2_sword_nether": [
       1,
-      13.104
-    ],
-    "gobber2:gobber2_sword_sniper": [
-      1,
-      21.6
+      12.576
     ],
     "gobber2:gobber2_tree_axe": [
       1,
-      8.72
-    ],
-    "gobber2:gobber2_tree_axe_end": [
-      1,
-      21.6
+      8.256
     ],
     "gobber2:gobber2_tree_axe_nether": [
       1,
-      13.104
+      12.576
     ],
     "graveyard:bone_dagger": [
       1298,
       -2.384
     ],
+    "incubus_core:lunarian_saber": [
+      690,
+      2.48
+    ],
+    "kubejs:candied_haw": [
+      789,
+      1.688
+    ],
     "mcdw:axe": [
-      1087,
-      -0.696
+      975,
+      0.2
     ],
     "mcdw:axe_anchor": [
-      1087,
-      -0.696
+      975,
+      0.2
     ],
     "mcdw:axe_cursed": [
-      1033,
-      -0.264
+      913,
+      0.696
     ],
     "mcdw:axe_double": [
-      1087,
-      -0.696
+      975,
+      0.2
     ],
     "mcdw:axe_encrusted_anchor": [
-      693,
-      2.456
+      581,
+      3.352
     ],
     "mcdw:axe_firebrand": [
-      693,
-      2.456
+      581,
+      3.352
     ],
     "mcdw:axe_highland": [
-      1087,
-      -0.696
+      975,
+      0.2
     ],
     "mcdw:axe_whirlwind": [
-      1087,
-      -0.696
+      975,
+      0.2
     ],
     "mcdw:bow_ancient_bow": [
       234,
@@ -471,264 +607,264 @@
       0.0
     ],
     "mcdw:dagger_backstabber": [
-      789,
-      1.688
+      693,
+      2.456
     ],
     "mcdw:dagger_chill_gale_knife": [
-      789,
-      1.688
+      693,
+      2.456
     ],
     "mcdw:dagger_dagger": [
-      1297,
-      -2.376
+      1225,
+      -1.8
     ],
     "mcdw:dagger_eternal_knife": [
-      552,
-      3.584
-    ],
-    "mcdw:dagger_fangs_of_frost": [
-      1297,
-      -2.376
-    ],
-    "mcdw:dagger_moon": [
-      1297,
-      -2.376
-    ],
-    "mcdw:dagger_resolute_tempest_knife": [
-      1225,
-      -1.8
-    ],
-    "mcdw:dagger_shear_dagger": [
-      1297,
-      -2.376
-    ],
-    "mcdw:dagger_soul_knife": [
-      1297,
-      -2.376
-    ],
-    "mcdw:dagger_swift_striker": [
-      552,
-      3.584
-    ],
-    "mcdw:dagger_tempest_knife": [
-      1263,
-      -2.104
-    ],
-    "mcdw:dagger_the_beginning": [
-      552,
-      3.584
-    ],
-    "mcdw:dagger_the_end": [
-      552,
-      3.584
-    ],
-    "mcdw:dagger_void_touched_blade": [
-      743,
-      2.056
-    ],
-    "mcdw:gauntlet_gauntlet": [
-      1327,
-      -2.616
-    ],
-    "mcdw:gauntlet_maulers": [
-      903,
-      0.776
-    ],
-    "mcdw:gauntlet_soul_fists": [
-      728,
-      2.176
-    ],
-    "mcdw:hammer_bone_cudgel": [
-      693,
-      2.456
-    ],
-    "mcdw:hammer_boneclub": [
-      1137,
-      -1.096
-    ],
-    "mcdw:hammer_flail": [
-      1137,
-      -1.096
-    ],
-    "mcdw:hammer_gravity": [
-      693,
-      2.456
-    ],
-    "mcdw:hammer_great": [
-      1183,
-      -1.464
-    ],
-    "mcdw:hammer_mace": [
-      1183,
-      -1.464
-    ],
-    "mcdw:hammer_stormlander": [
-      693,
-      2.456
-    ],
-    "mcdw:hammer_suns_grace": [
-      743,
-      2.056
-    ],
-    "mcdw:sickle_frost_scythe": [
-      743,
-      2.056
-    ],
-    "mcdw:sickle_jailors_scythe": [
-      1183,
-      -1.464
-    ],
-    "mcdw:sickle_last_laugh_gold": [
-      1263,
-      -2.104
-    ],
-    "mcdw:sickle_last_laugh_silver": [
-      1263,
-      -2.104
-    ],
-    "mcdw:sickle_nightmares_bite": [
-      1225,
-      -1.8
-    ],
-    "mcdw:sickle_sickle": [
-      1297,
-      -2.376
-    ],
-    "mcdw:sickle_skull_scythe": [
-      743,
-      2.056
-    ],
-    "mcdw:sickle_soul_scythe": [
-      789,
-      1.688
-    ],
-    "mcdw:spear_cackling_broom": [
-      1137,
-      -1.096
-    ],
-    "mcdw:spear_glaive": [
-      1225,
-      -1.8
-    ],
-    "mcdw:spear_grave_bane": [
-      1137,
-      -1.096
-    ],
-    "mcdw:spear_venom_glaive": [
-      1137,
-      -1.096
-    ],
-    "mcdw:staff_battlestaff": [
-      1432,
-      -3.456
-    ],
-    "mcdw:staff_battlestaff_of_terror": [
-      1327,
-      -2.616
-    ],
-    "mcdw:staff_growing_staff": [
-      1297,
-      -2.376
-    ],
-    "mcdw:sword_beestinger": [
-      1327,
-      -2.616
-    ],
-    "mcdw:sword_broadsword": [
-      1183,
-      -1.464
-    ],
-    "mcdw:sword_broken_sawblade": [
-      1225,
-      -1.8
-    ],
-    "mcdw:sword_claymore": [
-      1137,
-      -1.096
-    ],
-    "mcdw:sword_coral_blade": [
-      1225,
-      -1.8
-    ],
-    "mcdw:sword_cutlass": [
-      1225,
-      -1.8
-    ],
-    "mcdw:sword_dancers_sword": [
-      1297,
-      -2.376
-    ],
-    "mcdw:sword_dark_katana": [
-      648,
-      2.816
-    ],
-    "mcdw:sword_diamond_sword_var": [
-      789,
-      1.688
-    ],
-    "mcdw:sword_freezing_foil": [
-      1327,
-      -2.616
-    ],
-    "mcdw:sword_frost_slayer": [
-      693,
-      2.456
-    ],
-    "mcdw:sword_great_axeblade": [
-      1087,
-      -0.696
-    ],
-    "mcdw:sword_hawkbrand": [
-      1137,
-      -1.096
-    ],
-    "mcdw:sword_heartstealer": [
-      743,
-      2.056
-    ],
-    "mcdw:sword_iron_sword_var": [
-      1225,
-      -1.8
-    ],
-    "mcdw:sword_katana": [
-      1297,
-      -2.376
-    ],
-    "mcdw:sword_masters_katana": [
-      869,
-      1.048
-    ],
-    "mcdw:sword_mechanized_sawblade": [
-      789,
-      1.688
-    ],
-    "mcdw:sword_nameless_blade": [
-      1297,
-      -2.376
-    ],
-    "mcdw:sword_obsidian_claymore": [
       440,
       4.48
     ],
-    "mcdw:sword_rapier": [
-      1327,
-      -2.616
-    ],
-    "mcdw:sword_sinister": [
-      1137,
-      -1.096
-    ],
-    "mcdw:sword_sponge_striker": [
+    "mcdw:dagger_fangs_of_frost": [
       1225,
       -1.8
     ],
-    "mcdw:sword_the_starless_night": [
+    "mcdw:dagger_moon": [
+      1225,
+      -1.8
+    ],
+    "mcdw:dagger_resolute_tempest_knife": [
+      1137,
+      -1.096
+    ],
+    "mcdw:dagger_shear_dagger": [
+      1225,
+      -1.8
+    ],
+    "mcdw:dagger_soul_knife": [
+      1225,
+      -1.8
+    ],
+    "mcdw:dagger_swift_striker": [
+      440,
+      4.48
+    ],
+    "mcdw:dagger_tempest_knife": [
+      1183,
+      -1.464
+    ],
+    "mcdw:dagger_the_beginning": [
+      440,
+      4.48
+    ],
+    "mcdw:dagger_the_end": [
+      440,
+      4.48
+    ],
+    "mcdw:dagger_void_touched_blade": [
+      639,
+      2.888
+    ],
+    "mcdw:gauntlet_gauntlet": [
+      1263,
+      -2.104
+    ],
+    "mcdw:gauntlet_maulers": [
+      831,
+      1.352
+    ],
+    "mcdw:gauntlet_soul_fists": [
+      648,
+      2.816
+    ],
+    "mcdw:hammer_bone_cudgel": [
+      581,
+      3.352
+    ],
+    "mcdw:hammer_boneclub": [
+      1033,
+      -0.264
+    ],
+    "mcdw:hammer_flail": [
+      1033,
+      -0.264
+    ],
+    "mcdw:hammer_gravity": [
+      581,
+      3.352
+    ],
+    "mcdw:hammer_great": [
+      1087,
+      -0.696
+    ],
+    "mcdw:hammer_mace": [
+      1087,
+      -0.696
+    ],
+    "mcdw:hammer_stormlander": [
+      581,
+      3.352
+    ],
+    "mcdw:hammer_suns_grace": [
+      639,
+      2.888
+    ],
+    "mcdw:sickle_frost_scythe": [
+      639,
+      2.888
+    ],
+    "mcdw:sickle_jailors_scythe": [
+      1087,
+      -0.696
+    ],
+    "mcdw:sickle_last_laugh_gold": [
+      1183,
+      -1.464
+    ],
+    "mcdw:sickle_last_laugh_silver": [
+      1183,
+      -1.464
+    ],
+    "mcdw:sickle_nightmares_bite": [
+      1137,
+      -1.096
+    ],
+    "mcdw:sickle_sickle": [
+      1225,
+      -1.8
+    ],
+    "mcdw:sickle_skull_scythe": [
+      639,
+      2.888
+    ],
+    "mcdw:sickle_soul_scythe": [
+      693,
+      2.456
+    ],
+    "mcdw:spear_cackling_broom": [
+      1033,
+      -0.264
+    ],
+    "mcdw:spear_glaive": [
+      1137,
+      -1.096
+    ],
+    "mcdw:spear_grave_bane": [
+      1033,
+      -0.264
+    ],
+    "mcdw:spear_venom_glaive": [
+      1033,
+      -0.264
+    ],
+    "mcdw:staff_battlestaff": [
+      1384,
+      -3.072
+    ],
+    "mcdw:staff_battlestaff_of_terror": [
+      1263,
+      -2.104
+    ],
+    "mcdw:staff_growing_staff": [
+      1225,
+      -1.8
+    ],
+    "mcdw:sword_beestinger": [
+      1263,
+      -2.104
+    ],
+    "mcdw:sword_broadsword": [
+      1087,
+      -0.696
+    ],
+    "mcdw:sword_broken_sawblade": [
+      1137,
+      -1.096
+    ],
+    "mcdw:sword_claymore": [
+      1033,
+      -0.264
+    ],
+    "mcdw:sword_coral_blade": [
+      1137,
+      -1.096
+    ],
+    "mcdw:sword_cutlass": [
+      1137,
+      -1.096
+    ],
+    "mcdw:sword_dancers_sword": [
+      1225,
+      -1.8
+    ],
+    "mcdw:sword_dark_katana": [
+      552,
+      3.584
+    ],
+    "mcdw:sword_diamond_sword_var": [
+      693,
+      2.456
+    ],
+    "mcdw:sword_freezing_foil": [
+      1263,
+      -2.104
+    ],
+    "mcdw:sword_frost_slayer": [
+      581,
+      3.352
+    ],
+    "mcdw:sword_great_axeblade": [
+      975,
+      0.2
+    ],
+    "mcdw:sword_hawkbrand": [
+      1033,
+      -0.264
+    ],
+    "mcdw:sword_heartstealer": [
+      639,
+      2.888
+    ],
+    "mcdw:sword_iron_sword_var": [
+      1137,
+      -1.096
+    ],
+    "mcdw:sword_katana": [
+      1225,
+      -1.8
+    ],
+    "mcdw:sword_masters_katana": [
+      789,
+      1.688
+    ],
+    "mcdw:sword_mechanized_sawblade": [
+      693,
+      2.456
+    ],
+    "mcdw:sword_nameless_blade": [
+      1225,
+      -1.8
+    ],
+    "mcdw:sword_obsidian_claymore": [
       312,
       5.504
     ],
+    "mcdw:sword_rapier": [
+      1263,
+      -2.104
+    ],
+    "mcdw:sword_sinister": [
+      1033,
+      -0.264
+    ],
+    "mcdw:sword_sponge_striker": [
+      1137,
+      -1.096
+    ],
+    "mcdw:sword_the_starless_night": [
+      168,
+      6.656
+    ],
     "mcdw:sword_truthseeker": [
-      602,
-      3.184
+      498,
+      4.016
     ],
     "minecraft:bow": [
       1108,
@@ -745,10 +881,6 @@
     "minecraft:diamond_sword": [
       789,
       1.688
-    ],
-    "minecraft:enchanted_book": [
-      1100,
-      0.0
     ],
     "minecraft:golden_axe": [
       1248,
@@ -810,6 +942,262 @@
       1354,
       -2.832
     ],
+    "mobz:armored_sword": [
+      983,
+      0.136
+    ],
+    "mobz:axe": [
+      693,
+      2.456
+    ],
+    "mobz:boss_sword": [
+      879,
+      0.968
+    ],
+    "mobz:frozen_sword": [
+      1071,
+      -0.568
+    ],
+    "mobz:poison_sword": [
+      1071,
+      -0.568
+    ],
+    "mobz:sbow": [
+      1069,
+      0.0
+    ],
+    "mobz:sword": [
+      983,
+      0.136
+    ],
+    "mobz:v_sword": [
+      1109,
+      -0.872
+    ],
+    "mobz:wither_sword": [
+      1029,
+      -0.232
+    ],
+    "mythicmetals:adamantite_axe": [
+      742,
+      2.064
+    ],
+    "mythicmetals:adamantite_sword": [
+      854,
+      1.168
+    ],
+    "mythicmetals:aquarium_axe": [
+      1121,
+      -0.968
+    ],
+    "mythicmetals:aquarium_sword": [
+      1163,
+      -1.304
+    ],
+    "mythicmetals:banglum_axe": [
+      1180,
+      -1.44
+    ],
+    "mythicmetals:banglum_sword": [
+      1222,
+      -1.776
+    ],
+    "mythicmetals:bronze_axe": [
+      1048,
+      -0.384
+    ],
+    "mythicmetals:bronze_sword": [
+      1092,
+      -0.736
+    ],
+    "mythicmetals:carmot_axe": [
+      1039,
+      -0.312
+    ],
+    "mythicmetals:carmot_sword": [
+      1081,
+      -0.648
+    ],
+    "mythicmetals:celestium_axe": [
+      369,
+      5.048
+    ],
+    "mythicmetals:celestium_sword": [
+      427,
+      4.584
+    ],
+    "mythicmetals:copper_axe": [
+      1262,
+      -2.096
+    ],
+    "mythicmetals:copper_sword": [
+      1300,
+      -2.4
+    ],
+    "mythicmetals:durasteel_axe": [
+      895,
+      0.84
+    ],
+    "mythicmetals:durasteel_sword": [
+      995,
+      0.04
+    ],
+    "mythicmetals:hallowed_axe": [
+      619,
+      3.048
+    ],
+    "mythicmetals:hallowed_sword": [
+      673,
+      2.616
+    ],
+    "mythicmetals:kyber_axe": [
+      968,
+      0.256
+    ],
+    "mythicmetals:kyber_sword": [
+      1012,
+      -0.096
+    ],
+    "mythicmetals:metallurgium_axe": [
+      1,
+      8.384
+    ],
+    "mythicmetals:metallurgium_sword": [
+      88,
+      7.296
+    ],
+    "mythicmetals:mythril_axe": [
+      904,
+      0.768
+    ],
+    "mythicmetals:mythril_sword": [
+      950,
+      0.4
+    ],
+    "mythicmetals:orichalcum_axe": [
+      493,
+      4.056
+    ],
+    "mythicmetals:orichalcum_sword": [
+      597,
+      3.224
+    ],
+    "mythicmetals:osmium_axe": [
+      1036,
+      -0.288
+    ],
+    "mythicmetals:osmium_sword": [
+      1124,
+      -0.992
+    ],
+    "mythicmetals:palladium_axe": [
+      817,
+      1.464
+    ],
+    "mythicmetals:palladium_sword": [
+      865,
+      1.08
+    ],
+    "mythicmetals:prometheum_axe": [
+      636,
+      2.912
+    ],
+    "mythicmetals:prometheum_sword": [
+      740,
+      2.08
+    ],
+    "mythicmetals:quadrillum_axe": [
+      1139,
+      -1.112
+    ],
+    "mythicmetals:quadrillum_sword": [
+      1183,
+      -1.464
+    ],
+    "mythicmetals:red_aegis_sword": [
+      307,
+      5.544
+    ],
+    "mythicmetals:runite_axe": [
+      796,
+      1.632
+    ],
+    "mythicmetals:runite_sword": [
+      843,
+      1.256
+    ],
+    "mythicmetals:star_platinum_axe": [
+      772,
+      1.824
+    ],
+    "mythicmetals:star_platinum_sword": [
+      822,
+      1.424
+    ],
+    "mythicmetals:stormyx_axe": [
+      796,
+      1.632
+    ],
+    "mythicmetals:stormyx_sword": [
+      844,
+      1.248
+    ],
+    "mythicmetals:white_aegis_sword": [
+      427,
+      4.584
+    ],
+    "the_aether:candy_cane_sword": [
+      630,
+      2.96
+    ],
+    "the_aether:flaming_sword": [
+      512,
+      3.904
+    ],
+    "the_aether:gravitite_axe": [
+      693,
+      2.456
+    ],
+    "the_aether:gravitite_sword": [
+      789,
+      1.688
+    ],
+    "the_aether:holy_sword": [
+      512,
+      3.904
+    ],
+    "the_aether:lightning_sword": [
+      512,
+      3.904
+    ],
+    "the_aether:phoenix_bow": [
+      1108,
+      0.0
+    ],
+    "the_aether:pig_slayer": [
+      562,
+      3.504
+    ],
+    "the_aether:valkyrie_axe": [
+      512,
+      3.904
+    ],
+    "the_aether:valkyrie_lance": [
+      128,
+      6.976
+    ],
+    "the_aether:vampire_blade": [
+      562,
+      3.504
+    ],
+    "the_aether:zanite_axe": [
+      1087,
+      -0.696
+    ],
+    "the_aether:zanite_sword": [
+      1225,
+      -1.8
+    ],
     "treeaxe:amethyst_treeaxe": [
       907,
       0.744
@@ -848,7 +1236,23 @@
     ]
   },
   "OFFHAND": {
-    "enderitemod:enderite_shield": [
+    "gateofbabylon:diamond_shield": [
+      1350,
+      0.0
+    ],
+    "gateofbabylon:golden_shield": [
+      1350,
+      0.0
+    ],
+    "gateofbabylon:iron_shield": [
+      1350,
+      0.0
+    ],
+    "gateofbabylon:netherite_shield": [
+      1350,
+      0.0
+    ],
+    "gateofbabylon:stone_shield": [
       1350,
       0.0
     ],
@@ -873,6 +1277,10 @@
       0.0
     ],
     "minecraft:shield": [
+      1350,
+      0.0
+    ],
+    "mobz:shield": [
       1350,
       0.0
     ]
@@ -910,10 +1318,6 @@
       382,
       4.944
     ],
-    "bewitchment:harbinger": [
-      1,
-      8.592
-    ],
     "boneequipment:bone_boots": [
       1090,
       -0.72
@@ -930,29 +1334,17 @@
       743,
       2.056
     ],
-    "enderitemod:enderite_boots": [
-      1,
-      16.808
-    ],
     "environmentz:wolf_boots": [
       1240,
       -1.92
     ],
     "gobber2:gobber2_boots": [
       1,
-      24.28
-    ],
-    "gobber2:gobber2_boots_dragon": [
-      1,
-      39.048
-    ],
-    "gobber2:gobber2_boots_end": [
-      1,
-      38.88
+      13.592
     ],
     "gobber2:gobber2_boots_nether": [
       1,
-      31.032
+      19.808
     ],
     "mcda:archers_boots": [
       829,
@@ -1182,6 +1574,10 @@
       1,
       8.12
     ],
+    "mcda:sweet_tooth_boots": [
+      775,
+      1.8
+    ],
     "mcda:teleportation_robe_boots": [
       1118,
       -0.944
@@ -1241,6 +1637,126 @@
     "minecraft:netherite_boots": [
       361,
       5.112
+    ],
+    "mobz:amat_boots": [
+      515,
+      3.88
+    ],
+    "mobz:boss_boots": [
+      1,
+      11.368
+    ],
+    "mobz:life_boots": [
+      693,
+      2.456
+    ],
+    "mobz:speed2_boots": [
+      910,
+      0.72
+    ],
+    "mobz:speed_boots": [
+      1112,
+      -0.896
+    ],
+    "mythicmetals:adamantite_boots": [
+      72,
+      7.424
+    ],
+    "mythicmetals:aquarium_boots": [
+      882,
+      0.944
+    ],
+    "mythicmetals:banglum_boots": [
+      690,
+      2.48
+    ],
+    "mythicmetals:bronze_boots": [
+      640,
+      2.88
+    ],
+    "mythicmetals:carmot_boots": [
+      208,
+      6.336
+    ],
+    "mythicmetals:celestium_boots": [
+      1,
+      14.216
+    ],
+    "mythicmetals:copper_boots": [
+      1144,
+      -1.152
+    ],
+    "mythicmetals:durasteel_boots": [
+      174,
+      6.608
+    ],
+    "mythicmetals:hallowed_boots": [
+      1,
+      12.672
+    ],
+    "mythicmetals:kyber_boots": [
+      253,
+      5.976
+    ],
+    "mythicmetals:metallurgium_boots": [
+      1,
+      24.52
+    ],
+    "mythicmetals:midas_gold_boots": [
+      1027,
+      -0.216
+    ],
+    "mythicmetals:mythril_boots": [
+      91,
+      7.272
+    ],
+    "mythicmetals:orichalcum_boots": [
+      1,
+      12.576
+    ],
+    "mythicmetals:osmium_boots": [
+      805,
+      1.56
+    ],
+    "mythicmetals:palladium_boots": [
+      97,
+      7.224
+    ],
+    "mythicmetals:prometheum_boots": [
+      256,
+      5.952
+    ],
+    "mythicmetals:runite_boots": [
+      112,
+      7.104
+    ],
+    "mythicmetals:silver_boots": [
+      1132,
+      -1.056
+    ],
+    "mythicmetals:star_platinum_boots": [
+      20,
+      7.84
+    ],
+    "mythicmetals:stormyx_boots": [
+      68,
+      7.456
+    ],
+    "the_aether:gravitite_boots": [
+      48,
+      7.616
+    ],
+    "the_aether:neptune_boots": [
+      1,
+      12.976
+    ],
+    "the_aether:phoenix_boots": [
+      1,
+      13.0
+    ],
+    "the_aether:zanite_boots": [
+      750,
+      2.0
     ]
   },
   "LEGS": {
@@ -1276,18 +1792,6 @@
       382,
       4.944
     ],
-    "bewitchment:alchemist_pants": [
-      935,
-      0.52
-    ],
-    "bewitchment:besmirched_pants": [
-      935,
-      0.52
-    ],
-    "bewitchment:hedgewitch_pants": [
-      935,
-      0.52
-    ],
     "boneequipment:bone_leggings": [
       1090,
       -0.72
@@ -1304,29 +1808,17 @@
       743,
       2.056
     ],
-    "enderitemod:enderite_leggings": [
-      1,
-      16.808
-    ],
     "environmentz:wolf_leggings": [
       1240,
       -1.92
     ],
     "gobber2:gobber2_leggings": [
       1,
-      24.28
-    ],
-    "gobber2:gobber2_leggings_dragon": [
-      1,
-      39.048
-    ],
-    "gobber2:gobber2_leggings_end": [
-      1,
-      38.88
+      13.592
     ],
     "gobber2:gobber2_leggings_nether": [
       1,
-      31.032
+      19.808
     ],
     "mcda:archers_leggings": [
       829,
@@ -1572,6 +2064,10 @@
       1,
       8.12
     ],
+    "mcda:sweet_tooth_leggings": [
+      775,
+      1.8
+    ],
     "mcda:teleportation_robe_leggings": [
       1118,
       -0.944
@@ -1595,6 +2091,10 @@
     "mcda:unstable_robe_leggings": [
       861,
       1.112
+    ],
+    "mcda:vanguard_armor_leggings": [
+      913,
+      0.696
     ],
     "mcda:verdant_robe_leggings": [
       1260,
@@ -1635,6 +2135,118 @@
     "minecraft:netherite_leggings": [
       361,
       5.112
+    ],
+    "mobz:amat_leggings": [
+      515,
+      3.88
+    ],
+    "mobz:boss_leggings": [
+      1,
+      11.368
+    ],
+    "mobz:life_leggings": [
+      693,
+      2.456
+    ],
+    "mythicmetals:adamantite_leggings": [
+      72,
+      7.424
+    ],
+    "mythicmetals:aquarium_leggings": [
+      882,
+      0.944
+    ],
+    "mythicmetals:banglum_leggings": [
+      690,
+      2.48
+    ],
+    "mythicmetals:bronze_leggings": [
+      640,
+      2.88
+    ],
+    "mythicmetals:carmot_leggings": [
+      208,
+      6.336
+    ],
+    "mythicmetals:celestium_leggings": [
+      1,
+      14.216
+    ],
+    "mythicmetals:copper_leggings": [
+      1144,
+      -1.152
+    ],
+    "mythicmetals:durasteel_leggings": [
+      174,
+      6.608
+    ],
+    "mythicmetals:hallowed_leggings": [
+      1,
+      12.672
+    ],
+    "mythicmetals:kyber_leggings": [
+      253,
+      5.976
+    ],
+    "mythicmetals:metallurgium_leggings": [
+      1,
+      24.52
+    ],
+    "mythicmetals:midas_gold_leggings": [
+      1027,
+      -0.216
+    ],
+    "mythicmetals:mythril_leggings": [
+      91,
+      7.272
+    ],
+    "mythicmetals:orichalcum_leggings": [
+      1,
+      12.576
+    ],
+    "mythicmetals:osmium_leggings": [
+      805,
+      1.56
+    ],
+    "mythicmetals:palladium_leggings": [
+      97,
+      7.224
+    ],
+    "mythicmetals:prometheum_leggings": [
+      256,
+      5.952
+    ],
+    "mythicmetals:runite_leggings": [
+      112,
+      7.104
+    ],
+    "mythicmetals:silver_leggings": [
+      1132,
+      -1.056
+    ],
+    "mythicmetals:star_platinum_leggings": [
+      20,
+      7.84
+    ],
+    "mythicmetals:stormyx_leggings": [
+      68,
+      7.456
+    ],
+    "the_aether:gravitite_leggings": [
+      48,
+      7.616
+    ],
+    "the_aether:neptune_leggings": [
+      1,
+      12.976
+    ],
+    "the_aether:phoenix_leggings": [
+      1,
+      13.0
+    ],
+    "the_aether:zanite_leggings": [
+      750,
+      2.0
     ]
   },
   "CHEST": {
@@ -1678,18 +2290,6 @@
       382,
       4.944
     ],
-    "bewitchment:alchemist_robes": [
-      935,
-      0.52
-    ],
-    "bewitchment:besmirched_robes": [
-      935,
-      0.52
-    ],
-    "bewitchment:hedgewitch_robes": [
-      935,
-      0.52
-    ],
     "boneequipment:bone_chestplate": [
       1090,
       -0.72
@@ -1710,33 +2310,17 @@
       743,
       2.056
     ],
-    "enderitemod:enderite_chestplate": [
-      1,
-      16.808
-    ],
-    "enderitemod:enderite_elytra": [
-      1,
-      16.808
-    ],
     "environmentz:wolf_chestplate": [
       1240,
       -1.92
     ],
     "gobber2:gobber2_chestplate": [
       1,
-      24.28
-    ],
-    "gobber2:gobber2_chestplate_dragon": [
-      1,
-      39.048
-    ],
-    "gobber2:gobber2_chestplate_end": [
-      1,
-      38.88
+      13.592
     ],
     "gobber2:gobber2_chestplate_nether": [
       1,
-      31.032
+      19.808
     ],
     "mcda:archers_chestplate": [
       829,
@@ -1986,6 +2570,10 @@
       1,
       8.12
     ],
+    "mcda:sweet_tooth_chestplate": [
+      775,
+      1.8
+    ],
     "mcda:teleportation_robe_chestplate": [
       1118,
       -0.944
@@ -2009,6 +2597,10 @@
     "mcda:unstable_robe_chestplate": [
       861,
       1.112
+    ],
+    "mcda:vanguard_armor_chestplate": [
+      913,
+      0.696
     ],
     "mcda:verdant_robe_chestplate": [
       1260,
@@ -2049,6 +2641,118 @@
     "minecraft:netherite_chestplate": [
       361,
       5.112
+    ],
+    "mobz:amat_chestplate": [
+      515,
+      3.88
+    ],
+    "mobz:boss_chestplate": [
+      1,
+      11.368
+    ],
+    "mobz:life_chestplate": [
+      693,
+      2.456
+    ],
+    "mythicmetals:adamantite_chestplate": [
+      72,
+      7.424
+    ],
+    "mythicmetals:aquarium_chestplate": [
+      882,
+      0.944
+    ],
+    "mythicmetals:banglum_chestplate": [
+      690,
+      2.48
+    ],
+    "mythicmetals:bronze_chestplate": [
+      640,
+      2.88
+    ],
+    "mythicmetals:carmot_chestplate": [
+      208,
+      6.336
+    ],
+    "mythicmetals:celestium_chestplate": [
+      1,
+      14.216
+    ],
+    "mythicmetals:copper_chestplate": [
+      1144,
+      -1.152
+    ],
+    "mythicmetals:durasteel_chestplate": [
+      174,
+      6.608
+    ],
+    "mythicmetals:hallowed_chestplate": [
+      1,
+      12.672
+    ],
+    "mythicmetals:kyber_chestplate": [
+      253,
+      5.976
+    ],
+    "mythicmetals:metallurgium_chestplate": [
+      1,
+      24.52
+    ],
+    "mythicmetals:midas_gold_chestplate": [
+      1027,
+      -0.216
+    ],
+    "mythicmetals:mythril_chestplate": [
+      91,
+      7.272
+    ],
+    "mythicmetals:orichalcum_chestplate": [
+      1,
+      12.576
+    ],
+    "mythicmetals:osmium_chestplate": [
+      805,
+      1.56
+    ],
+    "mythicmetals:palladium_chestplate": [
+      97,
+      7.224
+    ],
+    "mythicmetals:prometheum_chestplate": [
+      256,
+      5.952
+    ],
+    "mythicmetals:runite_chestplate": [
+      112,
+      7.104
+    ],
+    "mythicmetals:silver_chestplate": [
+      1132,
+      -1.056
+    ],
+    "mythicmetals:star_platinum_chestplate": [
+      20,
+      7.84
+    ],
+    "mythicmetals:stormyx_chestplate": [
+      68,
+      7.456
+    ],
+    "the_aether:gravitite_chestplate": [
+      48,
+      7.616
+    ],
+    "the_aether:neptune_chestplate": [
+      1,
+      12.976
+    ],
+    "the_aether:phoenix_chestplate": [
+      1,
+      13.0
+    ],
+    "the_aether:zanite_chestplate": [
+      750,
+      2.0
     ]
   },
   "HEAD": {
@@ -2084,30 +2788,6 @@
       382,
       4.944
     ],
-    "bewitchment:alchemist_hat": [
-      935,
-      0.52
-    ],
-    "bewitchment:alchemist_hood": [
-      935,
-      0.52
-    ],
-    "bewitchment:besmirched_hat": [
-      935,
-      0.52
-    ],
-    "bewitchment:besmirched_hood": [
-      935,
-      0.52
-    ],
-    "bewitchment:hedgewitch_hat": [
-      935,
-      0.52
-    ],
-    "bewitchment:hedgewitch_hood": [
-      935,
-      0.52
-    ],
     "boneequipment:bone_helmet": [
       1090,
       -0.72
@@ -2124,29 +2804,17 @@
       743,
       2.056
     ],
-    "enderitemod:enderite_helmet": [
-      1,
-      16.808
-    ],
     "environmentz:wolf_helmet": [
       1240,
       -1.92
     ],
     "gobber2:gobber2_helmet": [
       1,
-      24.28
-    ],
-    "gobber2:gobber2_helmet_dragon": [
-      1,
-      39.048
-    ],
-    "gobber2:gobber2_helmet_end": [
-      1,
-      38.88
+      13.592
     ],
     "gobber2:gobber2_helmet_nether": [
       1,
-      31.032
+      19.808
     ],
     "mcda:archers_helmet": [
       829,
@@ -2380,6 +3048,10 @@
       1,
       8.12
     ],
+    "mcda:sweet_tooth_helmet": [
+      775,
+      1.8
+    ],
     "mcda:teleportation_robe_helmet": [
       1118,
       -0.944
@@ -2403,6 +3075,10 @@
     "mcda:unstable_robe_helmet": [
       861,
       1.112
+    ],
+    "mcda:vanguard_armor_helmet": [
+      913,
+      0.696
     ],
     "mcda:verdant_robe_helmet": [
       1260,
@@ -2448,9 +3124,121 @@
       865,
       1.08
     ],
+    "mobz:amat_helmet": [
+      515,
+      3.88
+    ],
+    "mobz:boss_helmet": [
+      1,
+      11.368
+    ],
+    "mobz:life_helmet": [
+      693,
+      2.456
+    ],
+    "mythicmetals:adamantite_helmet": [
+      72,
+      7.424
+    ],
+    "mythicmetals:aquarium_helmet": [
+      882,
+      0.944
+    ],
+    "mythicmetals:banglum_helmet": [
+      690,
+      2.48
+    ],
+    "mythicmetals:bronze_helmet": [
+      640,
+      2.88
+    ],
+    "mythicmetals:carmot_helmet": [
+      208,
+      6.336
+    ],
+    "mythicmetals:celestium_helmet": [
+      1,
+      14.216
+    ],
+    "mythicmetals:copper_helmet": [
+      1144,
+      -1.152
+    ],
+    "mythicmetals:durasteel_helmet": [
+      174,
+      6.608
+    ],
+    "mythicmetals:hallowed_helmet": [
+      1,
+      12.672
+    ],
+    "mythicmetals:kyber_helmet": [
+      253,
+      5.976
+    ],
+    "mythicmetals:metallurgium_helmet": [
+      1,
+      24.52
+    ],
+    "mythicmetals:midas_gold_helmet": [
+      1027,
+      -0.216
+    ],
+    "mythicmetals:mythril_helmet": [
+      91,
+      7.272
+    ],
+    "mythicmetals:orichalcum_helmet": [
+      1,
+      12.576
+    ],
+    "mythicmetals:osmium_helmet": [
+      805,
+      1.56
+    ],
+    "mythicmetals:palladium_helmet": [
+      97,
+      7.224
+    ],
+    "mythicmetals:prometheum_helmet": [
+      256,
+      5.952
+    ],
+    "mythicmetals:runite_helmet": [
+      112,
+      7.104
+    ],
+    "mythicmetals:silver_helmet": [
+      1132,
+      -1.056
+    ],
+    "mythicmetals:star_platinum_helmet": [
+      20,
+      7.84
+    ],
+    "mythicmetals:stormyx_helmet": [
+      68,
+      7.456
+    ],
     "sculk_worm:sensor_helmet": [
       302,
       5.584
+    ],
+    "the_aether:gravitite_helmet": [
+      48,
+      7.616
+    ],
+    "the_aether:neptune_helmet": [
+      1,
+      12.976
+    ],
+    "the_aether:phoenix_helmet": [
+      1,
+      13.0
+    ],
+    "the_aether:zanite_helmet": [
+      750,
+      2.0
     ]
   }
 }

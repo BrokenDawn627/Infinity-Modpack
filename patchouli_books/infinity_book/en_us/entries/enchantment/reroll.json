@@ -1,0 +1,17 @@
+{
+  "name": "特性：重随附魔",
+  "icon": "minecraft:lapis_lazuli",
+  "category": "patchouli:enchantment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "点击附魔台附魔栏右下角的小按钮可以重随附魔，注意需要花费经验"
+      
+    },    
+    {
+      "type": "patchouli:image",
+      "images":["patchouli:textures/reroll.png"],
+      "border": true
+    }
+  ]
+}

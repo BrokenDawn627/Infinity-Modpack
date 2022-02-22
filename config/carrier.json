@@ -1,0 +1,29 @@
+{
+  "enableGloves": false,
+  "slownessLevel": 2,
+  "hungerExhaustion": 0.05,
+  "type": "BLACKLIST",
+  "list": [
+  "waystones:*",
+  "minecraft:player_head",
+  "infusion_table:infusion_table",
+  "yigd:grave",
+  "minecraft:spawner",
+  "alloy_forgery:*",
+  "betterend:flavolite_pedestal",
+  "betterend:violecite_pedestal",
+  "betterend:sulphuric_rock_pedestal",
+  "betterend:virid_jadestone_pedestal",
+  "betterend:azure_jadestone_pedestal",
+  "betterend:sandy_jadestone_pedestal",
+  "betterend:umbralith_pedestal",
+  "betterend:andesite_pedestal",
+  "betterend:diorite_pedestal",
+  "betterend:granite_pedestal",
+  "betterend:quartz_pedestal",
+  "betterend:purpur_pedestal",
+  "betterend:smaragdant_crystal_pedestal",
+  "betterend:eternal_pedestal",
+  "betterend:infusion_pedestal"
+  ]
+}

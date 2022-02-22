@@ -1,0 +1,13 @@
+{
+  "bar": false,
+  "samurai_banner": false,
+  "fox_correction": true,
+  "banner_glint": false,
+  "horse_slot": true,
+  "errors": true,
+  "pig_banners": true,
+  "boat_banners": true,
+  "strider_banners": true,
+  "hanging_banners": true,
+  "villager_banners": true
+}

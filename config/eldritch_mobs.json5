@@ -36,16 +36,16 @@
 	// # of Modifiers for Eldritch Mobs
 	"EldritchModTotal": 12,
 	// EXP multiplier for Elite Mobs
-	"EliteExpMult": 5,
+	"EliteExpMult": 15,
 	// EXP multiplier for Ultra Mobs
-	"UltraExpMult": 10,
+	"UltraExpMult": 30,
 	// EXP multiplier for Eldritch Mobs
-	"EldritchExpMult": 15,
+	"EldritchExpMult": 60,
 	// Difficulty increases with intensity. Intensity ranges from 1-3.
-	"intensity": 1,
+	"intensity": 3,
 	// Level of strength applied to mobs
 	"damageModifier": 0,
-	"enableCustomLoot": true,
+	"enableCustomLoot": false,
 	"disableCombinedDrops": false,
 	"onlyDropLootIfPlayerKilled": true,
 	"disableModifiers": {

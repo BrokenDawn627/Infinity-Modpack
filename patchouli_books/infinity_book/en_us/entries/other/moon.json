@@ -1,0 +1,28 @@
+{
+  "name": "月亮事件",
+  "icon": "minecraft:clock",
+  "category": "patchouli:other",
+  "pages": [  
+    {
+      "type": "patchouli:image",
+      "title":"血月",
+      "images":["patchouli:textures/moon_blood.png"],
+      "text": "怪物活动更加频繁且你无法入睡",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "title":"蓝月",
+      "images":["patchouli:textures/moon_blue.png"],
+      "text": "在这个夜晚你将变得幸运",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "title":"丰收之月",
+      "images":["patchouli:textures/moon_harvest.png"],
+      "text": "作物将更快生长且掉落率提高",
+      "border": true
+    }
+  ]
+}

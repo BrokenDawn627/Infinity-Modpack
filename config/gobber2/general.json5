@@ -5,15 +5,15 @@
 	   Enable-Disable Rings
 	   ***********************
 	*/
-	"enableRingAbove": true,
-	"enableRingAirWalking": true,
+	"enableRingAbove": false,
+	"enableRingAirWalking": false,
 	"enableRingAscent": true,
 	"enableRingAttraction": true,
 	"enableRingBlink": true,
 	"enableRingCuring": true,
-	"enableRingDismissal": true,
+	"enableRingDismissal": false,
 	"enableRingEnderchest": true,
-	"enableRingExplorer": true,
+	"enableRingExplorer": false,
 	"enableRingFarmer": true,
 	"enableRingHaste": true,
 	"enableRingLuck": true,
@@ -21,10 +21,10 @@
 	"enableRingPhoenix": true,
 	"enableRingRepair": true,
 	"enableRingReturn": true,
-	"enableRingStealth": true,
-	"enableRingStrength": true,
+	"enableRingStealth": false,
+	"enableRingStrength": false,
 	"enableRingSunshine": true,
-	"enableRingSwiftness": true,
+	"enableRingSwiftness": false,
 	"enableRingTeleport": true,
 	"enableRingTraveler": true,
 	"enableRingVision": true,
@@ -51,10 +51,10 @@
 	*/
 	"enableMedallionBreathing": true,
 	"enableMedallionLesserHealing": true,
-	"enableMedallionHealing": true,
+	"enableMedallionHealing": false,
 	"enableMedallionGreaterHealing": true,
 	"enableMedallionExp": true,
-	"enableMedallionHero": true,
+	"enableMedallionHero": false,
 	"enableMedallionSea": true,
 	"enableMedallionShielding": true,
 	"enableMedallionSuffering": true,
@@ -145,7 +145,7 @@
 	   Tool Settings
 	   ***********************
 	*/
-	"swordSniperCooldoown": 240,
+	"swordSniperCooldoown": 720,
 	"enableEndHammer5x5": true,
 	"enableEndExcavator5x5": true,
 	"enableTreeAxe": true,
@@ -172,7 +172,7 @@
 	*/
 	"gobberDurability": 3800,
 	"gobberMiningSpeed": 9.0,
-	"gobberAttackDamage": 9.0,
+	"gobberAttackDamage": 8.0,
 	"gobberSwordAttackSpeed": 2.0,
 	"gobberMiningLevel": 4,
 	"gobberEnchantability": 20,
@@ -185,7 +185,7 @@
 	*/
 	"gobberNetherDurability": 5200,
 	"gobberNetherMiningSpeed": 12.0,
-	"gobberNetherAttackDamage": 9.0,
+	"gobberNetherAttackDamage": 8.0,
 	"gobberNetherSwordAttackSpeed": 2.200000047683716,
 	"gobberNetherMiningLevel": 5,
 	"gobberNetherEnchantability": 25,
@@ -199,7 +199,7 @@
 	"unbreakableEndTools": true,
 	"gobberEndDurability": 8000,
 	"gobberEndMiningSpeed": 14.0,
-	"gobberEndAttackDamage": 9.0,
+	"gobberEndAttackDamage": 8.0,
 	"gobberEndSwordAttackSpeed": 2.4000000953674316,
 	"gobberEndMiningLevel": 5,
 	"gobberEndEnchantability": 30,
@@ -214,10 +214,10 @@
 	"gobberArmorEnchantability": 25,
 	"gobberToughness": 3.0,
 	"gobberKnockbackResistance": 0.0,
-	"gobberHeadProtection": 6,
-	"gobberChestProtection": 11,
-	"gobberLeggingsProtection": 9,
-	"gobberBootsProtection": 6,
+	"gobberHeadProtection": 4,
+	"gobberChestProtection": 8,
+	"gobberLeggingsProtection": 6,
+	"gobberBootsProtection": 4,
 	/* 
 	   
 	   
@@ -229,10 +229,10 @@
 	"gobberNetherArmorEnchantability": 30,
 	"gobberNetherToughness": 3.25,
 	"gobberNetherKnockbackResistance": 0.10000000149011612,
-	"netherHeadProtection": 7,
-	"netherChestProtection": 12,
-	"netherLeggingsProtection": 10,
-	"netherBootsProtection": 7,
+	"netherHeadProtection": 5,
+	"netherChestProtection": 10,
+	"netherLeggingsProtection": 7,
+	"netherBootsProtection": 5,
 	/* 
 	   
 	   
@@ -244,10 +244,10 @@
 	"gobberEndArmorEnchantability": 30,
 	"gobberEndToughness": 3.5,
 	"gobberEndKnockbackResistance": 0.20000000298023224,
-	"endHeadProtection": 8,
-	"endChestProtection": 13,
-	"endLeggingsProtection": 11,
-	"endBootsProtection": 8,
+	"endHeadProtection": 7,
+	"endChestProtection": 11,
+	"endLeggingsProtection": 9,
+	"endBootsProtection": 7,
 	/* 
 	   
 	   
@@ -270,7 +270,7 @@
 	   ***********************
 	*/
 	"enableGobberBreathing": true,
-	"enableGobberHealthPerks": true,
+	"enableGobberHealthPerks": false,
 	"healingPointsGobberArmor": 2,
 	/* 
 	   
@@ -279,7 +279,7 @@
 	   ***********************
 	*/
 	"enableNetherFirePerk": true,
-	"enableNetherHealthPerks": true,
+	"enableNetherHealthPerks": false,
 	"healingPointsNetherArmor": 2,
 	/* 
 	   
@@ -287,10 +287,10 @@
 	   End Armor Features
 	   ***********************
 	*/
-	"unbreakableEndArmor": true,
+	"unbreakableEndArmor": false,
 	"enableEndBreathing": true,
 	"enableEndFirePerk": true,
-	"enableEndHealthPerks": true,
+	"enableEndHealthPerks": false,
 	"healingPointsEndArmor": 3,
 	"enableEndNoFallDamage": true,
 	"enableGlidingEndArmor": true,
@@ -360,7 +360,7 @@
 	   Loot Chests
 	   ***********************
 	*/
-	"lootEnable": true,
+	"lootEnable": false,
 	"lootChance": 0.03999999910593033,
 	/* 
 	   
@@ -374,7 +374,7 @@
 	   Item does NOT have a standard recipe
 	   ***********************
 	*/
-	"enableSpecialItem": true,
+	"enableSpecialItem": false,
 	"specialItemMin": 20000,
 	"specialItemMax": 75000,
 	"specialItemUsePlayerPos": false,

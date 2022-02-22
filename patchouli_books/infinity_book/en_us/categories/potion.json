@@ -1,0 +1,6 @@
+{
+    "name": "药水",
+    "description": "新增药水效果、药水相关物品的介绍",
+    "icon": "minecraft:potion",
+    "sortnum": 3
+  }

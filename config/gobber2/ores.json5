@@ -64,7 +64,7 @@
 	"gobberEnable": true,
 	"gobberVeinSize": 4,
 	"gobberMaxLevel": 5,
-	"gobberPerChunk": 20,
+	"gobberPerChunk": 15,
 	/* 
 	   
 	   ***********************
@@ -74,7 +74,7 @@
 	"gobberDeepslateEnable": true,
 	"gobberDeepslateVeinSize": 4,
 	"gobberDeepslateMaxLevel": 0,
-	"gobberDeepslatePerChunk": 20,
+	"gobberDeepslatePerChunk": 15,
 	/* 
 	   
 	   ***********************
@@ -84,7 +84,7 @@
 	"netherGobberEnable": true,
 	"netherGobberVeinSize": 4,
 	"netherGobberMaxLevel": 40,
-	"netherGobberPerChunk": 20,
+	"netherGobberPerChunk": 15,
 	/* 
 	   
 	   ***********************
@@ -94,5 +94,5 @@
 	"endGobberEnable": true,
 	"endGobberVeinSize": 9,
 	"endGobberMaxLevel": 180,
-	"endGobberPerChunk": 25
+	"endGobberPerChunk": 20
 }

@@ -1,0 +1,15 @@
+{
+  "name": "下界蝙蝠",
+  "icon": "mythicmounts:bat_spawn_egg",
+  "category": "patchouli:mount",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"神话坐骑模组中新增的坐骑。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"mythicmounts:netherbat"
+    }
+  ]
+}

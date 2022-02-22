@@ -1,0 +1,23 @@
+{
+    "ModSettings": {
+        "enable_auto_refill": false,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": false,
+        "enable_profiles_announcement": false,
+        "enable_inventory_editor_button": false,
+        "continuous_crafting_saved_value": false
+    },
+    "AutoRefillSettings": {
+        "refill_armor": false,
+        "refill_before_tool_break": false
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        }
+    }
+}

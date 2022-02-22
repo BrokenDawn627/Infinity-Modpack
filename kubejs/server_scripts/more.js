@@ -53,7 +53,7 @@ onEvent('recipes', event => {
         },
         post:{
             type:'drop_item',
-            item:'hardcore_torches:lit_torch'
+            item:'minecraft:torch'
         }
       })
 
@@ -79,6 +79,63 @@ onEvent('recipes', event => {
         }]
       })
 
-      
+      event.custom({
+        type: 'lychee:block_interacting',
+        item_in:{
+            item:'kubejs:red_packet'
+        },
+        block_in:'*',
+        post:[{
+            type:'drop_item',
+            item:'numismatic-overhaul:gold_coin',
+            count:8,
+        },
+        {
+            type:'drop_item',
+            item:'numismatic-overhaul:gold_coin',
+            count:88,
+            "contextual": {
+                "type": "chance",
+                "chance": 0.01
+            }
+        }
+    ]
+      })
+
+      event.custom({
+        type: 'lychee:block_interacting',
+        item_in:{
+            item:'kubejs:firecracker'
+        },
+        block_in:'*',
+        post:{
+            type:'execute',
+            command:'/summon minecraft:tnt ~ ~ ~ {Fuse:60}'
+        }
+      })
+
+      event.custom({
+        type: 'lychee:block_interacting',
+        item_in:{
+            item:'kubejs:shi_li'
+        },
+        block_in:'*',
+        post:{
+            type:'execute',
+            command:'/effect give @s minecraft:resistance 5 4 true'
+        }
+      })
+
+      event.custom({
+        type: 'lychee:block_interacting',
+        item_in:{
+            item:'kubejs:skill_bottle'
+        },
+        block_in:'*',
+        post:{
+            type:'execute',
+            command:'/playerex refund @s 1'
+        }
+      })
 
   })

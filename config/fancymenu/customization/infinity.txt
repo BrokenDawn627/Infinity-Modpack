@@ -105,8 +105,8 @@ customization {
   actionid = d66eb87d-6f34-4fb6-b19a-738737d4b0b91638801103488
   action = addbutton
   y = 21
-  label = Author
-  value = https://space.bilibili.com/194073238
+  label = CurseForge
+  value = https://www.curseforge.com/minecraft/modpacks/infinity-fabric
   height = 20
 }
 
@@ -130,6 +130,6 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Infinity - Beta5
+  value = Infinity - Beta14
 }
 

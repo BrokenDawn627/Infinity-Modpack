@@ -1,0 +1,7 @@
+{
+	"double_back_sword": true,
+	"allow_shield_on_back": true,
+	"shield_no_clipping": false,
+	"allow_lantern_on_belt": true,
+	"lantern_on_back": false
+}

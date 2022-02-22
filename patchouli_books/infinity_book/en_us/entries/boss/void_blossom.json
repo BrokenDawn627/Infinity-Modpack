@@ -1,0 +1,18 @@
+{
+  "name": "虚空之花",
+  "icon": "bosses_of_mass_destruction:void_lily",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:crafting",
+      "recipe":"bosses_of_mass_destruction:void_lily",
+      "text":"栽种虚空百合，它散发出的粒子将指引你虚空之花洞穴的方位。虚空之花洞穴位于主世界基岩层。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"bosses_of_mass_destruction:void_blossom",
+      "offset":-7.0,
+      "text":"进入阶段后，它将吸收四周的花丛的能量来恢复生命值，你需要破坏这些花丛来阻止它恢复。"
+    }
+  ]
+}

@@ -54,6 +54,18 @@
       "fog_density [default: 1.0]": 1.0,
       "vertical [default: false]": false,
       "terrain_height [default: 0.1]": 0.1
+    },
+    "air_ocean": {
+      "generation_chance [default: 1.0]": 1.0,
+      "fog_density [default: 1.0]": 1.0,
+      "vertical [default: false]": false,
+      "terrain_height [default: 0.1]": 0.1
+    },
+    "sky_colony": {
+      "generation_chance [default: 1.0]": 1.0,
+      "fog_density [default: 1.0]": 1.0,
+      "vertical [default: false]": false,
+      "terrain_height [default: 0.1]": 0.1
     }
   },
   "betterend": {

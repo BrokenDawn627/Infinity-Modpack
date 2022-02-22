@@ -1,0 +1,12 @@
+{
+  "name": "药水戒指",
+  "icon": "extraalchemy:empty_ring",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extraalchemy:empty_ring",
+      "text":"在工作台与药水合成以赋予其效果，合成后拿在手上Shift+右键以激活，注意佩戴时需要消耗经验"
+    }
+  ]
+}

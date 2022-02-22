@@ -1,0 +1,16 @@
+{
+  "name": "药水",
+  "icon": "victus:potion_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "尽管构造非常简单，但$(item)药水之心$()却是相当奇特的。当第一次激活时，它实际上是没有作用的。要利用其能力，请喝一瓶药水。药水不会发挥效果，而是存入了药水之心中。下次当这个心破碎时，它会消耗掉里面的药水，并应用里面存放的药水效果。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:potion_heart_aspect",
+      "text": "$(o)$(#999999)我无法想出一个笑话来说这个$()"
+    }
+  ]
+}

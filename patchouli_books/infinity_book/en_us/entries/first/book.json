@@ -1,0 +1,15 @@
+{
+  "name": "无限之书",
+  "icon": "minecraft:book",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:crafting",
+      "recipe":"crafttweaker:infinity_book",
+      "text":"若该书不慎丢失，可通过以上合成方式重新制作。"
+    },
+    {
+      "type": "patchouli:empty"
+    }
+  ]
+}

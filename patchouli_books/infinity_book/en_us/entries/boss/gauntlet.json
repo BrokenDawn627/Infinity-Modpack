@@ -1,0 +1,18 @@
+{
+  "name": "下界之手",
+  "icon": "bosses_of_mass_destruction:blazing_eye",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"bosses_of_mass_destruction:blazing_eye",
+      "link_recipe":true,
+      "text":"在下界底部会随机生成稀有的召唤祭坛，用下界合金或更高等级的镐子可挖开石柱的封印。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"bosses_of_mass_destruction:gauntlet",
+      "text":"下界之手具有多种攻击方式，注意躲过它的拳头。"
+    }
+  ]
+}

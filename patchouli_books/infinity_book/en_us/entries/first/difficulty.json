@@ -1,0 +1,16 @@
+{
+  "name": "难度",
+  "icon": "minecraft:nether_star",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"游戏的难度会随着时间的推移而增加，难度值会显示在屏幕的左上角。难度将每天增加0.5，直到10。此后，每天上升1。最大值为100。$(br)游戏难度的上升意味着怪物的血量、防御力与攻击力的提升，部分怪物还将获得特殊技能。"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "infinity:shining_star",
+      "text": "拿着闪耀之星左键任意方块即将难度重置为0。"
+    }
+  ]
+}

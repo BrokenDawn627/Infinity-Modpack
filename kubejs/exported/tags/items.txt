@@ -1,101 +1,88 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 26, 2022, 5:46:48 PM
+To refresh this file, delete it and run /reload command again! Last updated: Feb 21, 2022, 11:39:13 AM
 
-#minecraft:soul_fire_base_blocks
-- minecraft:soul_sand
-- minecraft:soul_soil
+#dragonloot:explosion_resistant
+- dragonloot:dragon_scale
+- dragonloot:dragon_helmet
+- dragonloot:dragon_chestplate
+- dragonloot:dragon_leggings
+- dragonloot:dragon_boots
+- dragonloot:upgraded_dragon_chestplate
+- dragonloot:dragon_pickaxe
+- dragonloot:dragon_shovel
+- dragonloot:dragon_axe
+- dragonloot:dragon_hoe
+- dragonloot:dragon_sword
+- dragonloot:dragon_bow
+- dragonloot:dragon_crossbow
 
-#c:silver_nuggets
-- bewitchment:silver_nugget
+#the_aether:aether_wooden_doors
+- the_aether:skyroot_door
+- the_aether:golden_oak_door
+- the_aether:crystal_door
+- the_aether:wisteria_door
+- the_aether:orange_door
 
-#backslot:beltslot_items
+#c:glowstone_blocks
+- minecraft:glowstone
 
-#extraalchemy:potion_for_bag
-- minecraft:potion
-- extraalchemy:breakable_potion
+#c:sweeteners
+- minecraft:sugar
+- minecraft:honey_bottle
 
-#minecraft:beacon_payment_items
-- minecraft:netherite_ingot
-- minecraft:emerald
-- minecraft:diamond
-- minecraft:gold_ingot
-- minecraft:iron_ingot
-- #c:silver_ingots
-- gobber2:gobber2_ingot?
-- gobber2:gobber2_ingot_nether?
-- gobber2:gobber2_ingot_end?
+#mythicmetals:kyber_blocks
+- mythicmetals:kyber_block
 
-#fabric:crossbows
-- mcdw:crossbow_the_slicer
-- mcdw:crossbow_azure_seeker
-- mcdw:crossbow_exploding_crossbow
-- mcdw:crossbow_imploding_crossbow
-- mcdw:crossbow_firebolt_thrower
-- mcdw:crossbow_heavy_crossbow
-- mcdw:crossbow_doom_crossbow
-- mcdw:crossbow_slayer_crossbow
-- mcdw:crossbow_rapid_crossbow
-- mcdw:crossbow_butterfly_crossbow
-- mcdw:crossbow_auto_crossbow
-- mcdw:crossbow_scatter_crossbow
-- mcdw:crossbow_harp_crossbow
-- mcdw:crossbow_lightning_harp_crossbow
-- mcdw:crossbow_soul_crossbow
-- mcdw:crossbow_feral_soul_crossbow
-- mcdw:crossbow_voidcaller_crossbow
-- mcdw:crossbow_dual_crossbow
-- mcdw:crossbow_spellbound_crossbow
-- mcdw:crossbow_baby_crossbow
-- mcdw:crossbow_burst_crossbow
-- mcdw:crossbow_soul_hunter_crossbow
-- mcdw:crossbow_corrupted_crossbow
-- mcdw:crossbow_cog_crossbow
-- mcdw:crossbow_pride_of_the_piglins
-- mcdw:crossbow_harpoon_crossbow
-- mcdw:crossbow_nautical_crossbow
-- mcdw:crossbow_veiled_crossbow
-- mcdw:crossbow_voidcaller_crossbow
+#the_aether:tool/sacred_weapons
 
-#balm:blue_dyes
-- minecraft:blue_dye
-- #c:blue_dyes?
+#mythicmetals:midas_gold_ores
+- mythicmetals:midas_gold_ore
 
-#minecraft:wooden_slabs
-- minecraft:oak_slab
-- minecraft:spruce_slab
-- minecraft:birch_slab
-- minecraft:jungle_slab
-- minecraft:acacia_slab
-- minecraft:dark_oak_slab
-- minecraft:crimson_slab
-- minecraft:warped_slab
-- bewitchment:juniper_slab
-- bewitchment:cypress_slab
-- bewitchment:elder_slab
-- bewitchment:dragons_blood_slab
+#xtraarrows:golden_arrows
+- xtraarrows:golden_arrow
+- xtraarrows:golden_explosive_arrow
+- xtraarrows:golden_torch_arrow
+- xtraarrows:golden_lightning_arrow
+- xtraarrows:golden_ender_arrow
+- xtraarrows:golden_tracking_arrow
+
+#c:orichalcum_nuggets
+- mythicmetals:orichalcum_nugget
+
+#c:carpets
+- minecraft:white_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+- minecraft:black_carpet
 
 #minecraft:occludes_vibration_signals
 - #minecraft:wool
 
-#minecraft:coal_ores
-- minecraft:coal_ore
-- minecraft:deepslate_coal_ore
+#botania:manasteel_ingots
+- botania:manasteel_ingot
 
-#minecraft:small_flowers
-- minecraft:dandelion
-- minecraft:poppy
-- minecraft:blue_orchid
-- minecraft:allium
-- minecraft:azure_bluet
-- minecraft:red_tulip
-- minecraft:orange_tulip
-- minecraft:white_tulip
-- minecraft:pink_tulip
-- minecraft:oxeye_daisy
-- minecraft:cornflower
-- minecraft:lily_of_the_valley
-- minecraft:wither_rose
+#mythicmetals:carmot_blocks
+- mythicmetals:carmot_block
+
+#mythicmetals:runite_ores
+- mythicmetals:runite_ore
 
 #fabric:pickaxes
+- botania:manasteel_pick
+- botania:elementium_pickaxe
+- botania:terra_pick
+- dragonloot:dragon_pickaxe
 - minecraft:wooden_pickaxe
 - minecraft:stone_pickaxe
 - minecraft:iron_pickaxe
@@ -116,6 +103,886 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mcdw:pick_mountaineer_pick
 - mcdw:pick_howling_pick
 - mcdw:pick_hailing_pinnacle
+- mythicmetals:adamantite_pickaxe
+- mythicmetals:aquarium_pickaxe
+- mythicmetals:banglum_pickaxe
+- mythicmetals:bronze_pickaxe
+- mythicmetals:carmot_pickaxe
+- mythicmetals:celestium_pickaxe
+- mythicmetals:copper_pickaxe
+- mythicmetals:durasteel_pickaxe
+- mythicmetals:hallowed_pickaxe
+- mythicmetals:kyber_pickaxe
+- mythicmetals:metallurgium_pickaxe
+- mythicmetals:mythril_pickaxe
+- mythicmetals:orichalcum_pickaxe
+- mythicmetals:osmium_pickaxe
+- mythicmetals:palladium_pickaxe
+- mythicmetals:prometheum_pickaxe
+- mythicmetals:quadrillum_pickaxe
+- mythicmetals:runite_pickaxe
+- mythicmetals:star_platinum_pickaxe
+- mythicmetals:stormyx_pickaxe
+- the_aether:zanite_pickaxe
+- the_aether:gravitite_pickaxe
+- the_aether:valkyrie_pickaxe
+
+#c:diamond_ores
+- minecraft:diamond_ore
+- minecraft:deepslate_diamond_ore
+- minecraft:diamond_ore
+
+#mythicmetals:star_platinum
+- mythicmetals:star_platinum
+
+#impaled:tridents
+- minecraft:trident
+- impaled:pitchfork
+- impaled:hellfork
+- impaled:elder_trident
+- impaled:atlan
+
+#c:gold_nuggets
+- minecraft:gold_nugget
+- minecraft:gold_nugget
+
+#c:concrete_powder
+- minecraft:white_concrete_powder
+- minecraft:orange_concrete_powder
+- minecraft:magenta_concrete_powder
+- minecraft:light_blue_concrete_powder
+- minecraft:yellow_concrete_powder
+- minecraft:lime_concrete_powder
+- minecraft:pink_concrete_powder
+- minecraft:gray_concrete_powder
+- minecraft:light_gray_concrete_powder
+- minecraft:cyan_concrete_powder
+- minecraft:purple_concrete_powder
+- minecraft:blue_concrete_powder
+- minecraft:brown_concrete_powder
+- minecraft:green_concrete_powder
+- minecraft:red_concrete_powder
+- minecraft:black_concrete_powder
+
+#mythicmetals:metallurgium_ingots
+- mythicmetals:metallurgium_ingot
+
+#botania:floating_flowers
+- #botania:mundane_floating_flowers
+- #botania:special_floating_flowers
+
+#mythicmetals:runite_ingots
+- mythicmetals:runite_ingot
+
+#c:orichalcum_ores
+- mythicmetals:orichalcum_ore
+- mythicmetals:deepslate_orichalcum_ore
+- mythicmetals:smooth_basalt_orichalcum_ore
+- mythicmetals:tuff_orichalcum_ore
+
+#mythicmetals:carmot_armor
+- mythicmetals:carmot_helmet
+- mythicmetals:carmot_chestplate
+- mythicmetals:carmot_leggings
+- mythicmetals:carmot_boots
+
+#fabric:axes
+- botania:manasteel_axe
+- botania:elementium_axe
+- botania:terra_axe
+- dragonloot:dragon_axe
+- minecraft:wooden_axe
+- minecraft:stone_axe
+- minecraft:iron_axe
+- minecraft:golden_axe
+- minecraft:diamond_axe
+- minecraft:netherite_axe
+- gobber2:gobber2_axe?
+- gobber2:gobber2_axe_nether?
+- gobber2:gobber2_axe_end?
+- gobber2:gobber2_paxel?
+- gobber2:gobber2_paxel_nether?
+- gobber2:gobber2_paxel_end?
+- gobber2:gobber2_paxel_stars?
+- mcdw:axe
+- mcdw:axe_firebrand
+- mcdw:axe_highland
+- mcdw:axe_cursed
+- mcdw:axe_double
+- mcdw:axe_whirlwind
+- mcdw:axe_anchor
+- mcdw:axe_encrusted_anchor
+- mcdw:spear_spear
+- mcdw:spear_whispering_spear
+- mcdw:spear_fortune
+- mcdw:staff_battlestaff
+- mcdw:staff_growing_staff
+- mcdw:staff_battlestaff_of_terror
+- mcdw:whip_whip
+- mcdw:whip_vine_whip
+- mythicmetals:adamantite_axe
+- mythicmetals:aquarium_axe
+- mythicmetals:banglum_axe
+- mythicmetals:bronze_axe
+- mythicmetals:carmot_axe
+- mythicmetals:celestium_axe
+- mythicmetals:copper_axe
+- mythicmetals:durasteel_axe
+- mythicmetals:hallowed_axe
+- mythicmetals:kyber_axe
+- mythicmetals:metallurgium_axe
+- mythicmetals:mythril_axe
+- mythicmetals:orichalcum_axe
+- mythicmetals:osmium_axe
+- mythicmetals:palladium_axe
+- mythicmetals:prometheum_axe
+- mythicmetals:quadrillum_axe
+- mythicmetals:runite_axe
+- mythicmetals:star_platinum_axe
+- mythicmetals:stormyx_axe
+- #pugh_tools:paxel_additions?
+- the_aether:zanite_axe
+- the_aether:gravitite_axe
+- the_aether:valkyrie_axe
+
+#c:tin_ores
+- mythicmetals:tin_ore
+
+#botania:loonium_blacklist
+- botania:lexicon
+- botania:overgrowth_seed
+- botania:black_lotus
+- botania:blacker_lotus
+- #minecraft:music_discs
+
+#c:vegetables_small
+- minecraft:dried_kelp
+
+#botania:mana_using_items
+- botania:blood_pendant
+- botania:cobble_rod
+- botania:crystal_bow
+- botania:dirt_rod
+- botania:diva_charm
+- botania:divining_rod
+- botania:elementium_axe
+- botania:elementium_boots
+- botania:elementium_chestplate
+- botania:elementium_helmet
+- botania:elementium_hoe
+- botania:elementium_leggings
+- botania:elementium_pickaxe
+- botania:elementium_shears
+- botania:elementium_shovel
+- botania:elementium_sword
+- botania:ender_hand
+- botania:exchange_rod
+- botania:fire_rod
+- botania:flight_tiara
+- botania:flugel_eye
+- botania:glass_pickaxe
+- botania:goddess_charm
+- botania:gravity_rod
+- botania:infinite_fruit
+- botania:invisibility_cloak
+- botania:king_key
+- botania:livingwood_bow
+- botania:loki_ring
+- botania:manasteel_axe
+- botania:manasteel_boots
+- botania:manasteel_chestplate
+- botania:manasteel_helmet
+- botania:manasteel_hoe
+- botania:manasteel_leggings
+- botania:manasteel_pick
+- botania:manasteel_shears
+- botania:manasteel_shovel
+- botania:manasteel_sword
+- botania:manaweave_boots
+- botania:manaweave_chestplate
+- botania:manaweave_helmet
+- botania:manaweave_leggings
+- botania:mining_ring
+- botania:missile_rod
+- botania:rainbow_rod
+- botania:skydirt_rod
+- botania:smelt_rod
+- botania:star_sword
+- botania:super_travel_belt
+- botania:terra_axe
+- botania:terra_pick
+- botania:terra_sword
+- botania:terraform_rod
+- botania:terrasteel_boots
+- botania:terrasteel_chestplate
+- botania:terrasteel_helmet
+- botania:terrasteel_leggings
+- botania:third_eye
+- botania:thunder_sword
+- botania:tornado_rod
+- botania:travel_belt
+- botania:water_ring
+- botania:water_rod
+
+#c:brown_dyes
+- minecraft:brown_dye
+- minecraft:cocoa_beans
+
+#balm:yellow_dyes
+- #c:yellow_dyes?
+- minecraft:yellow_dye
+
+#c:steel_blocks
+- mythicmetals:steel_block
+
+#balm:cyan_dyes
+- #c:cyan_dyes?
+- minecraft:cyan_dye
+
+#yigd:force_item_slot
+- camsbackpacks:white_backpack?
+- camsbackpacks:orange_backpack?
+- camsbackpacks:magenta_backpack?
+- camsbackpacks:light_blue_backpack?
+- camsbackpacks:yellow_backpack?
+- camsbackpacks:lime_backpack?
+- camsbackpacks:pink_backpack?
+- camsbackpacks:gray_backpack?
+- camsbackpacks:light_gray_backpack?
+- camsbackpacks:cyan_backpack?
+- camsbackpacks:purple_backpack?
+- camsbackpacks:blue_backpack?
+- camsbackpacks:brown_backpack?
+- camsbackpacks:green_backpack?
+- camsbackpacks:red_backpack?
+- camsbackpacks:black_backpack?
+- camsbackpacks:gay_pride_backpack?
+- camsbackpacks:lesbian_pride_backpack?
+- camsbackpacks:qpoc_pride_backpack?
+- camsbackpacks:bi_pride_backpack?
+- camsbackpacks:pan_pride_backpack?
+- camsbackpacks:trans_pride_backpack?
+- camsbackpacks:genderqueer_pride_backpack?
+- camsbackpacks:genderfluid_pride_backpack?
+- camsbackpacks:enby_pride_backpack?
+- camsbackpacks:ace_pride_backpack?
+- camsbackpacks:demi_pride_backpack?
+- camsbackpacks:aro_pride_backpack?
+- camsbackpacks:agender_pride_backpack?
+
+#minecraft:coals
+- minecraft:coal
+- minecraft:charcoal
+
+#mythicmetals:quadrillum_ores
+- mythicmetals:quadrillum_ore
+
+#minecraft:piglin_food
+- minecraft:porkchop
+- minecraft:cooked_porkchop
+
+#c:quartz_ores
+- minecraft:nether_quartz_ore
+
+#mythicmetals:quadrillum_nuggets
+- mythicmetals:quadrillum_nugget
+
+#the_aether:tool/righteous_weapons
+- the_aether:holy_sword
+- minecraft:golden_sword
+- minecraft:netherite_sword
+
+#the_aether:aether_wooden_slabs
+- the_aether:skyroot_slab
+- the_aether:golden_oak_slab
+- the_aether:crystal_slab
+- the_aether:wisteria_slab
+- the_aether:orange_slab
+
+#mythicmetals:celestium_nuggets
+- mythicmetals:celestium_nugget
+
+#c:emerald_ores
+- minecraft:emerald_ore
+- minecraft:deepslate_emerald_ore
+- minecraft:emerald_ore
+
+#c:green_dyes
+- minecraft:green_dye
+
+#the_aether:aether_aerclouds
+- the_aether:cold_aercloud
+- the_aether:blue_aercloud
+- the_aether:pink_aercloud
+- the_aether:golden_aercloud
+
+#boneequipment:shovels
+- boneequipment:bone_shovel
+
+#environmentz:warm_armor
+- minecraft:leather_helmet
+- minecraft:leather_chestplate
+- minecraft:leather_leggings
+- minecraft:leather_boots
+- environmentz:wolf_helmet
+- environmentz:wolf_chestplate
+- environmentz:wolf_leggings
+- environmentz:wolf_boots
+
+#minecraft:beds
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:cyan_bed
+- minecraft:gray_bed
+- minecraft:green_bed
+- minecraft:light_blue_bed
+- minecraft:light_gray_bed
+- minecraft:lime_bed
+- minecraft:magenta_bed
+- minecraft:orange_bed
+- minecraft:pink_bed
+- minecraft:purple_bed
+- minecraft:white_bed
+- minecraft:yellow_bed
+
+#c:charcoal
+- minecraft:charcoal
+
+#minecraft:doors
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- #the_aether:aether_doors
+
+#botania:petals/red
+- botania:red_petal
+- botania:red_mushroom
+
+#adventurez:holder_items
+- adventurez:gilded_stone
+
+#c:adamantite_nuggets
+- mythicmetals:adamantite_nugget
+
+#mythicmetals:durasteel_blocks
+- mythicmetals:durasteel_block
+
+#c:redstone_dusts
+- minecraft:redstone
+
+#the_aether:crystal_logs
+- the_aether:crystal_log
+- the_aether:crystal_wood
+- the_aether:stripped_crystal_log
+- the_aether:stripped_crystal_wood
+
+#dehydration:hydrating_food
+- minecraft:melon_slice
+
+#c:adamantite_blocks
+- mythicmetals:adamantite_block
+
+#the_aether:aether_wooden_trapdoors
+- the_aether:skyroot_trapdoor
+- the_aether:golden_oak_trapdoor
+- the_aether:crystal_trapdoor
+- the_aether:wisteria_trapdoor
+- the_aether:orange_trapdoor
+
+#the_aether:aether_stone_stairs
+- the_aether:holystone_brick_stairs
+- the_aether:holystone_stairs
+- the_aether:mossy_holystone_stairs
+- the_aether:cobbled_holystone_stairs
+- the_aether:carved_stone_stairs
+- the_aether:mossy_carved_stone_stairs
+
+#mythicmetals:carmot_nuggets
+- mythicmetals:carmot_nugget
+
+#c:tin_ingots
+- mythicmetals:tin_ingot
+
+#minecraft:signs
+- minecraft:oak_sign
+- minecraft:spruce_sign
+- minecraft:birch_sign
+- minecraft:acacia_sign
+- minecraft:jungle_sign
+- minecraft:dark_oak_sign
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- the_aether:skyroot_sign
+- the_aether:golden_oak_sign
+- the_aether:orange_sign
+- the_aether:crystal_sign
+- the_aether:wisteria_sign
+
+#waystones:sharestone
+- waystones:sharestone
+- waystones:white_sharestone
+- waystones:orange_sharestone
+- waystones:magenta_sharestone
+- waystones:light_blue_sharestone
+- waystones:yellow_sharestone
+- waystones:lime_sharestone
+- waystones:pink_sharestone
+- waystones:gray_sharestone
+- waystones:light_gray_sharestone
+- waystones:cyan_sharestone
+- waystones:purple_sharestone
+- waystones:blue_sharestone
+- waystones:brown_sharestone
+- waystones:green_sharestone
+- waystones:red_sharestone
+- waystones:black_sharestone
+
+#botania:mundane_floating_flowers
+- botania:black_floating_flower
+- botania:blue_floating_flower
+- botania:brown_floating_flower
+- botania:cyan_floating_flower
+- botania:gray_floating_flower
+- botania:green_floating_flower
+- botania:light_blue_floating_flower
+- botania:light_gray_floating_flower
+- botania:lime_floating_flower
+- botania:magenta_floating_flower
+- botania:orange_floating_flower
+- botania:pink_floating_flower
+- botania:purple_floating_flower
+- botania:red_floating_flower
+- botania:white_floating_flower
+- botania:yellow_floating_flower
+
+#c:redstone_ores
+- minecraft:redstone_ore
+
+#minecraft:fishes
+- minecraft:cod
+- minecraft:cooked_cod
+- minecraft:salmon
+- minecraft:cooked_salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+
+#trinkets:all
+- botania:cosmetic_black_bowtie
+- botania:cosmetic_black_tie
+- botania:cosmetic_red_glasses
+- botania:cosmetic_puffy_scarf
+- botania:cosmetic_engineer_goggles
+- botania:cosmetic_eyepatch
+- botania:cosmetic_wicked_eyepatch
+- botania:cosmetic_red_ribbons
+- botania:cosmetic_pink_flower_bud
+- botania:cosmetic_polka_dotted_bows
+- botania:cosmetic_blue_butterfly
+- botania:cosmetic_cat_ears
+- botania:cosmetic_witch_pin
+- botania:cosmetic_devil_tail
+- botania:cosmetic_kamui_eye
+- botania:cosmetic_googly_eyes
+- botania:cosmetic_four_leaf_clover
+- botania:cosmetic_clock_eye
+- botania:cosmetic_unicorn_horn
+- botania:cosmetic_devil_horns
+- botania:cosmetic_hyper_plus
+- botania:cosmetic_botanist_emblem
+- botania:cosmetic_ancient_mask
+- botania:cosmetic_eerie_mask
+- botania:cosmetic_alien_antenna
+- botania:cosmetic_anaglyph_glasses
+- botania:cosmetic_orange_shades
+- botania:cosmetic_groucho_glasses
+- botania:cosmetic_thick_eyebrows
+- botania:cosmetic_lusitanic_shield
+- botania:cosmetic_tiny_potato_mask
+- botania:cosmetic_questgiver_mark
+- botania:cosmetic_thinking_hand
+
+#botania:petals/yellow
+- botania:yellow_petal
+- botania:yellow_mushroom
+
+#mythicmetals:banglum_ingots
+- mythicmetals:banglum_ingot
+
+#balm:white_dyes
+- #c:white_dyes?
+- minecraft:white_dye
+
+#mythicmetals:aquarium_nuggets
+- mythicmetals:aquarium_nugget
+
+#c:mythril_nuggets
+- mythicmetals:mythril_nugget
+
+#origins:shields
+- mcdw:shield_royal_guard
+- mcdw:shield_vanguard
+
+#c:gray_dyes
+- minecraft:gray_dye
+
+#botania:petals/light_gray
+- botania:light_gray_petal
+- botania:light_gray_mushroom
+
+#nyfsquiver:quiver_items/arrows
+- #minecraft:arrows
+
+#anvil_fix:force_incremental_repair_cost
+
+#mythicmetals:prometheum_ingots
+- mythicmetals:prometheum_ingot
+
+#botania:mini_flowers
+- botania:agricarnation_chibi
+- botania:bellethorn_chibi
+- botania:bubbell_chibi
+- botania:clayconia_chibi
+- botania:hopperhock_chibi
+- botania:jiyuulia_chibi
+- botania:marimorphosis_chibi
+- botania:rannuncarpus_chibi
+- botania:solegnolia_chibi
+- botania:tangleberrie_chibi
+
+#minecraft:redstone_ores
+- minecraft:redstone_ore
+- minecraft:deepslate_redstone_ore
+
+#hookshot:hookshots
+- hookshot:white_hookshot
+- hookshot:orange_hookshot
+- hookshot:magenta_hookshot
+- hookshot:light_blue_hookshot
+- hookshot:yellow_hookshot
+- hookshot:lime_hookshot
+- hookshot:pink_hookshot
+- hookshot:gray_hookshot
+- hookshot:light_gray_hookshot
+- hookshot:cyan_hookshot
+- hookshot:purple_hookshot
+- hookshot:blue_hookshot
+- hookshot:brown_hookshot
+- hookshot:green_hookshot
+- hookshot:red_hookshot
+- hookshot:black_hookshot
+
+#c:palladium_ingots
+- mythicmetals:palladium_ingot
+
+#c:manganese_ingots
+- mythicmetals:manganese_ingot
+
+#botania:terrasteel_nuggets
+- botania:terrasteel_nugget
+
+#impaled:loyalty_catalysts
+- minecraft:heart_of_the_sea
+
+#minecraft:walls
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- minecraft:cobbled_deepslate_wall
+- minecraft:polished_deepslate_wall
+- minecraft:deepslate_tile_wall
+- minecraft:deepslate_brick_wall
+- botania:corporea_brick_wall
+- botania:dreamwood_wall
+- botania:livingrock_bricks_wall
+- botania:livingrock_wall
+- botania:livingwood_wall
+- botania:metamorphic_desert_bricks_wall
+- botania:metamorphic_desert_cobblestone_wall
+- botania:metamorphic_forest_bricks_wall
+- botania:metamorphic_forest_cobblestone_wall
+- botania:metamorphic_fungal_bricks_wall
+- botania:metamorphic_fungal_cobblestone_wall
+- botania:metamorphic_mesa_bricks_wall
+- botania:metamorphic_mesa_cobblestone_wall
+- botania:metamorphic_mountain_bricks_wall
+- botania:metamorphic_mountain_cobblestone_wall
+- botania:metamorphic_plains_bricks_wall
+- botania:metamorphic_plains_cobblestone_wall
+- botania:metamorphic_swamp_bricks_wall
+- botania:metamorphic_swamp_cobblestone_wall
+- botania:metamorphic_taiga_bricks_wall
+- botania:metamorphic_taiga_cobblestone_wall
+- botania:mossy_livingrock_bricks_wall
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- minecraft:cobbled_deepslate_wall
+- minecraft:polished_deepslate_wall
+- minecraft:deepslate_tile_wall
+- minecraft:deepslate_brick_wall
+- #the_aether:aether_walls
+
+#botania:petals/pink
+- botania:pink_petal
+- botania:pink_mushroom
+
+#mythicmetals:hallowed_blocks
+- mythicmetals:hallowed_block
+
+#copperequipment:shovels
+- copperequipment:copper_shovel
+
+#c:cooked_meat
+- #c:cooked_fish
+- minecraft:cooked_beef
+- minecraft:cooked_porkchop
+- minecraft:cooked_chicken
+- minecraft:cooked_rabbit
+- minecraft:cooked_mutton
+
+#gobber2:chest_loot
+- gobber2:gobber2_ring_teleport?
+- gobber2:gobber2_ring_ascent?
+- gobber2:gobber2_ring_return?
+- gobber2:gobber2_ring_haste?
+
+#balm:green_dyes
+- #c:green_dyes?
+- minecraft:green_dye
+
+#balm:gray_dyes
+- #c:gray_dyes?
+- minecraft:gray_dye
+
+#c:vermiculite_blocks
+- mythicmetals:vermiculite_block
+
+#botania:terrasteel_blocks
+- botania:terrasteel_block
+
+#c:vermiculite
+- mythicmetals:vermiculite
+
+#minecraft:music_discs
+- #minecraft:creeper_drop_music_discs
+- minecraft:music_disc_pigstep
+- minecraft:music_disc_otherside
+- botania:record_gaia_1
+- botania:record_gaia_2
+
+#the_aether:aether_hangers
+- the_aether:frost_wisteria_hanger
+- the_aether:rose_wisteria_hanger
+- the_aether:lavender_wisteria_hanger
+- the_aether:boreal_wisteria_hanger
+
+#c:blue_dyes
+- minecraft:blue_dye
+- minecraft:lapis_lazuli
+
+#botania:manasteel_nuggets
+- botania:manasteel_nugget
+
+#the_aether:swet_transformers/golden
+- the_aether:golden_amber
+
+#fabric:bows
+- mcdw:bow_ancient_bow
+- mcdw:bow_bonebow
+- mcdw:bow_burst_gale_bow
+- mcdw:bow_echo_of_the_valley
+- mcdw:bow_elite_power_bow
+- mcdw:bow_green_menace
+- mcdw:bow_guardian_bow
+- mcdw:bow_haunted_bow
+- mcdw:bow_hunters_promise
+- mcdw:bow_hunting_bow
+- mcdw:bow_longbow
+- mcdw:bow_lost_souls
+- mcdw:bow_masters_bow
+- mcdw:bow_nocturnal_bow
+- mcdw:bow_pink_scoundrel
+- mcdw:bow_power_bow
+- mcdw:bow_sabrewing
+- mcdw:bow_shivering_bow
+- mcdw:bow_soul_bow
+- mcdw:bow_trickbow
+- mcdw:bow_wind_bow
+- mcdw:bow_snow_bow
+- mcdw:bow_winters_touch
+- mcdw:bow_love_spell_bow
+- mcdw:bow_shortbow
+- mcdw:bow_mechanical_shortbow
+- mcdw:bow_purple_storm
+- mcdw:bow_red_snake
+- mcdw:bow_void_bow
+- mcdw:bow_call_of_the_void
+- mcdw:bow_phantom_bow
+- mcdw:bow_web_bow
+
+#c:sulfur_dusts
+- zombified:sulfur_dust
+
+#minecraft:sand
+- minecraft:sand
+- minecraft:red_sand
+
+#the_aether:aether_stairs
+- #the_aether:aether_wooden_stairs
+- #the_aether:aether_stone_stairs
+
+#c:mythril_ingots
+- mythicmetals:mythril_ingot
+
+#c:starch
+- minecraft:wheat
+- minecraft:potato
+
+#trinkets:charm/charm
+- minecraft:totem_of_undying
+- voidtotem:totem_of_void_undying
+- minecraft:totem_of_undying
+
+#fabric:hoes
+- botania:manasteel_hoe
+- botania:elementium_hoe
+- dragonloot:dragon_hoe
+- minecraft:wooden_hoe
+- minecraft:stone_hoe
+- minecraft:iron_hoe
+- minecraft:golden_hoe
+- minecraft:diamond_hoe
+- minecraft:netherite_hoe
+- gobber2:gobber2_hoe?
+- gobber2:gobber2_hoe_nether?
+- gobber2:gobber2_hoe_end?
+- gobber2:gobber2_paxel?
+- gobber2:gobber2_paxel_nether?
+- gobber2:gobber2_paxel_end?
+- gobber2:gobber2_paxel_stars?
+- mythicmetals:adamantite_hoe
+- mythicmetals:aquarium_hoe
+- mythicmetals:banglum_hoe
+- mythicmetals:bronze_hoe
+- mythicmetals:carmot_hoe
+- mythicmetals:celestium_hoe
+- mythicmetals:copper_hoe
+- mythicmetals:durasteel_hoe
+- mythicmetals:hallowed_hoe
+- mythicmetals:kyber_hoe
+- mythicmetals:metallurgium_hoe
+- mythicmetals:mythril_hoe
+- mythicmetals:orichalcum_hoe
+- mythicmetals:osmium_hoe
+- mythicmetals:palladium_hoe
+- mythicmetals:prometheum_hoe
+- mythicmetals:quadrillum_hoe
+- mythicmetals:runite_hoe
+- mythicmetals:star_platinum_hoe
+- mythicmetals:stormyx_hoe
+- #pugh_tools:paxel_additions?
+- the_aether:zanite_hoe
+- the_aether:gravitite_hoe
+- the_aether:valkyrie_hoe
+
+#the_aether:aether_small_flowers
+- the_aether:ancient_flower
+- the_aether:ataraxia
+- the_aether:cloudsbluff
+- the_aether:drigean
+- the_aether:luminar
+
+#c:tin_blocks
+- mythicmetals:tin_block
+
+#the_aether:golden_oak_logs
+- the_aether:golden_oak_log
+- the_aether:golden_oak_wood
+- the_aether:stripped_golden_oak_log
+- the_aether:stripped_golden_oak_wood
+
+#minecraft:beacon_payment_items
+- minecraft:netherite_ingot
+- minecraft:emerald
+- minecraft:diamond
+- minecraft:gold_ingot
+- minecraft:iron_ingot
+- gobber2:gobber2_ingot?
+- gobber2:gobber2_ingot_nether?
+- gobber2:gobber2_ingot_end?
+
+#trinkets:chest/cape
+- botania:balance_cloak
+- botania:holy_cloak
+- botania:invisibility_cloak
+- botania:unholy_cloak
+- minecraft:elytra
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+
+#c:palladium_nuggets
+- mythicmetals:palladium_nugget
+
+#c:netherite_chests
+- reinfchest:netherite_chest
+
+#c:amethysts
+- minecraft:amethyst_shard
+
+#minecraft:coal_ores
+- minecraft:coal_ore
+- minecraft:deepslate_coal_ore
+
+#c:osmium_ingots
+- mythicmetals:osmium_ingot
+
+#tooltiprareness:rare_item
+- dehydration:diamond_leather_flask
 
 #minecraft:wooden_trapdoors
 - minecraft:acacia_trapdoor
@@ -126,60 +993,168 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:spruce_trapdoor
 - minecraft:crimson_trapdoor
 - minecraft:warped_trapdoor
-- bewitchment:juniper_trapdoor
-- bewitchment:cypress_trapdoor
-- bewitchment:elder_trapdoor
-- bewitchment:dragons_blood_trapdoor
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- #the_aether:aether_wooden_trapdoors
+
+#mythicmetals:metals
+- mythicmetals:adamantite_ingot
+- mythicmetals:aquarium_ingot
+- mythicmetals:banglum_ingot
+- mythicmetals:bronze_ingot
+- mythicmetals:carmot_ingot
+- mythicmetals:celestium_ingot
+- mythicmetals:durasteel_ingot
+- mythicmetals:hallowed_ingot
+- mythicmetals:kyber_ingot
+- mythicmetals:manganese_ingot
+- mythicmetals:metallurgium_ingot
+- mythicmetals:midas_gold_ingot
+- mythicmetals:mythril_ingot
+- mythicmetals:orichalcum_ingot
+- mythicmetals:osmium_ingot
+- mythicmetals:palladium_ingot
+- mythicmetals:platinum_ingot
+- mythicmetals:prometheum_ingot
+- mythicmetals:quadrillum_ingot
+- mythicmetals:runite_ingot
+- mythicmetals:silver_ingot
+- mythicmetals:starrite
+- mythicmetals:star_platinum
+- mythicmetals:steel_ingot
+- mythicmetals:stormyx_ingot
+- mythicmetals:tin_ingot
+- mythicmetals:unobtainium
+- mythicmetals:vermiculite
+- mythicmetals:raw_adamantite
+- mythicmetals:raw_aquarium
+- mythicmetals:raw_banglum
+- mythicmetals:raw_carmot
+- mythicmetals:raw_kyber
+- mythicmetals:raw_manganese
+- mythicmetals:raw_midas_gold
+- mythicmetals:raw_mythril
+- mythicmetals:raw_orichalcum
+- mythicmetals:raw_osmium
+- mythicmetals:raw_palladium
+- mythicmetals:raw_platinum
+- mythicmetals:raw_prometheum
+- mythicmetals:raw_quadrillum
+- mythicmetals:raw_runite
+- mythicmetals:raw_silver
+- mythicmetals:raw_stormyx
+- mythicmetals:raw_tin
+- mythicmetals:adamantite_nugget
+- mythicmetals:aquarium_nugget
+- mythicmetals:banglum_nugget
+- mythicmetals:bronze_nugget
+- mythicmetals:carmot_nugget
+- mythicmetals:celestium_nugget
+- mythicmetals:copper_nugget
+- mythicmetals:durasteel_nugget
+- mythicmetals:hallowed_nugget
+- mythicmetals:kyber_nugget
+- mythicmetals:manganese_nugget
+- mythicmetals:metallurgium_nugget
+- mythicmetals:midas_gold_nugget
+- mythicmetals:mythril_nugget
+- mythicmetals:orichalcum_nugget
+- mythicmetals:osmium_nugget
+- mythicmetals:palladium_nugget
+- mythicmetals:platinum_nugget
+- mythicmetals:prometheum_nugget
+- mythicmetals:quadrillum_nugget
+- mythicmetals:runite_nugget
+- mythicmetals:silver_nugget
+- mythicmetals:star_platinum_nugget
+- mythicmetals:steel_nugget
+- mythicmetals:stormyx_nugget
+- mythicmetals:tin_nugget
 
 #c:gold_ores
 - minecraft:gold_ore
 - minecraft:deepslate_gold_ore
+- minecraft:gold_ore
+- minecraft:gold_ore
+- minecraft:deepslate_gold_ore
 
-#bewitchment:wands
-- #bewitchment:weak_wands
-- #bewitchment:average_wands
-- #bewitchment:strong_wands
+#c:pink_dyes
+- minecraft:pink_dye
 
-#c:diamond_ores
-- minecraft:diamond_ore
-- minecraft:deepslate_diamond_ore
+#c:iron_nuggets
+- minecraft:iron_nugget
 
-#tooltiprareness:legendary_item
-- adventurez:source_stone
+#botania:special_floating_flowers
+- botania:floating_agricarnation
+- botania:floating_agricarnation_chibi
+- botania:floating_bellethorn
+- botania:floating_bellethorn_chibi
+- botania:floating_bergamute
+- botania:floating_bubbell
+- botania:floating_bubbell_chibi
+- botania:floating_clayconia
+- botania:floating_clayconia_chibi
+- botania:floating_daffomill
+- botania:floating_dandelifeon
+- botania:floating_dreadthorn
+- botania:floating_endoflame
+- botania:floating_entropinnyum
+- botania:floating_exoflame
+- botania:floating_fallen_kanade
+- botania:floating_gourmaryllis
+- botania:floating_heisei_dream
+- botania:floating_hopperhock
+- botania:floating_hopperhock_chibi
+- botania:floating_hyacidus
+- botania:floating_hydroangeas
+- botania:floating_jaded_amaranthus
+- botania:floating_jiyuulia
+- botania:floating_jiyuulia_chibi
+- botania:floating_kekimurus
+- botania:floating_labellia
+- botania:floating_loonium
+- botania:floating_manastar
+- botania:floating_marimorphosis
+- botania:floating_marimorphosis_chibi
+- botania:floating_medumone
+- botania:floating_munchdew
+- botania:floating_narslimmus
+- botania:floating_orechid
+- botania:floating_orechid_ignem
+- botania:floating_pollidisiac
+- botania:floating_pure_daisy
+- botania:floating_rafflowsia
+- botania:floating_rannuncarpus
+- botania:floating_rannuncarpus_chibi
+- botania:floating_rosa_arcana
+- botania:floating_shulk_me_not
+- botania:floating_solegnolia
+- botania:floating_solegnolia_chibi
+- botania:floating_spectranthemum
+- botania:floating_spectrolus
+- botania:floating_tangleberrie
+- botania:floating_tangleberrie_chibi
+- botania:floating_thermalily
+- botania:floating_tigerseye
+- botania:floating_vinculotus
 
-#impaled:tridents
-- minecraft:trident
-- impaled:pitchfork
-- impaled:hellfork
-- impaled:elder_trident
-- impaled:atlan
+#c:netherite_ingots
+- minecraft:netherite_ingot
 
-#minecraft:axolotl_tempt_items
-- minecraft:tropical_fish_bucket
-
-#minecraft:wool
-- minecraft:white_wool
-- minecraft:orange_wool
-- minecraft:magenta_wool
-- minecraft:light_blue_wool
-- minecraft:yellow_wool
-- minecraft:lime_wool
-- minecraft:pink_wool
-- minecraft:gray_wool
-- minecraft:light_gray_wool
-- minecraft:cyan_wool
-- minecraft:purple_wool
-- minecraft:blue_wool
-- minecraft:brown_wool
-- minecraft:green_wool
-- minecraft:red_wool
-- minecraft:black_wool
-- bewitchment:hedgewitch_wool
-- bewitchment:alchemist_wool
-- bewitchment:besmirched_wool
-
-#c:raw_silvers
-- bewitchment:raw_silver
+#c:quartz_blocks
+- botania:dark_quartz
+- botania:mana_quartz
+- botania:blaze_quartz
+- botania:lavender_quartz
+- botania:red_quartz
+- botania:elf_quartz
+- botania:sunny_quartz
 
 #c:very_rare_loot
 - minecraft:totem_of_undying
@@ -188,6 +1163,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - gobber2:gobber2_ring_teleport?
 - gobber2:gobber2_ring_ascent?
 - gobber2:gobber2_ring_swiftness?
+- minecraft:totem_of_undying
+- minecraft:elytra
+- greater_eye:greater_eye_end
 
 #minecraft:stairs
 - #minecraft:wooden_stairs
@@ -231,161 +1209,162 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:waxed_exposed_cut_copper_stairs
 - minecraft:waxed_cut_copper_stairs
 - minecraft:waxed_oxidized_cut_copper_stairs
-
-#curios:cosmetic_chestplate
-- adventurez:stone_golem_chestplate
-- #fabric:chestplates
+- botania:black_pavement_stairs
+- botania:blaze_quartz_stairs
+- botania:blue_pavement_stairs
+- botania:corporea_brick_stairs
+- botania:corporea_stairs
+- botania:dark_quartz_stairs
+- botania:dreamwood_planks_stairs
+- botania:dreamwood_stairs
+- botania:elf_quartz_stairs
+- botania:green_pavement_stairs
+- botania:lavender_quartz_stairs
+- botania:livingrock_bricks_stairs
+- botania:livingrock_stairs
+- botania:livingwood_planks_stairs
+- botania:livingwood_stairs
+- botania:mana_quartz_stairs
+- botania:metamorphic_desert_bricks_stairs
+- botania:metamorphic_desert_cobblestone_stairs
+- botania:metamorphic_desert_stone_stairs
+- botania:metamorphic_forest_bricks_stairs
+- botania:metamorphic_forest_cobblestone_stairs
+- botania:metamorphic_forest_stone_stairs
+- botania:metamorphic_fungal_bricks_stairs
+- botania:metamorphic_fungal_cobblestone_stairs
+- botania:metamorphic_fungal_stone_stairs
+- botania:metamorphic_mesa_bricks_stairs
+- botania:metamorphic_mesa_cobblestone_stairs
+- botania:metamorphic_mesa_stone_stairs
+- botania:metamorphic_mountain_bricks_stairs
+- botania:metamorphic_mountain_cobblestone_stairs
+- botania:metamorphic_mountain_stone_stairs
+- botania:metamorphic_plains_bricks_stairs
+- botania:metamorphic_plains_cobblestone_stairs
+- botania:metamorphic_plains_stone_stairs
+- botania:metamorphic_swamp_bricks_stairs
+- botania:metamorphic_swamp_cobblestone_stairs
+- botania:metamorphic_swamp_stone_stairs
+- botania:metamorphic_taiga_bricks_stairs
+- botania:metamorphic_taiga_cobblestone_stairs
+- botania:metamorphic_taiga_stone_stairs
+- botania:mossy_livingrock_bricks_stairs
+- botania:red_pavement_stairs
+- botania:red_quartz_stairs
+- botania:shimmerrock_stairs
+- botania:shimmerwood_planks_stairs
+- botania:sunny_quartz_stairs
+- botania:white_pavement_stairs
+- botania:yellow_pavement_stairs
+- #minecraft:wooden_stairs
+- minecraft:cobblestone_stairs
+- minecraft:sandstone_stairs
+- minecraft:nether_brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:brick_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:blackstone_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- minecraft:cobbled_deepslate_stairs
+- minecraft:polished_deepslate_stairs
+- minecraft:deepslate_tile_stairs
+- minecraft:deepslate_brick_stairs
+- minecraft:oxidized_cut_copper_stairs
+- minecraft:weathered_cut_copper_stairs
+- minecraft:exposed_cut_copper_stairs
+- minecraft:cut_copper_stairs
+- minecraft:waxed_weathered_cut_copper_stairs
+- minecraft:waxed_exposed_cut_copper_stairs
+- minecraft:waxed_cut_copper_stairs
+- minecraft:waxed_oxidized_cut_copper_stairs
+- #the_aether:aether_stairs
 
 #minecraft:logs
 - #minecraft:logs_that_burn
 - #minecraft:crimson_stems
 - #minecraft:warped_stems
 
-#minecraft:creeper_drop_music_discs
-- minecraft:music_disc_13
-- minecraft:music_disc_cat
-- minecraft:music_disc_blocks
-- minecraft:music_disc_chirp
-- minecraft:music_disc_far
-- minecraft:music_disc_mall
-- minecraft:music_disc_mellohi
-- minecraft:music_disc_stal
-- minecraft:music_disc_strad
-- minecraft:music_disc_ward
-- minecraft:music_disc_11
-- minecraft:music_disc_wait
-
-#bewitchment:average_pentacles
-- minecraft:wither_skeleton_skull
-- bewitchment:demon_heart
-
-#fabric:axes
-- minecraft:wooden_axe
-- minecraft:stone_axe
-- minecraft:iron_axe
-- minecraft:golden_axe
-- minecraft:diamond_axe
-- minecraft:netherite_axe
-- gobber2:gobber2_axe?
-- gobber2:gobber2_axe_nether?
-- gobber2:gobber2_axe_end?
-- gobber2:gobber2_paxel?
-- gobber2:gobber2_paxel_nether?
-- gobber2:gobber2_paxel_end?
-- gobber2:gobber2_paxel_stars?
-- mcdw:axe
-- mcdw:axe_firebrand
-- mcdw:axe_highland
-- mcdw:axe_cursed
-- mcdw:axe_double
-- mcdw:axe_whirlwind
-- mcdw:axe_anchor
-- mcdw:axe_encrusted_anchor
-- mcdw:spear_spear
-- mcdw:spear_whispering_spear
-- mcdw:spear_fortune
-- mcdw:staff_battlestaff
-- mcdw:staff_growing_staff
-- mcdw:staff_battlestaff_of_terror
-- mcdw:whip_whip
-- mcdw:whip_vine_whip
-- #pugh_tools:paxel_additions?
-
-#tooltiprareness:common_item
-- adventurez:orc_skin
-- adventurez:dragon_saddle
+#botania:terrasteel_ingots
+- botania:terrasteel_ingot
 
 #minecraft:arrows
 - minecraft:arrow
 - minecraft:tipped_arrow
 - minecraft:spectral_arrow
 - adventurez:ivory_arrow
-- bewitchment:silver_arrow
+- xtraarrows:iron_arrow
+- xtraarrows:diamond_arrow
+- xtraarrows:golden_arrow
+- xtraarrows:netherite_arrow
+- xtraarrows:headless_arrow
+- xtraarrows:padded_arrow
+- xtraarrows:diamond_explosive_arrow
+- xtraarrows:golden_explosive_arrow
+- xtraarrows:netherite_explosive_arrow
+- xtraarrows:iron_explosive_arrow
+- xtraarrows:flint_explosive_arrow
+- xtraarrows:diamond_lightning_arrow
+- xtraarrows:netherite_lightning_arrow
+- xtraarrows:iron_lightning_arrow
+- xtraarrows:golden_lightning_arrow
+- xtraarrows:flint_lightning_arrow
+- xtraarrows:diamond_torch_arrow
+- xtraarrows:golden_torch_arrow
+- xtraarrows:iron_torch_arrow
+- xtraarrows:netherite_torch_arrow
+- xtraarrows:flint_torch_arrow
+- xtraarrows:diamond_slime_arrow
+- xtraarrows:netherite_slime_arrow
+- xtraarrows:iron_slime_arrow
+- xtraarrows:golden_slime_arrow
+- xtraarrows:flint_slime_arrow
+- xtraarrows:diamond_ender_arrow
+- xtraarrows:netherite_ender_arrow
+- xtraarrows:golden_ender_arrow
+- xtraarrows:iron_ender_arrow
+- xtraarrows:flint_ender_arrow
+- xtraarrows:diamond_tracking_arrow
+- xtraarrows:netherite_tracking_arrow
+- xtraarrows:golden_tracking_arrow
+- xtraarrows:iron_tracking_arrow
+- xtraarrows:flint_tracking_arrow
+- xtraarrows:diamond_vexing_arrow
+- xtraarrows:netherite_vexing_arrow
+- xtraarrows:iron_vexing_arrow
+- xtraarrows:golden_vexing_arrow
+- xtraarrows:flint_vexing_arrow
 
-#origins:ignore_diet
-- bewitchment:grotesque_stew
+#botania:petals/black
+- botania:black_petal
+- botania:black_mushroom
 
-#nourish:carbohydrates
-- bewitchment:garlic_bread
+#c:gravel
+- minecraft:gravel
 
-#fabric:leggings
-- mcda:archers_leggings
-- mcda:ocelot_armor_leggings
-- mcda:shadow_walker_armor_leggings
-- mcda:spelunker_armor_leggings
-- mcda:cave_crawler_leggings
-- mcda:wolf_armor_leggings
-- mcda:black_wolf_armor_leggings
-- mcda:fox_armor_leggings
-- mcda:arctic_fox_armor_leggings
-- mcda:climbing_gear_leggings
-- mcda:rugged_climbing_gear_leggings
-- mcda:squid_armor_leggings
-- mcda:glow_squid_armor_leggings
-- mcda:goat_gear_leggings
-- mcda:battle_robe_leggings
-- mcda:splendid_robe_leggings
-- mcda:evocation_robe_leggings
-- mcda:ember_robe_leggings
-- mcda:verdant_robe_leggings
-- mcda:thief_armor_leggings
-- mcda:spider_armor_leggings
-- mcda:soul_robe_leggings
-- mcda:souldancer_robe_leggings
-- mcda:sprout_armor_leggings
-- mcda:living_vines_armor_leggings
-- mcda:piglin_armor_leggings
-- mcda:entertainer_garb_leggings
-- mcda:troubadour_armor_leggings
-- mcda:teleportation_robe_leggings
-- mcda:unstable_robe_leggings
-- mcda:phantom_armor_leggings
-- mcda:frost_bite_armor_leggings
-- mcda:grim_armor_leggings
-- mcda:wither_armor_leggings
-- mcda:turtle_armor_leggings
-- mcda:nimble_turtle_armor_leggings
-- mcda:highland_armor_leggings
-- mcda:beehive_armor_leggings
-- mcda:beenest_armor_leggings
-- mcda:ghostly_armor_leggings
-- mcda:ghost_kindler_leggings
-- mcda:golden_piglin_armor_leggings
-- mcda:guards_armor_leggings
-- mcda:scale_mail_leggings
-- mcda:reinforced_mail_leggings
-- mcda:stalwart_armor_leggings
-- mcda:curious_armor_leggings
-- mcda:snow_armor_leggings
-- mcda:frost_armor_leggings
-- mcda:mercenary_armor_leggings
-- mcda:renegade_armor_leggings
-- mcda:hungry_horror_leggings
-- mcda:emerald_gear_leggings
-- mcda:opulent_armor_leggings
-- mcda:dark_armor_leggings
-- mcda:titans_shroud_leggings
-- mcda:royal_guard_armor_leggings
-- mcda:plate_armor_leggings
-- mcda:full_metal_armor_leggings
-- mcda:white_mystery_armor_leggings
-- mcda:blue_mystery_armor_leggings
-- mcda:green_mystery_armor_leggings
-- mcda:purple_mystery_armor_leggings
-- mcda:red_mystery_armor_leggings
-- mcda:champions_armor_leggings
-- mcda:heros_armor_leggings
-- mcda:gilded_glory_leggings
-- mcda:shulker_armor_leggings
-- mcda:sturdy_shulker_armor_leggings
-- mcda:gourdian_armor_leggings
-- mcda:cauldron_armor_leggings
-
-#bewitchment:chalks
-- bewitchment:chalk
-- bewitchment:golden_chalk
-- bewitchment:fiery_chalk
-- bewitchment:eldritch_chalk
+#c:white_dyes
+- minecraft:white_dye
+- minecraft:bone_meal
 
 #minecraft:wooden_doors
 - minecraft:oak_door
@@ -396,17 +1375,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_door
 - minecraft:crimson_door
 - minecraft:warped_door
-- bewitchment:juniper_door
-- bewitchment:cypress_door
-- bewitchment:elder_door
-- bewitchment:dragons_blood_door
-
-#trinkets:hand/glove
-- arcanus:gloves_of_disengagement?
-- arcanus:gloves_of_the_hippocratic_oath?
-- doom:soulcube
-- things:riot_gauntlet
-- things:mining_gloves
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- #the_aether:aether_wooden_doors
 
 #c:uncommon_loot
 - minecraft:diamond
@@ -417,22 +1394,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:blaze_rod
 - minecraft:ghast_tear
 - gobber2:gobber2_ingot?
+- minecraft:diamond
+- minecraft:emerald
+- minecraft:shulker_shell
+- minecraft:rabbit_foot
+- minecraft:heart_of_the_sea
+- minecraft:blaze_rod
+- minecraft:ghast_tear
+- greater_eye:greater_eye
 
-#c:rare_loot
-- minecraft:netherite_scrap
-- minecraft:prismarine_shard
-- minecraft:prismarine_crystals
-- minecraft:nautilus_shell
-- gobber2:gobber2_ingot_nether?
-- gobber2:gobber2_ring_return?
-- gobber2:gobber2_ring_attraction?
-- gobber2:gobber2_ring_sunshine?
+#mythicmetals:aquarium_ingots
+- mythicmetals:aquarium_ingot
 
-#minecraft:warped_stems
-- minecraft:warped_stem
-- minecraft:stripped_warped_stem
-- minecraft:warped_hyphae
-- minecraft:stripped_warped_hyphae
+#botania:petals
+- #botania:petals/white
+- #botania:petals/orange
+- #botania:petals/magenta
+- #botania:petals/light_blue
+- #botania:petals/yellow
+- #botania:petals/lime
+- #botania:petals/pink
+- #botania:petals/gray
+- #botania:petals/light_gray
+- #botania:petals/cyan
+- #botania:petals/purple
+- #botania:petals/blue
+- #botania:petals/brown
+- #botania:petals/green
+- #botania:petals/red
+- #botania:petals/black
 
 #origins:meat
 - gobber2:gobber2_gooey_beef?
@@ -451,52 +1441,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:ender_pearl
 - minecraft:blaze_powder
 - minecraft:quartz
-
-#balm:yellow_dyes
-- #c:yellow_dyes?
-- minecraft:yellow_dye
+- minecraft:leather
+- minecraft:rabbit_hide
+- minecraft:feather
+- minecraft:slime_ball
+- minecraft:gunpowder
+- minecraft:iron_ingot
+- minecraft:gold_ingot
+- minecraft:ender_pearl
+- minecraft:blaze_powder
+- minecraft:quartz
 
 #minecraft:emerald_ores
 - minecraft:emerald_ore
 - minecraft:deepslate_emerald_ore
 
-#c:books
-- minecraft:book
-- minecraft:writable_book
-- minecraft:written_book
-- minecraft:enchanted_book
-- minecraft:knowledge_book
-- patchouli:guide_book?
+#c:bronze_nuggets
+- mythicmetals:bronze_nugget
 
-#fabric:shovels
-- minecraft:wooden_shovel
-- minecraft:stone_shovel
-- minecraft:iron_shovel
-- minecraft:golden_shovel
-- minecraft:diamond_shovel
-- minecraft:netherite_shovel
-- gobber2:gobber2_shovel?
-- gobber2:gobber2_shovel_nether?
-- gobber2:gobber2_shovel_end?
-- gobber2:gobber2_paxel?
-- gobber2:gobber2_paxel_nether?
-- gobber2:gobber2_paxel_end?
-- gobber2:gobber2_paxel_stars?
-- gobber2:gobber2_excavator?
-- gobber2:gobber2_excavator_nether?
-- gobber2:gobber2_excavator_end?
-- #pugh_tools:paxel_additions?
-
-#bewitchment:altars
-- bewitchment:stone_witch_altar
-- bewitchment:mossy_cobblestone_witch_altar
-- bewitchment:prismarine_witch_altar
-- bewitchment:nether_brick_witch_altar
-- bewitchment:blackstone_witch_altar
-- bewitchment:golden_witch_altar
-- bewitchment:end_stone_witch_altar
-- bewitchment:obsidian_witch_altar
-- bewitchment:purpur_witch_altar
+#the_aether:raw_meat
+- the_aether:moa_meat
 
 #minecraft:crimson_stems
 - minecraft:crimson_stem
@@ -508,79 +1472,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #c:wooden_rods?
 - minecraft:stick
 
-#fabric:helmets
-- mcda:archers_helmet
-- mcda:ocelot_armor_helmet
-- mcda:shadow_walker_armor_helmet
-- mcda:spelunker_armor_helmet
-- mcda:cave_crawler_helmet
-- mcda:wolf_armor_helmet
-- mcda:black_wolf_armor_helmet
-- mcda:fox_armor_helmet
-- mcda:arctic_fox_armor_helmet
-- mcda:climbing_gear_helmet
-- mcda:rugged_climbing_gear_helmet
-- mcda:squid_armor_helmet
-- mcda:glow_squid_armor_helmet
-- mcda:goat_gear_helmet
-- mcda:evocation_robe_helmet
-- mcda:ember_robe_helmet
-- mcda:verdant_robe_helmet
-- mcda:thief_armor_helmet
-- mcda:spider_armor_helmet
-- mcda:soul_robe_helmet
-- mcda:souldancer_robe_helmet
-- mcda:sprout_armor_helmet
-- mcda:living_vines_armor_helmet
-- mcda:piglin_armor_helmet
-- mcda:entertainer_garb_helmet
-- mcda:troubadour_armor_helmet
-- mcda:teleportation_robe_helmet
-- mcda:unstable_robe_helmet
-- mcda:phantom_armor_helmet
-- mcda:frost_bite_armor_helmet
-- mcda:grim_armor_helmet
-- mcda:wither_armor_helmet
-- mcda:turtle_armor_helmet
-- mcda:nimble_turtle_armor_helmet
-- mcda:highland_armor_helmet
-- mcda:beehive_armor_helmet
-- mcda:beenest_armor_helmet
-- mcda:ghostly_armor_helmet
-- mcda:ghost_kindler_helmet
-- mcda:golden_piglin_armor_helmet
-- mcda:guards_armor_helmet
-- mcda:reinforced_mail_helmet
-- mcda:stalwart_armor_helmet
-- mcda:curious_armor_helmet
-- mcda:snow_armor_helmet
-- mcda:frost_armor_helmet
-- mcda:mercenary_armor_helmet
-- mcda:renegade_armor_helmet
-- mcda:hungry_horror_helmet
-- mcda:emerald_gear_helmet
-- mcda:opulent_armor_helmet
-- mcda:dark_armor_helmet
-- mcda:titans_shroud_helmet
-- mcda:royal_guard_armor_helmet
-- mcda:plate_armor_helmet
-- mcda:full_metal_armor_helmet
-- mcda:white_mystery_armor_helmet
-- mcda:blue_mystery_armor_helmet
-- mcda:green_mystery_armor_helmet
-- mcda:purple_mystery_armor_helmet
-- mcda:red_mystery_armor_helmet
-- mcda:champions_armor_helmet
-- mcda:heros_armor_helmet
-- mcda:gilded_glory_helmet
-- mcda:shulker_armor_helmet
-- mcda:sturdy_shulker_armor_helmet
-- mcda:gourdian_armor_helmet
-- mcda:cauldron_armor_helmet
-
-#c:raw_silver_blocks
-- bewitchment:raw_silver_block
-
 #minecraft:ignored_by_piglin_babies
 - minecraft:leather
 
@@ -588,6 +1479,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:cobblestone
 - minecraft:blackstone
 - minecraft:cobbled_deepslate
+- #c:cobblestone
+- #c:stone
+- minecraft:cobblestone
+- minecraft:blackstone
+- minecraft:cobbled_deepslate
+- the_aether:cobbled_holystone
 
 #minecraft:terracotta
 - minecraft:terracotta
@@ -608,245 +1505,108 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:red_terracotta
 - minecraft:black_terracotta
 
-#balm:cyan_dyes
-- #c:cyan_dyes?
-- minecraft:cyan_dye
+#mythicmetals:prometheum_ores
+- mythicmetals:prometheum_ore
+- mythicmetals:deepslate_prometheum_ore
 
-#balm:red_dyes
-- #c:red_dyes?
-- minecraft:red_dye
+#c:diamond_chests
+- reinfchest:diamond_chest
 
-#curios:cosmetic_helmet
-- adventurez:stone_golem_helmet
-- #fabric:helmets
-
-#tooltiprareness:uncommon_item
-- adventurez:gilded_stone
-- adventurez:warthog_shell_piece
-
-#nourish:sweets
-- bewitchment:witchberry_pie
-- bewitchment:witchberry_cookie
-
-#trinkets:offhand/glove
-- #trinkets:hand/glove
-
-#minecraft:dark_oak_logs
-- minecraft:dark_oak_log
-- minecraft:dark_oak_wood
-- minecraft:stripped_dark_oak_log
-- minecraft:stripped_dark_oak_wood
-
-#c:silver_ingots
-- bewitchment:silver_ingot
-
-#bewitchment:location_holders
-- bewitchment:taglock
-- bewitchment:waystone
-
-#minecraft:non_flammable_wood
-- minecraft:warped_stem
-- minecraft:stripped_warped_stem
-- minecraft:warped_hyphae
-- minecraft:stripped_warped_hyphae
-- minecraft:crimson_stem
-- minecraft:stripped_crimson_stem
-- minecraft:crimson_hyphae
-- minecraft:stripped_crimson_hyphae
-- minecraft:crimson_planks
-- minecraft:warped_planks
-- minecraft:crimson_slab
-- minecraft:warped_slab
-- minecraft:crimson_pressure_plate
-- minecraft:warped_pressure_plate
-- minecraft:crimson_fence
-- minecraft:warped_fence
-- minecraft:crimson_trapdoor
-- minecraft:warped_trapdoor
-- minecraft:crimson_fence_gate
-- minecraft:warped_fence_gate
-- minecraft:crimson_stairs
-- minecraft:warped_stairs
-- minecraft:crimson_button
-- minecraft:warped_button
-- minecraft:crimson_door
-- minecraft:warped_door
-- minecraft:crimson_sign
-- minecraft:warped_sign
-
-#minecraft:coals
-- minecraft:coal
-- minecraft:charcoal
-- doom:argent_energy
-
-#minecraft:piglin_food
-- minecraft:porkchop
-- minecraft:cooked_porkchop
-
-#c:chest
-- bewitchment:juniper_chest
-- bewitchment:cypress_chest
-- bewitchment:elder_chest
-- bewitchment:dragons_blood_chest
-
-#doom:glass
-- minecraft:glass
-- minecraft:white_stained_glass
-- minecraft:orange_stained_glass
-- minecraft:magenta_stained_glass
-- minecraft:light_blue_stained_glass
-- minecraft:yellow_stained_glass
-- minecraft:lime_stained_glass
-- minecraft:pink_stained_glass
-- minecraft:gray_stained_glass
-- minecraft:light_gray_stained_glass
-- minecraft:cyan_stained_glass
-- minecraft:purple_stained_glass
-- minecraft:blue_stained_glass
-- minecraft:brown_stained_glass
-- minecraft:green_stained_glass
-- minecraft:red_stained_glass
-- minecraft:black_stained_glass
-- minecraft:tinted_glass
-
-#waystones:dyed_sharestone
-- waystones:white_sharestone
-- waystones:orange_sharestone
-- waystones:magenta_sharestone
-- waystones:light_blue_sharestone
-- waystones:yellow_sharestone
-- waystones:lime_sharestone
-- waystones:pink_sharestone
-- waystones:gray_sharestone
-- waystones:light_gray_sharestone
-- waystones:cyan_sharestone
-- waystones:purple_sharestone
-- waystones:blue_sharestone
-- waystones:brown_sharestone
-- waystones:green_sharestone
-- waystones:red_sharestone
-- waystones:black_sharestone
+#emeraldequipment:swords
+- emeraldequipment:emerald_sword
 
 #minecraft:anvil
 - minecraft:anvil
 - minecraft:chipped_anvil
 - minecraft:damaged_anvil
 
-#minecraft:birch_logs
-- minecraft:birch_log
-- minecraft:birch_wood
-- minecraft:stripped_birch_log
-- minecraft:stripped_birch_wood
+#c:coal_ores
+- minecraft:coal_ore
 
-#c:emerald_ores
-- minecraft:emerald_ore
-- minecraft:deepslate_emerald_ore
+#the_aether:swet_transformers/transformers
+- #the_aether:swet_transformers/blue
+- #the_aether:swet_transformers/golden
+- #the_aether:swet_transformers/purple
+- #the_aether:swet_transformers/vermilion
 
-#minecraft:lapis_ores
-- minecraft:lapis_ore
-- minecraft:deepslate_lapis_ore
+#minecraft:piglin_loved_items
+- mythicmetals:midas_gold_helmet
+- mythicmetals:midas_gold_chestplate
+- mythicmetals:midas_gold_leggings
+- mythicmetals:midas_gold_boots
+- mythicmetals:midas_gold_ingot
+- mythicmetals:raw_midas_gold
 
-#environmentz:insolating_item
-- adventurez:mammoth_fur
+#mythicmetals:celestium_blocks
+- mythicmetals:celestium_block
+
+#c:platinum_ingots
+- mythicmetals:platinum_ingot
+
+#c:glass_panes
+- #c:stained_glass_panes
+- minecraft:glass_pane
+
+#copperequipment:nuggets
+- copperequipment:copper_nugget
 
 #c:mushrooms
-- minecraft:brown_mushroom
+- botania:white_mushroom
+- botania:orange_mushroom
+- botania:magenta_mushroom
+- botania:light_blue_mushroom
+- botania:yellow_mushroom
+- botania:lime_mushroom
+- botania:pink_mushroom
+- botania:gray_mushroom
+- botania:light_gray_mushroom
+- botania:cyan_mushroom
+- botania:purple_mushroom
+- botania:blue_mushroom
+- botania:brown_mushroom
+- botania:green_mushroom
+- botania:red_mushroom
+- botania:black_mushroom
+- #c:mushrooms_nether
 - minecraft:red_mushroom
-
-#minecraft:fences
-- #minecraft:wooden_fences
-- minecraft:nether_brick_fence
-
-#minecraft:saplings
-- minecraft:oak_sapling
-- minecraft:spruce_sapling
-- minecraft:birch_sapling
-- minecraft:jungle_sapling
-- minecraft:acacia_sapling
-- minecraft:dark_oak_sapling
-- minecraft:azalea
-- minecraft:flowering_azalea
-- bewitchment:juniper_sapling
-- bewitchment:cypress_sapling
-- bewitchment:elder_sapling
-- bewitchment:dragons_blood_sapling
-
-#bewitchment:juniper_logs
-- bewitchment:juniper_log
-- bewitchment:juniper_wood
-- bewitchment:stripped_juniper_log
-- bewitchment:stripped_juniper_wood
+- minecraft:brown_mushroom
 
 #trinkets:head/face
+- botania:itemfinder
+- botania:monocle
+- botania:tiny_planet
 - things:monocle
-- minecraft:apple
-
-#minecraft:beds
-- minecraft:red_bed
-- minecraft:black_bed
-- minecraft:blue_bed
-- minecraft:brown_bed
-- minecraft:cyan_bed
-- minecraft:gray_bed
-- minecraft:green_bed
-- minecraft:light_blue_bed
-- minecraft:light_gray_bed
-- minecraft:lime_bed
-- minecraft:magenta_bed
-- minecraft:orange_bed
-- minecraft:pink_bed
-- minecraft:purple_bed
-- minecraft:white_bed
-- minecraft:yellow_bed
-
-#bewitchment:strong_wands
-- minecraft:end_rod
-- bewitchment:netherite_candelabra
-- bewitchment:scepter
 
 #minecraft:iron_ores
 - minecraft:iron_ore
 - minecraft:deepslate_iron_ore
 
-#minecraft:oak_logs
-- minecraft:oak_log
-- minecraft:oak_wood
-- minecraft:stripped_oak_log
-- minecraft:stripped_oak_wood
+#lychee:explosives
+- minecraft:tnt
 
-#minecraft:doors
-- #minecraft:wooden_doors
-- minecraft:iron_door
+#c:raw_copper_ores
+- minecraft:raw_copper
+
+#botania:mystical_flowers
+- botania:black_mystical_flower
+- botania:blue_mystical_flower
+- botania:brown_mystical_flower
+- botania:cyan_mystical_flower
+- botania:gray_mystical_flower
+- botania:green_mystical_flower
+- botania:light_blue_mystical_flower
+- botania:light_gray_mystical_flower
+- botania:lime_mystical_flower
+- botania:magenta_mystical_flower
+- botania:orange_mystical_flower
+- botania:pink_mystical_flower
+- botania:purple_mystical_flower
+- botania:red_mystical_flower
+- botania:white_mystical_flower
+- botania:yellow_mystical_flower
 
 #libzoomer:spyglasses
 - minecraft:spyglass
-
-#adventurez:holder_items
-- adventurez:gilded_stone
-
-#bewitchment:elder_logs
-- bewitchment:elder_log
-- bewitchment:elder_wood
-- bewitchment:stripped_elder_log
-- bewitchment:stripped_elder_wood
-
-#minecraft:banners
-- minecraft:white_banner
-- minecraft:orange_banner
-- minecraft:magenta_banner
-- minecraft:light_blue_banner
-- minecraft:yellow_banner
-- minecraft:lime_banner
-- minecraft:pink_banner
-- minecraft:gray_banner
-- minecraft:light_gray_banner
-- minecraft:cyan_banner
-- minecraft:purple_banner
-- minecraft:blue_banner
-- minecraft:brown_banner
-- minecraft:green_banner
-- minecraft:red_banner
-- minecraft:black_banner
 
 #fabric:chestplates
 - mcda:archers_chestplate
@@ -894,6 +1654,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mcda:golden_piglin_armor_chestplate
 - mcda:guards_armor_chestplate
 - mcda:scale_mail_chestplate
+- mcda:sweet_tooth_chestplate
+- mcda:vanguard_armor_chestplate
 - mcda:reinforced_mail_chestplate
 - mcda:stalwart_armor_chestplate
 - mcda:curious_armor_chestplate
@@ -922,94 +1684,122 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mcda:gourdian_armor_chestplate
 - mcda:cauldron_armor_chestplate
 
+#c:orange_dyes
+- minecraft:orange_dye
+
 #minecraft:stone_crafting_materials
 - minecraft:cobblestone
 - minecraft:blackstone
 - minecraft:cobbled_deepslate
+- #c:cobblestone
+- minecraft:cobblestone
+- minecraft:blackstone
+- minecraft:cobbled_deepslate
+- the_aether:cobbled_holystone
 
-#minecraft:wooden_fences
-- minecraft:oak_fence
-- minecraft:acacia_fence
-- minecraft:dark_oak_fence
-- minecraft:spruce_fence
-- minecraft:birch_fence
-- minecraft:jungle_fence
-- minecraft:crimson_fence
-- minecraft:warped_fence
-- bewitchment:juniper_fence
-- bewitchment:cypress_fence
-- bewitchment:elder_fence
-- bewitchment:dragons_blood_fence
+#botania:lens
+- botania:lens_bounce
+- botania:lens_damage
+- botania:lens_efficiency
+- botania:lens_explosive
+- botania:lens_fire
+- botania:lens_firework
+- botania:lens_flare
+- botania:lens_gravity
+- botania:lens_influence
+- botania:lens_light
+- botania:lens_magnet
+- botania:lens_messenger
+- botania:lens_mine
+- botania:lens_normal
+- botania:lens_paint
+- botania:lens_phantom
+- botania:lens_piston
+- botania:lens_power
+- botania:lens_redirect
+- botania:lens_speed
+- botania:lens_storm
+- botania:lens_time
+- botania:lens_tripwire
+- botania:lens_warp
+- botania:lens_weight
 
-#bewitchment:strong_pentacles
-- minecraft:dragon_head
+#mythicmetals:starrite_ores
+- mythicmetals:starrite_ore
+- mythicmetals:calcite_starrite_ore
 
 #minecraft:piglin_repellents
 - minecraft:soul_torch
 - minecraft:soul_lantern
 - minecraft:soul_campfire
 
-#bewitchment:barks
-- bewitchment:oak_bark
-- bewitchment:spruce_bark
-- bewitchment:birch_bark
-- bewitchment:juniper_bark
-- bewitchment:cypress_bark
-- bewitchment:elder_bark
+#botania:disposable
+- minecraft:dirt
+- minecraft:sand
+- minecraft:gravel
+- minecraft:cobblestone
+- minecraft:netherrack
 
-#c:salt_ores
-- bewitchment:salt_ore
-- bewitchment:deepslate_salt_ore
-
-#c:bookshelves
-- arcanus:fillable_bookshelf
+#the_aether:orange_logs
+- the_aether:orange_log
+- the_aether:orange_wood
+- the_aether:stripped_orange_log
+- the_aether:stripped_orange_wood
 
 #trinkets:chest/necklace
 - arcanus:amulet_of_soothing?
 - arcanus:amulet_of_purging?
 - arcanus:amulet_of_the_master?
-- bewitchment:nazar
-- bewitchment:hellish_bauble
+- botania:blood_pendant
+- botania:cloud_pendant
+- botania:diva_charm
+- botania:goddess_charm
+- botania:ice_pendant
+- botania:lava_pendant
+- botania:super_cloud_pendant
+- botania:super_lava_pendant
+- botania:third_eye
 - things:moss_necklace
 - things:placebo
 - things:luck_of_the_irish
 - things:hades_crystal
 
 #c:silver_ores
-- bewitchment:silver_ore
-- bewitchment:deepslate_silver_ore
+- mythicmetals:silver_ore
 
-#bewitchment:witchberry_foods
-- bewitchment:witchberry
-- bewitchment:witchberry_pie
-- bewitchment:witchberry_cookie
+#c:copper_blocks
+- minecraft:copper_block
 
-#fabric:shields
-- mcdw:shield_royal_guard
-- mcdw:shield_vanguard
+#mythicmetals:carmot_ingots
+- mythicmetals:carmot_ingot
 
-#balm:gold_nuggets
-- #c:gold_nuggets?
-- minecraft:gold_nugget
+#mythicmetals:quadrillum_blocks
+- mythicmetals:quadrillum_block
 
-#minecraft:jungle_logs
-- minecraft:jungle_log
-- minecraft:jungle_wood
-- minecraft:stripped_jungle_log
-- minecraft:stripped_jungle_wood
-
-#minecraft:lectern_books
-- minecraft:written_book
-- minecraft:writable_book
-- patchouli:guide_book
+#c:tin_nuggets
+- mythicmetals:tin_nugget
 
 #balm:brown_dyes
 - #c:brown_dyes?
 - minecraft:brown_dye
 
-#bewitchment:average_wands
-- bewitchment:golden_candelabra
-- bewitchment:silver_candelabra
+#botania:double_mystical_flowers
+- botania:black_double_flower
+- botania:blue_double_flower
+- botania:brown_double_flower
+- botania:cyan_double_flower
+- botania:gray_double_flower
+- botania:green_double_flower
+- botania:light_blue_double_flower
+- botania:light_gray_double_flower
+- botania:lime_double_flower
+- botania:magenta_double_flower
+- botania:orange_double_flower
+- botania:pink_double_flower
+- botania:purple_double_flower
+- botania:red_double_flower
+- botania:white_double_flower
+- botania:yellow_double_flower
 
 #minecraft:wooden_stairs
 - minecraft:oak_stairs
@@ -1020,57 +1810,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_stairs
 - minecraft:crimson_stairs
 - minecraft:warped_stairs
-- bewitchment:juniper_stairs
-- bewitchment:cypress_stairs
-- bewitchment:elder_stairs
-- bewitchment:dragons_blood_stairs
+- minecraft:oak_stairs
+- minecraft:spruce_stairs
+- minecraft:birch_stairs
+- minecraft:jungle_stairs
+- minecraft:acacia_stairs
+- minecraft:dark_oak_stairs
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- #the_aether:aether_wooden_stairs
 
-#minecraft:spruce_logs
-- minecraft:spruce_log
-- minecraft:spruce_wood
-- minecraft:stripped_spruce_log
-- minecraft:stripped_spruce_wood
+#fabric:raw_meat
+- minecraft:beef
+- minecraft:porkchop
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:cod
+- minecraft:salmon
+- minecraft:mutton
+- #the_aether:raw_meat
 
-#minecraft:signs
-- minecraft:oak_sign
-- minecraft:spruce_sign
-- minecraft:birch_sign
-- minecraft:acacia_sign
-- minecraft:jungle_sign
-- minecraft:dark_oak_sign
-- minecraft:crimson_sign
-- minecraft:warped_sign
-- bewitchment:juniper_sign
-- bewitchment:cypress_sign
-- bewitchment:elder_sign
-- bewitchment:dragons_blood_sign
-
-#bewitchment:strong_swords
-- minecraft:netherite_sword
-- bewitchment:caduceus
-- bewitchment:horned_spear
-
-#waystones:sharestone
-- waystones:sharestone
-- waystones:white_sharestone
-- waystones:orange_sharestone
-- waystones:magenta_sharestone
-- waystones:light_blue_sharestone
-- waystones:yellow_sharestone
-- waystones:lime_sharestone
-- waystones:pink_sharestone
-- waystones:gray_sharestone
-- waystones:light_gray_sharestone
-- waystones:cyan_sharestone
-- waystones:purple_sharestone
-- waystones:blue_sharestone
-- waystones:brown_sharestone
-- waystones:green_sharestone
-- waystones:red_sharestone
-- waystones:black_sharestone
-
-#trinkets:offhand/ring
-- #trinkets:hand/ring
+#c:glowstone_dusts
+- minecraft:glowstone_dust
 
 #minecraft:carpets
 - minecraft:white_carpet
@@ -1089,9 +1850,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:green_carpet
 - minecraft:red_carpet
 - minecraft:black_carpet
-- bewitchment:hedgewitch_carpet
-- bewitchment:alchemist_carpet
-- bewitchment:besmirched_carpet
 
 #minecraft:wooden_buttons
 - minecraft:oak_button
@@ -1102,23 +1860,41 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_button
 - minecraft:crimson_button
 - minecraft:warped_button
-- bewitchment:juniper_button
-- bewitchment:cypress_button
-- bewitchment:elder_button
-- bewitchment:dragons_blood_button
+- minecraft:oak_button
+- minecraft:spruce_button
+- minecraft:birch_button
+- minecraft:jungle_button
+- minecraft:acacia_button
+- minecraft:dark_oak_button
+- minecraft:crimson_button
+- minecraft:warped_button
+- #the_aether:aether_wooden_buttons
 
-#nourish:vegetables
-- bewitchment:garlic
-- bewitchment:grilled_garlic
-- bewitchment:garlic_bread
+#c:terracotta
+- minecraft:white_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+- minecraft:black_terracotta
 
-#minecraft:fishes
-- minecraft:cod
-- minecraft:cooked_cod
-- minecraft:salmon
-- minecraft:cooked_salmon
-- minecraft:pufferfish
-- minecraft:tropical_fish
+#the_aether:aether_buttons
+- #the_aether:aether_wooden_buttons
+
+#the_aether:entity/moa_temptables
+- the_aether:orange
+- #c:raw_meat
+- #c:cooked_meat
 
 #minecraft:stone_bricks
 - minecraft:stone_bricks
@@ -1126,35 +1902,132 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:cracked_stone_bricks
 - minecraft:chiseled_stone_bricks
 
-#trinkets:hand/ring
-- arcanus:ring_of_shielding?
-- arcanus:ring_of_the_enderman?
-- arcanus:ring_of_the_monk?
-- arcanus:ring_of_the_west_wind?
-- extraalchemy:potion_ring
+#mythicmetals:weapons
+- mythicmetals:adamantite_sword
+- mythicmetals:aquarium_sword
+- mythicmetals:banglum_sword
+- mythicmetals:bronze_sword
+- mythicmetals:carmot_sword
+- mythicmetals:celestium_sword
+- mythicmetals:copper_sword
+- mythicmetals:durasteel_sword
+- mythicmetals:hallowed_sword
+- mythicmetals:kyber_sword
+- mythicmetals:metallurgium_sword
+- mythicmetals:mythril_sword
+- mythicmetals:orichalcum_sword
+- mythicmetals:osmium_sword
+- mythicmetals:palladium_sword
+- mythicmetals:prometheum_sword
+- mythicmetals:quadrillum_sword
+- mythicmetals:runite_sword
+- mythicmetals:star_platinum_sword
+- mythicmetals:stormyx_sword
+- mythicmetals:adamantite_pickaxe
+- mythicmetals:aquarium_pickaxe
+- mythicmetals:banglum_pickaxe
+- mythicmetals:bronze_pickaxe
+- mythicmetals:carmot_pickaxe
+- mythicmetals:celestium_pickaxe
+- mythicmetals:copper_pickaxe
+- mythicmetals:durasteel_pickaxe
+- mythicmetals:hallowed_pickaxe
+- mythicmetals:kyber_pickaxe
+- mythicmetals:metallurgium_pickaxe
+- mythicmetals:mythril_pickaxe
+- mythicmetals:orichalcum_pickaxe
+- mythicmetals:osmium_pickaxe
+- mythicmetals:palladium_pickaxe
+- mythicmetals:prometheum_pickaxe
+- mythicmetals:quadrillum_pickaxe
+- mythicmetals:runite_pickaxe
+- mythicmetals:star_platinum_pickaxe
+- mythicmetals:stormyx_pickaxe
+- mythicmetals:adamantite_axe
+- mythicmetals:aquarium_axe
+- mythicmetals:banglum_axe
+- mythicmetals:bronze_axe
+- mythicmetals:carmot_axe
+- mythicmetals:celestium_axe
+- mythicmetals:copper_axe
+- mythicmetals:durasteel_axe
+- mythicmetals:hallowed_axe
+- mythicmetals:kyber_axe
+- mythicmetals:metallurgium_axe
+- mythicmetals:mythril_axe
+- mythicmetals:orichalcum_axe
+- mythicmetals:osmium_axe
+- mythicmetals:palladium_axe
+- mythicmetals:prometheum_axe
+- mythicmetals:quadrillum_axe
+- mythicmetals:runite_axe
+- mythicmetals:star_platinum_axe
+- mythicmetals:stormyx_axe
+- mythicmetals:adamantite_shovel
+- mythicmetals:aquarium_shovel
+- mythicmetals:banglum_shovel
+- mythicmetals:bronze_shovel
+- mythicmetals:carmot_shovel
+- mythicmetals:celestium_shovel
+- mythicmetals:copper_shovel
+- mythicmetals:durasteel_shovel
+- mythicmetals:hallowed_shovel
+- mythicmetals:kyber_shovel
+- mythicmetals:metallurgium_shovel
+- mythicmetals:mythril_shovel
+- mythicmetals:orichalcum_shovel
+- mythicmetals:osmium_shovel
+- mythicmetals:palladium_shovel
+- mythicmetals:prometheum_shovel
+- mythicmetals:quadrillum_shovel
+- mythicmetals:runite_shovel
+- mythicmetals:star_platinum_shovel
+- mythicmetals:stormyx_shovel
+- mythicmetals:adamantite_hoe
+- mythicmetals:aquarium_hoe
+- mythicmetals:banglum_hoe
+- mythicmetals:bronze_hoe
+- mythicmetals:carmot_hoe
+- mythicmetals:celestium_hoe
+- mythicmetals:copper_hoe
+- mythicmetals:durasteel_hoe
+- mythicmetals:hallowed_hoe
+- mythicmetals:kyber_hoe
+- mythicmetals:metallurgium_hoe
+- mythicmetals:mythril_hoe
+- mythicmetals:orichalcum_hoe
+- mythicmetals:osmium_hoe
+- mythicmetals:palladium_hoe
+- mythicmetals:prometheum_hoe
+- mythicmetals:quadrillum_hoe
+- mythicmetals:runite_hoe
+- mythicmetals:star_platinum_hoe
+- mythicmetals:stormyx_hoe
+- mythicmetals:red_aegis_sword
+- mythicmetals:white_aegis_sword
+
+#mythicmetals:banglum_ores
+- mythicmetals:banglum_ore
 
 #balm:black_dyes
 - minecraft:black_dye
 - #c:black_dyes?
 
+#minecraft:piglin_ignored_by_babies
+- mythicmetals:raw_midas_gold
+
 #c:iron_ores
 - minecraft:iron_ore
 - minecraft:deepslate_iron_ore
+- minecraft:iron_ore
 
-#nourish:protein
-- bewitchment:demon_heart
-- bewitchment:grotesque_stew
+#c:dirt
+- minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:rooted_dirt
 
-#balm:white_dyes
-- #c:white_dyes?
-- minecraft:white_dye
-
-#fabric:shears
-- minecraft:shears
-
-#origins:shields
-- mcdw:shield_royal_guard
-- mcdw:shield_vanguard
+#botania:dragonstone_gems
+- botania:dragonstone
 
 #minecraft:slabs
 - #minecraft:wooden_slabs
@@ -1202,31 +2075,1891 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:exposed_cut_copper_slab
 - minecraft:cut_copper_slab
 - minecraft:waxed_oxidized_cut_copper_slab
+- botania:black_pavement_slab
+- botania:blaze_quartz_slab
+- botania:blue_pavement_slab
+- botania:corporea_brick_slab
+- botania:corporea_slab
+- botania:dark_quartz_slab
+- botania:dreamwood_planks_slab
+- botania:dreamwood_slab
+- botania:elf_quartz_slab
+- botania:green_pavement_slab
+- botania:lavender_quartz_slab
+- botania:livingrock_bricks_slab
+- botania:livingrock_slab
+- botania:livingwood_planks_slab
+- botania:livingwood_slab
+- botania:mana_quartz_slab
+- botania:metamorphic_desert_bricks_slab
+- botania:metamorphic_desert_cobblestone_slab
+- botania:metamorphic_desert_stone_slab
+- botania:metamorphic_forest_bricks_slab
+- botania:metamorphic_forest_cobblestone_slab
+- botania:metamorphic_forest_stone_slab
+- botania:metamorphic_fungal_bricks_slab
+- botania:metamorphic_fungal_cobblestone_slab
+- botania:metamorphic_fungal_stone_slab
+- botania:metamorphic_mesa_bricks_slab
+- botania:metamorphic_mesa_cobblestone_slab
+- botania:metamorphic_mesa_stone_slab
+- botania:metamorphic_mountain_bricks_slab
+- botania:metamorphic_mountain_cobblestone_slab
+- botania:metamorphic_mountain_stone_slab
+- botania:metamorphic_plains_bricks_slab
+- botania:metamorphic_plains_cobblestone_slab
+- botania:metamorphic_plains_stone_slab
+- botania:metamorphic_swamp_bricks_slab
+- botania:metamorphic_swamp_cobblestone_slab
+- botania:metamorphic_swamp_stone_slab
+- botania:metamorphic_taiga_bricks_slab
+- botania:metamorphic_taiga_cobblestone_slab
+- botania:metamorphic_taiga_stone_slab
+- botania:mossy_livingrock_bricks_slab
+- botania:red_pavement_slab
+- botania:red_quartz_slab
+- botania:shimmerrock_slab
+- botania:shimmerwood_planks_slab
+- botania:sunny_quartz_slab
+- botania:white_pavement_slab
+- botania:yellow_pavement_slab
+- #minecraft:wooden_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:petrified_oak_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- #the_aether:aether_slabs
 
-#balm:purple_dyes
-- #c:purple_dyes?
-- minecraft:purple_dye
-
-#balm:magenta_dyes
-- #c:magenta_dyes?
-- minecraft:magenta_dye
-
-#balm:light_gray_dyes
-- #c:light_gray_dyes?
-- minecraft:light_gray_dye
+#botania:petals/gray
+- botania:gray_petal
+- botania:gray_mushroom
 
 #balm:lime_dyes
 - #c:lime_dyes?
 - minecraft:lime_dye
 
-#bewitchment:swords
-- #bewitchment:weak_swords
-- #bewitchment:average_swords
-- #bewitchment:strong_swords
+#c:coal
+- minecraft:coal
+
+#the_aether:aether_fences
+- the_aether:skyroot_fence
+- the_aether:golden_oak_fence
+- the_aether:crystal_fence
+- the_aether:wisteria_fence
+
+#c:fruit
+- minecraft:apple
+- minecraft:chorus_fruit
+
+#botania:misc_special_flowers
+- botania:manastar
+- botania:pure_daisy
+- botania:bergamute
+
+#c:gold_blocks
+- minecraft:gold_block
+
+#mythicmetals:metallurgium_nuggets
+- mythicmetals:metallurgium_nugget
+
+#minecraft:buttons
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+- #the_aether:aether_buttons
+
+#fabric:cooked_meat
+- minecraft:cooked_beef
+- minecraft:cooked_porkchop
+- minecraft:cooked_chicken
+- minecraft:cooked_rabbit
+- minecraft:cooked_cod
+- minecraft:cooked_salmon
+- minecraft:cooked_mutton
+- #the_aether:cooked_meat
+
+#c:silver_blocks
+- mythicmetals:silver_block
+
+#origins:ranged_weapons
+- gobber2:gobber2_bow?
+- gobber2:gobber2_bow_nether?
+- gobber2:gobber2_bow_end?
+- gobber2:gobber2_sword_sniper?
+- gobber2:gobber2_staff_sniper?
+
+#minecraft:rails
+- minecraft:rail
+- minecraft:powered_rail
+- minecraft:detector_rail
+- minecraft:activator_rail
+- botania:ghost_rail
+
+#mythicmetals:stormyx_nuggets
+- mythicmetals:stormyx_nugget
+
+#c:yellow_dyes
+- minecraft:yellow_dye
+
+#c:soul_ground
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#copperequipment:hoes
+- copperequipment:copper_hoe
+
+#c:osmium_ores
+- mythicmetals:osmium_ore
+
+#the_aether:swet_transformers/blue
+- the_aether:blue_berry
+
+#minecraft:wooden_pressure_plates
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- #the_aether:aether_wooden_pressure_plates
+
+#trinkets:legs/belt
+- arcanus:belt_of_the_rabbit?
+- arcanus:belt_of_rejuvenation?
+- botania:knockback_belt
+- botania:speed_up_belt
+- botania:super_travel_belt
+- botania:travel_belt
+- heartytrinkets:canister_belt
+- things:ender_pouch
+
+#c:sugar_crops
+- minecraft:sugar_cane
+
+#minecraft:tall_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+- #botania:double_mystical_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+
+#c:mythril_ores
+- mythicmetals:mythril_ore
+- mythicmetals:deepslate_mythril_ore
+
+#botania:petals/purple
+- botania:purple_petal
+- botania:purple_mushroom
+
+#c:cobblestone
+- minecraft:cobblestone
+- minecraft:blackstone
+- minecraft:cobbled_deepslate
+
+#c:quartz
+- minecraft:quartz
+
+#mythicmetals:unobtainium_blocks
+- mythicmetals:unobtainium_block
+
+#c:raw_fish
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+
+#balm:orange_dyes
+- #c:orange_dyes?
+- minecraft:orange_dye
+
+#minecraft:gold_ores
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+- minecraft:deepslate_gold_ore
+
+#gobber2:ring_repair_blacklist
+- minecraft:wooden_shovel
+
+#c:adamantite_ores
+- mythicmetals:adamantite_ore
+- mythicmetals:deepslate_adamantite_ore
+
+#botania:petals/green
+- botania:green_petal
+- botania:green_mushroom
+
+#minecraft:dirt
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:podzol
+- minecraft:coarse_dirt
+- minecraft:mycelium
+- minecraft:rooted_dirt
+- minecraft:moss_block
+
+#the_aether:aether_walls
+- #the_aether:aether_stone_walls
+
+#minecraft:cluster_max_harvestables
+- minecraft:diamond_pickaxe
+- minecraft:golden_pickaxe
+- minecraft:iron_pickaxe
+- minecraft:netherite_pickaxe
+- minecraft:stone_pickaxe
+- minecraft:wooden_pickaxe
+- gobber2:gobber2_pickaxe?
+- gobber2:gobber2_pickaxe_nether?
+- gobber2:gobber2_pickaxe_end?
+- gobber2:gobber2_paxel?
+- gobber2:gobber2_paxel_nether?
+- gobber2:gobber2_paxel_end?
+- gobber2:gobber2_paxel_stars?
+- gobber2:gobber2_hammer?
+- gobber2:gobber2_hammer_nether?
+- gobber2:gobber2_hammer_end?
+
+#minecraft:soul_fire_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#fabric:crossbows
+- mcdw:crossbow_the_slicer
+- mcdw:crossbow_azure_seeker
+- mcdw:crossbow_exploding_crossbow
+- mcdw:crossbow_imploding_crossbow
+- mcdw:crossbow_firebolt_thrower
+- mcdw:crossbow_heavy_crossbow
+- mcdw:crossbow_doom_crossbow
+- mcdw:crossbow_slayer_crossbow
+- mcdw:crossbow_rapid_crossbow
+- mcdw:crossbow_butterfly_crossbow
+- mcdw:crossbow_auto_crossbow
+- mcdw:crossbow_scatter_crossbow
+- mcdw:crossbow_harp_crossbow
+- mcdw:crossbow_lightning_harp_crossbow
+- mcdw:crossbow_soul_crossbow
+- mcdw:crossbow_feral_soul_crossbow
+- mcdw:crossbow_voidcaller_crossbow
+- mcdw:crossbow_dual_crossbow
+- mcdw:crossbow_spellbound_crossbow
+- mcdw:crossbow_baby_crossbow
+- mcdw:crossbow_burst_crossbow
+- mcdw:crossbow_soul_hunter_crossbow
+- mcdw:crossbow_corrupted_crossbow
+- mcdw:crossbow_cog_crossbow
+- mcdw:crossbow_pride_of_the_piglins
+- mcdw:crossbow_harpoon_crossbow
+- mcdw:crossbow_nautical_crossbow
+- mcdw:crossbow_veiled_crossbow
+- mcdw:crossbow_voidcaller_crossbow
+
+#c:raw_iron_ores
+- minecraft:raw_iron
+
+#mythicmetals:midas_gold_nuggets
+- mythicmetals:midas_gold_nugget
+
+#c:magenta_dyes
+- minecraft:magenta_dye
+
+#mythicmetals:copper_armor
+- mythicmetals:copper_helmet
+- mythicmetals:copper_chestplate
+- mythicmetals:copper_leggings
+- mythicmetals:copper_boots
+
+#mythicmetals:raw_ores
+- minecraft:raw_iron
+- minecraft:raw_copper
+- mythicmetals:raw_adamantite
+- mythicmetals:raw_aquarium
+- mythicmetals:raw_banglum
+- mythicmetals:raw_carmot
+- mythicmetals:raw_kyber
+- mythicmetals:raw_manganese
+- mythicmetals:raw_mythril
+- mythicmetals:raw_orichalcum
+- mythicmetals:raw_osmium
+- mythicmetals:raw_platinum
+- mythicmetals:raw_prometheum
+- mythicmetals:raw_quadrillum
+- mythicmetals:raw_runite
+- mythicmetals:raw_silver
+- mythicmetals:raw_stormyx
+- mythicmetals:raw_tin
+- mythicmetals:raw_palladium
+
+#boneequipment:swords
+- boneequipment:bone_sword
+
+#botania:elementium_nuggets
+- botania:elementium_nugget
+
+#companion:ranged_weapon
+- minecraft:crossbow
+
+#dehydration:hydrating_stew
+- minecraft:suspicious_stew
+- minecraft:mushroom_stew
+- minecraft:rabbit_stew
+
+#c:black_dyes
+- minecraft:black_dye
+- minecraft:ink_sac
+
+#tooltiprareness:legendary_item
+- adventurez:source_stone
+
+#mythicmetals:celestium_ingots
+- mythicmetals:celestium_ingot
+
+#minecraft:wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#botania:elementium_blocks
+- botania:elementium_block
+
+#mythicmetals:quadrillum_ingots
+- mythicmetals:quadrillum_ingot
+
+#mythicmetals:unobtainium
+- mythicmetals:unobtainium
+
+#emeraldequipment:hoes
+- emeraldequipment:emerald_hoe
+
+#c:lime_dyes
+- minecraft:lime_dye
+
+#mythicmetals:kyber_nuggets
+- mythicmetals:kyber_nugget
+
+#c:manganese_blocks
+- mythicmetals:manganese_block
+
+#enhancedcelestials:harvest_moon_crops
+- minecraft:beetroot
+- minecraft:carrot
+- minecraft:nether_wart
+- minecraft:potato
+- minecraft:wheat
+- minecraft:melon_slice
+
+#mythicmetals:banglum_blocks
+- mythicmetals:banglum_block
+
+#fabric:leggings
+- mcda:archers_leggings
+- mcda:ocelot_armor_leggings
+- mcda:shadow_walker_armor_leggings
+- mcda:spelunker_armor_leggings
+- mcda:cave_crawler_leggings
+- mcda:wolf_armor_leggings
+- mcda:black_wolf_armor_leggings
+- mcda:fox_armor_leggings
+- mcda:arctic_fox_armor_leggings
+- mcda:climbing_gear_leggings
+- mcda:rugged_climbing_gear_leggings
+- mcda:squid_armor_leggings
+- mcda:glow_squid_armor_leggings
+- mcda:goat_gear_leggings
+- mcda:battle_robe_leggings
+- mcda:splendid_robe_leggings
+- mcda:evocation_robe_leggings
+- mcda:ember_robe_leggings
+- mcda:verdant_robe_leggings
+- mcda:thief_armor_leggings
+- mcda:spider_armor_leggings
+- mcda:soul_robe_leggings
+- mcda:souldancer_robe_leggings
+- mcda:sprout_armor_leggings
+- mcda:living_vines_armor_leggings
+- mcda:piglin_armor_leggings
+- mcda:entertainer_garb_leggings
+- mcda:troubadour_armor_leggings
+- mcda:teleportation_robe_leggings
+- mcda:unstable_robe_leggings
+- mcda:phantom_armor_leggings
+- mcda:frost_bite_armor_leggings
+- mcda:grim_armor_leggings
+- mcda:wither_armor_leggings
+- mcda:turtle_armor_leggings
+- mcda:nimble_turtle_armor_leggings
+- mcda:highland_armor_leggings
+- mcda:beehive_armor_leggings
+- mcda:beenest_armor_leggings
+- mcda:ghostly_armor_leggings
+- mcda:ghost_kindler_leggings
+- mcda:golden_piglin_armor_leggings
+- mcda:guards_armor_leggings
+- mcda:scale_mail_leggings
+- mcda:sweet_tooth_leggings
+- mcda:vanguard_armor_leggings
+- mcda:reinforced_mail_leggings
+- mcda:stalwart_armor_leggings
+- mcda:curious_armor_leggings
+- mcda:snow_armor_leggings
+- mcda:frost_armor_leggings
+- mcda:mercenary_armor_leggings
+- mcda:renegade_armor_leggings
+- mcda:hungry_horror_leggings
+- mcda:emerald_gear_leggings
+- mcda:opulent_armor_leggings
+- mcda:dark_armor_leggings
+- mcda:titans_shroud_leggings
+- mcda:royal_guard_armor_leggings
+- mcda:plate_armor_leggings
+- mcda:full_metal_armor_leggings
+- mcda:white_mystery_armor_leggings
+- mcda:blue_mystery_armor_leggings
+- mcda:green_mystery_armor_leggings
+- mcda:purple_mystery_armor_leggings
+- mcda:red_mystery_armor_leggings
+- mcda:champions_armor_leggings
+- mcda:heros_armor_leggings
+- mcda:gilded_glory_leggings
+- mcda:shulker_armor_leggings
+- mcda:sturdy_shulker_armor_leggings
+- mcda:gourdian_armor_leggings
+- mcda:cauldron_armor_leggings
+
+#mythicmetals:gear
+- mythicmetals:adamantite_helmet
+- mythicmetals:aquarium_helmet
+- mythicmetals:banglum_helmet
+- mythicmetals:bronze_helmet
+- mythicmetals:carmot_helmet
+- mythicmetals:celestium_helmet
+- mythicmetals:copper_helmet
+- mythicmetals:durasteel_helmet
+- mythicmetals:hallowed_helmet
+- mythicmetals:kyber_helmet
+- mythicmetals:metallurgium_helmet
+- mythicmetals:midas_gold_helmet
+- mythicmetals:mythril_helmet
+- mythicmetals:orichalcum_helmet
+- mythicmetals:osmium_helmet
+- mythicmetals:palladium_helmet
+- mythicmetals:prometheum_helmet
+- mythicmetals:runite_helmet
+- mythicmetals:silver_helmet
+- mythicmetals:star_platinum_helmet
+- mythicmetals:stormyx_helmet
+- mythicmetals:adamantite_chestplate
+- mythicmetals:aquarium_chestplate
+- mythicmetals:banglum_chestplate
+- mythicmetals:bronze_chestplate
+- mythicmetals:carmot_chestplate
+- mythicmetals:celestium_chestplate
+- mythicmetals:copper_chestplate
+- mythicmetals:durasteel_chestplate
+- mythicmetals:hallowed_chestplate
+- mythicmetals:kyber_chestplate
+- mythicmetals:metallurgium_chestplate
+- mythicmetals:midas_gold_chestplate
+- mythicmetals:mythril_chestplate
+- mythicmetals:orichalcum_chestplate
+- mythicmetals:osmium_chestplate
+- mythicmetals:palladium_chestplate
+- mythicmetals:prometheum_chestplate
+- mythicmetals:runite_chestplate
+- mythicmetals:silver_chestplate
+- mythicmetals:star_platinum_chestplate
+- mythicmetals:stormyx_chestplate
+- mythicmetals:adamantite_leggings
+- mythicmetals:aquarium_leggings
+- mythicmetals:banglum_leggings
+- mythicmetals:bronze_leggings
+- mythicmetals:carmot_leggings
+- mythicmetals:celestium_leggings
+- mythicmetals:copper_leggings
+- mythicmetals:durasteel_leggings
+- mythicmetals:hallowed_leggings
+- mythicmetals:kyber_leggings
+- mythicmetals:metallurgium_leggings
+- mythicmetals:midas_gold_leggings
+- mythicmetals:mythril_leggings
+- mythicmetals:orichalcum_leggings
+- mythicmetals:osmium_leggings
+- mythicmetals:palladium_leggings
+- mythicmetals:prometheum_leggings
+- mythicmetals:runite_leggings
+- mythicmetals:silver_leggings
+- mythicmetals:star_platinum_leggings
+- mythicmetals:stormyx_leggings
+- mythicmetals:adamantite_boots
+- mythicmetals:aquarium_boots
+- mythicmetals:banglum_boots
+- mythicmetals:bronze_boots
+- mythicmetals:carmot_boots
+- mythicmetals:celestium_boots
+- mythicmetals:copper_boots
+- mythicmetals:durasteel_boots
+- mythicmetals:hallowed_boots
+- mythicmetals:kyber_boots
+- mythicmetals:metallurgium_boots
+- mythicmetals:midas_gold_boots
+- mythicmetals:mythril_boots
+- mythicmetals:orichalcum_boots
+- mythicmetals:osmium_boots
+- mythicmetals:palladium_boots
+- mythicmetals:prometheum_boots
+- mythicmetals:runite_boots
+- mythicmetals:silver_boots
+- mythicmetals:star_platinum_boots
+- mythicmetals:stormyx_boots
+
+#trinkets:hand/glove
+- arcanus:gloves_of_disengagement?
+- arcanus:gloves_of_the_hippocratic_oath?
+- things:riot_gauntlet
+- things:mining_gloves
+
+#minecraft:warped_stems
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+
+#botania:magnet_ring_blacklist
+
+#fabric:shovels
+- botania:manasteel_shovel
+- botania:elementium_shovel
+- dragonloot:dragon_shovel
+- minecraft:wooden_shovel
+- minecraft:stone_shovel
+- minecraft:iron_shovel
+- minecraft:golden_shovel
+- minecraft:diamond_shovel
+- minecraft:netherite_shovel
+- gobber2:gobber2_shovel?
+- gobber2:gobber2_shovel_nether?
+- gobber2:gobber2_shovel_end?
+- gobber2:gobber2_paxel?
+- gobber2:gobber2_paxel_nether?
+- gobber2:gobber2_paxel_end?
+- gobber2:gobber2_paxel_stars?
+- gobber2:gobber2_excavator?
+- gobber2:gobber2_excavator_nether?
+- gobber2:gobber2_excavator_end?
+- mythicmetals:adamantite_shovel
+- mythicmetals:aquarium_shovel
+- mythicmetals:banglum_shovel
+- mythicmetals:bronze_shovel
+- mythicmetals:carmot_shovel
+- mythicmetals:celestium_shovel
+- mythicmetals:copper_shovel
+- mythicmetals:durasteel_shovel
+- mythicmetals:hallowed_shovel
+- mythicmetals:kyber_shovel
+- mythicmetals:metallurgium_shovel
+- mythicmetals:mythril_shovel
+- mythicmetals:orichalcum_shovel
+- mythicmetals:osmium_shovel
+- mythicmetals:palladium_shovel
+- mythicmetals:prometheum_shovel
+- mythicmetals:quadrillum_shovel
+- mythicmetals:runite_shovel
+- mythicmetals:star_platinum_shovel
+- mythicmetals:stormyx_shovel
+- #pugh_tools:paxel_additions?
+- the_aether:zanite_shovel
+- the_aether:gravitite_shovel
+- the_aether:valkyrie_shovel
+
+#the_aether:aether_slabs
+- #the_aether:aether_wooden_slabs
+- #the_aether:aether_stone_slabs
+
+#the_aether:aether_leaves
+- the_aether:skyroot_leaves
+- the_aether:golden_oak_leaves
+- the_aether:crystal_leaves
+- the_aether:rose_wisteria_leaves
+- the_aether:frost_wisteria_leaves
+- the_aether:lavender_wisteria_leaves
+- the_aether:boreal_wisteria_leaves
+- the_aether:orange_leaves
+
+#amethystequipment:swords
+- amethystequipment:amethyst_sword
+
+#mythicmetals:aquarium_ores
+- mythicmetals:aquarium_ore
+
+#balm:red_dyes
+- #c:red_dyes?
+- minecraft:red_dye
+
+#curios:cosmetic_helmet
+- adventurez:stone_golem_helmet
+- #fabric:helmets
+
+#mythicmetals:carmot_ores
+- mythicmetals:carmot_ore
+- mythicmetals:deepslate_carmot_ore
+
+#c:lapis_ores
+- minecraft:lapis_ore
+
+#c:lapis_lazulis
+- minecraft:lapis_lazuli
+
+#trinkets:offhand/glove
+- #trinkets:hand/glove
+
+#minecraft:dark_oak_logs
+- minecraft:dark_oak_log
+- minecraft:dark_oak_wood
+- minecraft:stripped_dark_oak_log
+- minecraft:stripped_dark_oak_wood
+
+#boneequipment:axes
+- boneequipment:bone_axe
+
+#c:silver_ingots
+- mythicmetals:silver_ingot
+
+#minecraft:non_flammable_wood
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- minecraft:crimson_button
+- minecraft:warped_button
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:crimson_sign
+- minecraft:warped_sign
+
+#mythicmetals:stormyx_ores
+- mythicmetals:stormyx_ore
+- mythicmetals:blackstone_stormyx_ore
+
+#c:mythril_blocks
+- mythicmetals:mythril_block
+
+#mythicmetals:runite_nuggets
+- mythicmetals:runite_nugget
+
+#c:cooked_fish
+- minecraft:cooked_cod
+- minecraft:cooked_salmon
+
+#the_aether:grows_swets
+- the_aether:swet_ball
+- #the_aether:swet_spawn_eggs
+
+#the_aether:aether_doors
+- #the_aether:aether_wooden_doors
+
+#minecraft:lapis_ores
+- minecraft:lapis_ore
+- minecraft:deepslate_lapis_ore
+
+#c:emeralds
+- minecraft:emerald
+- minecraft:emerald
+
+#c:wither_bones
+- heartytrinkets:wither_rib
+
+#the_aether:aether_wooden_buttons
+- the_aether:skyroot_button
+- the_aether:golden_oak_button
+- the_aether:crystal_button
+- the_aether:wisteria_button
+- the_aether:orange_button
+
+#cosmetic-armor:blacklist
+
+#c:dye
+- minecraft:white_dye
+- minecraft:orange_dye
+- minecraft:magenta_dye
+- minecraft:light_blue_dye
+- minecraft:yellow_dye
+- minecraft:lime_dye
+- minecraft:pink_dye
+- minecraft:gray_dye
+- minecraft:light_gray_dye
+- minecraft:cyan_dye
+- minecraft:purple_dye
+- minecraft:blue_dye
+- minecraft:brown_dye
+- minecraft:green_dye
+- minecraft:red_dye
+- minecraft:black_dye
+
+#nyfsquiver:quiver_items/other
+
+#environmentz:insolating_item
+- adventurez:mammoth_fur
+- environmentz:polar_bear_fur
+
+#quark:big_harvesting_hoes
+- botania:elementium_hoe
+
+#mythicmetals:hallowed_ingots
+- mythicmetals:hallowed_ingot
+
+#c:fruit_small
+- minecraft:melon_slice
+- minecraft:sweet_berries
+- minecraft:glow_berries
+
+#silky_spawners:allowed_tools
+- dragonloot:dragon_pickaxe
+
+#minecraft:fences
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+- botania:dreamwood_fence
+- botania:livingwood_fence
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+- #the_aether:aether_fences
+
+#minecraft:saplings
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- minecraft:azalea
+- minecraft:flowering_azalea
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- minecraft:azalea
+- minecraft:flowering_azalea
+- #the_aether:aether_saplings
+
+#amethystequipment:hoes
+- amethystequipment:amethyst_hoe
+
+#the_aether:parachutes
+- the_aether:cold_parachute
+- the_aether:golden_parachute
+
+#botania:petals/cyan
+- botania:cyan_petal
+- botania:cyan_mushroom
+
+#c:orichalcum_blocks
+- mythicmetals:orichalcum_block
+
+#the_aether:aether_wooden_pressure_plates
+- the_aether:skyroot_pressure_plate
+- the_aether:golden_oak_pressure_plate
+- the_aether:crystal_pressure_plate
+- the_aether:wisteria_pressure_plate
+- the_aether:orange_pressure_plate
+
+#minecraft:banners
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+
+#botania:petals/orange
+- botania:orange_petal
+- botania:orange_mushroom
+
+#minecraft:wooden_fences
+- minecraft:oak_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+
+#trinkets:chest/quiver
+- nyfsquiver:basic_quiver
+- nyfsquiver:iron_quiver
+- nyfsquiver:copper_quiver
+- nyfsquiver:silver_quiver
+- nyfsquiver:gold_quiver
+- nyfsquiver:diamond_quiver
+- nyfsquiver:netherite_quiver
+
+#copperequipment:swords
+- copperequipment:copper_sword
+
+#c:bronze_blocks
+- mythicmetals:bronze_block
+
+#c:steel_nuggets
+- mythicmetals:steel_nugget
+
+#mythicmetals:hallowed_nuggets
+- mythicmetals:hallowed_nugget
+
+#c:amethyst_ores
+- minecraft:amethyst_cluster
+
+#amethystequipment:pickaxes
+- amethystequipment:amethyst_pick
+
+#nyfsquiver:quiver_items
+- #nyfsquiver:quiver_items/arrows
+- #nyfsquiver:quiver_items/fireworks
+- #nyfsquiver:quiver_items/other
+
+#the_aether:cooked_meat
+- the_aether:moa_meat_cooked
+
+#c:seeds
+- minecraft:wheat_seeds
+- minecraft:beetroot_seeds
+- minecraft:pumpkin_seeds
+- minecraft:melon_seeds
+
+#c:osmium_blocks
+- mythicmetals:osmium_block
+
+#botania:manasteel_blocks
+- botania:manasteel_block
+
+#trinkets:offhand/ring
+- #trinkets:hand/ring
+- ringsofascension:ring_fire_resistance
+- ringsofascension:ring_dolphin
+- ringsofascension:ring_invisibility
+- ringsofascension:ring_jump_boost
+- ringsofascension:ring_luck
+- ringsofascension:ring_mining
+- ringsofascension:ring_night_vision
+- ringsofascension:ring_regeneration
+- ringsofascension:ring_slow_falling
+- ringsofascension:ring_speed
+- ringsofascension:ring_strength
+- ringsofascension:ring_water_breathing
+- ringsofascension:ring_slow_resistance
+- ringsofascension:ring_poison_resistance
+- ringsofascension:ring_wither
+- ringsofascension:ring_magnetism
+- ringsofascension:ring_flight
+- ringsofascension:ring_hungerless
+- ringsofascension:ring_experience
+- ringsofascension:ring_growth
+- ringsofascension:ring_knockback_resistance
+- ringsofascension:ring_health
+- ringsofascension:ring_sponge
+- ringsofascension:ring_water_walking
+- ringsofascension:ring_undying
+
+#mythicmetals:metallurgium_blocks
+- mythicmetals:metallurgium_block
+
+#mythicmetals:durasteel_nuggets
+- mythicmetals:durasteel_nugget
+
+#cosmetic-armor:always_visible
+
+#c:light_blue_dyes
+- minecraft:light_blue_dye
+
+#boneequipment:hoes
+- boneequipment:bone_hoe
+
+#c:glass
+- #c:stained_glass
+- minecraft:glass
+
+#trinkets:hand/ring
+- arcanus:ring_of_shielding?
+- arcanus:ring_of_the_enderman?
+- arcanus:ring_of_the_monk?
+- arcanus:ring_of_the_west_wind?
+- botania:aura_ring
+- botania:aura_ring_greater
+- botania:dodge_ring
+- botania:loki_ring
+- botania:magnet_ring
+- botania:magnet_ring_greater
+- botania:mana_ring
+- botania:mana_ring_greater
+- botania:mining_ring
+- botania:odin_ring
+- botania:pixie_ring
+- botania:reach_ring
+- botania:swap_ring
+- botania:thor_ring
+- botania:water_ring
+- extraalchemy:potion_ring
+- ringsofascension:ring_fire_resistance
+- ringsofascension:ring_dolphin
+- ringsofascension:ring_invisibility
+- ringsofascension:ring_jump_boost
+- ringsofascension:ring_luck
+- ringsofascension:ring_mining
+- ringsofascension:ring_night_vision
+- ringsofascension:ring_regeneration
+- ringsofascension:ring_slow_falling
+- ringsofascension:ring_speed
+- ringsofascension:ring_strength
+- ringsofascension:ring_water_breathing
+- ringsofascension:ring_slow_resistance
+- ringsofascension:ring_poison_resistance
+- ringsofascension:ring_wither
+- ringsofascension:ring_magnetism
+- ringsofascension:ring_flight
+- ringsofascension:ring_hungerless
+- ringsofascension:ring_experience
+- ringsofascension:ring_growth
+- ringsofascension:ring_knockback_resistance
+- ringsofascension:ring_health
+- ringsofascension:ring_sponge
+- ringsofascension:ring_water_walking
+- ringsofascension:ring_undying
+
+#c:iron_ingots
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+
+#c:volcanic_stone
+- minecraft:basalt
+- minecraft:tuff
+
+#fabric:shears
+- botania:manasteel_shears
+- botania:elementium_shears
+- minecraft:shears
+
+#yigd:soulbound_item
+
+#mythicmetals:runite_blocks
+- mythicmetals:runite_block
+
+#balm:magenta_dyes
+- #c:magenta_dyes?
+- minecraft:magenta_dye
+
+#c:gold_chests
+- reinfchest:gold_chest
+
+#balm:light_gray_dyes
+- #c:light_gray_dyes?
+- minecraft:light_gray_dye
+
+#mythicmetals:stormyx_blocks
+- mythicmetals:stormyx_block
+
+#c:copper_ores
+- minecraft:copper_ore
+- minecraft:copper_ore
+- minecraft:deepslate_copper_ore
+
+#c:steel_ingots
+- mythicmetals:steel_ingot
+
+#minecraft:trapdoors
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- #the_aether:aether_trapdoors
+
+#mobz:toad_food
+- minecraft:spider_eye
+
+#c:stained_glass_panes
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
+
+#the_aether:swet_spawn_eggs
+- the_aether:swet_spawn_egg
+- the_aether:blue_swet_spawn_egg
+- the_aether:golden_swet_spawn_egg
+- the_aether:purple_swet_spawn_egg
+
+#dehydration:hydrating_drinks
+
+#mythicmetals:midas_gold_ingots
+- mythicmetals:midas_gold_ingot
+
+#botania:petals/light_blue
+- botania:light_blue_petal
+- botania:light_blue_mushroom
+
+#balm:eggs
+- #c:eggs?
+- minecraft:egg
+
+#minecraft:boats
+- minecraft:oak_boat
+- minecraft:spruce_boat
+- minecraft:birch_boat
+- minecraft:jungle_boat
+- minecraft:acacia_boat
+- minecraft:dark_oak_boat
+- the_aether:skyroot_boat
+- the_aether:golden_oak_boat
+- the_aether:orange_boat
+- the_aether:crystal_boat
+- the_aether:wisteria_boat
+
+#c:amethyst
+- minecraft:amethyst_shard
+
+#the_aether:aether_trapdoors
+- #the_aether:aether_wooden_trapdoors
+
+#adventurez:leather_items
+- adventurez:mammoth_fur
+- adventurez:rhino_leather
+- minecraft:leather
+
+#c:vegetables
+- minecraft:carrot
+- minecraft:potato
+- minecraft:beetroot
+- minecraft:pumpkin
+
+#balm:light_blue_dyes
+- #c:light_blue_dyes?
+- minecraft:light_blue_dye
+
+#the_aether:aether_stone_slabs
+- the_aether:holystone_brick_slab
+- the_aether:holystone_slab
+- the_aether:mossy_holystone_slab
+- the_aether:cobbled_holystone_slab
+- the_aether:carved_stone_slab
+- the_aether:mossy_carved_stone_slab
+
+#minecraft:leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- minecraft:azalea_leaves
+- minecraft:flowering_azalea_leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- minecraft:azalea_leaves
+- minecraft:flowering_azalea_leaves
+- #the_aether:aether_leaves
+
+#c:platinum_nuggets
+- mythicmetals:platinum_nugget
+
+#curios:cosmetic_boots
+- adventurez:stone_golem_boots
+- #fabric:boots
+
+#botania:terra_pick_blacklist
+- botania:aura_ring
+- botania:aura_ring_greater
+- botania:terrasteel_helmet
+- botania:spark
+
+#balm:pink_dyes
+- #c:pink_dyes?
+- minecraft:pink_dye
+
+#botania:burst_viewers
+- botania:monocle
+
+#minecraft:acacia_logs
+- minecraft:acacia_log
+- minecraft:acacia_wood
+- minecraft:stripped_acacia_log
+- minecraft:stripped_acacia_wood
+
+#minecraft:piglin_loved
+- #minecraft:gold_ores
+- minecraft:gold_block
+- minecraft:gilded_blackstone
+- minecraft:light_weighted_pressure_plate
+- minecraft:gold_ingot
+- minecraft:bell
+- minecraft:clock
+- minecraft:golden_carrot
+- minecraft:glistering_melon_slice
+- minecraft:golden_apple
+- minecraft:enchanted_golden_apple
+- minecraft:golden_helmet
+- minecraft:golden_chestplate
+- minecraft:golden_leggings
+- minecraft:golden_boots
+- minecraft:golden_horse_armor
+- minecraft:golden_sword
+- minecraft:golden_pickaxe
+- minecraft:golden_shovel
+- minecraft:golden_axe
+- minecraft:golden_hoe
+- minecraft:raw_gold
+- minecraft:raw_gold_block
+- botania:alchemy_catalyst
+- botania:cacophonium
+- botania:diva_charm
+- botania:hourglass
+- botania:mana_pylon
+- botania:monocle
+- #xtraarrows:golden_arrows
+
+#copperequipment:axes
+- copperequipment:copper_axe
+
+#c:stone
+- minecraft:stone
+- minecraft:polished_blackstone
+- minecraft:deepslate
+
+#c:skulls
+- minecraft:skeleton_skull
+- minecraft:wither_skeleton_skull
+- minecraft:zombie_head
+- minecraft:player_head
+- minecraft:creeper_head
+- minecraft:dragon_head
+
+#c:copper_ingots
+- minecraft:copper_ingot
+- minecraft:copper_ingot
+
+#botania:mana_diamond_gems
+- botania:mana_diamond
+
+#c:platinum_blocks
+- mythicmetals:platinum_block
+
+#balm:emeralds
+- #c:emeralds?
+- minecraft:emerald
+
+#minecraft:copper_ores
+- minecraft:copper_ore
+- minecraft:deepslate_copper_ore
+
+#mythicmetals:palladium_armor
+- mythicmetals:palladium_helmet
+- mythicmetals:palladium_chestplate
+- mythicmetals:palladium_leggings
+- mythicmetals:palladium_boots
+
+#minecraft:logs_that_burn
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- #the_aether:aether_logs
+
+#curios:cosmetic_leggings
+- adventurez:stone_golem_leggings
+- #fabric:leggings
+
+#the_aether:wisteria_logs
+- the_aether:wisteria_log
+- the_aether:wisteria_wood
+- the_aether:stripped_wisteria_log
+- the_aether:stripped_wisteria_wood
+
+#nyfsquiver:quiver_items/fireworks
+- minecraft:firework_rocket
+
+#c:copper_chests
+- reinfchest:copper_chest
+
+#c:bronze_ingots
+- mythicmetals:bronze_ingot
+
+#c:silver_nuggets
+- mythicmetals:silver_nugget
+
+#mythicmetals:durasteel_ingots
+- mythicmetals:durasteel_ingot
+
+#extraalchemy:potion_for_bag
+- minecraft:potion
+- extraalchemy:breakable_potion
+
+#the_aether:milk_buckets
+- the_aether:skyroot_milk_bucket
+- minecraft:milk_bucket
+
+#balm:blue_dyes
+- minecraft:blue_dye
+- #c:blue_dyes?
+
+#minecraft:wooden_slabs
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- #the_aether:aether_wooden_slabs
+
+#c:palladium_ores
+- mythicmetals:palladium_ore
+
+#minecraft:small_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+- #botania:mystical_flowers
+- #botania:special_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+
+#trinkets:chest/back
+- the_aether:cold_parachute
+- the_aether:golden_parachute
+
+#c:osmium_nuggets
+- mythicmetals:osmium_nugget
+
+#minecraft:axolotl_tempt_items
+- minecraft:tropical_fish_bucket
+
+#emeraldequipment:axes
+- emeraldequipment:emerald_axe
+
+#c:adamantite_ingots
+- mythicmetals:adamantite_ingot
+
+#c:vermiculite_ores
+- mythicmetals:vermiculite_ore
+
+#c:flesh
+- zombified:charred_flesh
+- zombified:frozen_flesh
+- minecraft:rotten_flesh
+
+#c:purple_dyes
+- minecraft:purple_dye
+
+#curios:cosmetic_chestplate
+- adventurez:stone_golem_chestplate
+- #fabric:chestplates
+
+#mythicmetals:starrite_blocks
+- mythicmetals:starrite_block
+
+#minecraft:creeper_drop_music_discs
+- minecraft:music_disc_13
+- minecraft:music_disc_cat
+- minecraft:music_disc_blocks
+- minecraft:music_disc_chirp
+- minecraft:music_disc_far
+- minecraft:music_disc_mall
+- minecraft:music_disc_mellohi
+- minecraft:music_disc_stal
+- minecraft:music_disc_strad
+- minecraft:music_disc_ward
+- minecraft:music_disc_11
+- minecraft:music_disc_wait
+
+#botania:petals/lime
+- botania:lime_petal
+- botania:lime_mushroom
+
+#botania:petals/magenta
+- botania:magenta_petal
+- botania:magenta_mushroom
+
+#mythicmetals:stormyx_ingots
+- mythicmetals:stormyx_ingot
+
+#tooltiprareness:common_item
+- adventurez:orc_skin
+- adventurez:dragon_saddle
+- dehydration:leather_flask
+- environmentz:heating_stones
+- environmentz:heated_stones
+- environmentz:wolf_pelt
+- environmentz:polar_bear_fur
+- environmentz:wolf_helmet
+- environmentz:wolf_chestplate
+- environmentz:wolf_leggings
+- environmentz:wolf_boots
+
+#piglib:piglin_bartering_items
+- mythicmetals:midas_gold_ingot
+
+#emeraldequipment:pickaxes
+- emeraldequipment:emerald_pick
+
+#the_aether:aether_stone_blocks
+- #the_aether:aether_stone_slabs
+- #the_aether:aether_stone_stairs
+- #the_aether:aether_stone_walls
+- the_aether:holystone
+- the_aether:cobbled_holystone
+- the_aether:holystone_brick
+- the_aether:mossy_holystone
+- the_aether:golden_mossy_holystone
+
+#c:rare_loot
+- minecraft:netherite_scrap
+- minecraft:prismarine_shard
+- minecraft:prismarine_crystals
+- minecraft:nautilus_shell
+- gobber2:gobber2_ingot_nether?
+- gobber2:gobber2_ring_return?
+- gobber2:gobber2_ring_attraction?
+- gobber2:gobber2_ring_sunshine?
+- minecraft:netherite_scrap
+- minecraft:prismarine_shard
+- minecraft:prismarine_crystals
+- minecraft:nautilus_shell
+- greater_eye:greater_eye_nether
+
+#c:books
+- minecraft:book
+- minecraft:writable_book
+- minecraft:written_book
+- minecraft:enchanted_book
+- minecraft:knowledge_book
+- patchouli:guide_book?
+
+#fabric:helmets
+- mcda:archers_helmet
+- mcda:ocelot_armor_helmet
+- mcda:shadow_walker_armor_helmet
+- mcda:spelunker_armor_helmet
+- mcda:cave_crawler_helmet
+- mcda:wolf_armor_helmet
+- mcda:black_wolf_armor_helmet
+- mcda:fox_armor_helmet
+- mcda:arctic_fox_armor_helmet
+- mcda:climbing_gear_helmet
+- mcda:rugged_climbing_gear_helmet
+- mcda:squid_armor_helmet
+- mcda:glow_squid_armor_helmet
+- mcda:goat_gear_helmet
+- mcda:evocation_robe_helmet
+- mcda:ember_robe_helmet
+- mcda:verdant_robe_helmet
+- mcda:thief_armor_helmet
+- mcda:spider_armor_helmet
+- mcda:soul_robe_helmet
+- mcda:souldancer_robe_helmet
+- mcda:sprout_armor_helmet
+- mcda:living_vines_armor_helmet
+- mcda:piglin_armor_helmet
+- mcda:entertainer_garb_helmet
+- mcda:troubadour_armor_helmet
+- mcda:teleportation_robe_helmet
+- mcda:unstable_robe_helmet
+- mcda:phantom_armor_helmet
+- mcda:frost_bite_armor_helmet
+- mcda:grim_armor_helmet
+- mcda:wither_armor_helmet
+- mcda:turtle_armor_helmet
+- mcda:nimble_turtle_armor_helmet
+- mcda:highland_armor_helmet
+- mcda:beehive_armor_helmet
+- mcda:beenest_armor_helmet
+- mcda:ghostly_armor_helmet
+- mcda:ghost_kindler_helmet
+- mcda:golden_piglin_armor_helmet
+- mcda:guards_armor_helmet
+- mcda:sweet_tooth_helmet
+- mcda:vanguard_armor_helmet
+- mcda:reinforced_mail_helmet
+- mcda:stalwart_armor_helmet
+- mcda:curious_armor_helmet
+- mcda:snow_armor_helmet
+- mcda:frost_armor_helmet
+- mcda:mercenary_armor_helmet
+- mcda:renegade_armor_helmet
+- mcda:hungry_horror_helmet
+- mcda:emerald_gear_helmet
+- mcda:opulent_armor_helmet
+- mcda:dark_armor_helmet
+- mcda:titans_shroud_helmet
+- mcda:royal_guard_armor_helmet
+- mcda:plate_armor_helmet
+- mcda:full_metal_armor_helmet
+- mcda:white_mystery_armor_helmet
+- mcda:blue_mystery_armor_helmet
+- mcda:green_mystery_armor_helmet
+- mcda:purple_mystery_armor_helmet
+- mcda:red_mystery_armor_helmet
+- mcda:champions_armor_helmet
+- mcda:heros_armor_helmet
+- mcda:gilded_glory_helmet
+- mcda:shulker_armor_helmet
+- mcda:sturdy_shulker_armor_helmet
+- mcda:gourdian_armor_helmet
+- mcda:cauldron_armor_helmet
+
+#c:gold_ingots
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+
+#companion:charged_ranged_weapon
+- minecraft:bow
+- minecraft:trident
+
+#the_aether:aether_tall_flowers
+
+#copperequipment:pickaxes
+- copperequipment:copper_pick
+
+#mythicmetals:aquarium_blocks
+- mythicmetals:aquarium_block
+
+#tooltiprareness:uncommon_item
+- adventurez:gilded_stone
+- adventurez:warthog_shell_piece
+- dehydration:iron_leather_flask
+- dehydration:golden_leather_flask
+- dehydration:campfire_cauldron
+
+#the_aether:aether_planks
+- the_aether:skyroot_planks
+- the_aether:golden_oak_planks
+- the_aether:crystal_planks
+- the_aether:wisteria_planks
+- the_aether:orange_planks
+
+#c:light_gray_dyes
+- minecraft:light_gray_dye
+
+#botania:generating_special_flowers
+- botania:dandelifeon
+- botania:endoflame
+- botania:entropinnyum
+- botania:gourmaryllis
+- botania:hydroangeas
+- botania:kekimurus
+- botania:munchdew
+- botania:narslimmus
+- botania:rafflowsia
+- botania:rosa_arcana
+- botania:shulk_me_not
+- botania:spectrolus
+- botania:thermalily
+
+#c:stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+
+#c:manganese_nuggets
+- mythicmetals:manganese_nugget
+
+#c:palladium_blocks
+- mythicmetals:palladium_block
+
+#waystones:dyed_sharestone
+- waystones:white_sharestone
+- waystones:orange_sharestone
+- waystones:magenta_sharestone
+- waystones:light_blue_sharestone
+- waystones:yellow_sharestone
+- waystones:lime_sharestone
+- waystones:pink_sharestone
+- waystones:gray_sharestone
+- waystones:light_gray_sharestone
+- waystones:cyan_sharestone
+- waystones:purple_sharestone
+- waystones:blue_sharestone
+- waystones:brown_sharestone
+- waystones:green_sharestone
+- waystones:red_sharestone
+- waystones:black_sharestone
+
+#c:manganese_ores
+- mythicmetals:manganese_ore
+
+#minecraft:birch_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+- minecraft:stripped_birch_log
+- minecraft:stripped_birch_wood
+
+#c:mushrooms_nether
+- minecraft:crimson_fungus
+- minecraft:warped_fungus
+
+#c:raw_gold_ores
+- minecraft:raw_gold
+
+#the_aether:swet_transformers/vermilion
+- minecraft:blaze_powder
+
+#the_aether:swet_transformers/purple
+
+#botania:contributor_headflowers
+- #botania:special_flowers
+- botania:daybloom_motif
+- botania:nightshade_motif
+
+#botania:rods
+- botania:dirt_rod
+- botania:skydirt_rod
+- botania:terraform_rod
+- botania:cobble_rod
+- botania:water_rod
+- botania:tornado_rod
+- botania:fire_rod
+- botania:divining_rod
+- botania:smelt_rod
+- botania:exchange_rod
+- botania:rainbow_rod
+- botania:gravity_rod
+- botania:missile_rod
+
+#minecraft:oak_logs
+- minecraft:oak_log
+- minecraft:oak_wood
+- minecraft:stripped_oak_log
+- minecraft:stripped_oak_wood
+
+#c:raw_meat
+- #c:raw_fish
+- minecraft:beef
+- minecraft:porkchop
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:mutton
+
+#mythicmetals:kyber_ingots
+- mythicmetals:kyber_ingot
+
+#mythicmetals:unobtainium_ores
+- mythicmetals:unobtainium_ore
+- mythicmetals:deepslate_unobtainium_ore
+
+#c:diamonds
+- minecraft:diamond
+
+#environmentz:allowed_armor
+
+#quark:reacharound_able
+- botania:dirt_rod
+- botania:cobble_rod
+- botania:black_hole_talisman
+
+#c:glazed_terracotta
+- minecraft:white_glazed_terracotta
+- minecraft:orange_glazed_terracotta
+- minecraft:magenta_glazed_terracotta
+- minecraft:light_blue_glazed_terracotta
+- minecraft:yellow_glazed_terracotta
+- minecraft:lime_glazed_terracotta
+- minecraft:pink_glazed_terracotta
+- minecraft:gray_glazed_terracotta
+- minecraft:light_gray_glazed_terracotta
+- minecraft:cyan_glazed_terracotta
+- minecraft:purple_glazed_terracotta
+- minecraft:blue_glazed_terracotta
+- minecraft:brown_glazed_terracotta
+- minecraft:green_glazed_terracotta
+- minecraft:red_glazed_terracotta
+- minecraft:black_glazed_terracotta
+
+#the_aether:aether_wooden_stairs
+- the_aether:skyroot_stairs
+- the_aether:golden_oak_stairs
+- the_aether:crystal_stairs
+- the_aether:wisteria_stairs
+- the_aether:orange_stairs
+
+#c:bookshelves
+- arcanus:fillable_bookshelf
+
+#c:orichalcum_ingots
+- mythicmetals:orichalcum_ingot
+
+#fabric:shields
+- mcdw:shield_royal_guard
+- mcdw:shield_vanguard
+
+#balm:gold_nuggets
+- #c:gold_nuggets?
+- minecraft:gold_nugget
+
+#minecraft:jungle_logs
+- minecraft:jungle_log
+- minecraft:jungle_wood
+- minecraft:stripped_jungle_log
+- minecraft:stripped_jungle_wood
+
+#minecraft:lectern_books
+- minecraft:written_book
+- minecraft:writable_book
+- patchouli:guide_book
+
+#trinkets:head/hat
+- botania:flight_tiara
+
+#minecraft:spruce_logs
+- minecraft:spruce_log
+- minecraft:spruce_wood
+- minecraft:stripped_spruce_log
+- minecraft:stripped_spruce_wood
+
+#botania:elementium_ingots
+- botania:elementium_ingot
+
+#the_aether:aether_flowers
+- #the_aether:aether_small_flowers
+- #the_aether:aether_tall_flowers
+
+#botania:semi_disposable
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- quark:basalt?
+- quark:jasper?
+- quark:limestone?
+- quark:marble?
+- quark:slate?
+
+#botania:runes
+- botania:rune_water
+- botania:rune_fire
+- botania:rune_earth
+- botania:rune_air
+- botania:rune_spring
+- botania:rune_summer
+- botania:rune_autumn
+- botania:rune_winter
+- botania:rune_mana
+- botania:rune_lust
+- botania:rune_gluttony
+- botania:rune_greed
+- botania:rune_sloth
+- botania:rune_wrath
+- botania:rune_envy
+- botania:rune_pride
+
+#c:platinum_ores
+- mythicmetals:platinum_ore
+
+#amethystequipment:axes
+- amethystequipment:amethyst_axe
+
+#boneequipment:pickaxes
+- boneequipment:bone_pick
+
+#balm:purple_dyes
+- #c:purple_dyes?
+- minecraft:purple_dye
+
+#c:mineral_stone
+- minecraft:diorite
+- minecraft:granite
+- minecraft:andesite
+- minecraft:calcite
+- minecraft:dripstone_block
+
+#botania:mana_dusts
+- botania:mana_powder
+
+#c:bones
+- heartytrinkets:wither_rib
+
+#the_aether:aether_saplings
+- the_aether:skyroot_sapling
+- the_aether:golden_oak_sapling
+- the_aether:crystal_sapling
+- the_aether:rose_wisteria_sapling
+- the_aether:frost_wisteria_sapling
+- the_aether:lavender_wisteria_sapling
+- the_aether:boreal_wisteria_sapling
+- the_aether:orange_sapling
+
+#botania:petals/blue
+- botania:blue_petal
+- botania:blue_mushroom
+
+#c:wood_sticks
+- minecraft:stick
+- minecraft:stick
+
+#c:mud
+- zombified:mud_clump
+
+#amethystequipment:shovels
+- amethystequipment:amethyst_shovel
+
+#the_aether:aether_stone_walls
+- the_aether:holystone_brick_wall
+- the_aether:holystone_wall
+- the_aether:mossy_holystone_wall
+- the_aether:cobbled_holystone_wall
+- the_aether:carved_stone_wall
+- the_aether:mossy_carved_stone_wall
 
 #trinkets:feet/aglet
-- bewitchment:specter_bangle
-- bewitchment:druid_band
 - things:enchanted_wax_gland
 - things:rabbit_foot_charm
 - things:socks
@@ -1240,31 +3973,57 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - adventurez:stone_golem_chestplate
 - adventurez:stone_golem_leggings
 - adventurez:stone_golem_boots
+- dehydration:netherite_leather_flask
+- dragonloot:dragon_scale
+- dragonloot:dragon_horse_armor
+- dragonloot:dragon_helmet
+- dragonloot:dragon_chestplate
+- dragonloot:dragon_leggings
+- dragonloot:dragon_boots
+- dragonloot:upgraded_dragon_chestplate
+- dragonloot:dragon_pickaxe
+- dragonloot:dragon_shovel
+- dragonloot:dragon_axe
+- dragonloot:dragon_hoe
+- dragonloot:dragon_sword
+- dragonloot:dragon_bow
+- dragonloot:dragon_crossbow
+- dragonloot:dragon_trident
 
-#minecraft:trapdoors
-- #minecraft:wooden_trapdoors
-- minecraft:iron_trapdoor
+#c:red_dyes
+- minecraft:red_dye
 
-#minecraft:redstone_ores
-- minecraft:redstone_ore
-- minecraft:deepslate_redstone_ore
-
-#c:salt_blocks
-- bewitchment:salt_block
-
-#c:salt_dusts
-- bewitchment:salt
+#mythicmetals:midas_gold_blocks
+- mythicmetals:midas_gold_block
 
 #minecraft:flowers
 - #minecraft:small_flowers
 - #minecraft:tall_flowers
 - minecraft:flowering_azalea_leaves
 - minecraft:flowering_azalea
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+- minecraft:flowering_azalea_leaves
+- minecraft:flowering_azalea
+- #the_aether:aether_flowers
 
-#minecraft:buttons
-- #minecraft:wooden_buttons
-- minecraft:stone_button
-- minecraft:polished_blackstone_button
+#c:concrete
+- minecraft:white_concrete
+- minecraft:orange_concrete
+- minecraft:magenta_concrete
+- minecraft:light_blue_concrete
+- minecraft:yellow_concrete
+- minecraft:lime_concrete
+- minecraft:pink_concrete
+- minecraft:gray_concrete
+- minecraft:light_gray_concrete
+- minecraft:cyan_concrete
+- minecraft:purple_concrete
+- minecraft:blue_concrete
+- minecraft:brown_concrete
+- minecraft:green_concrete
+- minecraft:red_concrete
+- minecraft:black_concrete
 
 #fabric:boots
 - mcda:archers_boots
@@ -1306,6 +4065,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mcda:golden_piglin_armor_boots
 - mcda:guards_armor_boots
 - mcda:scale_mail_boots
+- mcda:sweet_tooth_boots
 - mcda:reinforced_mail_boots
 - mcda:stalwart_armor_boots
 - mcda:curious_armor_boots
@@ -1334,9 +4094,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mcda:gourdian_armor_boots
 - mcda:cauldron_armor_boots
 
+#mythicmetals:prometheum_blocks
+- mythicmetals:prometheum_block
+
+#c:herbs
+- minecraft:allium
+- minecraft:cornflower
+- minecraft:blue_orchid
+
 #fabric:swords
-- bewitchment:athame
-- bewitchment:horned_spear
+- botania:manasteel_sword
+- botania:elementium_sword
+- botania:terra_sword
+- botania:thunder_sword
+- botania:star_sword
+- dragonloot:dragon_sword
 - minecraft:wooden_sword
 - minecraft:stone_sword
 - minecraft:iron_sword
@@ -1347,6 +4119,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - gobber2:gobber2_sword_nether?
 - gobber2:gobber2_sword_end?
 - gobber2:gobber2_sword_sniper?
+- graveyard:bone_dagger
 - mcdw:sword_claymore
 - mcdw:sword_broadsword
 - mcdw:sword_frost_slayer
@@ -1409,6 +4182,36 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mcdw:spear_grave_bane
 - mcdw:spear_venom_glaive
 - mcdw:spear_cackling_broom
+- mythicmetals:adamantite_sword
+- mythicmetals:aquarium_sword
+- mythicmetals:banglum_sword
+- mythicmetals:bronze_sword
+- mythicmetals:carmot_sword
+- mythicmetals:celestium_sword
+- mythicmetals:copper_sword
+- mythicmetals:durasteel_sword
+- mythicmetals:hallowed_sword
+- mythicmetals:kyber_sword
+- mythicmetals:metallurgium_sword
+- mythicmetals:mythril_sword
+- mythicmetals:orichalcum_sword
+- mythicmetals:osmium_sword
+- mythicmetals:palladium_sword
+- mythicmetals:prometheum_sword
+- mythicmetals:quadrillum_sword
+- mythicmetals:runite_sword
+- mythicmetals:star_platinum_sword
+- mythicmetals:stormyx_sword
+- the_aether:zanite_sword
+- the_aether:gravitite_sword
+- the_aether:valkyrie_lance
+- the_aether:lightning_sword
+- the_aether:holy_sword
+- the_aether:flaming_sword
+- the_aether:candy_cane_sword
+- the_aether:gravitite_sword
+- the_aether:vampire_blade
+- the_aether:pig_slayer
 
 #minecraft:planks
 - minecraft:oak_planks
@@ -1419,225 +4222,134 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_planks
 - minecraft:crimson_planks
 - minecraft:warped_planks
-- bewitchment:juniper_planks
-- bewitchment:cypress_planks
-- bewitchment:elder_planks
-- bewitchment:dragons_blood_planks
+- minecraft:oak_planks
+- minecraft:spruce_planks
+- minecraft:birch_planks
+- minecraft:jungle_planks
+- minecraft:acacia_planks
+- minecraft:dark_oak_planks
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- #the_aether:aether_planks
 
 #minecraft:fox_food
 - minecraft:sweet_berries
 - minecraft:glow_berries
 
-#balm:eggs
-- #c:eggs?
-- minecraft:egg
+#botania:special_flowers
+- #botania:misc_special_flowers
+- #botania:generating_special_flowers
+- #botania:functional_special_flowers
 
-#minecraft:boats
-- minecraft:oak_boat
-- minecraft:spruce_boat
-- minecraft:birch_boat
-- minecraft:jungle_boat
-- minecraft:acacia_boat
-- minecraft:dark_oak_boat
-- bewitchment:juniper_boat
-- bewitchment:cypress_boat
-- bewitchment:elder_boat
-- bewitchment:dragons_blood_boat
+#c:ancient_debris
+- minecraft:ancient_debris
 
-#backslot:backslot_items
+#c:candles
+- minecraft:white_candle
+- minecraft:orange_candle
+- minecraft:magenta_candle
+- minecraft:light_blue_candle
+- minecraft:yellow_candle
+- minecraft:lime_candle
+- minecraft:pink_candle
+- minecraft:gray_candle
+- minecraft:light_gray_candle
+- minecraft:cyan_candle
+- minecraft:purple_candle
+- minecraft:blue_candle
+- minecraft:brown_candle
+- minecraft:green_candle
+- minecraft:red_candle
+- minecraft:black_candle
 
-#bewitchment:pentacles
-- #bewitchment:weak_pentacles
-- #bewitchment:average_pentacles
-- #bewitchment:strong_pentacles
-
-#bewitchment:dragons_blood_logs
-- bewitchment:dragons_blood_log
-- bewitchment:dragons_blood_wood
-- bewitchment:stripped_dragons_blood_log
-- bewitchment:stripped_dragons_blood_wood
-
-#adventurez:leather_items
-- adventurez:mammoth_fur
-- adventurez:rhino_leather
-- minecraft:leather
-
-#c:silver_blocks
-- bewitchment:silver_block
-
-#origins:ranged_weapons
-- gobber2:gobber2_bow?
-- gobber2:gobber2_bow_nether?
-- gobber2:gobber2_bow_end?
-- gobber2:gobber2_sword_sniper?
-- gobber2:gobber2_staff_sniper?
-
-#minecraft:rails
-- minecraft:rail
-- minecraft:powered_rail
-- minecraft:detector_rail
-- minecraft:activator_rail
-
-#bewitchment:average_swords
-- minecraft:golden_sword
-- minecraft:diamond_sword
-- bewitchment:athame
-
-#balm:light_blue_dyes
-- #c:light_blue_dyes?
-- minecraft:light_blue_dye
+#botania:functional_special_flowers
+- botania:agricarnation
+- botania:agricarnation_chibi
+- botania:bellethorn
+- botania:bellethorn_chibi
+- botania:bubbell
+- botania:bubbell_chibi
+- botania:clayconia
+- botania:clayconia_chibi
+- botania:daffomill
+- botania:dreadthorn
+- botania:exoflame
+- botania:fallen_kanade
+- botania:heisei_dream
+- botania:hopperhock
+- botania:hopperhock_chibi
+- botania:hyacidus
+- botania:jaded_amaranthus
+- botania:jiyuulia
+- botania:jiyuulia_chibi
+- botania:labellia
+- botania:loonium
+- botania:marimorphosis
+- botania:marimorphosis_chibi
+- botania:medumone
+- botania:orechid
+- botania:orechid_ignem
+- botania:pollidisiac
+- botania:rannuncarpus
+- botania:rannuncarpus_chibi
+- botania:solegnolia
+- botania:solegnolia_chibi
+- botania:spectranthemum
+- botania:tangleberrie
+- botania:tangleberrie_chibi
+- botania:tigerseye
+- botania:vinculotus
 
 #minecraft:diamond_ores
 - minecraft:diamond_ore
 - minecraft:deepslate_diamond_ore
 
-#bewitchment:weak_pentacles
-- minecraft:diamond
-- minecraft:emerald
-- minecraft:quartz
-- minecraft:zombie_head
-- minecraft:skeleton_skull
-- minecraft:creeper_head
-- minecraft:player_head
+#c:shulker_boxes
+- minecraft:white_shulker_box
+- minecraft:orange_shulker_box
+- minecraft:magenta_shulker_box
+- minecraft:light_blue_shulker_box
+- minecraft:yellow_shulker_box
+- minecraft:lime_shulker_box
+- minecraft:pink_shulker_box
+- minecraft:gray_shulker_box
+- minecraft:light_gray_shulker_box
+- minecraft:cyan_shulker_box
+- minecraft:purple_shulker_box
+- minecraft:blue_shulker_box
+- minecraft:brown_shulker_box
+- minecraft:green_shulker_box
+- minecraft:red_shulker_box
+- minecraft:black_shulker_box
 
-#impaled:loyalty_catalysts
-- minecraft:heart_of_the_sea
+#mythicmetals:prometheum_nuggets
+- mythicmetals:prometheum_nugget
 
-#minecraft:leaves
-- minecraft:jungle_leaves
-- minecraft:oak_leaves
-- minecraft:spruce_leaves
-- minecraft:dark_oak_leaves
-- minecraft:acacia_leaves
-- minecraft:birch_leaves
-- minecraft:azalea_leaves
-- minecraft:flowering_azalea_leaves
-- bewitchment:juniper_leaves
-- bewitchment:cypress_leaves
-- bewitchment:elder_leaves
-- bewitchment:dragons_blood_leaves
+#mythicmetals:star_platinum_nuggets
+- mythicmetals:star_platinum_nugget
 
-#bewitchment:weak_swords
-- minecraft:wooden_sword
-- minecraft:stone_sword
-- minecraft:iron_sword
+#c:cyan_dyes
+- minecraft:cyan_dye
 
-#minecraft:walls
-- minecraft:cobblestone_wall
-- minecraft:mossy_cobblestone_wall
-- minecraft:brick_wall
-- minecraft:prismarine_wall
-- minecraft:red_sandstone_wall
-- minecraft:mossy_stone_brick_wall
-- minecraft:granite_wall
-- minecraft:stone_brick_wall
-- minecraft:nether_brick_wall
-- minecraft:andesite_wall
-- minecraft:red_nether_brick_wall
-- minecraft:sandstone_wall
-- minecraft:end_stone_brick_wall
-- minecraft:diorite_wall
-- minecraft:blackstone_wall
-- minecraft:polished_blackstone_brick_wall
-- minecraft:polished_blackstone_wall
-- minecraft:cobbled_deepslate_wall
-- minecraft:polished_deepslate_wall
-- minecraft:deepslate_tile_wall
-- minecraft:deepslate_brick_wall
+#c:iron_chests
+- reinfchest:iron_chest
 
-#bewitchment:weak_wands
-- minecraft:torch
-- minecraft:soul_torch
-- minecraft:lantern
-- minecraft:soul_lantern
-- bewitchment:iron_candelabra
+#c:hearts
+- heartytrinkets:red_heart
+- heartytrinkets:orange_heart
+- heartytrinkets:green_heart
+- heartytrinkets:blue_heart
 
-#gobber2:chest_loot
-- gobber2:gobber2_ring_teleport?
-- gobber2:gobber2_ring_ascent?
-- gobber2:gobber2_ring_return?
-- gobber2:gobber2_ring_haste?
+#the_aether:skyroot_logs
+- the_aether:skyroot_log
+- the_aether:mottled_skyroot_log
+- the_aether:skyroot_wood
+- the_aether:stripped_skyroot_log
+- the_aether:stripped_skyroot_wood
 
-#curios:cosmetic_boots
-- adventurez:stone_golem_boots
-- #fabric:boots
-
-#balm:green_dyes
-- #c:green_dyes?
-- minecraft:green_dye
-
-#balm:gray_dyes
-- #c:gray_dyes?
-- minecraft:gray_dye
-
-#minecraft:wooden_pressure_plates
-- minecraft:oak_pressure_plate
-- minecraft:spruce_pressure_plate
-- minecraft:birch_pressure_plate
-- minecraft:jungle_pressure_plate
-- minecraft:acacia_pressure_plate
-- minecraft:dark_oak_pressure_plate
-- minecraft:crimson_pressure_plate
-- minecraft:warped_pressure_plate
-- bewitchment:juniper_pressure_plate
-- bewitchment:cypress_pressure_plate
-- bewitchment:elder_pressure_plate
-- bewitchment:dragons_blood_pressure_plate
-
-#balm:pink_dyes
-- #c:pink_dyes?
-- minecraft:pink_dye
-
-#trinkets:legs/belt
-- arcanus:belt_of_the_rabbit?
-- arcanus:belt_of_rejuvenation?
-- bewitchment:prickly_belt
-- bewitchment:zephyr_harness
-- doom:daisy
-- things:ender_pouch
-
-#bewitchment:cypress_logs
-- bewitchment:cypress_log
-- bewitchment:cypress_wood
-- bewitchment:stripped_cypress_log
-- bewitchment:stripped_cypress_wood
-
-#minecraft:acacia_logs
-- minecraft:acacia_log
-- minecraft:acacia_wood
-- minecraft:stripped_acacia_log
-- minecraft:stripped_acacia_wood
-
-#minecraft:piglin_loved
-- #minecraft:gold_ores
-- minecraft:gold_block
-- minecraft:gilded_blackstone
-- minecraft:light_weighted_pressure_plate
-- minecraft:gold_ingot
-- minecraft:bell
-- minecraft:clock
-- minecraft:golden_carrot
-- minecraft:glistering_melon_slice
-- minecraft:golden_apple
-- minecraft:enchanted_golden_apple
-- minecraft:golden_helmet
-- minecraft:golden_chestplate
-- minecraft:golden_leggings
-- minecraft:golden_boots
-- minecraft:golden_horse_armor
-- minecraft:golden_sword
-- minecraft:golden_pickaxe
-- minecraft:golden_shovel
-- minecraft:golden_axe
-- minecraft:golden_hoe
-- minecraft:raw_gold
-- minecraft:raw_gold_block
-
-#minecraft:music_discs
-- #minecraft:creeper_drop_music_discs
-- minecraft:music_disc_pigstep
-- minecraft:music_disc_otherside
-- doom:e1m1_music_disc
+#botania:petals/brown
+- botania:brown_petal
+- botania:brown_mushroom
 
 #minecraft:candles
 - minecraft:candle
@@ -1658,57 +4370,64 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:red_candle
 - minecraft:black_candle
 
-#minecraft:tall_flowers
-- minecraft:sunflower
-- minecraft:lilac
-- minecraft:peony
-- minecraft:rose_bush
+#piglib:piglin_safe_armor
+- mythicmetals:midas_gold_helmet
+- mythicmetals:midas_gold_chestplate
+- mythicmetals:midas_gold_leggings
+- mythicmetals:midas_gold_boots
 
-#c:skulls
-- minecraft:zombie_head
-- minecraft:skeleton_skull
-- minecraft:wither_skeleton_skull
-- minecraft:creeper_head
-- minecraft:dragon_head
-- minecraft:player_head
+#emeraldequipment:shovels
+- emeraldequipment:emerald_shovel
 
-#fabric:bows
-- mcdw:bow_ancient_bow
-- mcdw:bow_bonebow
-- mcdw:bow_burst_gale_bow
-- mcdw:bow_echo_of_the_valley
-- mcdw:bow_elite_power_bow
-- mcdw:bow_green_menace
-- mcdw:bow_guardian_bow
-- mcdw:bow_haunted_bow
-- mcdw:bow_hunters_promise
-- mcdw:bow_hunting_bow
-- mcdw:bow_longbow
-- mcdw:bow_lost_souls
-- mcdw:bow_masters_bow
-- mcdw:bow_nocturnal_bow
-- mcdw:bow_pink_scoundrel
-- mcdw:bow_power_bow
-- mcdw:bow_sabrewing
-- mcdw:bow_shivering_bow
-- mcdw:bow_soul_bow
-- mcdw:bow_trickbow
-- mcdw:bow_wind_bow
-- mcdw:bow_snow_bow
-- mcdw:bow_winters_touch
-- mcdw:bow_love_spell_bow
-- mcdw:bow_shortbow
-- mcdw:bow_mechanical_shortbow
-- mcdw:bow_purple_storm
-- mcdw:bow_red_snake
-- mcdw:bow_void_bow
-- mcdw:bow_call_of_the_void
-- mcdw:bow_phantom_bow
-- mcdw:bow_web_bow
+#curios:curio
+- botania:cosmetic_black_bowtie
+- botania:cosmetic_black_tie
+- botania:cosmetic_red_glasses
+- botania:cosmetic_puffy_scarf
+- botania:cosmetic_engineer_goggles
+- botania:cosmetic_eyepatch
+- botania:cosmetic_wicked_eyepatch
+- botania:cosmetic_red_ribbons
+- botania:cosmetic_pink_flower_bud
+- botania:cosmetic_polka_dotted_bows
+- botania:cosmetic_blue_butterfly
+- botania:cosmetic_cat_ears
+- botania:cosmetic_witch_pin
+- botania:cosmetic_devil_tail
+- botania:cosmetic_kamui_eye
+- botania:cosmetic_googly_eyes
+- botania:cosmetic_four_leaf_clover
+- botania:cosmetic_clock_eye
+- botania:cosmetic_unicorn_horn
+- botania:cosmetic_devil_horns
+- botania:cosmetic_hyper_plus
+- botania:cosmetic_botanist_emblem
+- botania:cosmetic_ancient_mask
+- botania:cosmetic_eerie_mask
+- botania:cosmetic_alien_antenna
+- botania:cosmetic_anaglyph_glasses
+- botania:cosmetic_orange_shades
+- botania:cosmetic_groucho_glasses
+- botania:cosmetic_thick_eyebrows
+- botania:cosmetic_lusitanic_shield
+- botania:cosmetic_tiny_potato_mask
+- botania:cosmetic_questgiver_mark
+- botania:cosmetic_thinking_hand
 
-#minecraft:sand
-- minecraft:sand
-- minecraft:red_sand
+#mythicmetals:banglum_nuggets
+- mythicmetals:banglum_nugget
+
+#the_aether:aether_logs
+- #the_aether:skyroot_logs
+- #the_aether:golden_oak_logs
+- #the_aether:crystal_logs
+- #the_aether:wisteria_logs
+- #the_aether:orange_logs
+- #the_aether:aether_hollow_logs
+
+#mythicmetals:kyber_ores
+- mythicmetals:kyber_ore
+- mythicmetals:calcite_kyber_ore
 
 #adventurez:piglin_not_attack_items
 - adventurez:stone_golem_helmet
@@ -1716,123 +4435,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - adventurez:stone_golem_leggings
 - adventurez:stone_golem_boots
 
-#balm:orange_dyes
-- #c:orange_dyes?
-- minecraft:orange_dye
-
-#balm:emeralds
-- #c:emeralds?
-- minecraft:emerald
-
-#minecraft:copper_ores
-- minecraft:copper_ore
-- minecraft:deepslate_copper_ore
-
-#nourish:fruit
-- bewitchment:witchberry
-- bewitchment:witchberry_pie
-- bewitchment:witchberry_cookie
-
-#minecraft:gold_ores
-- minecraft:gold_ore
-- minecraft:nether_gold_ore
-- minecraft:deepslate_gold_ore
-
-#gobber2:ring_repair_blacklist
-- doom:bfg9000
-- doom:shotgun
-- doom:bfg_eternal
-- doom:unmaykr
-- doom:ballista
-- doom:pistol
-- doom:chaingun
-- doom:rocketlauncher
-- doom:chainsaw
-- doom:chainsaw64
-- doom:plasmagun
-- doom:supershotgun
-- doom:heavycannon
-- doom:axe_marauder_open
-- doom:cruciblesword
-- doom:chainsaweternal
-- minecraft:wooden_shovel
-
 #minecraft:freeze_immune_wearables
 - minecraft:leather_boots
 - minecraft:leather_leggings
 - minecraft:leather_chestplate
 - minecraft:leather_helmet
 - minecraft:leather_horse_armor
+- botania:ice_pendant
+- environmentz:wolf_helmet
+- environmentz:wolf_chestplate
+- environmentz:wolf_leggings
+- environmentz:wolf_boots
+- mythicmetals:palladium_helmet
+- mythicmetals:palladium_chestplate
+- mythicmetals:palladium_leggings
+- mythicmetals:palladium_boots
 
-#minecraft:logs_that_burn
-- #minecraft:dark_oak_logs
-- #minecraft:oak_logs
-- #minecraft:acacia_logs
-- #minecraft:birch_logs
-- #minecraft:jungle_logs
-- #minecraft:spruce_logs
-- #bewitchment:juniper_logs
-- #bewitchment:cypress_logs
-- #bewitchment:elder_logs
-- #bewitchment:dragons_blood_logs
+#c:copper_nuggets
+- mythicmetals:copper_nugget
 
-#curios:cosmetic_leggings
-- adventurez:stone_golem_leggings
-- #fabric:leggings
+#the_aether:aether_hollow_logs
+- the_aether:mottled_skyroot_fallen_log
 
-#c:ores
-- #minecraft:coal_ores
-- #minecraft:copper_ores
-- #minecraft:iron_ores
-- #minecraft:gold_ores
-- #minecraft:lapis_ores
-- #minecraft:redstone_ores
-- #minecraft:diamond_ores
-- #minecraft:emerald_ores
-- minecraft:nether_quartz_ore
-- minecraft:ancient_debris
-- #c:silver_ores
-- #c:salt_ores
-
-#minecraft:dirt
-- minecraft:dirt
-- minecraft:grass_block
-- minecraft:podzol
-- minecraft:coarse_dirt
-- minecraft:mycelium
-- minecraft:rooted_dirt
-- minecraft:moss_block
-
-#fabric:hoes
-- minecraft:wooden_hoe
-- minecraft:stone_hoe
-- minecraft:iron_hoe
-- minecraft:golden_hoe
-- minecraft:diamond_hoe
-- minecraft:netherite_hoe
-- gobber2:gobber2_hoe?
-- gobber2:gobber2_hoe_nether?
-- gobber2:gobber2_hoe_end?
-- gobber2:gobber2_paxel?
-- gobber2:gobber2_paxel_nether?
-- gobber2:gobber2_paxel_end?
-- gobber2:gobber2_paxel_stars?
-- #pugh_tools:paxel_additions?
-
-#minecraft:cluster_max_harvestables
-- minecraft:diamond_pickaxe
-- minecraft:golden_pickaxe
-- minecraft:iron_pickaxe
-- minecraft:netherite_pickaxe
-- minecraft:stone_pickaxe
-- minecraft:wooden_pickaxe
-- gobber2:gobber2_pickaxe?
-- gobber2:gobber2_pickaxe_nether?
-- gobber2:gobber2_pickaxe_end?
-- gobber2:gobber2_paxel?
-- gobber2:gobber2_paxel_nether?
-- gobber2:gobber2_paxel_end?
-- gobber2:gobber2_paxel_stars?
-- gobber2:gobber2_hammer?
-- gobber2:gobber2_hammer_nether?
-- gobber2:gobber2_hammer_end?
+#botania:petals/white
+- botania:white_petal
+- botania:white_mushroom

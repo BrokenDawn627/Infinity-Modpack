@@ -1,0 +1,17 @@
+{
+  "name": "更好的末影之眼",
+  "icon": "greater_eye:greater_eye",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "greater_eye:greater_eye",
+      "recipe2": "greater_eye:greater_eye_nether"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "greater_eye:greater_eye_end",
+      "text":"这些末影之眼能带你找到一些原版的结构。"
+    }
+  ]
+}

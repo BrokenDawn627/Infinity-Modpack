@@ -7,7 +7,7 @@ onEvent('recipes', event => {
 	  ], {
 		S: 'minecraft:diamond',
         D: 'minecraft:ender_eye'
-	  })
+	  }).id('infinity:soul_star')
 
     event.shaped('victus:blank_heart_aspect', [
 		'DSD',
@@ -17,7 +17,7 @@ onEvent('recipes', event => {
 		S: 'minecraft:amethyst_shard',
         D: 'minecraft:gold_ingot',
 		A: 'minecraft:experience_bottle'
-	  })
+	  }).id('infinity:blank')
 	
 	  event.shaped('victus:void_heart_aspect', [
 		'SSS',
@@ -26,9 +26,9 @@ onEvent('recipes', event => {
 	  ], {
 		S: 'copperequipment:copper_nugget',
         D: 'victus:blank_heart_aspect'
-	  })
+	  }).id('infinity:void')
 
-	  event.shapeless('victus:broken_heart', ['victus:void_heart_aspect','minecraft:netherite_axe'])
+	  event.shapeless('victus:broken_heart', ['victus:void_heart_aspect','minecraft:netherite_axe']).id('infinity:broken')
 
 	  event.shaped('minecraft:dragon_egg', [
 		'SSS',
@@ -48,14 +48,14 @@ onEvent('recipes', event => {
 	  ], {
 		S: 'minecraft:iron_ingot',
         D: 'victus:blank_heart_aspect'
-	  })
+	  }).id('infinity:canister')
 
-	  event.smithing('heartytrinkets:red_heart_crystal', 'heartytrinkets:red_heart','victus:blank_heart_aspect')
+	  event.smithing('heartytrinkets:red_heart_crystal', 'heartytrinkets:red_heart','victus:blank_heart_aspect').id('infinity:red_h_c')
 	  event.smithing('heartytrinkets:orange_heart_crystal', 'heartytrinkets:orange_heart','victus:blank_heart_aspect')
 	  event.smithing('heartytrinkets:green_heart_crystal', 'heartytrinkets:green_heart','victus:blank_heart_aspect')
 	  event.smithing('heartytrinkets:blue_heart_crystal', 'heartytrinkets:blue_heart','victus:blank_heart_aspect')
 
-	  event.smithing('heartytrinkets:red_heart_canister', 'heartytrinkets:red_heart_crystal','heartytrinkets:canister')
+	  event.smithing('heartytrinkets:red_heart_canister', 'heartytrinkets:red_heart_crystal','heartytrinkets:canister').id('infinity:red_h_cc')
 	  event.smithing('heartytrinkets:orange_heart_canister', 'heartytrinkets:orange_heart_crystal','heartytrinkets:canister')
 	  event.smithing('heartytrinkets:green_heart_canister', 'heartytrinkets:green_heart_crystal','heartytrinkets:canister')
 	  event.smithing('heartytrinkets:blue_heart_canister', 'heartytrinkets:blue_heart_crystal','heartytrinkets:canister')
@@ -67,7 +67,7 @@ onEvent('recipes', event => {
 	  ], {
 		S: 'minecraft:leather',
         D: 'victus:blank_heart_aspect'
-	  })
+	  }).id('infinity:health_belt')
 
 	  event.shaped('heartytrinkets:orange_heart', [
 		'SAS',
@@ -84,7 +84,7 @@ onEvent('recipes', event => {
 		'SDS',
 		'SAS'
 	  ], {
-		S: 'enderitemod:enderite_ingot',
+		S: 'mobz:boss_ingot',
         D: 'betterend:eternal_crystal',
 		A: 'heartytrinkets:orange_heart'
 	  })
@@ -121,7 +121,31 @@ onEvent('recipes', event => {
         D: 'betternether:black_apple'
 	  })
 
-	  event.remove({output: 'nosleep:overworld_anchor'})
 
-	  event.smithing('kubejs:shining_star', 'gobber2:dragon_star','minecraft:enchanted_golden_apple')
+	  event.smithing('kubejs:shining_star', 'kubejs:shining_star2','adventurez:source_stone').id('infinity:shining_star')
+
+	  event.shaped('heartytrinkets:red_heart', [
+		'SSS',
+		'SDS',
+		'SSS'
+	  ], {
+		S: 'minecraft:redstone_block',
+        D: 'victus:blank_heart_aspect'
+	  }).id('infinity:red_heart')
+
+	  event.shapeless('minecraft:powder_snow_bucket', ['minecraft:bucket','minecraft:snow_block'])
+
+	  event.shaped('5x minecraft:experience_bottle', [
+		'SDS',
+		'DDD',
+		'SDS'
+	  ], {
+		S: 'minecraft:redstone_block',
+        D: 'minecraft:glass_bottle'
+	  }).id('infinity:experience_bottle')
+
+
+	  event.shapeless('kubejs:firecracker', ['minecraft:tnt','minecraft:firework_rocket']).id('infinity:firecracker')
+
+	  event.shapeless('kubejs:skill_bottle', ['minecraft:experience_bottle','minecraft:lapis_lazuli']).id('infinity:skill_bottle')
   })

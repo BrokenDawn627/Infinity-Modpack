@@ -1,0 +1,14 @@
+{
+  "name": "滚轮放大取消",
+  "icon": "minecraft:spyglass",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"请将你的放大按键设置成一个$(c)没有按键冲突$()的键，否则当你使用放大时将无法取消！不清楚按键的功能可以将其设置为$(c)ESC$()来取消绑定。"
+    },
+    {
+      "type": "patchouli:empty"
+    }
+  ]
+}

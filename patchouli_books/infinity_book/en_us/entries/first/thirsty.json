@@ -1,0 +1,34 @@
+{
+  "name": "口渴",
+  "icon": "dehydration:leather_flask",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"你会感到口渴，所以你必须做一些东西来喝水。你可以通过Shift+右键直接喝水，但水很脏。这里有一些可以过滤水的物品。$(br)烧水锅需要放在营火上，使用水桶往烧水锅里加水，稍加等待即可获得纯净水。你可以使用玻璃瓶或水壶来盛。用水壶盛装的水将补充更多口渴值。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "dehydration:copper_cauldron" 
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe2":"minecraft:campfire",
+      "recipe": "dehydration:campfire_cauldron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "dehydration:leather_flask",
+      "recipe2": "dehydration:iron_leather_flask"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "dehydration:golden_leather_flask",
+      "recipe2": "dehydration:diamond_leather_flask"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "dehydration:netherite_leather_flask"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "凋灵",
+  "icon": "minecraft:wither_skeleton_skull",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+            [ "   ","WWW","   " ], 
+            [ "   ","G0G","   " ],
+            [ "   "," G ","   " ]
+        ],
+        "mapping": {
+            "G": "minecraft:soul_sand",
+            "W": "minecraft:wither_skeleton_skull",
+            "0": "minecraft:soul_sand"
+        },
+        "symmetrical": true
+    },
+      "text":"建造上面的多方块结构以召唤凋灵"
+
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"minecraft:wither",
+      "text":"注意，凋灵的血量增加了近一倍！"
+
+    }
+  ]
+}

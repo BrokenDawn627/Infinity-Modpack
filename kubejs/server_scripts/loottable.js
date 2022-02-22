@@ -2,139 +2,139 @@ onEvent('chest.loot_tables', event => {
     event.modify('minecraft:simple_dungeon', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:abandoned_mineshaft', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:stronghold_corridor', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:stronghold_crossing', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:stronghold_library', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:bastion_bridge', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:bastion_hoglin_stable', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:bastion_other', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:bastion_treasure', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:desert_pyramid', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:end_city_treasure', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:igloo_chest', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:jungle_temple', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:jungle_temple_dispenser', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:nether_bridge', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:pillager_outpost', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:ruined_portal', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:shipwreck_map', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:shipwreck_supply', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:shipwreck_treasure', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:underwater_ruin_big', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:underwater_ruin_small', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
     event.modify('minecraft:woodland_mansion', table => {
       table.addPool(pool => {
         pool.rolls = [1,2]
-        pool.addItem('kubejs:diamond_shard', 1)
+        pool.addItem('numismatic-overhaul:gold_coin', 1)
       })
     })
 
@@ -185,6 +185,126 @@ onEvent('entity.loot_tables', event => {
     })
 
     event.modifyEntity('minecraft:skeleton', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:zombie_villager', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:zombified_piglin', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:wither_skeleton', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:witch', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:guardian', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:husk', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:zoglin', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:stray', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:cave_spider', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:spider', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:piglin_brute', table => {
+      table.addPool(pool => {
+        pool.addItem('numismatic-overhaul:silver_coin')
+        pool.addCondition({"condition": "minecraft:killed_by_player"})
+        pool.addCondition({"condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.01})
+      })
+    })
+
+    event.modifyEntity('minecraft:elder_guardian', table => {
       table.addPool(pool => {
         pool.addItem('numismatic-overhaul:silver_coin')
         pool.addCondition({"condition": "minecraft:killed_by_player"})

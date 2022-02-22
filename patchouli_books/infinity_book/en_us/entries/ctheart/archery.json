@@ -1,0 +1,15 @@
+{
+  "name": "箭术",
+  "icon": "victus:archery_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "只有$(thing)2秒$()冷却时间，$(item)箭术之心$()对于群体控制非常有用。当被打破时，一连串的箭矢将射向你最靠近你的三个敌人，每一支箭都将精确地瞄准。一旦击中，箭的击退属性将迅速击退你附近的目标。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:archery_heart_aspect"
+    }
+  ]
+}

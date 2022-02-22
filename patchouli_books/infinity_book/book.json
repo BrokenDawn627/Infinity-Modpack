@@ -1,0 +1,10 @@
+{
+  "name": "§b无限之书",
+  "landing_text": "这是 Infinity 模组包的指南书。",
+  "book_texture": "patchouli:textures/gui/book_blue.png",
+  "model": "patchouli:book_of_infinity",
+  "use_blocky_font": true,
+  "show_progress": false,
+  "pause_game": true,
+  "version": 1
+}

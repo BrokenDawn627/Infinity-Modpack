@@ -1,0 +1,50 @@
+{
+    "values": {
+        "zombified:arctic_zombie": {
+            "minecraft:generic.max_health": 30.0,
+            "minecraft:generic.armor": 5.0,
+            "minecraft:generic.armor_toughness": 2.0,
+            "minecraft:generic.movement_speed": 0.3
+        },
+        "zombified:beserker_zombie": {
+            "minecraft:generic.max_health": 40.0,
+            "minecraft:generic.armor": 5.0,
+            "minecraft:generic.armor_toughness": 2.0,
+            "minecraft:generic.movement_speed": 0.3
+        },
+        "zombified:brute_zombie": {
+            "minecraft:generic.max_health": 120.0,
+            "minecraft:generic.armor": 8.0,
+            "minecraft:generic.armor_toughness": 2.0
+        },
+        "zombified:crystal_zombie": {
+            "minecraft:generic.max_health": 30.0,
+            "minecraft:generic.armor": 5.0,
+            "minecraft:generic.armor_toughness": 2.0,
+            "minecraft:generic.movement_speed": 0.3
+        },
+        "zombified:infernal_zombie": {
+            "minecraft:generic.max_health": 30.0,
+            "minecraft:generic.armor": 5.0,
+            "minecraft:generic.armor_toughness": 2.0,
+            "minecraft:generic.movement_speed": 0.3
+        },
+        "zombified:miner_zombie": {
+            "minecraft:generic.max_health": 30.0,
+            "minecraft:generic.armor": 5.0,
+            "minecraft:generic.armor_toughness": 2.0,
+            "minecraft:generic.movement_speed": 0.3
+        },
+        "zombified:sludge_zombie": {
+            "minecraft:generic.max_health": 30.0,
+            "minecraft:generic.armor": 5.0,
+            "minecraft:generic.armor_toughness": 2.0,
+            "minecraft:generic.movement_speed": 0.3
+        },
+        "zombified:squirm_zombie": {
+            "minecraft:generic.max_health": 10.0,
+            "minecraft:generic.armor": 5.0,
+            "minecraft:generic.armor_toughness": 2.0
+        }
+    }
+}

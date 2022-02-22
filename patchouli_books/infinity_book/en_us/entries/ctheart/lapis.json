@@ -1,0 +1,16 @@
+{
+  "name": "青金",
+  "icon": "victus:lapis_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "生命恢复作为一个概念，以前已经探索过很多次。$(item)青金石之心$()能够把青金石的经验亲和力嵌入到一个心中，以实现此目的。如果你在它激活时获得了足够的经验，你将被治愈$(thing)1 HP$()。在这个过程中，这个心也会自我破碎，需要冷却一小段时间。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:lapis_heart_aspect",
+      "text": "$(o)$(#999999)没人说它很强$()"
+    }
+  ]
+}

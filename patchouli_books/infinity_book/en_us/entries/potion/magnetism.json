@@ -1,0 +1,12 @@
+{
+  "name": "效果：磁力",
+  "icon": "minecraft:iron_ingot",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:magnetism'}",
+      "text":"吸引掉落物的范围更大"
+    }
+  ]
+}

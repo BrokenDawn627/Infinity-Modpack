@@ -1,0 +1,12 @@
+{
+  "name": "效果：洞察",
+  "icon": "minecraft:kelp",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:detection'}",
+      "text":"拥有该效果时，你将感知到周围一定距离的所有实体(发光)"
+    }
+  ]
+}

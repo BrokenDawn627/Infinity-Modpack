@@ -55,6 +55,7 @@
   },
   "furnace": {
     "iron_nugget [default: true]": true,
-    "gold_nugget [default: true]": true
+    "gold_nugget [default: true]": true,
+    "slime_ball [default: true]": true
   }
 }

@@ -1,0 +1,17 @@
+{
+  "name": "饰品栏",
+  "icon": "minecraft:elytra",
+  "category": "patchouli:other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "饰品栏可以用来装备图腾、鞘翅、背包、潜影盒、戒指等"
+      
+    },    
+    {
+      "type": "patchouli:image",
+      "images":["patchouli:textures/trinket.png"],
+      "border": true
+    }
+  ]
+}

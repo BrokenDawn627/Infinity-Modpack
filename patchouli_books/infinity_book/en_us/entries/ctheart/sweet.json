@@ -1,0 +1,16 @@
+{
+  "name": "速度",
+  "icon": "victus:sweet_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "众所周知，糖作为一种物质可以让你快速行走，这种特性在试图快速逃逸时无疑是很方便的。因此，当$(item)速度之心$()破碎时，你会获得 $(thing)速度II$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:sweet_heart_aspect",
+      "text": "$(o)$(#999999)保持简短的速度$()"
+    }
+  ]
+}

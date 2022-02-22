@@ -1,0 +1,34 @@
+{
+  "name": "锻炉",
+  "icon": "alloy_forgery:deepslate_bricks_forge_controller",
+  "category": "patchouli:craft",
+  "pages": [
+    {
+      "type":"patchouli:crafting",
+      "recipe":"alloy_forgery:deepslate_bricks_forge",
+      "text":"需要先制作一个锻炉控制器(任意材质)，但请注意它的层级(如深板岩的为2)。部分配方需要高层级的锻炉才能冶炼。"
+    },
+    {
+      "type":"patchouli:crafting",
+      "recipe":"minecraft:deepslate_bricks",
+      "text":"然后制作与锻炉控制器相同材质的方块共26个"
+    },
+    {
+      "type":"patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+            [ "GGG","GGG","GGG" ], 
+            [ "GGG","G0G","GWG" ],
+            [ "GGG","GGG","GGG" ]
+        ],
+        "mapping": {
+            "G": "minecraft:deepslate_bricks",
+            "W": "alloy_forgery:deepslate_bricks_forge_controller",
+            "0": "minecraft:deepslate_bricks"
+        },
+        "symmetrical": true
+    },
+      "text":"按照以上的多方块结构来摆放锻炉。锻炉可以用来冶炼一些合金。"
+    }
+  ]
+}

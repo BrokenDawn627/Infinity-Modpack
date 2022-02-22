@@ -1,0 +1,12 @@
+{
+  "name": "效果：回溯",
+  "icon": "minecraft:ender_eye",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:recall'}",
+      "text":"药水效果结束时你将回到你使用该药水的地方"
+    }
+  ]
+}

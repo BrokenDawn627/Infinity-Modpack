@@ -1,0 +1,35 @@
+{
+  "name": "神器箭袋",
+  "icon": "mcdar:torment_quiver",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"神器箭袋不能装备在饰品栏，相反你需要将它握在$(c)副手$()来使用。当右键（或Shift+右键）使用后，它会进入冷却。在冷却时间内，你射出的所有箭都会有对应的效果。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mcdar:torment_quiver",
+      "link_recipe": true,
+      "text": "射出的箭拥有穿透效果"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mcdar:thundering_quiver",
+      "link_recipe": true,
+      "text": "射出的箭拥有闪电效果"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mcdar:flaming_quiver",
+      "link_recipe": true,
+      "text": "射出的箭拥有火焰效果"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mcdar:harpoon_quiver",
+      "link_recipe": true,
+      "text": "射出的箭能在水中更快穿行"
+    }
+  ]
+}

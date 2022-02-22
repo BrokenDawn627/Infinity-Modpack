@@ -2,18 +2,19 @@
     "values": {
         "minecraft:wither": {
             "minecraft:generic.max_health": 500.0,
-            "minecraft:generic.attack_damage": 19.0,
+            "minecraft:generic.attack_damage": 35.0,
             "minecraft:generic.armor": 8.0,
             "minecraft:generic.armor_toughness": 9.0
         },
         "minecraft:ender_dragon": {
             "minecraft:generic.max_health": 500.0,
-            "minecraft:generic.attack_damage": 22.0,
-            "minecraft:generic.armor": 10.0,
-            "minecraft:generic.armor_toughness": 12.0
+            "minecraft:generic.attack_damage": 35.0,
+            "minecraft:generic.armor": 12.0,
+            "minecraft:generic.armor_toughness": 10.0
         },
 		"minecraft:zombie": {
-            "minecraft:generic.max_health": 25.0
+            "minecraft:generic.max_health": 25.0,
+            "minecraft:generic.movement_speed": 0.3
         },
 		"minecraft:zombie_villager": {
             "minecraft:generic.max_health": 25.0
@@ -31,7 +32,8 @@
             "minecraft:generic.max_health": 30.0
         },
 		"minecraft:skeleton": {
-            "minecraft:generic.max_health": 25.0
+            "minecraft:generic.max_health": 25.0,
+            "minecraft:generic.movement_speed": 0.3
         },
 		"minecraft:witch": {
             "minecraft:generic.max_health": 30.0
@@ -46,7 +48,8 @@
             "minecraft:generic.max_health": 45.0
         },
 		"minecraft:creeper": {
-            "minecraft:generic.max_health": 25.0
+            "minecraft:generic.max_health": 25.0,
+            "minecraft:generic.movement_speed": 0.3
         },
 		"minecraft:enderman": {
             "minecraft:generic.max_health": 45.0
@@ -54,8 +57,20 @@
 		"minecraft:stray": {
             "minecraft:generic.max_health": 25.0
         },
-		"minecraft:drowned": {
+		"minecraft:blaze": {
             "minecraft:generic.max_health": 25.0
+        },
+        "minecraft:cave_spider": {
+            "minecraft:generic.max_health": 17.0
+        },
+        "minecraft:spider": {
+            "minecraft:generic.max_health": 22.0
+        },
+        "minecraft:piglin_brute": {
+            "minecraft:generic.max_health": 60.0
+        },
+        "minecraft:elder_guardian": {
+            "minecraft:generic.max_health": 100.0
         }
     }
 }

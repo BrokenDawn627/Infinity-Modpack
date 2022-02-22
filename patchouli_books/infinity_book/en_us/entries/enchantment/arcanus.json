@@ -1,0 +1,22 @@
+{
+  "name": "阿卡努斯法杖与咒语书",
+  "icon": "arcanus:master_wand",
+  "category": "patchouli:enchantment",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"这种法杖可以使用你在书架中所找到的咒语书。随着使用咒语次数的增加，法杖会积累经验值。积累一定量的经验后法杖将会升级。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "arcanus:initiate_wand",
+      "recipe2": "arcanus:mana_flask"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"arcanus:fillable_bookshelf",
+      "text":"你可以在这种书架中找到咒语书",
+      "link_recipe":true
+    }
+  ]
+}

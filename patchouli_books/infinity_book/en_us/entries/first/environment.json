@@ -1,0 +1,37 @@
+{
+  "name": "温度",
+  "icon": "environmentz:wolf_chestplate",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"环境的变化使你感到冷或热。所以你必须做一些事情来防止自己中暑或冻伤。"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "environmentz:heating_stones",
+      "text":"配方: 在切石机里用石头制作"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "environmentz:heated_stones_furnace",
+      "text":"通过携带加热过的暖石来让自己温暖。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "environmentz:polar_bear_fur",
+      "link_recipe": true,
+      "text": "制作皮革或狼盔甲来保温，或者是在锻造台上用北极熊毛皮与你的盔甲一起锻造使其获得保温特性。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'minecraft:cold_resistance'}",
+      "text": "抗寒药水可以抵御寒冷"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'minecraft:overheating_resistance'}",
+      "text": "抗热药水可以防止你中暑"
+    }
+  ]
+}

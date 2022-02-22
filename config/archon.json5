@@ -1,0 +1,37 @@
+{
+  //        Sets the position of the mana display.
+  //        The x-offset is subtracted from the x pos of the middle of the screen. (Ex: 0 would make it right in the middle)
+  //        The y-offset is subtracted from the y pos at the bottom of the screen. (Ex: 0 would make it at the very bottom of the screen)
+  //        X-Offset Default: 140
+  //        Y-Offset Default: 15
+  "mana_xoffset": 180,
+  "mana_yoffset": 15,
+  //        Chance for a soul to drop when killing players and creatures using a soul scythe (bosses always drop a soul)
+  //        The number should follow these bounds: 0 <= x <= 1.0 and end with "F"
+  //        Default: 0.05F
+  "soulDropChance": 0.05,
+  //        Weight/Chance for the Wizard Village House to spawn in villages
+  //        Default: 10
+  "wizard_village_weight": 10,
+  //        The vein size of all element nodes except sky.
+  //        Default: 4
+  "nodeVeinSize": 4,
+  //        The amount of veins per chunk of all element nodes except sky.
+  //        Default: 4
+  "nodeChunkRate": 4,
+  //        The Chance for Sky Node Features to spawn (lower is more common, higher is more rare)
+  //        Default: 400
+  "skyNodeChance": 400,
+  //        The Chance for Mana Berry Bushes to spawn
+  //        Default: 32
+  "manaBerryBushChance": 32,
+  //        The Spacing and Separation of Spire structures in your world. NOTE: The Spacing value MUST be larger than the Separation value.
+  //        Default Spacing: 22
+  //        Default Separation: 20
+  "spire_spacing": 22,
+  "spire_separation": 20,
+  //        Determines whether the a sound should be played when using a channeler
+  //        Client-Sided, Accepts "true" or "false"
+  //        Default: true
+  "play_channel_sound": true
+}

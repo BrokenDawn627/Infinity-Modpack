@@ -1,6 +1,6 @@
 {
   "general": {
-    "allowVoidFloatingEnchantment": true
+    "allowVoidFloatingEnchantment": false
   },
   "tools": {
     "enderitePickaxeAD": 4,

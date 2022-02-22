@@ -1,0 +1,12 @@
+{
+  "name": "效果：迷人",
+  "icon": "minecraft:wheat",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:piper'}",
+      "text":"拥有该药水效果时将会吸引动物"
+    }
+  ]
+}

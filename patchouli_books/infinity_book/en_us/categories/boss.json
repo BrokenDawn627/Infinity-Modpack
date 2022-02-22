@@ -1,0 +1,6 @@
+{
+    "name": "Boss",
+    "description": "整合包内的Boss，请找到并击败他们。他们都十分强大，请小心！",
+    "icon": "minecraft:dragon_head",
+    "sortnum": 6
+  }

@@ -1,0 +1,25 @@
+{
+  "name": "钱币",
+  "icon": "numismatic-overhaul:gold_coin",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "numismatic-overhaul:gold_coin",
+      "link_recipe": true,
+      "text": "通用货币不再是绿宝石，而是硬币。你可以通过杀死怪物或搜刮战利品箱来获得这些硬币。$(br)注意：死亡将会使你丢失钱包里的一部分钱币，因此请尽量不要在身上带太多钱。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "numismatic-overhaul:bronze_coin",
+      "text":"100个铜币 = 1个银币",
+      "link_recipe": true
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "numismatic-overhaul:silver_coin",
+      "text":"100个银币 = 1个金币",
+      "link_recipe": true
+    }
+  ]
+}

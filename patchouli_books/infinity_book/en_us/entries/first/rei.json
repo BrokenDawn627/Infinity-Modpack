@@ -1,0 +1,14 @@
+{
+  "name": "你会用REI吗？",
+  "icon": "kubejs:nightbreak",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"对物品按u可以查看物品的用途，按r可以查看物品的合成方式，按a可以收藏物品。在搜索框输入@+模组名可以直接搜到该模组内的所有物品。看物品栏右边一大堆东西不顺眼，可以按CTRL+O来隐藏。"
+    },
+    {
+      "type": "patchouli:empty"
+    }
+  ]
+}

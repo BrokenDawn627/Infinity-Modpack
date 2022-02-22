@@ -1,8 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 26, 2022, 5:46:48 PM
-
-#requiem:humans
-- bewitchment:vampire
-- bewitchment:werewolf
+To refresh this file, delete it and run /reload command again! Last updated: Feb 21, 2022, 11:39:13 AM
 
 #minecraft:axolotl_always_hostiles
 - minecraft:drowned
@@ -16,26 +12,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:wither
 - adventurez:summoner
 
-#minecraft:impact_projectiles
-- #minecraft:arrows
-- minecraft:snowball
-- minecraft:fireball
-- minecraft:small_fireball
-- minecraft:egg
-- minecraft:trident
-- minecraft:dragon_fireball
-- minecraft:wither_skull
-- adventurez:void_bullet
-- adventurez:fire_breath
+#the_aether:condition_immunities/venom
+- the_aether:cockatrice
+- the_aether:aechor_plant
+- the_aether:purple_swet
 
-#minecraft:beehive_inhabitors
-- minecraft:bee
-
-#minecraft:skeletons
-- minecraft:skeleton
-- minecraft:stray
-- minecraft:wither_skeleton
-- adventurez:summoner
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
 
 #gobber2:minion_mobs
 - minecraft:cave_spider
@@ -46,68 +33,46 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:wither_skeleton
 - minecraft:zombified_piglin
 
-#tinyskeletons:skeletons
-- tinyskeletons:baby_skeleton
-- tinyskeletons:baby_stray
-- tinyskeletons:baby_wither_skeleton
+#the_aether:condition_immunities/abstentine_toxicity
+- the_aether:cockatrice
+- the_aether:aechor_plant
+- the_aether:purple_swet
 
-#bewitchment:encounter_fortune
-- minecraft:husk
-- minecraft:stray
-- minecraft:witch
-- minecraft:vindicator
-- minecraft:blaze
-- bewitchment:hellhound
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+- minecraft:glow_squid
 
-#minecraft:arrows
-- minecraft:arrow
-- minecraft:spectral_arrow
-- bewitchment:silver_arrow
-
-#bewitchment:taglock_blacklist
-- #c:bosses
-
-#requiem:golems
-- bewitchment:demon
-
-#minecraft:freeze_hurts_extra_types
-- minecraft:strider
-- minecraft:blaze
-- minecraft:magma_cube
-- adventurez:stone_golem
-- adventurez:small_stone_golem
-
-#bewitchment:insanity_blacklist
-- minecraft:creeper
-- minecraft:witch
-- minecraft:ravager
-
-#requiem:possession_blacklist
-- bewitchment:leonard
-- bewitchment:baphomet
-- bewitchment:lilith
-- bewitchment:herne
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
 
 #c:bosses
+- botania:doppleganger
+
+#botania:shaded_mesa_blacklist
 - minecraft:ender_dragon
 - minecraft:wither
-- bewitchment:leonard
-- bewitchment:baphomet
-- bewitchment:lilith
-- bewitchment:herne
-
-#bewitchment:has_blood
-- minecraft:player
-- minecraft:villager
-- minecraft:wandering_trader
-- minecraft:witch
-- minecraft:pillager
-- minecraft:vindicator
-- minecraft:evoker
-- minecraft:illusioner
-- minecraft:piglin
-- minecraft:piglin_brute
-- bewitchment:vampire
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
 
 #minecraft:raiders
 - minecraft:evoker
@@ -130,3 +95,85 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:cod
 - minecraft:squid
 - minecraft:glow_squid
+
+#the_aether:swet_transformers/blue
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#numismatic-overhaul:the_bourgeoisie
+- minecraft:pillager
+
+#mobz:toad_target
+- minecraft:spider
+- minecraft:cave_spider
+- minecraft:silverfish
+- mobz:tspider
+- mobz:spi
+- mobz:spismall
+- mobz:spo
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- adventurez:void_bullet
+- adventurez:fire_breath
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#the_aether:swet_transformers/transformers
+- #the_aether:swet_transformers/blue
+- #the_aether:swet_transformers/golden
+- #the_aether:swet_transformers/purple
+- #the_aether:swet_transformers/vermilion
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- adventurez:summoner
+
+#tinyskeletons:skeletons
+- tinyskeletons:baby_skeleton
+- tinyskeletons:baby_stray
+- tinyskeletons:baby_wither_skeleton
+
+#the_aether:swet_transformers/golden
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+- adventurez:stone_golem
+- adventurez:small_stone_golem
+
+#tradingpost:blacklisted_traders
+
+#the_aether:swet_transformers/vermilion
+- minecraft:magma_cube
+
+#the_aether:swets
+- the_aether:white_swet
+- the_aether:blue_swet
+- the_aether:purple_swet
+- the_aether:golden_swet
+
+#the_aether:swet_transformers/purple
+- the_aether:cockatrice
+- the_aether:aechor_plant

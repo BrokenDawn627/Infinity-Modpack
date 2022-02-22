@@ -1,0 +1,20 @@
+{
+  "name": "经验书",
+  "icon": "xp_storage:xp_book",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"经验书可以用来存储你的经验，从而减少你死亡时的损失。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "xp_storage:xp_book",
+      "recipe2": "xp_storage:xp_book2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "xp_storage:xp_book3"
+    }
+  ]
+}
