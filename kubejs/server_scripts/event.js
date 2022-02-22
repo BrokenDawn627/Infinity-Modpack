@@ -102,10 +102,15 @@ onEvent('entity.hurt',event =>{
     let player = event.getSource().getPlayer()
     let entity = event.getSource().getImmediate()
     let actual = event.getSource().getActual()
-    let mainItem = player.getHeldItem(MAIN_HAND)
-    let offItem = player.getHeldItem(OFF_HAND)
+    let mainItem
+    let offItem
+    if(player!=null)
+    {
+        mainItem = player.getHeldItem(MAIN_HAND)
+        offItem = player.getHeldItem(OFF_HAND)
+    }
 
-    if ((mainItem == 'minecraft:bow' && mainItem.nbtString.lastIndexOf('CustomModelData:1781')>0)||(offItem == 'minecraft:bow' && offItem.nbtString.lastIndexOf('CustomModelData:1781')>0))
+    if ((mainItem == 'minecraft:bow' && mainItem.nbtString.lastIndexOf('CustomModelData:1781')>=0)||(offItem == 'minecraft:bow' && offItem.nbtString.lastIndexOf('CustomModelData:1781')>=0))
     {
         //event.server.runCommand(`say ${target.name}`)
         //event.server.runCommand(`say ${player.name}`)
@@ -129,21 +134,67 @@ onEvent('entity.hurt',event =>{
     
 })
 
-onEvent('player.hurt',event =>{
-    event.server.runCommand(`say ${event.player.name}`)
-})
 
 onEvent('player.tick', event => {
     let player = event.player
     let mainItem = player.getHeldItem(MAIN_HAND)
     let offItem = player.getHeldItem(OFF_HAND)
 
-    if ((mainItem == 'minecraft:bow' && mainItem.nbtString.lastIndexOf('CustomModelData:1781')>0)||(offItem == 'minecraft:bow' && offItem.nbtString.lastIndexOf('CustomModelData:1781')>0))
+    if ((mainItem == 'minecraft:bow' && mainItem.nbtString.lastIndexOf('CustomModelData:1781')>=0)||(offItem == 'minecraft:bow' && offItem.nbtString.lastIndexOf('CustomModelData:1781')>=0))
     {
         if(player.crouching)
         {
             //荆棘屏障-潜行时减免60%伤害
             player.potionEffects.add('minecraft:resistance',20,2,false,false)
         }
+    }
+})
+
+//Infinity
+onEvent('entity.hurt',event =>{
+    let target = event.getEntity()
+    let player = event.getSource().getPlayer()
+
+    let mainItem
+    let offItem
+    if(player!=null)
+    {
+        mainItem = player.getHeldItem(MAIN_HAND)
+        offItem = player.getHeldItem(OFF_HAND)
+    }
+    if(mainItem == 'kubejs:infinity_sword')
+    {
+        target.kill()
+    }
+})
+
+onEvent('player.tick', event => {
+    let player = event.player
+    let mainItem = player.getHeldItem(MAIN_HAND)
+    if(mainItem == 'kubejs:infinity_sword')
+    {
+        event.server.runCommandSilent(`effect give ${event.player.id} minecraft:resistance 1 4 true`)
+    }
+})
+
+//Shield
+onEvent('entity.hurt',event =>{
+    let target = event.getEntity()
+    let target_offhand=target.getHeldItem(OFF_HAND)
+    
+    if(target.player&&target_offhand=='minecraft:shield'&&target_offhand.nbtString.lastIndexOf('CustomModelData:1782')>=0)
+    {
+        event.server.runCommand(`say 1`)
+    }
+    
+})
+
+onEvent('item.right_click', event => {
+    let player = event.player
+    let hand = event.getHand()
+    let item = event.getItem()
+    if(hand==OFF_HAND&&item=='minecraft:shield'&&item.nbtString.lastIndexOf('CustomModelData:1782')>=0)
+    {
+        event.server.runCommand(`say 1`)
     }
 })
