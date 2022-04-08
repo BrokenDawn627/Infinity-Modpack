@@ -1,6 +1,6 @@
 {
 	"parent": "item/bow",
 	"textures": {
-		"layer0": "infinity:bow/creeper_bow"
+		"layer0": "infinity:bow/gamehazed_bow"
 	}
 }

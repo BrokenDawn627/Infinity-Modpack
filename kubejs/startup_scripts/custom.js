@@ -23,7 +23,7 @@ onEvent('item.registry.tool_tiers', event => {
   onEvent('item.registry', event => {
 
     event.create('custom_paper', item => {
-        item.displayName('§b定制物品兑换券').tooltip('§7右键使用(仅物品所有者有效)')
+        item.displayName('§b定制物品兑换券').tooltip('§7右键使用(仅定制了物品的赞助者、挑战者有效)')
       })
     
       event.create('singer_sword', item => {

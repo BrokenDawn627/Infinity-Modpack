@@ -21,6 +21,16 @@ onEvent('item.right_click', event => {
             event.player.give(Item.of('minecraft:bow', "{CustomModelData:1781,Damage:0,Unbreakable:1b,display:{Lore:['{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"束缚藤蔓\"},{\"text\":\"  \"},{\"color\":\"gray\",\"text\":\"命中目标时使目标定身5秒\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"text\":\"寄生种子  \"},{\"color\":\"gray\",\"text\":\"命中目标时给予自身 生命恢复II 5秒\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"自然之力\"},{\"text\":\"  \"},{\"color\":\"gray\",\"text\":\"潜行时射击命中目标将额外造成目标当前生命值20%的真实伤害，但使弓进入20秒冷却\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"荆棘屏障  \"},{\"color\":\"gray\",\"text\":\"潜行时减免60%伤害\"}],\"text\":\"\"}','{\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"@Naughty_Clock\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"精灵之语\"}],\"text\":\"\"}'}}").enchant('imperishableitems:imperishable', 1)) 
             event.player.mainHandItem.count-=1
            }
+           if(event.player.name=='Night_Break')
+           {
+            event.player.give('kubejs:nightbreak')
+            event.player.mainHandItem.count-=1
+           }
+           if(event.player.name=='GAMEHAZED')
+           {
+            event.player.give(Item.of('minecraft:bow', "{CustomModelData:1780,Damage:0,Unbreakable:1b,display:{Lore:['{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"暗影之刃  命中目标时使目标失明5秒\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"吉姆哈泽德之力  潜行时射击命中目标将额外造成目标当前生命值30%的真实伤害，但使弓进入25秒冷却\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"化为无形  潜行时隐身\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"刺客步法  潜行时加速\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"text\":\" \"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"@极限生存挑战首通-GAMEHAZED\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"吉姆哈泽德之暗影\"}],\"text\":\"\"}'}}").enchant('yigd:soulbound', 1))
+            event.player.mainHandItem.count-=1
+           }
            }            
 })
 
@@ -198,3 +208,54 @@ onEvent('item.right_click', event => {
         event.server.runCommand(`say 1`)
     }
 })*/
+
+//gamehazed
+onEvent('entity.hurt',event =>{
+    
+    let target = event.getEntity()
+    let player = event.getSource().getPlayer()
+    let entity = event.getSource().getImmediate()
+    let actual = event.getSource().getActual()
+    let mainItem
+    let offItem
+    if(player!=null)
+    {
+        mainItem = player.getHeldItem(MAIN_HAND)
+        offItem = player.getHeldItem(OFF_HAND)
+    }
+
+    if ((mainItem == 'minecraft:bow' && mainItem.nbtString.lastIndexOf('CustomModelData:1780')>=0)||(offItem == 'minecraft:bow' && offItem.nbtString.lastIndexOf('CustomModelData:1780')>=0))
+    {
+        
+        if(entity!=null && !entity.living)
+        {
+            //暗影之刃-命中目标时使目标失明5秒
+            target.potionEffects.add('minecraft:blindness',100,0)
+            if(player.crouching)
+            {
+                //吉姆哈泽德之力-潜行时射击命中目标将额外造成目标当前生命值30%的真实伤害，但使弓进入25秒冷却。
+                target.heal(-target.health*0.3)
+                player.addItemCooldown('minecraft:bow', 500)
+            }
+        }
+        
+    }
+    
+})
+
+onEvent('player.tick', event => {
+    let player = event.player
+    let mainItem = player.getHeldItem(MAIN_HAND)
+    let offItem = player.getHeldItem(OFF_HAND)
+
+    if ((mainItem == 'minecraft:bow' && mainItem.nbtString.lastIndexOf('CustomModelData:1780')>=0)||(offItem == 'minecraft:bow' && offItem.nbtString.lastIndexOf('CustomModelData:1780')>=0))
+    {
+        if(player.crouching)
+        {
+            //化为无形-潜行时隐身
+            player.potionEffects.add('minecraft:invisibility',20,0,false,false)
+            //刺客步法-潜行时加速
+            player.potionEffects.add('minecraft:speed',20,2,false,false)
+        }
+    }
+})
