@@ -1,0 +1,41 @@
+{
+	"enableEnchantmentSettings": {
+		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false,
+		"ENABLE_OP_ENCHANTMENT_MIXING": false,
+		"EXTRA_XP_HEALING": false,
+		"ENABLE_INNATE_ENCHANTMENTS": true,
+		"AREA_OF_EFFECT_ENCHANTS_DONT_AFFECT_PLAYERS": true
+	},
+	// ENIGMA_RESONATOR_DIVISOR -> Higher number = lower damage
+	"enchantmentStatsSettings": {
+		"ENIGMA_RESONATOR_DIVISOR": 3.25
+	},
+	// Enchantment Trigger Chances Base. This is not the % to occur, but the higher this number, the higher the chance to trigger.
+	"enchantmentTriggerChanceBase": {
+		"CHAIN_REACTION": 10,
+		"CHAINS": 20,
+		"CHARGE": 10,
+		"COMMITTED": 30,
+		"CRITICAL_HIT": 10,
+		"ECHO": 10,
+		"EXPLODING": 20,
+		"FREEZING": 30,
+		"FUSE_SHOT": 20,
+		"GRAVITY": 30,
+		"POISONING": 30,
+		"POISON_CLOUD": 30,
+		"PROSPECTOR": 5,
+		"RADIANCE": 20,
+		"RAMPAGING": 10,
+		"REPLENISH": 3,
+		"RUSHDOWN": 10,
+		"SHOCKWAVE": 10,
+		"SOUL_SIPHON": 10,
+		"STUNNING": 20,
+		"SWIRLING": 10,
+		"THUNDERING": 20,
+		"VOID_SHOT": 25,
+		"VOID_STRIKE": 15,
+		"WEAKENING": 30
+	}
+}

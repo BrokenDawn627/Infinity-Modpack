@@ -21,6 +21,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.minecraft]
 				zombie_horse = true
+				panda = true
 				bee = true
 				axolotl = true
 				arrow = true

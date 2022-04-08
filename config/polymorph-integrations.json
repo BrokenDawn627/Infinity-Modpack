@@ -4,6 +4,10 @@
     "enabled": true
   },
   {
+    "id": "camsbackpacks",
+    "enabled": true
+  },
+  {
     "id": "fastbench",
     "enabled": true
   },
@@ -17,6 +21,10 @@
   },
   {
     "id": "ironfurnaces",
+    "enabled": true
+  },
+  {
+    "id": "origins",
     "enabled": true
   },
   {

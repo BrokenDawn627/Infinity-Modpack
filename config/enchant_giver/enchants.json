@@ -31,7 +31,7 @@
     "mcdw:chains": 1
   },
   "mcdw:bow_love_spell_bow": {
-    "mcdw:radiance_shot": 1
+    "mcdw:radiance": 1
   },
   "mcdw:crossbow_harp_crossbow": {
     "minecraft:multishot": 1
@@ -222,7 +222,7 @@
     "mcdw:ricochet": 1
   },
   "mcdw:bow_sabrewing": {
-    "mcdw:radiance_shot": 1
+    "mcdw:radiance": 1
   },
   "mcdw:axe_highland": {
     "mcdw:stunning": 1

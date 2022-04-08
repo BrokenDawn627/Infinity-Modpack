@@ -1,0 +1,193 @@
+{
+	"swordsEnabled": {
+		"SWORD_MASTERS_KATANA": true,
+		"SWORD_SPONGE_STRIKER": true,
+		"SWORD_KATANA": true,
+		"SWORD_FREEZING_FOIL": true,
+		"SWORD_DANCERS_SWORD": true,
+		"SWORD_CLAYMORE": true,
+		"SWORD_NAMELESS_BLADE": true,
+		"SWORD_BROKEN_SAWBLADE": true,
+		"SWORD_BROADSWORD": true,
+		"SWORD_CORAL_BLADE": true,
+		"SWORD_GREAT_AXEBLADE": true,
+		"SWORD_DARK_KATANA": true,
+		"SWORD_MECHANIZED_SAWBLADE": true,
+		"SWORD_OBSIDIAN_CLAYMORE": true,
+		"SWORD_BEESTINGER": true,
+		"SWORD_FROST_SLAYER": true,
+		"SWORD_IRON_SWORD_VAR": true,
+		"SWORD_SINISTER": true,
+		"SWORD_CUTLASS": true,
+		"SWORD_HEARTSTEALER": true,
+		"SWORD_DIAMOND_SWORD_VAR": true,
+		"SWORD_THE_STARLESS_NIGHT": true,
+		"SWORD_HAWKBRAND": true,
+		"SWORD_RAPIER": true
+	},
+	"axesEnabled": {
+		"AXE_FIREBRAND": true,
+		"AXE_ANCHOR": true,
+		"AXE_AXE": true,
+		"AXE_HIGHLAND": true,
+		"AXE_ENCRUSTED_ANCHOR": true
+	},
+	"doubleAxesEnabled": {
+		"AXE_WHIRLWIND": true,
+		"AXE_CURSED": true,
+		"AXE_DOUBLE": true
+	},
+	"daggersEnabled": {
+		"DAGGER_THE_END": true,
+		"DAGGER_VOID_TOUCHED_BLADE": true,
+		"DAGGER_BACKSTABBER": true,
+		"DAGGER_TEMPEST_KNIFE": true,
+		"DAGGER_THE_BEGINNING": true,
+		"DAGGER_MOON": true,
+		"DAGGER_CHILL_GALE_KNIFE": true,
+		"DAGGER_SHEAR_DAGGER": true,
+		"DAGGER_DAGGER": true,
+		"DAGGER_RESOLUTE_TEMPEST_KNIFE": true,
+		"DAGGER_FANGS_OF_FROST": true,
+		"DAGGER_SWIFT_STRIKER": true
+	},
+	"soulDaggersEnabled": {
+		"DAGGER_ETERNAL_KNIFE": true,
+		"SWORD_TRUTHSEEKER": true,
+		"DAGGER_SOUL_KNIFE": true
+	},
+	"hammersEnabled": {
+		"HAMMER_MACE": true,
+		"HAMMER_BONECLUB": true,
+		"HAMMER_STORMLANDER": true,
+		"HAMMER_SUNS_GRACE": true,
+		"HAMMER_FLAIL": true,
+		"HAMMER_GREAT_HAMMER": true,
+		"HAMMER_BONE_CUDGEL": true,
+		"HAMMER_GRAVITY": true
+	},
+	"gauntletsEnabled": {
+		"GAUNTLET_MAULERS": true,
+		"GAUNTLET_GAUNTLET": true,
+		"GAUNTLET_SOUL_FISTS": true
+	},
+	"sicklesEnabled": {
+		"SICKLE_LAST_LAUGH_GOLD": true,
+		"SICKLE_NIGHTMARES_BITE": true,
+		"SICKLE_SICKLE": true,
+		"SICKLE_LAST_LAUGH_SILVER": true
+	},
+	"scythesEnabled": {
+		"SICKLE_SOUL_SCYTHE": true,
+		"SICKLE_JAILORS_SCYTHE": true,
+		"SICKLE_FROST_SCYTHE": true,
+		"SICKLE_SKULL_SCYTHE": true
+	},
+	"picksEnabled": {
+		"PICK_HOWLING_PICK": true,
+		"PICK_MOUNTAINEER_PICK": true,
+		"PICK_DIAMOND_PICKAXE_VAR": true,
+		"PICK_HAILING_PINNACLE": true
+	},
+	"glaivesEnabled": {
+		"SPEAR_GRAVE_BANE": true,
+		"SPEAR_GLAIVE": true,
+		"SPEAR_VENOM_GLAIVE": true,
+		"SPEAR_CACKLING_BROOM": true
+	},
+	"spearsEnabled": {
+		"SPEAR_SPEAR": true,
+		"SPEAR_WHISPERING_SPEAR": true,
+		"SPEAR_FORTUNE": true
+	},
+	"stavesEnabled": {
+		"STAFF_BATTLESTAFF": true,
+		"STAFF_BATTLESTAFF_OF_TERROR": true,
+		"STAFF_GROWING_STAFF": true
+	},
+	"whipsEnabled": {
+		"WHIP_WHIP": true,
+		"WHIP_VINE_WHIP": true
+	},
+	"bowsEnabled": {
+		"BOW_LOST_SOULS": true,
+		"BOW_SNOW_BOW": true,
+		"BOW_TRICKBOW": true,
+		"BOW_WIND_BOW": true,
+		"BOW_BUBBLE_BOW": true,
+		"BOW_MASTERS_BOW": true,
+		"BOW_WEEPING_VINE_BOW": true,
+		"BOW_SHIVERING_BOW": true,
+		"BOW_CALL_OF_THE_VOID": true,
+		"BOW_TWISTING_VINE_BOW": true,
+		"BOW_HAUNTED_BOW": true,
+		"BOW_SABREWING": true,
+		"BOW_TWIN_BOW": true,
+		"BOW_VOID_BOW": true,
+		"BOW_BONEBOW": true,
+		"BOW_HUNTING_BOW": true,
+		"BOW_NOCTURNAL_BOW": true,
+		"BOW_ELITE_POWER_BOW": true,
+		"BOW_WEB_BOW": true,
+		"BOW_BUBBLE_BURSTER": true,
+		"BOW_GREEN_MENACE": true,
+		"BOW_WINTERS_TOUCH": true,
+		"BOW_ANCIENT_BOW": true,
+		"BOW_ECHO_OF_THE_VALLEY": true,
+		"BOW_PHANTOM_BOW": true,
+		"BOW_HUNTERS_PROMISE": true,
+		"BOW_PINK_SCOUNDREL": true,
+		"BOW_BURST_GALE_BOW": true,
+		"BOW_POWER_BOW": true,
+		"BOW_SOUL_BOW": true
+	},
+	"shortBowsEnabled": {
+		"BOW_PURPLE_STORM": true,
+		"BOW_LOVE_SPELL_BOW": true,
+		"BOW_MECHANICAL_SHORTBOW": true,
+		"BOW_SHORTBOW": true
+	},
+	"longBowsEnabled": {
+		"BOW_GUARDIAN_BOW": true,
+		"BOW_LONGBOW": true,
+		"BOW_RED_SNAKE": true
+	},
+	"crossbowsEnabled": {
+		"CROSSBOW_SOUL_HUNTER_CROSSBOW": true,
+		"CROSSBOW_SCATTER_CROSSBOW": true,
+		"CROSSBOW_NAUTICAL_CROSSBOW": true,
+		"CROSSBOW_SHADOW_CROSSBOW": true,
+		"CROSSBOW_HEAVY_CROSSBOW": true,
+		"CROSSBOW_FIREBOLT_THROWER": true,
+		"CROSSBOW_VEILED_CROSSBOW": true,
+		"CROSSBOW_SOUL_CROSSBOW": true,
+		"CROSSBOW_CORRUPTED_CROSSBOW": true,
+		"CROSSBOW_LIGHTNING_HARP_CROSSBOW": true,
+		"CROSSBOW_DUAL_CROSSBOW": true,
+		"CROSSBOW_BUTTERFLY_CROSSBOW": true,
+		"CROSSBOW_BABY_CROSSBOW": true,
+		"CROSSBOW_THE_SLICER": true,
+		"CROSSBOW_VOIDCALLER_CROSSBOW": true,
+		"CROSSBOW_AUTO_CROSSBOW": true,
+		"CROSSBOW_IMPLODING_CROSSBOW": true,
+		"CROSSBOW_DOOM_CROSSBOW": true,
+		"CROSSBOW_RAPID_CROSSBOW": true,
+		"CROSSBOW_HARPOON_CROSSBOW": true,
+		"CROSSBOW_AZURE_SEEKER": true,
+		"CROSSBOW_COG_CROSSBOW": true,
+		"CROSSBOW_HARP_CROSSBOW": true,
+		"CROSSBOW_SPELLBOUND_CROSSBOW": true,
+		"CROSSBOW_PRIDE_OF_THE_PIGLINS": true,
+		"CROSSBOW_EXPLODING_CROSSBOW": true,
+		"CROSSBOW_FERAL_SOUL_CROSSBOW": true,
+		"CROSSBOW_SLAYER_CROSSBOW": true,
+		"CROSSBOW_BURST_CROSSBOW": true
+	},
+	"shieldsEnabled": {
+		"SHIELD_VANGUARD": true,
+		"SHIELD_ROYAL_GUARD": true
+	},
+	"itemsEnabled": {
+		"ITEM_BEE_STINGER": true
+	}
+}

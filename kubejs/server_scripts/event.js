@@ -178,7 +178,7 @@ onEvent('player.tick', event => {
 })
 
 //Shield
-onEvent('entity.hurt',event =>{
+/*onEvent('entity.hurt',event =>{
     let target = event.getEntity()
     let target_offhand=target.getHeldItem(OFF_HAND)
     
@@ -197,4 +197,4 @@ onEvent('item.right_click', event => {
     {
         event.server.runCommand(`say 1`)
     }
-})
+})*/

@@ -1,26 +1,28 @@
 {
   "x_enchant": {
+    "settings": {},
     "disabled": [
       "com.doo.xenchant.enchantment.halo.ThunderHalo"
     ],
     "autoFishing": true,
     "suckBlood": true,
     "weakness": true,
+    "weaknessChance": 15.0,
     "rebirth": true,
     "moreLoot": true,
     "moreLootRate": 20.0,
     "moreMoreLootRate": 1.0,
     "moreMoreLootMultiplier": 5.0,
     "hitRateUp": true,
-    "quickShoot": true,
+    "quickShot": true,
     "magicImmune": true,
     "diffusion": true,
     "diffusionDamage": 5.0,
+    "nightBreakMaxLevel": 5,
+    "nightBreakPerLevel": 10.0,
     "brokenDawn": true,
     "brokenDawnProcess": 1.5,
     "brokenDawnSuccess": 20.0,
-    "infinityAcceptMending": true,
-    "chatTips": false,
     "halo": true,
     "haloRange": 9.0,
     "harmfulTargetOnlyMonster": true,
@@ -33,6 +35,7 @@
     "effectTreasureMaxLevel": 3,
     "effectOtherMaxLevel": 3,
     "enabledAllEffect": false,
+    "onlyPotionEffect": true,
     "disabledEffect": [
       "effect.extraalchemy.sails",
       "effect.gateofbabylon.dragon_slash",
@@ -102,15 +105,23 @@
       "effect.extraalchemy.piper",
       "effect.dehydration.thirst_effect",
       "effect.bewitchment.enchanted",
-      "effect.the_aether.simmering"
+      "effect.the_aether.simmering",
+      "effect.botania.soul_cross",
+      "effect.botania.feather_feet",
+      "effect.botania.emptiness",
+      "effect.botania.bloodthirst",
+      "effect.botania.allure",
+      "effect.botania.clear"
     ],
-    "special": false
+    "special": false,
+    "trinkets": false
   },
   "xhp": {
     "enabled": true,
     "syncWithHud": true,
     "syncWithHide": true,
     "display": "FOCUS",
+    "enableFTBTeam": true,
     "focusDelay": 1.2,
     "tips": false,
     "tipsColor": -1,
@@ -118,8 +129,15 @@
       100,
       21
     ],
+    "tipsMiddle": [
+      true,
+      false
+    ],
+    "tipsScale": 10,
+    "seeThrough": false,
     "name": true,
-    "hp": true,
+    "hp": false,
+    "oneLine": true,
     "visualization": true,
     "style": "BAR",
     "friendColor": -14336,
@@ -130,10 +148,12 @@
     "barLength": 20,
     "barHeight": 3,
     "damage": false,
+    "damageFollow": false,
+    "damageFromMiddle": true,
+    "damageScale": 8,
     "distance": 60,
-    "scale": 0.02,
-    "height": 0,
     "ignoreArmorStandEntity": true,
-    "tipsTemplate": "#n#: #h# / #mh# - Armor(#a#)"
+    "tipsTemplate": "#n#: #h# / #mh# - Armor(#a#)",
+    "tipsTemplate2": "#d#"
   }
 }

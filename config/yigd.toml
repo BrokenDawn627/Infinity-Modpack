@@ -36,6 +36,15 @@ afterTime = 1
 timeType = "HOURS"
 dropInventory = false
 
+[graveSettings.itemLoss]
+enableLoss = false
+ignoreSoulboundItems = true
+affectStacks = false
+usePercentRange = false
+lossRangeFrom = 0
+lossRangeTo = 5
+percentChanceOfLoss = 100
+
 [graveSettings.blockUnderGrave]
 generateBlockUnder = true
 inOverWorld = "minecraft:cobblestone"
@@ -55,7 +64,10 @@ glowMaxDistance = 10
 [utilitySettings]
 soulboundEnchant = true
 deathSightEnchant = false
-teleportScroll = true
+
+[utilitySettings.scrollItem]
+scrollType = "DISABLED"
+retrieveOnRespawn = true
 [commandToggles]
 retrieveGrave = true
 robGrave = true
