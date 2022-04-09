@@ -34,17 +34,6 @@ onEvent('recipes', event => {
         }
       })
 
-      event.custom({
-        type: 'lychee:block_clicking',
-        item_in:{
-            item:'kubejs:shining_star'
-        },
-        block_in:'*',
-        post:{
-            type:'execute',
-            command:'/improvedmobs difficulty set 0'
-        }
-      })
 
       event.custom({
         type: 'lychee:item_burning',
@@ -114,28 +103,19 @@ onEvent('recipes', event => {
         }
       })
 
-      event.custom({
-        type: 'lychee:block_interacting',
-        item_in:{
-            item:'kubejs:shi_li'
-        },
-        block_in:'*',
-        post:{
-            type:'execute',
-            command:'/effect give @s minecraft:resistance 5 4 true'
-        }
-      })
 
-      event.custom({
-        type: 'lychee:block_interacting',
-        item_in:{
-            item:'kubejs:skill_bottle'
-        },
-        block_in:'*',
-        post:{
-            type:'execute',
-            command:'/playerex refund @s 1'
-        }
-      })
 
   })
+
+  onEvent('item.right_click', event => {
+    if ( event.player.getHeldItem(MAIN_HAND) == 'kubejs:skill_bottle')
+           {
+            event.server.runCommandSilent(`execute as ${event.player.id} run playerex refund @s 1`)
+            event.player.mainHandItem.count-=1
+           }
+    if ( event.player.getHeldItem(MAIN_HAND) == 'kubejs:shi_li')
+           {
+            event.server.runCommandSilent(`effect give ${event.player.id} minecraft:resistance 5 4 true`)
+            event.player.mainHandItem.count-=1
+           }             
+})

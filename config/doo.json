@@ -35,7 +35,7 @@
     "effectTreasureMaxLevel": 3,
     "effectOtherMaxLevel": 3,
     "enabledAllEffect": false,
-    "onlyPotionEffect": true,
+    "onlyPotionEffect": false,
     "disabledEffect": [
       "effect.extraalchemy.sails",
       "effect.gateofbabylon.dragon_slash",

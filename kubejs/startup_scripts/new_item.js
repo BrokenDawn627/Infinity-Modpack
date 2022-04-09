@@ -7,7 +7,7 @@ onEvent('item.registry', event => {
 	  })
 
 	  event.create('shining_star', item => {
-		item.displayName('§6闪耀之星').tooltip('§7左键点击任意方块重置难度')
+		item.displayName('§6闪耀之星')
 	  })
 	  event.create('red_packet', item => {
 		item.displayName('§c红包').tooltip('§7右键任意方块使用')
@@ -29,8 +29,41 @@ onEvent('item.registry', event => {
 		item.displayName('§8石粒').tooltip('§7屹立不倒！')
 	  })
 	  event.create('skill_bottle', item => {
-		item.displayName('§9技能之瓶').tooltip('§7右键任意方块来返还一点技能点')
+		item.displayName('§9技能之瓶').tooltip('§7右键使用来返还一点技能点')
 	  })
+
+	  event.create('difficulty_easy', item => {
+		item.displayName('切换为简单难度')
+	  })
+	  event.create('difficulty_normal', item => {
+		item.displayName('切换为普通难度')
+	  })
+	  event.create('difficulty_hard', item => {
+		item.displayName('切换为困难难度')
+	  })
+	  event.create('difficulty_impossible', item => {
+		item.displayName('切换为末日难度')
+	  })
+	  event.create('difficulty_changer', item => {
+		item.displayName('§6难度切换器').tooltip('§7右键使用以切换难度')
+		item.tooltip('§a休闲')
+		item.tooltip('§7- 正常的生存，无任何词条')
+		item.tooltip('§e冒险')
+		item.tooltip('§7- 玩家受到的生物伤害额外增加10%')
+		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少15%')
+		item.tooltip('§7- 击杀敌对生物时有10%的概率额外获得经验等级、金币奖励')
+		item.tooltip('§c困难')
+		item.tooltip('§7- 玩家受到的生物伤害额外增加20%')
+		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少30%')
+		item.tooltip('§7- 击杀敌对生物时有25%的概率额外获得经验等级、金币奖励')
+		item.tooltip('§4末日')
+		item.tooltip('§7- 玩家受到的生物伤害额外增加30%')
+		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少50%')
+		item.tooltip('§7- 玩家受到的生物伤害额外附带15%玩家最大生命值的真实伤害')
+		item.tooltip('§7- 击杀敌对生物时有50%的概率额外获得经验等级、金币奖励')
+		item.rarity(Rarity.EPIC)
+	  })
+	  
 	  
 })
 
