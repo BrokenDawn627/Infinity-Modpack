@@ -1,6 +1,6 @@
 {
 	"levelLimit": -1,
 	"globalEnchantmentLevelLimit": -1,
-	"removeIncrementalRepairCost": true,
+	"removeIncrementalRepairCost": false,
 	"stopAnvilBreaking": false
 }

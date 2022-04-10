@@ -63,10 +63,10 @@ glowMinDistance = 0
 glowMaxDistance = 10
 [utilitySettings]
 soulboundEnchant = true
-deathSightEnchant = false
+deathSightEnchant = true
 
 [utilitySettings.scrollItem]
-scrollType = "DISABLED"
+scrollType = "INFO_SCROLL"
 retrieveOnRespawn = true
 [commandToggles]
 retrieveGrave = true

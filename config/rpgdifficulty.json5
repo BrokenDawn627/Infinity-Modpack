@@ -5,7 +5,7 @@
 	"distanceFactor": 0.1,
 	// in minutes
 	"increasingTime": 30,
-	// 0.1 = 10%
+	// 0.05 = 5%
 	"timeFactor": 0.1,
 	// in Blocks
 	"heightDistance": 30,
@@ -41,9 +41,16 @@
 	"excludeTimeInOtherDimension": true,
 	// Applies only for dimensions other than Overworld
 	"excludeHeightInOtherDimension": true,
+	// Based on level - Requires Nameplate mod addon
+	"dropMoreLoot": false,
+	// 0.1 = +10% chance per lvl
+	"moreLootChance": 0.10000000149011612,
+	"maxLootChance": 1.0,
+	// Each loot table item has 0.7 = 70% chance to get dropped
+	"chanceForEachItem": 0.699999988079071,
 	// Hud for testing purpose only
 	"hudTesting": false,
-	// Exluded Entity List Bsp: minecraft.villager
+	// Excluded Entity List Bsp: minecraft:villager
 	"excluded_entity": [],
 	"allowSpecialZombie": true,
 	// in %

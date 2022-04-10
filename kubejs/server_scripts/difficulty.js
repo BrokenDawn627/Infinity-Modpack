@@ -40,16 +40,24 @@ onEvent('entity.hurt',event =>{
         {
             if(source!=null)
             {
-                //玩家受到的生物伤害额外增加10%
-                target.heal(-damage*0.1)
+                if(target.health>damage*0.1+1)
+                {
+                    //玩家受到的生物伤害额外增加10%
+                    target.heal(-damage*0.1)
+                }
+                else target.potionEffects.add('minecraft:instant_damage',40,9)                
             }          
         }  
         else if(target.stages.has('difficulty_hard'))
         {
             if(source!=null)
             {
-                //玩家受到的生物伤害额外增加20%
-                target.heal(-damage*0.2)
+                if(target.health>damage*0.2+1)
+                {
+                    //玩家受到的生物伤害额外增加20%
+                    target.heal(-damage*0.2)
+                }
+                else target.potionEffects.add('minecraft:instant_damage',40,9)    
             }          
         }       
         else if(target.stages.has('difficulty_impossible'))
@@ -57,10 +65,17 @@ onEvent('entity.hurt',event =>{
             if(source!=null)
             {
                 
-                //玩家受到的生物伤害额外增加30%
-                target.heal(-damage*0.3)
-                //玩家受到的生物伤害额外附带15%玩家最大生命值的真实伤害
-                target.heal(-target.maxHealth*0.15)
+                if(target.health>damage*0.3+1)
+                {
+                    //玩家受到的生物伤害额外增加30%
+                    target.heal(-damage*0.3)
+                }
+                if(target.health-target.maxHealth*0.15>1) 
+                {
+                    //玩家受到的生物伤害额外附带15%玩家最大生命值的真实伤害
+                    target.heal(-target.maxHealth*0.15)
+                }
+                else target.potionEffects.add('minecraft:instant_damage',40,9)       
             }          
         }     
     }

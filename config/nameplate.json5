@@ -1,0 +1,17 @@
+{
+	// 0xAARRGGBB Format
+	"nameColor": 553648127,
+	"backgroundColor": -1,
+	"backgroundOpacity": 0.4000000059604645,
+	"showHealth": true,
+	// Setting if for example WTHIT is installed
+	"showLevel": true,
+	"squaredDistance": 128.0,
+	// Example: minecraft.zombie or adventurez.brown_fungus
+	"excluded_entities": [
+		"minecraft.wither",
+		"adventurez.stone_golem",
+		"adventurez.void_shadow",
+		"adventurez.the_eye"
+	]
+}

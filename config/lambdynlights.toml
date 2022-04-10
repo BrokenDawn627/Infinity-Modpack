@@ -36,6 +36,7 @@ mode = "fancy"
 				experience_bottle = true
 				rabbit = true
 				firework_rocket = true
+				silverfish = true
 				armor_stand = true
 				drowned = true
 				experience_orb = true
