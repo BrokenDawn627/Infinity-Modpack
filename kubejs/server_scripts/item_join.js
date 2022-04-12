@@ -4,8 +4,9 @@ onEvent('player.logged_in', event => {
       
       event.player.stages.add('starting_items')
       
-      event.player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:infinity_book"}'))
-      event.player.give('kubejs:difficulty_changer')
+      event.player.give(Item.of('patchouli:guide_book', '{RepairCost:1,"patchouli:book":"patchouli:infinity_book"}').enchant('yigd:soulbound', 1))
+      event.player.give(Item.of('kubejs:difficulty_changer', '{RepairCost:1}').enchant('yigd:soulbound', 1))
+      event.player.give(Item.of('kubejs:difficulty_looker', '{RepairCost:1}').enchant('yigd:soulbound', 1))
       if(event.player.name=='D_O_O')
       {
         event.player.give('kubejs:ruoshui')

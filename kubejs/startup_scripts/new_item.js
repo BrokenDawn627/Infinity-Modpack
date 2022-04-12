@@ -63,6 +63,11 @@ onEvent('item.registry', event => {
 		item.tooltip('§7- 击杀敌对生物时有50%的概率额外获得经验等级、金币奖励')
 		item.rarity(Rarity.EPIC)
 	  })
+	  event.create('difficulty_looker', item => {
+		item.displayName('§b难度查看器')
+		item.tooltip('§7右键以查看难度')
+		item.rarity(Rarity.EPIC)
+	  })
 	  
 	  
 })
