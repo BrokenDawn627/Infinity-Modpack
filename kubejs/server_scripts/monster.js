@@ -1,14 +1,38 @@
 function randomNum(min, max) {
-    max=max+1;
-    return Math.floor(Math.random() * (min- max) + max);
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
   }
 
-function randomtag(num,limits)
+function randomtag(num,limits) //范围1~limit
 {
     let final = [];
     //获取0-x的数
     for (let i = 0; i < num; i++) {
         let result = parseInt(Math.random() * limits)+1;
+        //将数据添加到数组当中
+        final[i] = result;
+        //进行数组去重
+        for (let v = 0; v < final.length; v++) {
+            //从当前元素的下一个开始比,当前元素v,下一个元素+1
+            for (let j = v + 1; j < final.length; j++) {
+                //判断arr[i]是否相等
+                if (final[v] == final[j]) {
+                    //如果相等,删除j
+                    final.splice(j, 1);
+                    j--; //需要重新比较当前位置,避免相邻位置出现重复数字
+                    i--; //需要重新生成当前重复位置的随机数
+                }
+            }
+        }
+    }
+    return final
+}
+
+function randomloot(num,limits) //范围0~limit-1
+{
+    let final = [];
+    //获取0-x的数
+    for (let i = 0; i < num; i++) {
+        let result = parseInt(Math.random() * limits);
         //将数据添加到数组当中
         final[i] = result;
         //进行数组去重
@@ -38,9 +62,9 @@ onEvent('entity.spawned', event => {
     if(entity.isLiving()&&entity.monster)
     {
         
-        //50%成为精英怪
-        Elite_chance=randomNum(1,2)
-        if(Elite_chance==1)
+        //5%成为精英怪
+        jingying_chance=randomNum(1,20)
+        if(jingying_chance==1)
         {
             //基础特性-血量翻倍,攻击力翻倍
             entity.tags.add('jingying')
@@ -124,9 +148,19 @@ onEvent('entity.death', event => {
     //event.server.runCommand(`say ${entity.name}`)
     if(entity.tags.contains('jingying'))
     {
-        //event.server.runCommand(`say ${entity.name}`)
-        amount1=randomNum(8,15)
-        player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
+        if (player != null) {
+            //event.server.runCommand(`say ${entity.name}`)
+            //掉落随机数量的金币与等级
+            amount1 = randomNum(8, 15)
+            player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
+            amount2 = randomNum(8, 15)
+            player.addXPLevels(amount2)
+            //掉落特殊物品
+            lootno = randomloot(2, jingying_loot.length)
+            for (let i = 0; i < lootno.length; i++) {
+                player.give(jingying_loot[lootno[i]])
+            }
+        }
     }
 })
 

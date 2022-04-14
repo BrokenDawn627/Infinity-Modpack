@@ -231,8 +231,7 @@ onEvent('recipes', event => {
 //概率事件
 
 function randomNum(min, max) {
-    max=max+1;
-    return Math.floor(Math.random() * (min- max) + max);
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
   }
 
 
@@ -255,44 +254,82 @@ onEvent('entity.death', event => {
     {
         if(player!=null)
         {
+            //获取难度
+            customdiff=event.server.runCommandSilent(`scoreboard players get ${player.name} customd`)
+            
             //击杀普通敌对生物难度值增加1，精英怪增加5
             event.server.runCommandSilent(`scoreboard players add ${player.name} customd 1`)
             if(entity.tags.contains('jingying'))
             {
                 event.server.runCommandSilent(`scoreboard players add ${player.name} customd 4`)
             }
+
+            //额外掉落概率-最大50%
+            let chance=randomNum(1,100)
+            let ifloot=false
+
             
-            //末日-击杀敌对生物时有50%的概率额外获得经验等级、金币奖励
-            if (player.stages.has('difficulty_impossible')) {
-                chance = randomNum(1, 2)
-                if (chance == 1) {
-                    amount1 = randomNum(1, 3)
-                    amount2 = randomNum(1, 3)
-                    player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
-                    player.addXPLevels(amount2)
-                }
+
+            if(Math.floor(customdiff*0.3)<=50)
+            {
+                if(chance<=Math.floor(customdiff*0.3)) ifloot=true;
             }
-            //困难-击杀敌对生物时有25%的概率额外获得经验等级、金币奖励
-            else if (player.stages.has('difficulty_hard')) {
-                chance = randomNum(1, 4)
-                if (chance == 1) {
-                    amount1 = randomNum(1, 3)
-                    amount2 = randomNum(1, 3)
-                    player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
-                    player.addXPLevels(amount2)
-                }
+            else
+            {
+                if(chance<=50) ifloot=true;
             }
-            //冒险-击杀敌对生物时有10%的概率额外获得经验等级、金币奖励
-            else if (player.stages.has('difficulty_normal')) {
-                chance = randomNum(1, 10)
-                if (chance == 1) {
+
+            
+            if(ifloot)
+            {
+                if (player.stages.has('difficulty_easy'))
+                {
+                    //event.server.runCommand(`say 0`)
+                }
+                else if (player.stages.has('difficulty_normal'))
+                {
+                    lootno = randomloot(1, normal_loot.length)
+                    for (let i = 0; i < lootno.length; i++) 
+                    {
+                        player.give(normal_loot[lootno[i]])
+                    }
                     //event.server.runCommand(`say 1`)
-                    amount1 = randomNum(1, 3)
-                    amount2 = randomNum(1, 3)
-                    player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
-                    player.addXPLevels(amount2)
+                }
+                else if (player.stages.has('difficulty_hard'))
+                {
+                    lootno = randomloot(1, normal_loot.length)
+                    for (let i = 0; i < lootno.length; i++) 
+                    {
+                        player.give(normal_loot[lootno[i]])
+                    }
+                    lootno = randomloot(1, hard_loot.length)
+                    for (let i = 0; i < lootno.length; i++) 
+                    {
+                        player.give(hard_loot[lootno[i]])
+                    }
+                    //event.server.runCommand(`say 2`)
+                }
+                else if (player.stages.has('difficulty_impossible'))
+                {
+                    lootno = randomloot(1, normal_loot.length)
+                    for (let i = 0; i < lootno.length; i++) 
+                    {
+                        player.give(normal_loot[lootno[i]])
+                    }
+                    lootno = randomloot(1, hard_loot.length)
+                    for (let i = 0; i < lootno.length; i++) 
+                    {
+                        player.give(hard_loot[lootno[i]])
+                    }
+                    lootno = randomloot(1, impossible_loot.length)
+                    for (let i = 0; i < lootno.length; i++) 
+                    {
+                        player.give(impossible_loot[lootno[i]])  
+                    }
+                    //event.server.runCommand(`say 3`)
                 }
             }
+            
         }
     }
 
@@ -333,12 +370,15 @@ onEvent('entity.hurt', event => {
             target.setMaxHealth(target.maxHealth+customd*0.3)
             target.tags.add('attacked')
             target.heal(customd*0.3)
-            //攻击力加难度值*0.1
-            result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)
+            //攻击力加难度值*0.2
+            result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)           
+            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result+customd*0.2}`)
+            
             //event.server.runCommand(`say ${result}`)
-            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result+customd*0.1}`)
-            result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)
-            //event.server.runCommand(`say ${result}`)
+            //护甲值加难度值*0.2 上限50
+            result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base get`) 
+            if(result+customd*0.2<=50) event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result+customd*0.2}`)
+            else event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set 50`)
         }
     }
 })
