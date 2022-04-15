@@ -156,7 +156,7 @@ onEvent('entity.death', event => {
             amount2 = randomNum(8, 15)
             player.addXPLevels(amount2)
             //掉落特殊物品
-            lootno = randomloot(2, jingying_loot.length)
+            lootno = randomloot(3, jingying_loot.length)
             for (let i = 0; i < lootno.length; i++) {
                 player.give(jingying_loot[lootno[i]])
             }
@@ -179,6 +179,7 @@ onEvent('level.tick', event => {
                 result=event.server.runCommandSilent(`attribute ${entities[i].id} minecraft:generic.attack_damage base get`)
                 //event.server.runCommand(`say ${result}`)
                 event.server.runCommandSilent(`attribute ${entities[i].id} minecraft:generic.attack_damage base set ${result*2}`)
+                event.server.runCommandSilent(`scale set pehkui:base 1.5 ${entities[i].id}`)
                 entities[i].tags.add('finish')
             }
             //迅捷

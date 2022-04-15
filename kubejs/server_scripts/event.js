@@ -4,34 +4,33 @@ onEvent('recipes', event => {
 })
 
 onEvent('item.right_click', event => {
-    if ( event.player.getHeldItem(MAIN_HAND) == 'kubejs:custom_paper')
-           {
-            if(event.player.name=='_Inory_'){
-                event.player.give('kubejs:singer_sword')
-                event.player.give('kubejs:bengdai')
-                event.player.mainHandItem.count-=1
-            }
-            if(event.player.name=='D_O_O')
-           {
-                event.player.give('kubejs:ruoshui')
-                event.player.mainHandItem.count-=1
-           }
-           if(event.player.name=='Naughty_Clock')        
-           {
-            event.player.give(Item.of('minecraft:bow', "{CustomModelData:1781,Damage:0,Unbreakable:1b,display:{Lore:['{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"束缚藤蔓\"},{\"text\":\"  \"},{\"color\":\"gray\",\"text\":\"命中目标时使目标定身5秒\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"text\":\"寄生种子  \"},{\"color\":\"gray\",\"text\":\"命中目标时给予自身 生命恢复II 5秒\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"自然之力\"},{\"text\":\"  \"},{\"color\":\"gray\",\"text\":\"潜行时射击命中目标将额外造成目标当前生命值20%的真实伤害，但使弓进入20秒冷却\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"荆棘屏障  \"},{\"color\":\"gray\",\"text\":\"潜行时减免60%伤害\"}],\"text\":\"\"}','{\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"@Naughty_Clock\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"精灵之语\"}],\"text\":\"\"}'}}").enchant('imperishableitems:imperishable', 1)) 
-            event.player.mainHandItem.count-=1
-           }
-           if(event.player.name=='Night_Break')
-           {
+    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:custom_paper') {
+        if (event.player.name == '_Inory_') {
+            event.player.give('kubejs:singer_sword')
+            event.player.give('kubejs:bengdai')
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'D_O_O') {
+            event.player.give('kubejs:ruoshui')
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'Naughty_Clock') {
+            event.player.give(Item.of('minecraft:bow', "{CustomModelData:1781,Damage:0,Unbreakable:1b,display:{Lore:['{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"束缚藤蔓\"},{\"text\":\"  \"},{\"color\":\"gray\",\"text\":\"命中目标时使目标定身5秒\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"text\":\"寄生种子  \"},{\"color\":\"gray\",\"text\":\"命中目标时给予自身 生命恢复II 5秒\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"自然之力\"},{\"text\":\"  \"},{\"color\":\"gray\",\"text\":\"潜行时射击命中目标将额外造成目标当前生命值20%的真实伤害，但使弓进入20秒冷却\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"荆棘屏障  \"},{\"color\":\"gray\",\"text\":\"潜行时减免60%伤害\"}],\"text\":\"\"}','{\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"@Naughty_Clock\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"精灵之语\"}],\"text\":\"\"}'}}").enchant('imperishableitems:imperishable', 1))
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'Night_Break') {
             event.player.give('kubejs:nightbreak')
-            event.player.mainHandItem.count-=1
-           }
-           if(event.player.name=='GAMEHAZED')
-           {
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'GAMEHAZED') {
             event.player.give(Item.of('minecraft:bow', "{CustomModelData:1780,Damage:0,Unbreakable:1b,display:{Lore:['{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"暗影之刃  命中目标时使目标失明5秒\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"吉姆哈泽德之力  潜行时射击命中目标将额外造成目标当前生命值30%的真实伤害，但使弓进入25秒冷却\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"化为无形  潜行时隐身\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"刺客步法  潜行时加速\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"text\":\" \"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"@极限生存挑战首通-GAMEHAZED\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"吉姆哈泽德之暗影\"}],\"text\":\"\"}'}}").enchant('yigd:soulbound', 1))
-            event.player.mainHandItem.count-=1
-           }
-           }            
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'huasuia') {
+            event.player.give(Item.of('kubejs:baigei_boots', '{AttributeModifiers:[{Amount:4.0d,AttributeName:"minecraft:generic.armor",Operation:0,Slot:"feet",UUID:[I;-45615107,-1407171253,-1350934133,161733585]},{Amount:2.0d,AttributeName:"minecraft:generic.armor_toughness",Operation:0,Slot:"feet",UUID:[I;1223374047,-2092153921,-1251063457,-1481955000]},{Amount:6.0d,AttributeName:"minecraft:generic.max_health",Operation:0,Slot:"feet",UUID:[I;233678787,-34125416,-1961187004,-576140583]},{Amount:1.0d,AttributeName:"minecraft:generic.knockback_resistance",Operation:0,Slot:"feet",UUID:[I;5336893,1395477583,-2080663661,-950632961]},{Amount:1.0d,AttributeName:"stepheightentityattribute:stepheight",Operation:0,Slot:"feet",UUID:[I;1728871659,1969833762,-1086653552,1494668937]}],Damage:0}'))
+            event.player.mainHandItem.count -= 1
+        }
+    }
 })
 
 //Inory
@@ -257,5 +256,19 @@ onEvent('player.tick', event => {
             //刺客步法-潜行时加速
             player.potionEffects.add('minecraft:speed',20,2,false,false)
         }
+    }
+})
+
+//白给靴
+onEvent('player.tick', event => {
+    let player = event.player
+    let boots= player.getFeetArmorItem()
+
+    //event.server.runCommand(`say 1`)
+    if(boots=='kubejs:baigei_boots')
+    {
+        player.potionEffects.add('minecraft:regeneration',20,2,false,false)
+        player.potionEffects.add('minecraft:speed',20,1,false,false)
+        player.potionEffects.add('extraalchemy:detection',20,0,false,false)
     }
 })

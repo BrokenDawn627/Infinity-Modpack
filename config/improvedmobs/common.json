@@ -431,13 +431,13 @@
     "comments": [
       "Base chance that a mob can have one piece of armor"
     ],
-    "input": 0.5
+    "input": 0.7
   },
   "baseEquipChanceAdd": {
     "comments": [
       "Base chance for each additional armor pieces"
     ],
-    "input": 0.5
+    "input": 0.7
   },
   "diffEquipAdd": {
     "comments": [

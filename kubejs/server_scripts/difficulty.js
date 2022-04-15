@@ -35,6 +35,21 @@ onEvent('player.logged_in', event => {
             event.player.playSound('minecraft:entity.arrow.hit_player')
         }
     }
+    if(event.player.getHeldItem(MAIN_HAND) == 'kubejs:jiushu_heart')
+    {
+        costomd=event.server.runCommandSilent(`scoreboard players get ${event.player.name} customd`)
+        //减10点难度值，少于10点则归零
+        if(costomd>=10)
+        {
+            event.server.runCommandSilent(`scoreboard players remove ${event.player.name} customd 10`)
+            event.player.mainHandItem.count -= 1
+        }
+        else if(costomd>0)
+        {
+            event.server.runCommandSilent(`scoreboard players set ${event.player.name} customd 0`)
+            event.player.mainHandItem.count -= 1
+        }
+    }
     
 })
 
@@ -226,6 +241,17 @@ onEvent('item.right_click', event => {
 onEvent('recipes', event => {
     event.shapeless('kubejs:difficulty_changer', ['minecraft:clock'])
     event.shapeless('kubejs:difficulty_looker', ['kubejs:difficulty_changer'])
+    event.shaped('kubejs:jiushu_heart', [
+		'ECD',
+		'BAB',
+		'DCE'
+	  ], {
+		A:'victus:blank_heart_aspect',
+		B:'botania:terrasteel_ingot',
+		C:'botania:elementium_ingot',
+        D:'the_aether:ambrosium_shard',
+        E:'the_aether:gravitite_gemstone'
+	  })
 })
 
 //概率事件
@@ -282,6 +308,9 @@ onEvent('entity.death', event => {
             
             if(ifloot)
             {
+                player.give(Item.of('numismatic-overhaul:gold_coin', Math.floor(customdiff*0.1)))
+                player.addXPLevels(Math.floor(customdiff*0.1))
+                
                 if (player.stages.has('difficulty_easy'))
                 {
                     //event.server.runCommand(`say 0`)
@@ -359,6 +388,7 @@ onEvent('entity.hurt', event => {
     let target = event.getEntity()
     let player = event.getSource().getPlayer()
     let damage = event.getDamage()
+    let source = event.getSource().getActual()
 
     if(player!=null)
     {
@@ -379,6 +409,23 @@ onEvent('entity.hurt', event => {
             result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base get`) 
             if(result+customd*0.2<=50) event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result+customd*0.2}`)
             else event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set 50`)
+        }
+    }
+    if(target.player)
+    {
+        customd=event.server.runCommandSilent(`scoreboard players get ${target.name} customd`)
+        if(source!=null&&source.monster&&!source.tags.contains('attacked'))
+        {
+            source.setMaxHealth(source.maxHealth+customd*0.3)
+            source.tags.add('attacked')
+            source.heal(customd*0.3)
+
+            result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base get`)           
+            event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result+customd*0.2}`)
+
+            result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base get`) 
+            if(result+customd*0.2<=50) event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set ${result+customd*0.2}`)
+            else event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set 50`)
         }
     }
 })

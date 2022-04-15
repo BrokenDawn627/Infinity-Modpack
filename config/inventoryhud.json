@@ -8,7 +8,7 @@
   "pot_toggle": true,
   "pot_alpha": 100,
   "pot_gap": 0,
-  "pot_mini": false,
+  "pot_mini": true,
   "bar_duration": 300,
   "pot_hor": false,
   "arm_toggle": true,

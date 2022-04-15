@@ -18,7 +18,7 @@ onEvent('item.registry.tool_tiers', event => {
       tier.repairIngredient = 'minecraft:diamond'
     })
   })
-
+ 
 
   onEvent('item.registry', event => {
 
@@ -53,5 +53,15 @@ onEvent('item.registry.tool_tiers', event => {
         item.rarity(Rarity.EPIC)
       })
 
+      event.create('baigei_boots', item => {
+        item.displayName('§6白给靴').type('boots').tier('gold')
+        item.maxDamage(400)
+        item.rarity(Rarity.EPIC)
+        item.tooltip('§7感知')
+        item.tooltip('§7生命恢复III')
+        item.tooltip('§7速度II')
+        item.tooltip(' ')
+        item.tooltip('§6@极限生存挑战通关者-huasuia')
+      })
 
   })

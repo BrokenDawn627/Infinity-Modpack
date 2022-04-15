@@ -44,6 +44,11 @@ onEvent('item.registry', event => {
 	  event.create('difficulty_impossible', item => {
 		item.displayName('切换为末日难度')
 	  })
+	  event.create('jiushu_heart', item => {
+		item.displayName('§b救赎之心')
+		item.tooltip('§7右键使用以减少10点难度值')
+		item.rarity(Rarity.EPIC)
+	  })
 	  event.create('difficulty_changer', item => {
 		item.displayName('§6难度切换器').tooltip('§7右键使用以切换难度')
 		item.tooltip('§a休闲')
