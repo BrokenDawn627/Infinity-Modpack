@@ -150,10 +150,11 @@ onEvent('entity.death', event => {
     {
         if (player != null) {
             //event.server.runCommand(`say ${entity.name}`)
+            customd=event.server.runCommandSilent(`scoreboard players get ${player.name} customd`)
             //掉落随机数量的金币与等级
-            amount1 = randomNum(8, 15)
+            amount1 = Math.floor(randomNum(8, 15) * customd * 0.01)
             player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
-            amount2 = randomNum(8, 15)
+            amount2 = Math.floor(randomNum(8, 15) * customd * 0.02)
             player.addXPLevels(amount2)
             //掉落特殊物品
             lootno = randomloot(3, jingying_loot.length)
@@ -215,8 +216,6 @@ onEvent('level.tick', event => {
             }
             
         }
-        
-        
         i++
     }
     
@@ -275,4 +274,15 @@ onEvent('entity.hurt',event =>{
           
     }
     
+})
+
+onEvent('item.right_click', event => {
+    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:random_enchant') {
+        
+        lootno = randomloot(1, jingying_loot.length)
+        for (let i = 0; i < lootno.length; i++) {
+            event.player.give(jingying_loot[lootno[i]])
+        }
+        event.player.mainHandItem.count -= 1
+    }
 })

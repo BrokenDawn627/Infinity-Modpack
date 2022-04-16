@@ -46,7 +46,7 @@ onEvent('item.registry', event => {
 	  })
 	  event.create('jiushu_heart', item => {
 		item.displayName('§b救赎之心')
-		item.tooltip('§7右键使用以减少10点难度值')
+		item.tooltip('§7右键使用以减少20点难度值，冷却时间5分钟')
 		item.rarity(Rarity.EPIC)
 	  })
 	  event.create('difficulty_changer', item => {
@@ -56,15 +56,15 @@ onEvent('item.registry', event => {
 		item.tooltip('§7- 敌对生物掉落普通物品')
 		item.tooltip('§e冒险')
 		item.tooltip('§7- 玩家受到的生物伤害额外增加10%')
-		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少15%')
+		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少10%')
 		item.tooltip('§7- 敌对生物有概率掉落稀有物品')
 		item.tooltip('§c困难')
 		item.tooltip('§7- 玩家受到的生物伤害额外增加20%')
-		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少30%')
+		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少20%')
 		item.tooltip('§7- 敌对生物有概率掉落史诗物品')
 		item.tooltip('§4末日')
 		item.tooltip('§7- 玩家受到的生物伤害额外增加30%')
-		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少50%')
+		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少30%')
 		item.tooltip('§7- 怪物伤害额外附带15%玩家最大生命值的真实伤害')
 		item.tooltip('§7- 敌对生物有概率掉落传说物品')
 		item.rarity(Rarity.EPIC)
@@ -72,6 +72,15 @@ onEvent('item.registry', event => {
 	  event.create('difficulty_looker', item => {
 		item.displayName('§b难度查看器')
 		item.tooltip('§7右键以查看难度')
+		item.rarity(Rarity.EPIC)
+	  })
+	  event.create('jiushu_heart_shard', item => {
+		item.displayName('§b救赎之心碎片')
+		item.rarity(Rarity.EPIC)
+	  })
+	  event.create('random_enchant', item => {
+		item.displayName('§b随机附魔书')
+		item.tooltip('§7右键使用以获得随机附魔书')
 		item.rarity(Rarity.EPIC)
 	  })
 	  

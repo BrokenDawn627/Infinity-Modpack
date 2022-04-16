@@ -27,7 +27,19 @@ onEvent('item.right_click', event => {
             event.player.mainHandItem.count -= 1
         }
         if (event.player.name == 'huasuia') {
-            event.player.give(Item.of('kubejs:baigei_boots', '{AttributeModifiers:[{Amount:4.0d,AttributeName:"minecraft:generic.armor",Operation:0,Slot:"feet",UUID:[I;-45615107,-1407171253,-1350934133,161733585]},{Amount:2.0d,AttributeName:"minecraft:generic.armor_toughness",Operation:0,Slot:"feet",UUID:[I;1223374047,-2092153921,-1251063457,-1481955000]},{Amount:6.0d,AttributeName:"minecraft:generic.max_health",Operation:0,Slot:"feet",UUID:[I;233678787,-34125416,-1961187004,-576140583]},{Amount:1.0d,AttributeName:"minecraft:generic.knockback_resistance",Operation:0,Slot:"feet",UUID:[I;5336893,1395477583,-2080663661,-950632961]},{Amount:1.0d,AttributeName:"stepheightentityattribute:stepheight",Operation:0,Slot:"feet",UUID:[I;1728871659,1969833762,-1086653552,1494668937]}],Damage:0}'))
+            event.player.give(Item.of('kubejs:baigei_boots', '{AttributeModifiers:[{Amount:8.0d,AttributeName:"minecraft:generic.armor",Operation:0,Slot:"feet",UUID:[I;-45615107,-1407171253,-1350934133,161733585]},{Amount:4.0d,AttributeName:"minecraft:generic.armor_toughness",Operation:0,Slot:"feet",UUID:[I;1223374047,-2092153921,-1251063457,-1481955000]},{Amount:6.0d,AttributeName:"minecraft:generic.max_health",Operation:0,Slot:"feet",UUID:[I;233678787,-34125416,-1961187004,-576140583]},{Amount:1.0d,AttributeName:"minecraft:generic.knockback_resistance",Operation:0,Slot:"feet",UUID:[I;5336893,1395477583,-2080663661,-950632961]},{Amount:1.0d,AttributeName:"stepheightentityattribute:stepheight",Operation:0,Slot:"feet",UUID:[I;1728871659,1969833762,-1086653552,1494668937]}],Damage:0}'))
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'AKong4213') {
+            event.player.give('kubejs:yecao')
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'moyuguguji') {
+            event.player.give('kubejs:zhongzi')
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'A_wushi') {
+            event.player.give(Item.of('kubejs:qixing', '{AttributeModifiers:[{Amount:10.0d,AttributeName:"minecraft:generic.attack_damage",Operation:0,Slot:"mainhand",UUID:[I;1161605078,1120946315,-1856029877,252995158]},{Amount:-1.5d,AttributeName:"minecraft:generic.attack_speed",Operation:0,Slot:"mainhand",UUID:[I;2093672954,1279217346,-1158378869,1755092054]},{Amount:3.0d,AttributeName:"reach-entity-attributes:reach",Operation:0,Slot:"mainhand",UUID:[I;-1264711835,-1162460258,-1826288601,67784300]},{Amount:3.0d,AttributeName:"reach-entity-attributes:attack_range",Operation:0,Slot:"mainhand",UUID:[I;-1498455759,-750894282,-1630995520,1918872339]}],Damage:0}'))
             event.player.mainHandItem.count -= 1
         }
     }
@@ -267,8 +279,128 @@ onEvent('player.tick', event => {
     //event.server.runCommand(`say 1`)
     if(boots=='kubejs:baigei_boots')
     {
-        player.potionEffects.add('minecraft:regeneration',20,2,false,false)
+        if(!player.potionEffects.isActive('minecraft:regeneration'))
+        {
+            player.potionEffects.add('minecraft:regeneration',100,2,false,false)
+        }
         player.potionEffects.add('minecraft:speed',20,1,false,false)
         player.potionEffects.add('extraalchemy:detection',20,0,false,false)
     }
+})
+
+//植物魔法-泰拉
+onEvent('player.tick', event => {
+    let player = event.player
+    let mainItem = player.getHeldItem(MAIN_HAND)
+    let offItem = player.getHeldItem(OFF_HAND)
+
+    if (mainItem == 'botania:terra_sword'||mainItem =='botania:thunder_sword'||mainItem == 'botania:star_sword')
+    {
+        player.potionEffects.add('minecraft:haste',20,4,false,false)
+        player.potionEffects.add('minecraft:strength',20,2,false,false)
+    }
+    if (mainItem == 'botania:terra_pick' )
+    {
+        player.potionEffects.add('extraalchemy:detection',20,0,false,false)
+        player.potionEffects.add('minecraft:speed',20,2,false,false)
+    }
+})
+
+//野草
+onEvent('item.right_click', event => {
+    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:yecao')
+     {
+        
+        let player=event.player
+        //右键使用获得5秒抗性5生命恢复5，冷却时间10秒
+        event.player.potionEffects.add('minecraft:regeneration',100,4,false,false)
+        event.player.potionEffects.add('minecraft:resistance',100,4,false,false)
+        event.player.addItemCooldown('kubejs:yecao', 200)
+        
+     }            
+                     
+})
+
+onEvent('player.tick', event => {
+    let player = event.player
+    let mainItem = player.getHeldItem(MAIN_HAND)
+
+    if (mainItem == 'kubejs:yecao')
+    {
+        player.potionEffects.add('minecraft:fire_resistance',20,0,false,false)
+        //event.server.runCommand(`say ${event.level.getBlock(player.getX()-1,player.getY()-1,player.getZ()-1).getId()}`)
+        if(event.level.getBlock(player.getX()-1,player.getY()-1,player.getZ()-1)=='minecraft:grass_block')
+        {
+            player.potionEffects.add('minecraft:speed',20,3,false,false)
+        }
+        if(player.crouching)
+        {
+            player.potionEffects.add('minecraft:saturation',20,3,false,false)
+        }
+    }
+    
+})
+
+//中子灭杀
+onEvent('item.right_click', event => {
+    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:zhongzi'||event.player.getHeldItem(OFF_HAND)=='kubejs:zhongzi')
+     {
+        event.server.runCommandSilent(`execute at ${event.player.name} run kill @e[distance=0..16,name=!${event.player.name}]`)
+        event.player.addItemCooldown('kubejs:zhongzi', 24000)
+     }            
+                     
+})
+
+//七星剑
+onEvent('entity.death', event => {
+    let entity = event.getEntity()
+    let player = event.getSource().getPlayer()
+    if(player!=null)
+    {
+        if(player.getHeldItem(MAIN_HAND) == 'kubejs:qixing')
+        {
+            player.potionEffects.add('minecraft:absorption',200,3,false,false)
+            let chance = randomNum(1, 2)
+            if (chance == 1) {
+                if (entity.type == 'minecraft:creeper') {
+                    player.give('minecraft:creeper_head')
+                }
+                if (entity.player) {
+                    event.server.runCommandSilent(`give ${player.name} minecraft:player_head{SkullOwner:"${entity.name}"} 1`)
+                }
+                if (entity.type == 'minecraft:zombie') {
+                    player.give('minecraft:zombie_head')
+                }
+                if (entity.type == 'minecraft:skeleton') {
+                    player.give('minecraft:skeleton_skull')
+                }
+                if (entity.type == 'minecraft:wither_skeleton') {
+                    player.give('minecraft:wither_skeleton_skull')
+                }
+                if (entity.type == 'minecraft:ender_dragon') {
+                    player.give('minecraft:dragon_head')
+                }
+            }
+            
+        }    
+    }
+})
+
+onEvent('entity.hurt',event =>{
+    
+    let target = event.getEntity()
+    let player = event.getSource().getPlayer()
+    let entity = event.getSource().getImmediate()
+    let actual = event.getSource().getActual()
+    let damage = event.getDamage()
+    if(player!=null)
+    {
+        let mainItem = player.getHeldItem(MAIN_HAND)
+        if (mainItem == 'kubejs:qixing')
+        {
+            target.heal(-target.health * 0.1)
+            player.heal((damage+target.health * 0.1)*0.1)
+        }
+    }
+    
 })

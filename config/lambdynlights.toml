@@ -255,6 +255,9 @@ mode = "fancy"
 				ghoul = true
 				nightmare = true
 
+			[light_sources.settings.entities.botania]
+				mana_burst = true
+
 			[light_sources.settings.entities.hoverpets]
 				ocelot_pet = true
 

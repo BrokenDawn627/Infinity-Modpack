@@ -1,146 +1,171 @@
+///setblock ~ ~ ~ minecraft:chest{LootTable:"minecraft:chests/simple_dungeon"} replace
 onEvent('chest.loot_tables', event => {
     event.modify('minecraft:simple_dungeon', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:abandoned_mineshaft', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:stronghold_corridor', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:stronghold_crossing', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:stronghold_library', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:bastion_bridge', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:bastion_hoglin_stable', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:bastion_other', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:bastion_treasure', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:desert_pyramid', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:end_city_treasure', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:igloo_chest', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:jungle_temple', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:jungle_temple_dispenser', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:nether_bridge', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:pillager_outpost', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:ruined_portal', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:shipwreck_map', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:shipwreck_supply', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:shipwreck_treasure', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:underwater_ruin_big', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:underwater_ruin_small', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
     event.modify('minecraft:woodland_mansion', table => {
       table.addPool(pool => {
-        pool.rolls = [1,2]
-        pool.addItem('numismatic-overhaul:gold_coin', 1)
+        pool.rolls = [2,3]
+        pool.addItem('kubejs:random_enchant', 1)
+        pool.addItem('kubejs:jiushu_heart_shard', 1)
       })
     })
 
   })
 
 
+/*
 onEvent('entity.loot_tables', event => {
     
       
@@ -324,4 +349,4 @@ onEvent('entity.loot_tables', event => {
         pool.addItem('heartytrinkets:red_heart').randomChance(0.05)
       })
     })
-  })
+  })*/

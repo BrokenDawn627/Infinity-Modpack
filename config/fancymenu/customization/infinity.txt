@@ -130,6 +130,6 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Infinity - Beta17
+  value = Infinity - Beta18 - Pre1
 }
 

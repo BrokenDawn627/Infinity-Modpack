@@ -85,17 +85,6 @@ onEvent('recipes', event => {
 
       event.shapeless('ringsofascension:ring_poison_resistance', ['gobber2:gobber2_ring_end','bosses_of_mass_destruction:void_lily','bosses_of_mass_destruction:void_thorn'])
 
-      event.remove({id:'mcda:upgrade_core'})
-
-      event.shaped('mcda:upgrade_core', [
-		' B ',
-		'BAB',
-		' B '
-	  ], {
-		A: 'minecraft:netherite_ingot',
-        B: 'kubejs:gobber_plate'
-	  })
-
       event.shaped('ringsofascension:ring_wither', [
 		' B ',
 		'CAD',

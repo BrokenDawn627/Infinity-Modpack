@@ -16,10 +16,11 @@ onEvent('recipes', event => {
 
       event.shaped('kubejs:infinity_sword_b', [
         ' AB',
-        'CDA',
+        'CDE',
         ' C '
       ], {
-        A:'mythicmetals:unobtainium',
+        A:'botania:terra_sword',
+        E:'the_aether:valkyrie_lance',
         B:'kubejs:shining_star',
         C:'mythicmetals:celestium_ingot',
         D:'minecraft:dragon_egg'

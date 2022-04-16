@@ -20,10 +20,10 @@ onEvent('recipes', event => {
        ],
        'output': {
          'id': 'gobber2:gobber2_ingot',
-         'count': 4
+         'count': 1
        },
-       'min_forge_tier': 1,
-       'fuel_per_tick': 40
+       'min_forge_tier': 2,
+       'fuel_per_tick': 60
      })
 
      event.custom({
@@ -47,10 +47,10 @@ onEvent('recipes', event => {
         ],
         'output': {
           'id': 'gobber2:gobber2_ingot_nether',
-          'count': 5
+          'count': 1
         },
         'min_forge_tier': 2,
-        'fuel_per_tick': 75
+        'fuel_per_tick': 80
       })
 
       event.custom({
@@ -77,7 +77,7 @@ onEvent('recipes', event => {
         ],
         'output': {
           'id': 'gobber2:gobber2_ingot_end',
-          'count': 10
+          'count': 4
         },
         'min_forge_tier': 3,
         'fuel_per_tick': 120

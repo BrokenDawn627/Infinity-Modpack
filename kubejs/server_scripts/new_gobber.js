@@ -24,15 +24,20 @@ event.remove({output:'gobber2:gobber2_medallion'})
 event.remove({output:'gobber2:gobber2_medallion_breathing'})
 event.remove({id:'gobber2:gobber2_medallion_healing3'})
 
-
-event.shaped(Item.of('gobber2:gobber2_ring'),[
-    'ABA',
-    'B B',
-    'ABA'
-],{
-    A:'kubejs:gobber_wire',
-    B:'kubejs:gobber_plate'
- })
+  event.custom({
+     type: 'alloy_forgery:forging',
+     'inputs': [
+       {
+         'item':'gobber2:gobber2_ingot'
+       } 
+     ],
+     'output': {
+       'id': 'gobber2:gobber2_ring',
+       'count': 1
+     },
+     'min_forge_tier': 2,
+     'fuel_per_tick': 50
+   })
 
  event.shaped(Item.of('gobber2:gobber2_ring_farmer'),[
     'ABC',
@@ -84,14 +89,23 @@ event.shaped(Item.of('gobber2:gobber2_ring'),[
   E:'gobber2:gobber2_glass'
 })
 
-
- event.shaped(Item.of('gobber2:gobber2_medallion'),[
-    ' A ',
-    'AAA',
-    ' A '
-],{
-    A:'kubejs:gobber_plate'
- })
+  event.custom({
+     type: 'alloy_forgery:forging',
+     'inputs': [
+       {
+         'item':'gobber2:gobber2_ingot'
+       },
+       {
+        'item':'gobber2:gobber2_ingot'
+      } 
+      ],
+     'output': {
+       'id': 'gobber2:gobber2_medallion',
+       'count': 1
+     },
+     'min_forge_tier': 2,
+     'fuel_per_tick': 50
+   })
 
  event.shaped(Item.of('gobber2:gobber2_medallion_breathing'),[
     'ABA',
@@ -115,21 +129,37 @@ onEvent('recipes', event => {
   event.remove({output:'gobber2:gobber2_ring_strength'})
   event.remove({output:'gobber2:gobber2_ring_luck'})
 
-  event.shaped(Item.of('gobber2:gobber2_medallion_nether'),[
-    ' A ',
-    'AAA',
-    ' A '
-],{
-    A:'kubejs:nether_gobber_plate'
+  event.custom({
+    type: 'alloy_forgery:forging',
+    'inputs': [
+      {
+        'item':'gobber2:gobber2_ingot_nether'
+      } 
+    ],
+    'output': {
+      'id': 'gobber2:gobber2_ring_nether',
+      'count': 1
+    },
+    'min_forge_tier': 2,
+    'fuel_per_tick': 70
   })
   
-  event.shaped(Item.of('gobber2:gobber2_ring_nether'),[
-    'BAB',
-    'A A',
-    'BAB'
-],{
-    A:'kubejs:nether_gobber_plate',
-    B:'kubejs:nether_gobber_wire'
+  event.custom({
+    type: 'alloy_forgery:forging',
+    'inputs': [
+      {
+        'item':'gobber2:gobber2_ingot_nether'
+      }, 
+      {
+        'item':'gobber2:gobber2_ingot_nether'
+      }
+    ],
+    'output': {
+      'id': 'gobber2:gobber2_medallion_nether',
+      'count': 1
+    },
+    'min_forge_tier': 2,
+    'fuel_per_tick': 70
   })
 
   event.shaped(Item.of('gobber2:gobber2_ring_luck'),[
@@ -143,15 +173,6 @@ onEvent('recipes', event => {
 })
 //Nether Ring and Medallion
 
-onEvent('recipes', event => {
-  event.shaped(Item.of('gobber2:gobber2_medallion_nether'),[
-    ' A ',
-    'AAA',
-    ' A '
-],{
-    A:'kubejs:nether_gobber_plate'
-  })
-})
 
 onEvent('recipes', event => {
   event.remove({output:'gobber2:gobber2_links_end'})
@@ -173,13 +194,19 @@ onEvent('recipes', event => {
   event.remove({output:'gobber2:gobber2_boots_end'})
   event.remove({output:'gobber2:gobber2_boots_end'})
 
-  event.shaped(Item.of('gobber2:gobber2_ring_end'),[
-    'ABA',
-    'B B',
-    'ABA'
-],{
-    A:'kubejs:end_gobber_wire',
-    B:'kubejs:end_gobber_plate'
+  event.custom({
+    type: 'alloy_forgery:forging',
+    'inputs': [
+      {
+        'item':'gobber2:gobber2_ingot_end'
+      } 
+    ],
+    'output': {
+      'id': 'gobber2:gobber2_ring_end',
+      'count': 1
+    },
+    'min_forge_tier': 3,
+    'fuel_per_tick': 100
   })
 
   event.shaped(Item.of('gobber2:gobber2_ring_blink'),[
@@ -204,12 +231,22 @@ onEvent('recipes', event => {
     D:'waystones:warp_scroll'
   })
 
-  event.shaped(Item.of('gobber2:gobber2_medallion_end'),[
-    ' B ',
-    'BBB',
-    ' B '
-],{
-    B:'kubejs:end_gobber_plate'
+  event.custom({
+    type: 'alloy_forgery:forging',
+    'inputs': [
+      {
+        'item':'gobber2:gobber2_ingot_end'
+      }, 
+      {
+        'item':'gobber2:gobber2_ingot_end'
+      }
+    ],
+    'output': {
+      'id': 'gobber2:gobber2_medallion_end',
+      'count': 1
+    },
+    'min_forge_tier': 2,
+    'fuel_per_tick': 70
   })
 
 })

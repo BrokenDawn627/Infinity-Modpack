@@ -17,6 +17,22 @@ onEvent('item.registry.tool_tiers', event => {
       tier.enchantmentValue = 25
       tier.repairIngredient = 'minecraft:diamond'
     })
+    event.add('ye_cao', tier => {
+      tier.uses = 2000
+      tier.speed = 12.0
+      tier.attackDamageBonus = 7.0
+      tier.level = 5
+      tier.enchantmentValue = 25
+      tier.repairIngredient = 'minecraft:emerald'
+    })
+    event.add('qi_xing', tier => {
+      tier.uses = 2000
+      tier.speed = 12.0
+      tier.attackDamageBonus = 7.0
+      tier.level = 5
+      tier.enchantmentValue = 25
+      tier.repairIngredient = 'minecraft:diamond'
+    })
   })
  
 
@@ -62,6 +78,40 @@ onEvent('item.registry.tool_tiers', event => {
         item.tooltip('§7速度II')
         item.tooltip(' ')
         item.tooltip('§6@极限生存挑战通关者-huasuia')
+      })
+
+      event.create('yecao', item => {
+        item.displayName('§2野草').type('sword').tier('ye_cao')
+        item.rarity(Rarity.EPIC)
+        item.tooltip('§7春风：右键获得5秒抗性提升5和生命回复5，冷却10秒')
+        item.tooltip('§7蔓延：在草方块上时获得速度4')
+        item.tooltip('§7星火：获得抗火效果')
+        item.tooltip('§7润物：潜行时获得饱食度')
+        item.tooltip(' ')
+        item.tooltip('§6@极限生存挑战通关者-AKong4213')
+      })
+
+      event.create('qixing', item => {
+        item.displayName('§6七星剑').type('sword').tier('qi_xing')
+        item.rarity(Rarity.EPIC)
+        item.tooltip('§7天枢●贪狼：使用该武器杀死敌人时获得伤害吸收4')
+        item.tooltip('§7天璇●巨门：赋予了该武器额外的攻击距离')
+        item.tooltip('§7天玑●禄存：赋予了该武器额外的幸运（概率斩首）')
+        item.tooltip('§7天权●文曲：赋予了该武器额外的吸血')
+        item.tooltip('§7玉衡●廉贞：赋予了该武器额外的攻击速度')
+        item.tooltip('§7开阳●武曲：赋予了该武器额外的攻击力')
+        item.tooltip('§7摇光●破军：使该武器攻击附带10%目标生命值伤害')
+        item.tooltip(' ')
+        item.tooltip('§6@极限生存挑战通关者-A_wushi')
+      })
+
+      event.create('zhongzi', item => {
+        item.displayName('§c中子灭杀')
+        item.tooltip('§7我们将其称为高效')
+        item.tooltip(' ')
+        item.tooltip('§6@极限生存挑战通关者-moyuguguji')
+        item.rarity(Rarity.EPIC)
+        item.unstackable()
       })
 
   })

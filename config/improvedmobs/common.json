@@ -437,7 +437,7 @@
     "comments": [
       "Base chance for each additional armor pieces"
     ],
-    "input": 0.7
+    "input": 0.2
   },
   "diffEquipAdd": {
     "comments": [
@@ -449,7 +449,7 @@
     "comments": [
       "Chance for mobs to have a weapon"
     ],
-    "input": 0.5
+    "input": 0.2
   },
   "diffWeaponChance": {
     "comments": [

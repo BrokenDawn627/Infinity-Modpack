@@ -38,15 +38,17 @@ onEvent('player.logged_in', event => {
     if(event.player.getHeldItem(MAIN_HAND) == 'kubejs:jiushu_heart')
     {
         costomd=event.server.runCommandSilent(`scoreboard players get ${event.player.name} customd`)
-        //减10点难度值，少于10点则归零
-        if(costomd>=10)
+        //减20点难度值，少于20点则归零
+        if(costomd>=20)
         {
-            event.server.runCommandSilent(`scoreboard players remove ${event.player.name} customd 10`)
+            event.server.runCommandSilent(`scoreboard players remove ${event.player.name} customd 20`)
+            event.player.addItemCooldown('kubejs:jiushu_heart', 6000)
             event.player.mainHandItem.count -= 1
         }
         else if(costomd>0)
         {
             event.server.runCommandSilent(`scoreboard players set ${event.player.name} customd 0`)
+            event.player.addItemCooldown('kubejs:jiushu_heart', 6000)
             event.player.mainHandItem.count -= 1
         }
     }
@@ -115,18 +117,18 @@ onEvent('entity.hurt',event =>{
     {
         if(player.stages.has('difficulty_normal'))
         {
-            //生物在未满血的状态下受到的玩家伤害减少15%
-            target.heal(damage*0.15)
+            //生物在未满血的状态下受到的玩家伤害减少10%
+            target.heal(damage*0.1)
         }
         else if(player.stages.has('difficulty_hard'))
         {
-            //生物在未满血的状态下受到的玩家伤害减少30%
-            target.heal(damage*0.3)
+            //生物在未满血的状态下受到的玩家伤害减少20%
+            target.heal(damage*0.2)
         }
         else if(player.stages.has('difficulty_impossible'))
         {
-            //生物在未满血的状态下受到的玩家伤害减少50%
-            target.heal(damage*0.5)
+            //生物在未满血的状态下受到的玩家伤害减少30%
+            target.heal(damage*0.3)
         }
     }
 })
@@ -242,16 +244,13 @@ onEvent('recipes', event => {
     event.shapeless('kubejs:difficulty_changer', ['minecraft:clock'])
     event.shapeless('kubejs:difficulty_looker', ['kubejs:difficulty_changer'])
     event.shaped('kubejs:jiushu_heart', [
-		'ECD',
-		'BAB',
-		'DCE'
+		'AAA',
+		'AAA',
+		'AAA'
 	  ], {
-		A:'victus:blank_heart_aspect',
-		B:'botania:terrasteel_ingot',
-		C:'botania:elementium_ingot',
-        D:'the_aether:ambrosium_shard',
-        E:'the_aether:gravitite_gemstone'
+		A:'kubejs:jiushu_heart_shard'
 	  })
+    event.shapeless('kubejs:jiushu_heart_shard', ['the_aether:gravitite_gemstone','victus:blank_heart_aspect','botania:mana_diamond'])
 })
 
 //概率事件
@@ -291,18 +290,18 @@ onEvent('entity.death', event => {
             }
 
             //额外掉落概率-最大50%
-            let chance=randomNum(1,100)
+            let chance=randomNum(1,1000)
             let ifloot=false
 
             
-
-            if(Math.floor(customdiff*0.3)<=50)
+            //每级难度*0.05 封顶15%
+            if(Math.floor(customdiff*0.2)<=150)
             {
-                if(chance<=Math.floor(customdiff*0.3)) ifloot=true;
+                if(chance<=Math.floor(customdiff*0.2)) ifloot=true;
             }
             else
             {
-                if(chance<=50) ifloot=true;
+                if(chance<=150) ifloot=true;
             }
 
             
@@ -400,15 +399,15 @@ onEvent('entity.hurt', event => {
             target.setMaxHealth(target.maxHealth+customd*0.3)
             target.tags.add('attacked')
             target.heal(customd*0.3)
-            //攻击力加难度值*0.2
+            //攻击力加难度值*0.1
             result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)           
-            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result+customd*0.2}`)
+            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result+customd*0.1}`)
             
             //event.server.runCommand(`say ${result}`)
-            //护甲值加难度值*0.2 上限50
+            //护甲值加难度值*0.05 上限80
             result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base get`) 
-            if(result+customd*0.2<=50) event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result+customd*0.2}`)
-            else event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set 50`)
+            if(result+customd*0.05<=80) event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result+customd*0.05}`)
+            else event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set 80`)
         }
     }
     if(target.player)
@@ -416,16 +415,17 @@ onEvent('entity.hurt', event => {
         customd=event.server.runCommandSilent(`scoreboard players get ${target.name} customd`)
         if(source!=null&&source.monster&&!source.tags.contains('attacked'))
         {
+            //最大生命值
             source.setMaxHealth(source.maxHealth+customd*0.3)
             source.tags.add('attacked')
             source.heal(customd*0.3)
-
+            //攻击力
             result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base get`)           
-            event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result+customd*0.2}`)
-
+            event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result+customd*0.1}`)
+            //护甲值
             result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base get`) 
-            if(result+customd*0.2<=50) event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set ${result+customd*0.2}`)
-            else event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set 50`)
+            if(result+customd*0.05<=80) event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set ${result+customd*0.05}`)
+            else event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set 80`)
         }
     }
 })
