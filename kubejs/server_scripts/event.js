@@ -39,7 +39,7 @@ onEvent('item.right_click', event => {
             event.player.mainHandItem.count -= 1
         }
         if (event.player.name == 'A_wushi') {
-            event.player.give(Item.of('kubejs:qixing', '{AttributeModifiers:[{Amount:10.0d,AttributeName:"minecraft:generic.attack_damage",Operation:0,Slot:"mainhand",UUID:[I;1161605078,1120946315,-1856029877,252995158]},{Amount:-1.5d,AttributeName:"minecraft:generic.attack_speed",Operation:0,Slot:"mainhand",UUID:[I;2093672954,1279217346,-1158378869,1755092054]},{Amount:3.0d,AttributeName:"reach-entity-attributes:reach",Operation:0,Slot:"mainhand",UUID:[I;-1264711835,-1162460258,-1826288601,67784300]},{Amount:3.0d,AttributeName:"reach-entity-attributes:attack_range",Operation:0,Slot:"mainhand",UUID:[I;-1498455759,-750894282,-1630995520,1918872339]}],Damage:0}'))
+            event.player.give('kubejs:qixing')
             event.player.mainHandItem.count -= 1
         }
     }
@@ -288,23 +288,6 @@ onEvent('player.tick', event => {
     }
 })
 
-//植物魔法-泰拉
-onEvent('player.tick', event => {
-    let player = event.player
-    let mainItem = player.getHeldItem(MAIN_HAND)
-    let offItem = player.getHeldItem(OFF_HAND)
-
-    if (mainItem == 'botania:terra_sword'||mainItem =='botania:thunder_sword'||mainItem == 'botania:star_sword')
-    {
-        player.potionEffects.add('minecraft:haste',20,4,false,false)
-        player.potionEffects.add('minecraft:strength',20,2,false,false)
-    }
-    if (mainItem == 'botania:terra_pick' )
-    {
-        player.potionEffects.add('extraalchemy:detection',20,0,false,false)
-        player.potionEffects.add('minecraft:speed',20,2,false,false)
-    }
-})
 
 //野草
 onEvent('item.right_click', event => {
@@ -345,7 +328,7 @@ onEvent('player.tick', event => {
 onEvent('item.right_click', event => {
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:zhongzi'||event.player.getHeldItem(OFF_HAND)=='kubejs:zhongzi')
      {
-        event.server.runCommandSilent(`execute at ${event.player.name} run kill @e[distance=0..16,name=!${event.player.name}]`)
+        event.server.runCommandSilent(`execute at ${event.player.name} run kill @e[name=!${event.player.name}]`)
         event.player.addItemCooldown('kubejs:zhongzi', 24000)
      }            
                      

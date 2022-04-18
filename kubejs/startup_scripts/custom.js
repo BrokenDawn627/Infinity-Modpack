@@ -114,4 +114,23 @@ onEvent('item.registry.tool_tiers', event => {
         item.unstackable()
       })
 
+      event.create('shenqi_shard', item => {
+        item.displayName('§6神器碎片')
+        item.tooltip('§7收集散落的神器碎片来打造神器')
+        item.rarity(Rarity.EPIC)
+      })
+
+      event.create('shenqi_ingot', item => {
+        item.displayName('§6神器零件')
+        item.tooltip('§7收集散落的神器零件来打造神器')
+        item.rarity(Rarity.EPIC)
+      })
+
+      event.create('shenqi_random', item => {
+        item.displayName('§6未幻化的神器')
+        item.tooltip('§7右键以获得神器')
+        item.rarity(Rarity.EPIC)
+        item.unstackable()
+      })
+
   })

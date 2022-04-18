@@ -49,7 +49,8 @@ var impossible_loot = [
     '2x kubejs:jiushu_heart',
     '5x xtraarrows:netherite_arrow',
     'kubejs:chinese_dumpling',
-    'minecraft:enchanted_golden_apple'
+    'minecraft:enchanted_golden_apple',
+    'kubejs:shenqi_shard'
 ]
 
 var jingying_loot = [

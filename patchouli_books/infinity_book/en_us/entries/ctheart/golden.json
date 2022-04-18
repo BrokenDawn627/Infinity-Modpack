@@ -9,7 +9,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "victus:golden_heart_aspect",
+      "recipe": "infinity:gold_heart",
       "text": "$(o)$(#999999)老实说，我不明白怎么会有人吃这个。$()"
     }
   ]

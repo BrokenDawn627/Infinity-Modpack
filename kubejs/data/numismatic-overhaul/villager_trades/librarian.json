@@ -1,0 +1,189 @@
+{
+  "profession": "librarian",
+  "trades": {
+    "novice": [
+      {
+        "type": "numismatic-overhaul:buy_item",
+        "buy": {
+          "item": "minecraft:paper",
+          "count": 20
+        },
+        "price": 45,
+        "max_uses": 16
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:bookshelf",
+          "count": 1
+        },
+        "price": 800,
+        "max_uses": 15
+      },
+      {
+        "type": "numismatic-overhaul:buy_item",
+        "buy": {
+          "item": "minecraft:bookshelf",
+          "count": 1
+        },
+        "price": 100,
+        "max_uses": 18
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "kubejs:random_enchant",
+          "count": 1
+        },
+        "price": 10000,
+        "max_uses": 8
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "level": 10,
+        "allow_treasure": false,
+        "max_uses": 8,
+        "base_price": 10000
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "level": 10,
+        "allow_treasure": false,
+        "max_uses": 2,
+        "base_price": 10000
+      }
+    ],
+    "apprentice": [
+      {
+        "type": "numismatic-overhaul:buy_item",
+        "buy": {
+          "item": "minecraft:book",
+          "count": 3
+        },
+        "price": 60,
+        "max_uses": 12
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:lantern",
+          "count": 4
+        },
+        "price": 700,
+        "max_uses": 12
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "level": 15,
+        "allow_treasure": true,
+        "max_uses": 8,
+        "base_price": 10000
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "level": 35,
+        "allow_treasure": true,
+        "max_uses": 3,
+        "base_price": 10000
+      },
+      {
+        "type": "numismatic-overhaul:sell_single_enchantment",
+        "price_multiplier": 1.1,
+        "base_price": 10000
+      }
+    ],
+    "journeyman": [
+      {
+        "type": "numismatic-overhaul:buy_item",
+        "buy": {
+          "item": "minecraft:ink_sac",
+          "count": 4
+        },
+        "price": 200,
+        "max_uses": 12
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:glass",
+          "count": 10
+        },
+        "price": 640,
+        "max_uses": 12
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "level": 25,
+        "allow_treasure": true,
+        "max_uses": 8,
+        "base_price": 10000
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "level": 50,
+        "allow_treasure": true,
+        "max_uses": 4,
+        "base_price": 10000
+      },
+      {
+        "type": "numismatic-overhaul:sell_single_enchantment",
+        "price_multiplier": 1.0,
+        "base_price": 10000
+      }
+    ],
+    "expert": [
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:writable_book",
+          "count": 1
+        },
+        "price": 890,
+        "max_uses": 12
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:compass",
+          "count": 1
+        },
+        "price": 700,
+        "max_uses": 12
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:clock",
+          "count": 1
+        },
+        "price": 900,
+        "max_uses": 12
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "level": 60,
+        "allow_treasure": true,
+        "max_uses": 8,
+        "base_price": 10000
+      }
+    ],
+    "master": [
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:name_tag",
+          "count": 2
+        },
+        "price": 800,
+        "max_uses": 12
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "level": 75,
+        "allow_treasure": true,
+        "max_uses": 5,
+        "base_price": 10000
+      }
+    ]
+  }
+}

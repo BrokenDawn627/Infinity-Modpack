@@ -52,6 +52,12 @@ onEvent('player.logged_in', event => {
             event.player.mainHandItem.count -= 1
         }
     }
+    if(event.player.getHeldItem(MAIN_HAND) == 'kubejs:death_heart')
+    {
+        event.server.runCommandSilent(`scoreboard players set ${event.player.name} customd 0`)
+        event.player.mainHandItem.count -= 1
+        event.server.runCommandSilent(`kill ${event.player.name}`)
+    }
     
 })
 
@@ -250,7 +256,8 @@ onEvent('recipes', event => {
 	  ], {
 		A:'kubejs:jiushu_heart_shard'
 	  })
-    event.shapeless('kubejs:jiushu_heart_shard', ['the_aether:gravitite_gemstone','victus:blank_heart_aspect','botania:mana_diamond'])
+    event.shapeless('kubejs:jiushu_heart_shard', ['kubejs:eden_ingot','victus:blank_heart_aspect','botania:mana_diamond'])
+    event.shapeless('kubejs:death_heart', ['kubejs:golden_star','botania:terrasteel_ingot','minecraft:dragon_head'])
 })
 
 //概率事件
@@ -307,7 +314,7 @@ onEvent('entity.death', event => {
             
             if(ifloot)
             {
-                player.give(Item.of('numismatic-overhaul:gold_coin', Math.floor(customdiff*0.1)))
+                //player.give(Item.of('numismatic-overhaul:gold_coin', Math.floor(customdiff*0.1)))
                 player.addXPLevels(Math.floor(customdiff*0.1))
                 
                 if (player.stages.has('difficulty_easy'))

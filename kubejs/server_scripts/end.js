@@ -20,7 +20,7 @@ onEvent('recipes', event => {
         ' C '
       ], {
         A:'botania:terra_sword',
-        E:'the_aether:valkyrie_lance',
+        E:'mythicmetals:metallurgium_sword',
         B:'kubejs:shining_star',
         C:'mythicmetals:celestium_ingot',
         D:'minecraft:dragon_egg'

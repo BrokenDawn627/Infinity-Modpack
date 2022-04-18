@@ -1210,58 +1210,6 @@
       427,
       4.584
     ],
-    "the_aether:candy_cane_sword": [
-      630,
-      2.96
-    ],
-    "the_aether:flaming_sword": [
-      512,
-      3.904
-    ],
-    "the_aether:gravitite_axe": [
-      693,
-      2.456
-    ],
-    "the_aether:gravitite_sword": [
-      789,
-      1.688
-    ],
-    "the_aether:holy_sword": [
-      512,
-      3.904
-    ],
-    "the_aether:lightning_sword": [
-      512,
-      3.904
-    ],
-    "the_aether:phoenix_bow": [
-      1108,
-      0.0
-    ],
-    "the_aether:pig_slayer": [
-      562,
-      3.504
-    ],
-    "the_aether:valkyrie_axe": [
-      512,
-      3.904
-    ],
-    "the_aether:valkyrie_lance": [
-      128,
-      6.976
-    ],
-    "the_aether:vampire_blade": [
-      562,
-      3.504
-    ],
-    "the_aether:zanite_axe": [
-      1087,
-      -0.696
-    ],
-    "the_aether:zanite_sword": [
-      1225,
-      -1.8
-    ],
     "treeaxe:amethyst_treeaxe": [
       907,
       0.744
@@ -1825,22 +1773,6 @@
     "mythicmetals:stormyx_boots": [
       68,
       7.456
-    ],
-    "the_aether:gravitite_boots": [
-      48,
-      7.616
-    ],
-    "the_aether:neptune_boots": [
-      1,
-      12.976
-    ],
-    "the_aether:phoenix_boots": [
-      1,
-      13.0
-    ],
-    "the_aether:zanite_boots": [
-      750,
-      2.0
     ]
   },
   "LEGS": {
@@ -2335,22 +2267,6 @@
     "mythicmetals:stormyx_leggings": [
       68,
       7.456
-    ],
-    "the_aether:gravitite_leggings": [
-      48,
-      7.616
-    ],
-    "the_aether:neptune_leggings": [
-      1,
-      12.976
-    ],
-    "the_aether:phoenix_leggings": [
-      1,
-      13.0
-    ],
-    "the_aether:zanite_leggings": [
-      750,
-      2.0
     ]
   },
   "CHEST": {
@@ -2861,22 +2777,6 @@
     "mythicmetals:stormyx_chestplate": [
       68,
       7.456
-    ],
-    "the_aether:gravitite_chestplate": [
-      48,
-      7.616
-    ],
-    "the_aether:neptune_chestplate": [
-      1,
-      12.976
-    ],
-    "the_aether:phoenix_chestplate": [
-      1,
-      13.0
-    ],
-    "the_aether:zanite_chestplate": [
-      750,
-      2.0
     ]
   },
   "HEAD": {
@@ -3367,22 +3267,6 @@
     "sculk_worm:sensor_helmet": [
       302,
       5.584
-    ],
-    "the_aether:gravitite_helmet": [
-      48,
-      7.616
-    ],
-    "the_aether:neptune_helmet": [
-      1,
-      12.976
-    ],
-    "the_aether:phoenix_helmet": [
-      1,
-      13.0
-    ],
-    "the_aether:zanite_helmet": [
-      750,
-      2.0
     ]
   }
 }

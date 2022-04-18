@@ -257,6 +257,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.botania]
 				mana_burst = true
+				falling_star = true
 
 			[light_sources.settings.entities.hoverpets]
 				ocelot_pet = true

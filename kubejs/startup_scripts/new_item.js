@@ -49,8 +49,14 @@ onEvent('item.registry', event => {
 		item.tooltip('§7右键使用以减少20点难度值，冷却时间5分钟')
 		item.rarity(Rarity.EPIC)
 	  })
+	  event.create('death_heart', item => {
+		item.displayName('§4命定之死')
+		item.tooltip('§7右键使用 以死亡换取难度值的归零')
+		item.rarity(Rarity.EPIC)
+	  })
 	  event.create('difficulty_changer', item => {
 		item.displayName('§6难度切换器').tooltip('§7右键使用以切换难度')
+		item.tooltip('§c游戏id请勿使用中文名')
 		item.tooltip('§a休闲')
 		item.tooltip('§7- 正常的生存')
 		item.tooltip('§7- 敌对生物掉落普通物品')

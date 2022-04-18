@@ -152,8 +152,8 @@ onEvent('entity.death', event => {
             //event.server.runCommand(`say ${entity.name}`)
             customd=event.server.runCommandSilent(`scoreboard players get ${player.name} customd`)
             //掉落随机数量的金币与等级
-            amount1 = Math.floor(randomNum(8, 15) * customd * 0.01)
-            player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
+            //amount1 = Math.floor(randomNum(8, 15) * customd * 0.01)
+            //player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
             amount2 = Math.floor(randomNum(8, 15) * customd * 0.02)
             player.addXPLevels(amount2)
             //掉落特殊物品
@@ -231,13 +231,15 @@ onEvent('entity.hurt', event => {
     
     if(player!=null)
     {
-        //反甲 反真伤30%
+        //反甲 反真伤10% 上限为血量50%
         if(target.tags.contains('fanjia'))
         {
             //event.server.runCommand(`say 1`)
-            if(player.health>damage*0.3+1)
+            if(damage*0.1<player.maxHealth/2) damage_result=damage*0.1
+            else damage_result=player.maxHealth/2
+            if(player.health>damage_result+1)
             {
-                player.heal(-damage*0.3)
+                player.heal(-damage_result)
             }
             else player.attack(999)
         }

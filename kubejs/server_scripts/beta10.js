@@ -10,7 +10,7 @@ onEvent('recipes', event => {
 	  ], {
 		A:'victus:blank_heart_aspect',
         B:'minecraft:diamond_block',
-        C:'kubejs:gobber_plate'
+        C:'gobber2:gobber2_ingot'
 	  }).id('infinity:diamond_heart')
     
     event.remove({id:'victus:grilled_heart_aspect'})
@@ -36,6 +36,19 @@ onEvent('recipes', event => {
         }).id('infinity:evoking_heart')
 
        event.remove({id:'victus:victus_journal'})
+
+       event.remove({id:'victus:golden_heart_aspect'})
+
+       event.shaped('victus:golden_heart_aspect', [
+        'DCD',
+        'BAB',
+        'DBD'
+        ], {
+         A: 'victus:blank_heart_aspect',
+         B: 'minecraft:gold_block',
+         C: 'mobz:boss_ingot',
+         D: 'mythicmetals:adamantite_ingot'
+       }).id('infinity:gold_heart')
 
 })
 

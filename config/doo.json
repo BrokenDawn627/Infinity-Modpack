@@ -19,7 +19,7 @@
     "diffusion": true,
     "diffusionDamage": 5.0,
     "nightBreakMaxLevel": 2,
-    "nightBreakPerLevel": 5.0,
+    "nightBreakPerLevel": 20.0,
     "brokenDawn": true,
     "brokenDawnProcess": 1.5,
     "brokenDawnSuccess": 20.0,
