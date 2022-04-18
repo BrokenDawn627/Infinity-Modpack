@@ -97,15 +97,10 @@ onEvent('entity.hurt',event =>{
             if(source!=null)
             {
                 
-                if(target.health>damage*0.3+1)
+                if(target.health>damage*0.5+1)
                 {
-                    //玩家受到的生物伤害额外增加30%
-                    target.attack(-damage*0.3)
-                }
-                if(target.health-target.maxHealth*0.15>1) 
-                {
-                    //玩家受到的生物伤害额外附带15%玩家最大生命值的真实伤害
-                    target.heal(-target.maxHealth*0.15)
+                    //玩家受到的生物伤害额外增加50%
+                    target.attack(-damage*0.5)
                 }
                 else target.attack(999)     
             }          

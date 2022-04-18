@@ -237,11 +237,7 @@ onEvent('entity.hurt', event => {
             //event.server.runCommand(`say 1`)
             if(damage*0.1<player.maxHealth/2) damage_result=damage*0.1
             else damage_result=player.maxHealth/2
-            if(player.health>damage_result+1)
-            {
-                player.heal(-damage_result)
-            }
-            else player.attack(999)
+            player.attack(-damage_result)
         }
     }
 })

@@ -57,6 +57,7 @@ onEvent('item.registry', event => {
 	  event.create('difficulty_changer', item => {
 		item.displayName('§6难度切换器').tooltip('§7右键使用以切换难度')
 		item.tooltip('§c游戏id请勿使用中文名')
+		item.tooltip('§c请勿在副手持有物品')
 		item.tooltip('§a休闲')
 		item.tooltip('§7- 正常的生存')
 		item.tooltip('§7- 敌对生物掉落普通物品')
@@ -69,9 +70,8 @@ onEvent('item.registry', event => {
 		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少20%')
 		item.tooltip('§7- 敌对生物有概率掉落史诗物品')
 		item.tooltip('§4末日')
-		item.tooltip('§7- 玩家受到的生物伤害额外增加30%')
+		item.tooltip('§7- 玩家受到的生物伤害额外增加50%')
 		item.tooltip('§7- 生物在未满血的状态下受到的玩家伤害减少30%')
-		item.tooltip('§7- 怪物伤害额外附带15%玩家最大生命值的真实伤害')
 		item.tooltip('§7- 敌对生物有概率掉落传说物品')
 		item.rarity(Rarity.EPIC)
 	  })
