@@ -65,44 +65,79 @@ onEvent('entity.hurt',event =>{
     let target = event.getEntity()
     let source = event.getSource().getActual()
     let damage = event.getDamage()
+    let entity = event.getSource().getImmediate()
+    //event.server.runCommand(`say ${event.getSource().getType()}`)
     
     if(target.player)
     {
-        if(target.stages.has('difficulty_normal'))
+        offItem = target.getHeldItem(OFF_HAND).getId()
+        armor_result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+        armor_toughness_result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor_toughness get`) 
+        //event.server.runCommand(`say ${armor_result}`)
+        if(target.stages.has('difficulty_easy'))
+        {
+            if(source!=null)
+            {   
+                if(entity!=null && !entity.living)
+                {
+                    customd=event.server.runCommandSilent(`scoreboard players get ${target.name} customd`)
+                    entity.kill()
+                    damage_new=damage+customd*0.1
+                    if(offItem.indexOf("shield")>=0) damage_new=damage_new/2
+                    target.attack(damage_new*(1-Math.min(20,Math.max(armor_result/5,armor_result-damage_new/(2+armor_toughness_result/4)))/25))
+                }
+            } 
+        }
+        else if(target.stages.has('difficulty_normal'))
         {
             if(source!=null)
             {
-                if(target.health>damage*0.1+1)
+                //玩家受到的生物伤害额外增加10%
+                //event.cancel()
+                //target.attack(damage*1.1)
+                if(entity!=null && !entity.living)
                 {
-                    //玩家受到的生物伤害额外增加10%
-                    target.attack(-damage*0.1)
+                    customd=event.server.runCommandSilent(`scoreboard players get ${target.name} customd`)
+                    //event.cancel()
+                    entity.kill()
+                    damage_new=damage+customd*0.1*1.1
+                    if(offItem.indexOf("shield")>=0) damage_new=damage_new/2
+                    target.attack(damage_new*(1-Math.min(20,Math.max(armor_result/5,armor_result-damage_new/(2+armor_toughness_result/4)))/25))
                 }
-                else target.attack(999)                 
             }          
         }  
         else if(target.stages.has('difficulty_hard'))
         {
             if(source!=null)
             {
-                if(target.health>damage*0.2+1)
+                //玩家受到的生物伤害额外增加20%
+                //event.cancel()
+                //target.attack(damage*1.2)
+                if(entity!=null && !entity.living)
                 {
-                    //玩家受到的生物伤害额外增加20%
-                    target.attack(-damage*0.2)
+                    customd=event.server.runCommandSilent(`scoreboard players get ${target.name} customd`)
+                    //event.cancel()
+                    entity.kill()
+                    damage_new=damage+customd*0.1*1.2
+                    if(offItem.indexOf("shield")>=0) damage_new=damage_new/2
+                    target.attack(damage_new*(1-Math.min(20,Math.max(armor_result/5,armor_result-damage_new/(2+armor_toughness_result/4)))/25))
                 }
-                else target.attack(999)   
             }          
         }       
         else if(target.stages.has('difficulty_impossible'))
         {
             if(source!=null)
             {
-                
-                if(target.health>damage*0.5+1)
+                //玩家受到的生物伤害额外增加30%
+                if(entity!=null && !entity.living)
                 {
-                    //玩家受到的生物伤害额外增加50%
-                    target.attack(-damage*0.5)
+                    customd=event.server.runCommandSilent(`scoreboard players get ${target.name} customd`)
+                    //event.cancel()
+                    entity.kill()
+                    damage_new=damage+customd*0.1*1.3
+                    if(offItem.indexOf("shield")>=0) damage_new=damage_new/2
+                    target.attack(damage_new*(1-Math.min(20,Math.max(armor_result/5,armor_result-damage_new/(2+armor_toughness_result/4)))/25))
                 }
-                else target.attack(999)     
             }          
         }     
     }
@@ -309,7 +344,8 @@ onEvent('entity.death', event => {
             
             if(ifloot)
             {
-                //player.give(Item.of('numismatic-overhaul:gold_coin', Math.floor(customdiff*0.1)))
+                amount1 = randomNum(3, 8)
+                player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
                 player.addXPLevels(Math.floor(customdiff*0.1))
                 
                 if (player.stages.has('difficulty_easy'))
@@ -410,6 +446,20 @@ onEvent('entity.hurt', event => {
             result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base get`) 
             if(result+customd*0.05<=80) event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result+customd*0.05}`)
             else event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set 80`)
+
+            result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)
+            if(player.stages.has('difficulty_normal'))
+            {
+                event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*1.1}`)
+            }
+            else if(player.stages.has('difficulty_hard'))
+            {
+                event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*1.2}`)
+            }
+            else if(player.stages.has('difficulty_impossible'))
+            {
+                event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*1.3}`)
+            }
         }
     }
     if(target.player)
@@ -428,6 +478,20 @@ onEvent('entity.hurt', event => {
             result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base get`) 
             if(result+customd*0.05<=80) event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set ${result+customd*0.05}`)
             else event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set 80`)
+
+            result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base get`)   
+            if(target.stages.has('difficulty_normal'))
+            {
+                event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result*1.1}`)
+            }
+            else if(target.stages.has('difficulty_hard'))
+            {
+                event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result*1.2}`)
+            }
+            else if(target.stages.has('difficulty_impossible'))
+            {
+                event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result*1.3}`)
+            }
         }
     }
 })

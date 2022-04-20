@@ -152,8 +152,8 @@ onEvent('entity.death', event => {
             //event.server.runCommand(`say ${entity.name}`)
             customd=event.server.runCommandSilent(`scoreboard players get ${player.name} customd`)
             //掉落随机数量的金币与等级
-            //amount1 = Math.floor(randomNum(8, 15) * customd * 0.01)
-            //player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
+            amount1 = randomNum(3, 8)
+            player.give(Item.of('numismatic-overhaul:gold_coin', amount1))
             amount2 = Math.floor(randomNum(8, 15) * customd * 0.02)
             player.addXPLevels(amount2)
             //掉落特殊物品
@@ -237,7 +237,7 @@ onEvent('entity.hurt', event => {
             //event.server.runCommand(`say 1`)
             if(damage*0.1<player.maxHealth/2) damage_result=damage*0.1
             else damage_result=player.maxHealth/2
-            player.attack(-damage_result)
+            player.attack(damage_result)
         }
     }
 })
