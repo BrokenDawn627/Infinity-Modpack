@@ -11,7 +11,7 @@
   "angle_threshold_w_p": 90,
   "overlap_threshold": 4,
   "hide_overlapped": true,
-  "auto_death_waypoint": true,
+  "auto_death_waypoint": false,
   "hide_behind": false,
   "show_mode": "ALWAYS_ON",
   "coordinates_mode": "OFF",

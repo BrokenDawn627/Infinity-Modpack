@@ -51,7 +51,6 @@
       "effect.bewitchment.corrosion",
       "effect.bewitchment.purity",
       "effect.bewitchment.corruption",
-      "effect.minecraft.saturation",
       "effect.bewitchment.hardening",
       "effect.bewitchment.deflection",
       "effect.bewitchment.ignition",
@@ -111,7 +110,8 @@
       "effect.botania.emptiness",
       "effect.botania.bloodthirst",
       "effect.botania.allure",
-      "effect.botania.clear"
+      "effect.botania.clear",
+      "effect.minecraft.resistance"
     ],
     "special": false,
     "trinkets": false

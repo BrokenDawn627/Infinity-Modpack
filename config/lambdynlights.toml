@@ -81,6 +81,7 @@ mode = "fancy"
 				area_effect_cloud = true
 				zombified_piglin = true
 				piglin = true
+				blaze = true
 				endermite = true
 				cat = true
 				zombie = true
@@ -102,6 +103,7 @@ mode = "fancy"
 				fishing_bobber = true
 				zombie_villager = true
 				elder_guardian = true
+				small_fireball = true
 				polar_bear = true
 				strider = true
 				painting = true
@@ -257,6 +259,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.botania]
 				mana_burst = true
+				magic_missile = true
 				falling_star = true
 
 			[light_sources.settings.entities.hoverpets]
