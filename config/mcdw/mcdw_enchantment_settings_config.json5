@@ -1,10 +1,10 @@
 {
 	"enableEnchantmentSettings": {
-		"ENABLE_INNATE_ENCHANTMENTS": true,
-		"ENABLE_OP_ENCHANTMENT_MIXING": false,
 		"AREA_OF_EFFECT_ENCHANTS_DONT_AFFECT_PLAYERS": true,
+		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false,
 		"EXTRA_XP_HEALING": false,
-		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false
+		"ENABLE_OP_ENCHANTMENT_MIXING": false,
+		"ENABLE_INNATE_ENCHANTMENTS": true
 	},
 	// ENIGMA_RESONATOR_DIVISOR -> Higher number = lower damage
 	"enchantmentStatsSettings": {

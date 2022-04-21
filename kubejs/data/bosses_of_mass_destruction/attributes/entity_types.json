@@ -4,25 +4,29 @@
             "minecraft:generic.max_health": 450.0,
             "minecraft:generic.attack_damage": 45.0,
             "minecraft:generic.armor": 10.0,
-            "minecraft:generic.armor_toughness": 10.0
+            "minecraft:generic.armor_toughness": 10.0,
+            "playerex:ranged_damage": 0.0
         },
         "bosses_of_mass_destruction:lich": {
             "minecraft:generic.max_health": 450.0,
             "minecraft:generic.attack_damage": 45.0,
             "minecraft:generic.armor": 10.0,
-            "minecraft:generic.armor_toughness": 10.0
+            "minecraft:generic.armor_toughness": 10.0,
+            "playerex:ranged_damage": 0.0
         },
         "bosses_of_mass_destruction:obsidilith": {
             "minecraft:generic.max_health": 450.0,
             "minecraft:generic.attack_damage": 45.0,
             "minecraft:generic.armor": 10.0,
-            "minecraft:generic.armor_toughness": 10.0
+            "minecraft:generic.armor_toughness": 10.0,
+            "playerex:ranged_damage": 0.0
         },
         "bosses_of_mass_destruction:void_blossom": {
             "minecraft:generic.max_health": 450.0,
             "minecraft:generic.attack_damage": 45.0,
             "minecraft:generic.armor": 10.0,
-            "minecraft:generic.armor_toughness": 10.0
+            "minecraft:generic.armor_toughness": 10.0,
+            "playerex:ranged_damage": 0.0
         }
     }
 }

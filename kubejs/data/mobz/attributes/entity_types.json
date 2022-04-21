@@ -1,0 +1,34 @@
+{
+    "values": {
+        "mobz:archer": {
+            "playerex:ranged_damage": 0.0
+        },
+        "mobz:archer2": {
+            "playerex:ranged_damage": 0.0
+        },
+        "mobz:mage": {
+            "playerex:ranged_damage": 0.0
+        },
+        "mobz:mage2": {
+            "playerex:ranged_damage": 0.0
+        },
+        "mobz:frost": {
+            "playerex:ranged_damage": 0.0
+        },
+        "mobz:skeli1": {
+            "playerex:ranged_damage": 0.0
+        },
+        "mobz:skeli2": {
+            "playerex:ranged_damage": 0.0
+        },
+        "mobz:skeli3": {
+            "playerex:ranged_damage": 0.0
+        },
+        "mobz:with": {
+            "playerex:ranged_damage": 0.0
+        },
+        "mobz:withender": {
+            "playerex:ranged_damage": 0.0
+        }
+    }
+}

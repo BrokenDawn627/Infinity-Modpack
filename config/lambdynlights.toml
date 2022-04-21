@@ -280,6 +280,7 @@ mode = "fancy"
 				geckotoalizard = true
 
 			[light_sources.settings.entities.betternether]
+				naga_projectile = true
 				firefly = true
 				flying_pig = true
 				hydrogen_jellyfish = true

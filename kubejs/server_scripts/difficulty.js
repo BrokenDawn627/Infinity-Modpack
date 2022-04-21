@@ -61,7 +61,7 @@ onEvent('player.logged_in', event => {
     
 })
 
-onEvent('entity.hurt',event =>{
+/*onEvent('entity.hurt',event =>{
     let target = event.getEntity()
     let source = event.getSource().getActual()
     let damage = event.getDamage()
@@ -142,7 +142,7 @@ onEvent('entity.hurt',event =>{
         }     
     }
     
-})
+})*/
 
 onEvent('entity.hurt',event =>{
     let target = event.getEntity()
@@ -286,6 +286,13 @@ onEvent('recipes', event => {
 	  ], {
 		A:'kubejs:jiushu_heart_shard'
 	  })
+    event.shaped('kubejs:death_heart', [
+        'AAA',
+        'AAA',
+        'AAA'
+    ], {
+        A: 'kubejs:death_heart_shard'
+    })
     event.shapeless('kubejs:jiushu_heart_shard', ['kubejs:eden_ingot','victus:blank_heart_aspect','botania:mana_diamond'])
     event.shapeless('kubejs:death_heart', ['kubejs:golden_star','botania:terrasteel_ingot','minecraft:dragon_head'])
 })
@@ -434,31 +441,35 @@ onEvent('entity.hurt', event => {
         {
             //event.server.runCommand(`say 1`)
             //血量加难度值*0.3
-            target.setMaxHealth(target.maxHealth+customd*0.3)
+            target.setMaxHealth(target.maxHealth+customd*0.6)
             target.tags.add('attacked')
-            target.heal(customd*0.3)
+            target.heal(customd*0.6)
             //攻击力加难度值*0.1
             result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)           
             event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result+customd*0.1}`)
-            
+            event.server.runCommandSilent(`attribute ${target.id} playerex:ranged_damage base set ${customd*0.1}`)
             //event.server.runCommand(`say ${result}`)
-            //护甲值加难度值*0.05 上限80
+            //护甲值加难度值*0.05 上限120
             result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base get`) 
-            if(result+customd*0.05<=80) event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result+customd*0.05}`)
-            else event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set 80`)
+            if(result+customd*0.05<=120) event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result+customd*0.05}`)
+            else event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set 120`)
 
             result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)
+            result1=event.server.runCommandSilent(`attribute ${target.id} playerex:ranged_damage base get`)
             if(player.stages.has('difficulty_normal'))
             {
                 event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*1.1}`)
+                event.server.runCommandSilent(`attribute ${target.id} playerex:ranged_damage base set ${result*1.1}`)
             }
             else if(player.stages.has('difficulty_hard'))
             {
-                event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*1.2}`)
+                event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*1.25}`)
+                event.server.runCommandSilent(`attribute ${target.id} playerex:ranged_damage base set ${result*1.25}`)
             }
             else if(player.stages.has('difficulty_impossible'))
             {
-                event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*1.3}`)
+                event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*1.5}`)
+                event.server.runCommandSilent(`attribute ${target.id} playerex:ranged_damage base set ${result*1.5}`)
             }
         }
     }
@@ -468,29 +479,34 @@ onEvent('entity.hurt', event => {
         if(source!=null&&source.monster&&!source.tags.contains('attacked'))
         {
             //最大生命值
-            source.setMaxHealth(source.maxHealth+customd*0.3)
+            source.setMaxHealth(source.maxHealth+customd*0.6)
             source.tags.add('attacked')
-            source.heal(customd*0.3)
+            source.heal(customd*0.6)
             //攻击力
             result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base get`)           
             event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result+customd*0.1}`)
+            event.server.runCommandSilent(`attribute ${source.id} playerex:ranged_damage base set ${customd*0.1}`)
             //护甲值
             result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base get`) 
-            if(result+customd*0.05<=80) event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set ${result+customd*0.05}`)
-            else event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set 80`)
+            if(result+customd*0.05<=120) event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set ${result+customd*0.05}`)
+            else event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set 120`)
 
-            result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base get`)   
+            result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base get`)
+            result1=event.server.runCommandSilent(`attribute ${source.id} playerex:ranged_damage base get`)   
             if(target.stages.has('difficulty_normal'))
             {
                 event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result*1.1}`)
+                event.server.runCommandSilent(`attribute ${source.id} playerex:ranged_damage base set ${result*1.1}`)
             }
             else if(target.stages.has('difficulty_hard'))
             {
-                event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result*1.2}`)
+                event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result*1.25}`)
+                event.server.runCommandSilent(`attribute ${source.id} playerex:ranged_damage base set ${result*1.25}`)
             }
             else if(target.stages.has('difficulty_impossible'))
             {
-                event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result*1.3}`)
+                event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result*1.5}`)
+                event.server.runCommandSilent(`attribute ${source.id} playerex:ranged_damage base set ${result*1.5}`)
             }
         }
     }

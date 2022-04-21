@@ -273,14 +273,3 @@ onEvent('entity.hurt',event =>{
     }
     
 })
-
-onEvent('item.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:random_enchant') {
-        
-        lootno = randomloot(1, jingying_loot.length)
-        for (let i = 0; i < lootno.length; i++) {
-            event.player.give(jingying_loot[lootno[i]])
-        }
-        event.player.mainHandItem.count -= 1
-    }
-})
