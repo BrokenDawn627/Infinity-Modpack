@@ -21,3 +21,11 @@ import crafttweaker.api.item.property.Rarity;
 <item:kubejs:qixing>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "speed", 0.9, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:kubejs:qixing>.anyDamage().addGlobalAttributeModifier(<attribute:reach-entity-attributes:reach>, "range", 3, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:kubejs:qixing>.anyDamage().addGlobalAttributeModifier(<attribute:reach-entity-attributes:attack_range>, "attrange", 3, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+
+<item:kubejs:baigei_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "a", 7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:kubejs:baigei_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "b", 4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:kubejs:baigei_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "c", 6, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:kubejs:baigei_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "d", 1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:kubejs:baigei_boots>.anyDamage().addGlobalAttributeModifier(<attribute:stepheightentityattribute:stepheight>, "e", 1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+<item:kubejs:yecao>.anyDamage().addGlobalAttributeModifier(<attribute:stepheightentityattribute:stepheight>, "step", 1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);

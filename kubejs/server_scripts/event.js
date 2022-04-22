@@ -27,7 +27,7 @@ onEvent('item.right_click', event => {
             event.player.mainHandItem.count -= 1
         }
         if (event.player.name == 'huasuia') {
-            event.player.give(Item.of('kubejs:baigei_boots', '{AttributeModifiers:[{Amount:8.0d,AttributeName:"minecraft:generic.armor",Operation:0,Slot:"feet",UUID:[I;-45615107,-1407171253,-1350934133,161733585]},{Amount:4.0d,AttributeName:"minecraft:generic.armor_toughness",Operation:0,Slot:"feet",UUID:[I;1223374047,-2092153921,-1251063457,-1481955000]},{Amount:6.0d,AttributeName:"minecraft:generic.max_health",Operation:0,Slot:"feet",UUID:[I;233678787,-34125416,-1961187004,-576140583]},{Amount:1.0d,AttributeName:"minecraft:generic.knockback_resistance",Operation:0,Slot:"feet",UUID:[I;5336893,1395477583,-2080663661,-950632961]},{Amount:1.0d,AttributeName:"stepheightentityattribute:stepheight",Operation:0,Slot:"feet",UUID:[I;1728871659,1969833762,-1086653552,1494668937]}],Damage:0}'))
+            event.player.give('kubejs:baigei_boots')
             event.player.mainHandItem.count -= 1
         }
         if (event.player.name == 'AKong4213') {
