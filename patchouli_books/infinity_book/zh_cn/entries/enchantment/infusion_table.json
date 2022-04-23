@@ -1,0 +1,12 @@
+{
+  "name": "祛魔台",
+  "icon": "infusion_table:infusion_table",
+  "category": "patchouli:enchantment",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infusion_table:infusion_table",
+      "text":"用于将附魔物品的附魔转移到书上，注意原附魔物品会消失。使用方法为先放置书，再放置附魔物品，然后用打火石点燃，最后左键取下附魔书。"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "炽烈",
+  "icon": "victus:blazing_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "将下界的灼热带入主世界。$(item)炽烈之心$()利用火焰的力量将$(thing)你附近的4个敌人$()点燃几秒钟。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:blazing_heart_aspect",
+      "text": "$(o)$(#999999)这颗心被烧伤了u~$()"
+    }
+  ]
+}

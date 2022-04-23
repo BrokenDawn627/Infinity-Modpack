@@ -1,0 +1,12 @@
+{
+  "name": "附魔之瓶",
+  "icon": "minecraft:experience_bottle",
+  "category": "patchouli:enchantment",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:experience_bottle",
+      "text":"附魔之瓶现在可以制作"
+    }
+  ]
+}

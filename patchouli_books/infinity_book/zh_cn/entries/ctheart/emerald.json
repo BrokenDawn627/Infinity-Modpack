@@ -1,0 +1,16 @@
+{
+  "name": "绿宝石",
+  "icon": "victus:emerald_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)绿宝石$()是村民贸易中使用的一种通用货币，当用于制作自定义心时，可能不会直接引发任何效果。因此，$(item)绿宝石之心$()的作用可能看起来相当随机，但相当有用。破碎时，它将为所有 $(thing)效果心减少20%CD$()，免费的嗷！"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:emerald_heart_aspect",
+      "text": "$(o)$(#999999)不像看起来的那么贵$()"
+    }
+  ]
+}

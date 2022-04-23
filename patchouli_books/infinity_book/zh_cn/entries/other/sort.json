@@ -1,0 +1,14 @@
+{
+  "name": "功能：背包整理",
+  "icon": "minecraft:chest",
+  "category": "patchouli:other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "默认按鼠标中键可整理背包。可在模组列表中搜索Inventory Profiles Next进行详细配置。"
+    },  
+    {
+      "type": "patchouli:empty"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "效果：学习",
+  "icon": "minecraft:lapis_block",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:learning'}",
+      "text":"所有获得的经验增加10%，吸收经验球的半径更大"
+    }
+  ]
+}

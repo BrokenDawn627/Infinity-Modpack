@@ -1,16 +1,16 @@
 {
-  "name": "钻石",
+  "name": "Diamond",
   "icon": "victus:diamond_heart_aspect",
   "category": "patchouli:heart",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "一个众所周知的事实是$(thing)钻石$()是人类已知的最坚硬的材料之一。因此 $(item)钻石之心$()在激活时会增强你的护甲，以获得$(thing)4点护甲值$()"
+      "text": "It should be a familiar fact at this point that $(thing)Diamond$() is one of the hardest materials known to man. Thus, the $(item)Diamond Heart Aspect$() strengthens your skin for an effective $(thing)4 points of armor$() while active."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "infinity:diamond_heart",
-      "text": "$(o)$(#999999)一个顶十个$()"
+      "text": "$(o)$(#999999)it's a ten$()"
     }
   ]
 }

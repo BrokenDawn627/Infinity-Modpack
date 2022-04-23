@@ -1,0 +1,12 @@
+{
+  "name": "心之腰带",
+  "icon": "heartytrinkets:canister_belt",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:health_belt",
+      "text": "这条腰带可以用来存放你的心之容器，穿戴装有心之容器的腰带将提升你的最大生命值。"
+    }
+  ]
+}

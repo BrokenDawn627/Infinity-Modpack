@@ -1,0 +1,12 @@
+{
+  "name": "效果：回心",
+  "icon": "heartytrinkets:red_heart_crystal",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'victus:resurgence'}",
+      "text":"拥有该效果时，你的自定义心的冷却回复速度将会加快。"
+    }
+  ]
+}

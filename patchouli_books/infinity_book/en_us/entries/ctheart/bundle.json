@@ -1,16 +1,16 @@
 {
-  "name": "双倍",
+  "name": "Bundle",
   "icon": "victus:bundle_heart_aspect",
   "category": "patchouli:heart",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "一个相当简单的概念，$(item)双倍之心$()是你血条中的必备品。当破碎时，它可以填充2个心的位置，这能够有效地治愈你$(thing)4 HP$()。"
+      "text": "A rather simple concept, the $(item)Bundle Heart Aspect$() could still prove a must have in your health bar. When broken, it simply expands to fill the places of 2 hearts, effectively healing you by $(thing)4 HP$()."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "victus:bundle_heart_aspect",
-      "text": "$(o)$(#999999)它就像一个心形三明治$()"
+      "text": "$(o)$(#999999)its like a heart sandwich of sorts$()"
     }
   ]
 }

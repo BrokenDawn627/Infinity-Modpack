@@ -1,15 +1,16 @@
 {
-  "name": "箭术",
+  "name": "Archery",
   "icon": "victus:archery_heart_aspect",
   "category": "patchouli:heart",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "只有$(thing)2秒$()冷却时间，$(item)箭术之心$()对于群体控制非常有用。当被打破时，一连串的箭矢将射向你最靠近你的三个敌人，每一支箭都将精确地瞄准。一旦击中，箭的击退属性将迅速击退你附近的目标。"
+      "text": "A hasty aspect with only $(thing)2 seconds$() of cooldown, the $(item)Archery Heart Aspect$() is quite useful for crowd control. When broken, a barrage of arrows will be fired at the three foes closest to you, each one perfectly targeted. Upon impact, the arrows' punch property will quickly remove their targets from your immediate vicinity."
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "victus:archery_heart_aspect"
+      "recipe": "victus:archery_heart_aspect",
+      "text": "$(o)$(#999999)it's like ol' betsy, but less rustic$()"
     }
   ]
 }

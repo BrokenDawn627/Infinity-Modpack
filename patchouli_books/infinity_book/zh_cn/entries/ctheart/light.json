@@ -1,0 +1,16 @@
+{
+  "name": "轻盈",
+  "icon": "victus:light_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "不幸的是，从高处摔下来是您在日常旅行中可能遇到的。为了防止跌落悬崖造成的巨大伤害，请使用$(item)轻盈之心$()。如果出现不幸坠落的情况，它将使你免疫所有坠落伤害，并进入冷却。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:light_heart_aspect",
+      "text": "但是请注意，即使没有阻止跌落伤害，打破$(thing)轻盈之心$()也会有整整60秒的冷却时间。"
+    }
+  ]
+}

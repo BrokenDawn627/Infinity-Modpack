@@ -1,0 +1,16 @@
+{
+  "name": "黄金",
+  "icon": "victus:golden_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "当你读到这篇文章时，你的头脑被迈达斯的故事和他的黄金之触所玷污，你可能会期待从$(item)黄金之心$()中得到类似的东西。好吧，我很高兴地告诉你，没门。相反，当破碎时，它会赋予你$(item)伤害吸收$()效果。不仅如此，血量越低，伤害吸收的效果等级也越高。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:gold_heart",
+      "text": "$(o)$(#999999)老实说，我不明白怎么会有人吃这个。$()"
+    }
+  ]
+}

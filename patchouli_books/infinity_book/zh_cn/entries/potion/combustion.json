@@ -1,0 +1,12 @@
+{
+  "name": "效果：灼热",
+  "icon": "minecraft:coal_block",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:combustion'}",
+      "text":"拥有该效果时，你和你周围的环境将被点燃"
+    }
+  ]
+}

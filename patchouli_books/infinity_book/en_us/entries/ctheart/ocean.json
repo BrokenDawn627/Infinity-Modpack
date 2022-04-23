@@ -1,16 +1,16 @@
 {
-  "name": "海洋",
+  "name": "Ocean",
   "icon": "victus:ocean_heart_aspect",
   "category": "patchouli:heart",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)潮涌核心$()无疑是水下进行的任何工作不可或缺的伴侣，但它不能够挪动。$(item)海洋之心$() 能在激活期间赋予你$(thing)潮涌能量$()来解决此问题。"
+      "text": "The $(thing)Conduit$() is unquestionably an indispensable companion for any kind of work carried out underwater. Too bad it's bound to a one location. The $(item)Ocean Heart Aspect$() seeks to solve this problem by granting access to $(thing)Conduit Power$() while it is active."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "victus:ocean_heart_aspect",
-      "text": "然而，在$(o)平衡$()的名义下，它有一个新的限制：它只在激活时且你的生命值低于$(thing)75%$()时才起作用。"
+      "text": "In the name of the almighty $(o)balancing$() however, it introduces a new restriction: it only works while both active and sensing your health below $(thing)75%$() of it's maximum."
     }
   ]
 }

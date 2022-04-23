@@ -1,0 +1,12 @@
+{
+  "name": "虚空图腾",
+  "icon": "voidtotem:totem_of_void_undying",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "voidtotem:totem_of_void_undying",
+      "text":"当你掉入虚空时，虚空图腾可以将你传送回地表"
+    }
+  ]
+}

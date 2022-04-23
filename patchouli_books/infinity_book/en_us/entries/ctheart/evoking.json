@@ -1,5 +1,5 @@
 {
-  "name": "召唤",
+  "name": "Evoking",
   "icon": "victus:evoking_heart_aspect",
   "category": "patchouli:heart",
   "extra_recipe_mappings": {
@@ -8,12 +8,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)召唤之心$()在破碎时会做什么？ $(thing)生成保护你的恼鬼$()并不是它的特别之处。相反，它的奇怪之处在于你如何获得它。你无法通过制作来获得它(已经被作者破解了)，因为唤魔者对其魔法的施法咒语非常保密。因此，需要做的是将 $(item)空白之心$()交给唤魔者，唤魔者会将其转换为召唤之心。"
+      "text": "What the $(item)Evoking Heart Aspect$() does when broken, $(thing)spawning Vexes that defend you$() is not what makes it special. Rather, its oddity lies in how you obtain it. Simply crafting it is not an option, as the Evoker is very secretive about how its magic is performed. So instead what needs to be done is giving a $(item)Blank Heart Aspect$() to an Evoker who will then convert it to an evoking one."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "infinity:evoking_heart",
-      "text": "当然，这个过程并非没有风险，唤魔者往往是敌对的。但是，远离他们的视线足够长的时间应该足以转换。"
+      "text": "This process is of course not without risk, considering that Evokers tend to be quite hostile folks. However, staying out of their sight long enough should suffice for a quick conversion."
     }
   ]
 }

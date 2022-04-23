@@ -1,0 +1,12 @@
+{
+  "name": "效果：专注",
+  "icon": "minecraft:egg",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:concentration'}",
+      "text":"拥有该效果时，身上所有药水效果产生的粒子特效将被隐藏"
+    }
+  ]
+}

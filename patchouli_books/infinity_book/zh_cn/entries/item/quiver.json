@@ -1,0 +1,39 @@
+{
+  "name": "箭袋",
+  "icon": "nyfsquiver:basic_quiver",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"箭袋相当于只能用来存放箭矢的背包，但你可以直接射出存放在箭袋里面的箭（需要装备在饰品栏中），且当你拾取到箭矢时会自动存入箭袋。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nyfsquiver:basic_quiver_item_craft",
+      "recipe2": "nyfsquiver:iron_quiver_item_craft"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nyfsquiver:copper_quiver_item_craft",
+      "recipe2": "nyfsquiver:gold_quiver_item_craft"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nyfsquiver:gold_quiver_item_craft2",
+      "recipe2": "nyfsquiver:silver_quiver_item_craft2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nyfsquiver:silver_quiver_item_craft",
+      "recipe2": "nyfsquiver:diamond_quiver_item_craft2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nyfsquiver:diamond_quiver_item_craft"
+    },
+    {
+      "type":"patchouli:smithing",
+      "recipe":"nyfsquiver:netherite_quiver_item_craft"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "奶酪",
+  "icon": "victus:cheese_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "就像喝掉牛奶一样有用。$(item)奶酪之心$()本身是一种更好地使用牛奶的方式，它可以在破碎后立即消除 $(thing)所有负面的药水效果$() 。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:cheese_heart_aspect",
+      "text": "$(o)$(#999999)它是秘密的毒药$()"
+    }
+  ]
+}

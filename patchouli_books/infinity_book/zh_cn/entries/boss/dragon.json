@@ -1,0 +1,22 @@
+{
+  "name": "末影龙",
+  "icon": "minecraft:dragon_head",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"注意，末影龙的基本生命值几乎增加了一倍，且盔甲值与韧性有所提高，请带上你最好的装备，且要小心对付！"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"minecraft:ender_dragon"
+
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"dragonloot:dragon_scale",
+      "link_recipe":true,
+      "text":"击败末影龙将会掉落龙鳞。"
+    }
+  ]
+}

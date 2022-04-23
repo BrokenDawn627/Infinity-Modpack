@@ -1,5 +1,5 @@
 {
-  "name": "可堆叠牛奶桶",
+  "name": "Stackable milk buckets",
   "icon": "minecraft:milk_bucket",
   "category": "patchouli:first",
   "pages": [
@@ -7,7 +7,7 @@
       "type":"patchouli:spotlight",
       "item":"minecraft:milk_bucket",
       "link_recipe":true,
-      "text":"牛奶桶现在可以堆叠，最多堆叠8个，可用来恢复你的口渴值。但作为代价，你使用牛奶桶时将不会返还桶。"
+      "text":"Milk buckets can now be stacked, up to a maximum of 8, which can be used to restore your thirst value. But in exchange, you won't return the bucket when you use it."
     },
     {
       "type": "patchouli:empty"

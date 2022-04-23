@@ -1,11 +1,11 @@
 {
-  "name": "骨头工具",
+  "name": "Bone tools",
   "icon": "boneequipment:bone_pickaxe",
   "category": "patchouli:first",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"在这个整合包中，你不能制作木质或石质工具，相反，你应该制作骨质工具，你可以通过堆肥获得骨粉，并将其制作成骨头。"
+      "text":"In this modpack, you can't craft wooden or stone tools, instead, you should make bone tools, and you can get bone meal by composting and then craft it into bone."
     },
     {
       "type": "patchouli:crafting",

@@ -1,11 +1,11 @@
 {
-  "name": "黄昏",
+  "name": "Dusk",
   "icon": "minecraft:zombie_head",
   "category": "patchouli:first",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"相比原版，你能够入睡时的时间来得更晚，且晚上时的怪物量会增加。"
+      "text":"The time you will be able to fall asleep comes later, and the number of monsters increases at night."
     },
     {
       "type": "patchouli:empty"

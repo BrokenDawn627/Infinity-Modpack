@@ -1,0 +1,14 @@
+{
+  "name": "赞助人员名单",
+  "icon": "minecraft:diamond",
+  "category": "patchouli:other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Catfirst、Fu_Shen、HuaHuo、huwenshark、Hwa_Mu、Ke_DiWZ、LingSmallEmpty、little_kk_、Matcho_Rs、moyuguguji、Naughty_Clock、pop、qinglian2005、wp0313、YeShengQiu、白琉璃之火、对方正在输入、老菠萝、benben、玉竹的鸡腿、Wreyyy、Vegetabottle、Ronin_LYL、CFahaxiki、快看我会发光呀、xiong、WXLM09、祈妹姬、zeus、quefy、安然、异界本、世不如新、Tuuuzi、是帆帆鸭、fjkl158、痛苦面具"
+    },  
+    {
+      "type": "patchouli:empty"
+    }
+  ]
+}

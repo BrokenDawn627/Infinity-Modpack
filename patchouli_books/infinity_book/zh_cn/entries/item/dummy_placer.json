@@ -1,0 +1,12 @@
+{
+  "name": "目标假人",
+  "icon": "dummmmmmy:target_dummy_placer",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "dummmmmmy:crafting",
+      "text":"目标假人可以用来测试武器的伤害与DPS，你可以给它装备护甲。"
+    }
+  ]
+}

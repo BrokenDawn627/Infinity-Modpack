@@ -1,0 +1,12 @@
+{
+  "name": "抓钩",
+  "icon": "hookshot:white_hookshot",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hookshot:hookshot",
+      "text":"抓钩可以用来攀爬或是快速位移"
+    }
+  ]
+}

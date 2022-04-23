@@ -1,0 +1,12 @@
+{
+  "name": "效果：爆炸",
+  "icon": "minecraft:firework_star",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:fuse'}",
+      "text":"当此药水效果结束时，拥有该效果的实体将会爆炸"
+    }
+  ]
+}

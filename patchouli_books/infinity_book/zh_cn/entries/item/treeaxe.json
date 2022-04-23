@@ -1,0 +1,30 @@
+{
+  "name": "伐木斧",
+  "icon": "treeaxe:netherite_treeaxe",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"伐木斧可以直接砍倒整棵树"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "treeaxe:copper_treeaxe",
+      "recipe2": "treeaxe:gold_treeaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "treeaxe:iron_treeaxe",
+      "recipe2": "treeaxe:emerald_treeaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "treeaxe:amethyst_treeaxe",
+      "recipe2": "treeaxe:diamond_treeaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "treeaxe:netherite_treeaxe"
+    }
+  ]
+}

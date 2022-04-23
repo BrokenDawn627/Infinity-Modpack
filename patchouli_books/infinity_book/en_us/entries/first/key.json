@@ -1,11 +1,11 @@
 {
-  "name": "滚轮放大取消",
+  "name": "Zoom cancel",
   "icon": "minecraft:spyglass",
   "category": "patchouli:first",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"请将你的放大按键设置成一个$(c)没有按键冲突$()的键，否则当你使用放大时将无法取消！不清楚按键的功能可以将其设置为$(c)ESC$()来取消绑定。"
+      "text":"Please set your zoom key to a $(c) key with no key violation $(), otherwise you will not be able to cancel when you use zoom! If you don't know what the key does, you can set it to $(c)ESC$() to unbind."
     },
     {
       "type": "patchouli:empty"

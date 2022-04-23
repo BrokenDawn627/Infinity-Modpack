@@ -1,16 +1,16 @@
 {
-  "name": "苦力怕",
+  "name": "Creeper",
   "icon": "victus:creeper_heart_aspect",
   "category": "patchouli:heart",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "毫无疑问，Minecraft最具标志性的生物。没有$(item)苦力怕之心$()就没有灵魂。它的存在与作用与您想象的完全一样。$(o)当心破碎时，你会boom~并且原地升天。$()"
+      "text": "Undoubtedly Minecraft's most iconic entity, not having a $(item)Creeper Heart Aspect$() would be quite the wasted opportunity. So naturally, it exists and works exactly like you think it would. Suffice it to say: $(o)when aspect brokey, aspect go boom and player go dead$()"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "victus:creeper_heart_aspect",
-      "text": "$(o)$(#999999) (Creeper?) aww man.$()"
+      "text": "$(o)$(#999999)so we back in the mine$()"
     }
   ]
 }

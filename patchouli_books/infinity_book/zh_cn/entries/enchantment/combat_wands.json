@@ -1,0 +1,34 @@
+{
+  "name": "战斗法杖",
+  "icon": "magiccombatwands:diamond_wand",
+  "category": "patchouli:enchantment",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"战斗法杖可以发射远程射弹，需要消耗荧石粉。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "magiccombatwands:wooden_wand",
+      "recipe2": "magiccombatwands:stone_wand"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "magiccombatwands:iron_wand",
+      "recipe2": "magiccombatwands:golden_wand"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "magiccombatwands:diamond_wand"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "magiccombatwands:netherite_wand_smithing"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"minecraft:glowstone_dust",
+      "link_recipe":true
+    }
+  ]
+}

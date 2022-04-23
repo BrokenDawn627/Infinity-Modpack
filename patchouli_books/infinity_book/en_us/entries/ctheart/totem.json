@@ -1,16 +1,16 @@
 {
-  "name": "图腾",
+  "name": "Totem",
   "icon": "victus:totem_heart_aspect",
   "category": "patchouli:heart",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)图腾之心$()是您可以制作的最强大的心之一。触发后，它会首先检查您的物品栏中是否有任何$(item)不死图腾$()。如果有，它会消耗它，恢复$(thing)15 HP$()并继续冷却10秒。如果你没有任何图腾，只有$(thing)5 HP$()被恢复，并且该心将有2.5分钟的冷却时间。"
+      "text": "The $(item)Totem Aspect$() is one of the most powerful aspects you can create. When triggered, it first checks your inventory for any $(item)Totems of Undying$(). Should it find one, it will consume it, restore $(thing)15 HP$() and go on cooldown for 10 seconds. If you don't have any totems, only $(thing)5 HP$() will be restored and the aspect will have a 2.5 minute cooldown."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "victus:totem_heart_aspect",
-      "text": "在这两种情况下，如果伤害是致命的，那么由 $(thing)图腾之心$()恢复的生命值将 $(thing)拯救你$()。"
+      "text": "In both of these cases, should the damage have been lethal, the health restored by the $(thing)Totem Aspect$() will $(thing)save you$()."
     }
   ]
 }

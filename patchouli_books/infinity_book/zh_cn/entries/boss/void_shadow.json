@@ -1,0 +1,43 @@
+{
+  "name": "眼球与虚空之影",
+  "icon": "adventurez:source_stone",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+            [ "     "," A A ","  B  "," A A ","     " ], 
+            [ "A   A"," WWW "," W0W "," WWW ","A   A" ],
+            [ "GGGGG","GGGGG","GGGGG","GGGGG","GGGGG" ]
+        ],
+        "mapping": {
+            "G": "minecraft:obsidian",
+            "W": "minecraft:crying_obsidian",
+            "A": "minecraft:end_rod",
+            "B": "minecraft:dragon_egg",
+            "0": "minecraft:crying_obsidian"
+        },
+        "symmetrical": true
+    },
+      "text":"建造上面的多方块结构以召唤眼球怪。需要哭泣的黑曜石、黑曜石、龙蛋与末地烛。只在末地有效。"
+
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"adventurez:the_eye",
+      "text":"击败眼球怪后，将产生一个传送门，右键即可进入。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"adventurez:void_shadow",
+      "text":"进入传送门后即可见到虚空之影，血量极高请小心对付。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"adventurez:source_stone",
+      "link_recipe":true,
+      "text":"击败虚空之影后生成的影之宝箱中会有源石。且你会获得“出名”buff，有了该buff就可以开始孵化龙蛋了。"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "钢铁",
+  "icon": "victus:iron_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你能召唤出的最强的同伴之一无疑是铁傀儡。现在雇用一个，就像以前一样，使用传统方法可能是相当昂贵的事情。不用担心，因为$(item)钢铁之心$()会解决你的问题。一旦破碎，一个铁傀儡将被召唤。但是，请小心。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:iron_heart_aspect",
+      "text": "钢铁之心所召唤的生物可能不像真正的召唤那样忠诚和宽容。特别是生命值下降得足够低，可能会激怒他们，它们无法从普通的敌对生物中辨别出你。"
+    }
+  ]
+}

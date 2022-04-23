@@ -1,0 +1,41 @@
+{
+  "name": "骨头工具",
+  "icon": "boneequipment:bone_pickaxe",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"在这个整合包中，你不能制作木质或石质工具，相反，你应该制作骨质工具，你可以通过堆肥获得骨粉，并将其制作成骨头。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:composter",
+      "recipe2": "infinity:bone_meal"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "boneequipment:bone_axe_recipe",
+      "recipe2": "boneequipment:bone_pick_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "boneequipment:bone_sword_recipe",
+      "recipe2": "boneequipment:bone_shovel_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "boneequipment:bone_hoe_recipe",
+      "recipe2": "boneequipment:bone_horse_armor_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "boneequipment:bone_helmet_recipe",
+      "recipe2": "boneequipment:bone_chestplate_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "boneequipment:bone_leggings_recipe",
+      "recipe2": "boneequipment:bone_boots_recipe"
+    }
+  ]
+}

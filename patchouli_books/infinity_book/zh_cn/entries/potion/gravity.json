@@ -1,0 +1,12 @@
+{
+  "name": "效果：重力",
+  "icon": "minecraft:nether_brick",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:gravity'}",
+      "text":"拥有该效果的生物重力将被增强"
+    }
+  ]
+}

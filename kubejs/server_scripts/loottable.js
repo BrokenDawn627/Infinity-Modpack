@@ -340,13 +340,12 @@ onEvent('entity.loot_tables', event => {
     })
 
   })
-
+*/
   onEvent('block.loot_tables', event => {
     
     event.modifyBlock('minecraft:spawner', table => {
       table.addPool(pool => {
         pool.addItem('victus:blank_heart_aspect').randomChance(0.2)
-        pool.addItem('heartytrinkets:red_heart').randomChance(0.05)
       })
     })
-  })*/
+  })

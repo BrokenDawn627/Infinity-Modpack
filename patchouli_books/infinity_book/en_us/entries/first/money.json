@@ -1,5 +1,5 @@
 {
-  "name": "钱币",
+  "name": "Coins",
   "icon": "numismatic-overhaul:gold_coin",
   "category": "patchouli:first",
   "pages": [
@@ -7,18 +7,18 @@
       "type": "patchouli:spotlight",
       "item": "numismatic-overhaul:gold_coin",
       "link_recipe": true,
-      "text": "通用货币不再是绿宝石，而是硬币。你可以通过杀死怪物或搜刮战利品箱来获得这些硬币。$(br)注意：死亡将会使你丢失钱包里的一部分钱币，因此请尽量不要在身上带太多钱。"
+      "text": "The universal currency is no longer emeralds, but coins. You can get these coins by killing monsters or looting loot chests. $(br) Note: Death will cause you to lose some of the coins in your wallet, so try not to take too much money with you."
     },
     {
       "type": "patchouli:spotlight",
       "item": "numismatic-overhaul:bronze_coin",
-      "text":"100个铜币 = 1个银币",
+      "text":"100 Bronze Coins = 1 Silver Coin",
       "link_recipe": true
     },
     {
       "type": "patchouli:spotlight",
       "item": "numismatic-overhaul:silver_coin",
-      "text":"100个银币 = 1个金币",
+      "text":"100 Silver Coins = 1 Gold Coin",
       "link_recipe": true
     }
   ]

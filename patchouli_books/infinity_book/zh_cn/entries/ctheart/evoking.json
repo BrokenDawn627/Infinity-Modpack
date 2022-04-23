@@ -1,0 +1,19 @@
+{
+  "name": "召唤",
+  "icon": "victus:evoking_heart_aspect",
+  "category": "patchouli:heart",
+  "extra_recipe_mappings": {
+    "victus:evoking_heart_aspect": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)召唤之心$()在破碎时会做什么？ $(thing)生成保护你的恼鬼$()并不是它的特别之处。相反，它的奇怪之处在于你如何获得它。你无法通过制作来获得它(已经被作者破解了)，因为唤魔者对其魔法的施法咒语非常保密。因此，需要做的是将 $(item)空白之心$()交给唤魔者，唤魔者会将其转换为召唤之心。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:evoking_heart",
+      "text": "当然，这个过程并非没有风险，唤魔者往往是敌对的。但是，远离他们的视线足够长的时间应该足以转换。"
+    }
+  ]
+}

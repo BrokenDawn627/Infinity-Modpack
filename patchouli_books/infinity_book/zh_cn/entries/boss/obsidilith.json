@@ -1,0 +1,20 @@
+{
+  "name": "黑曜石之柱",
+  "icon": "bosses_of_mass_destruction:obsidian_heart",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"bosses_of_mass_destruction:obsidian_heart",
+      "link_recipe":true,
+      "text":"通过末地外岛传送门，可以发现神秘祭坛，在祭坛上使用末影之眼以召唤黑曜石之柱。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"bosses_of_mass_destruction:obsidilith",
+      "text":"攻击它时，周围会生成一些类似于哭泣的黑曜石的方块，只有拆掉才能伤害到它。",
+      "offset":-4.0
+
+    }
+  ]
+}

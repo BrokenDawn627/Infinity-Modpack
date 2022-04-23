@@ -1,0 +1,16 @@
+{
+  "name": "烤肉",
+  "icon": "victus:grilled_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)烤肉之心$()是饥饿者的完美的解决方案。当破碎时，它会非常猛烈地将一块烤好的肉塞进你的嘴里。这会使你饱和，从而治愈你几颗心，除非你$(o)真的$()饿了。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:grilled_heart",
+      "text": "$(o)$(#999999)牛排太好吃了。我之前饿了，但现在我满足了。嘎嘎饱！$()"
+    }
+  ]
+}

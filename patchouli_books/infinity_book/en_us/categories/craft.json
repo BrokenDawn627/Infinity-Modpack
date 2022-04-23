@@ -1,6 +1,6 @@
 {
-    "name": "合成方式",
-    "description": "一些高级的合成方式。",
+    "name": "Crafting",
+    "description": "Some advanced crafting.",
     "icon": "betterend:infusion_pedestal",
     "sortnum": 7
   }

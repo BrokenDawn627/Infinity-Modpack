@@ -1,0 +1,16 @@
+{
+  "name": "梦魇马",
+  "icon": "mythicmounts:nightmare_spawn_egg",
+  "category": "patchouli:mount",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"神话坐骑模组中新增的坐骑。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"mythicmounts:nightmare",
+      "text": "贴图错误属于正常状况，仅本书内存在该情况，坐骑请以实际为准。"
+    }
+  ]
+}

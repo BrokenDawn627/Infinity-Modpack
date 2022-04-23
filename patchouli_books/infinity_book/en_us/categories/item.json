@@ -1,6 +1,6 @@
 {
-    "name": "物品",
-    "description": "新增的实用物品的介绍",
+    "name": "Items",
+    "description": "Introduction to new useful items.",
     "icon": "kubejs:upgrade_core_evolution",
     "sortnum": 1
   }

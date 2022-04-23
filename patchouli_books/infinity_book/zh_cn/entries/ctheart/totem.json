@@ -1,0 +1,16 @@
+{
+  "name": "图腾",
+  "icon": "victus:totem_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)图腾之心$()是您可以制作的最强大的心之一。触发后，它会首先检查您的物品栏中是否有任何$(item)不死图腾$()。如果有，它会消耗它，恢复$(thing)15 HP$()并继续冷却10秒。如果你没有任何图腾，只有$(thing)5 HP$()被恢复，并且该心将有2.5分钟的冷却时间。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:totem_heart_aspect",
+      "text": "在这两种情况下，如果伤害是致命的，那么由 $(thing)图腾之心$()恢复的生命值将 $(thing)拯救你$()。"
+    }
+  ]
+}

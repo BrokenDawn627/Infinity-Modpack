@@ -1,0 +1,15 @@
+{
+  "name": "末影袋",
+  "icon": "inmis:ender_pouch",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"随身携带的末影箱"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "inmis:ender_pouch"
+    }
+  ]
+}

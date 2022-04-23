@@ -1,0 +1,12 @@
+{
+  "name": "效果：光合作用",
+  "icon": "minecraft:beetroot_seeds",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:photosynthesis'}",
+      "text":"当你站在阳光下时，你的饥饿值会缓慢补充"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "龙息",
+  "icon": "victus:draconic_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "众所周知，末影龙会吐龙息，emmm..这很不卫生！因此，把它做成自定义心似乎是个不好的想法。好吧，在实践中，它并不像听起来那么危险。实际上，使用紫颂果进行消毒后，它是完全安全的。当激活时，$(item)龙息之心$()会在你受伤时在你的脚下生成一团$(thing)龙息$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:draconic_heart_aspect",
+      "text": "$(o)$(#999999)显然，末影龙没有吐什么干净的东西$()"
+    }
+  ]
+}

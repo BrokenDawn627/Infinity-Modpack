@@ -1,16 +1,16 @@
 {
-  "name": "炽烈",
+  "name": "Blazing",
   "icon": "victus:blazing_heart_aspect",
   "category": "patchouli:heart",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "将下界的灼热带入主世界。$(item)炽烈之心$()利用火焰的力量将$(thing)你附近的4个敌人$()点燃几秒钟。"
+      "text": "Taking the scorching heat of the Nether with you into the Overworld could in fact be quite handy. This is, rather fittingly, what the $(item)Blazing Heart Aspect$() does. Through utilization of the embedded powers of a Blaze, it can set $(thing)4 foes close to you$() on fire for a few seconds."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "victus:blazing_heart_aspect",
-      "text": "$(o)$(#999999)这颗心被烧伤了u~$()"
+      "text": "$(o)$(#999999)this aspect be burnin' 4 u~$()"
     }
   ]
 }

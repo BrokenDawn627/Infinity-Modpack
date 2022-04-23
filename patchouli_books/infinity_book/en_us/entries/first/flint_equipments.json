@@ -1,11 +1,11 @@
 {
-  "name": "燧石工具",
+  "name": "Flint tools",
   "icon": "flintytools:flint_pickaxe",
   "category": "patchouli:first",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"除了制作骨制工具外，你还可以选择制作燧石工具来开局。"
+      "text":"In addition to crafting bone tools, you can also choose to make flint tools to start the game."
     },
     {
       "type": "patchouli:crafting",

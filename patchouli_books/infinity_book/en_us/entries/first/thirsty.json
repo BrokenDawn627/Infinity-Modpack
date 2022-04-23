@@ -1,11 +1,11 @@
 {
-  "name": "口渴",
+  "name": "Thirst",
   "icon": "dehydration:leather_flask",
   "category": "patchouli:first",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"你会感到口渴，所以你必须做一些东西来喝水。你可以通过Shift+右键直接喝水，但水很脏。这里有一些可以过滤水的物品。$(br)烧水锅需要放在营火上，使用水桶往烧水锅里加水，稍加等待即可获得纯净水。你可以使用玻璃瓶或水壶来盛。用水壶盛装的水将补充更多口渴值。"
+      "text":"You will feel thirsty, so you have to make something to drink water. You can drink water directly through shift + right click, but the water is dirty. Here are some items that can filter water. The $(br) boiling pot needs to be placed on a campfire, use the bucket to add water to the boiling pot, and wait a little while to get pure water. You can use a glass bottle or a flask to serve it. Water filled with a flask will replenish more of your thirst."
     },
     {
       "type": "patchouli:crafting",

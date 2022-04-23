@@ -1,0 +1,21 @@
+{
+  "name": "心之容器",
+  "icon": "heartytrinkets:red_heart_canister",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:red_heart",
+      "text": "你可以通过制作获得迷你红心。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:canister"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "infinity:red_h_c",
+      "recipe2": "infinity:red_h_cc"
+    }
+  ]
+}

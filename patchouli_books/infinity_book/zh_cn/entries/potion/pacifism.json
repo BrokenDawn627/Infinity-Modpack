@@ -1,0 +1,12 @@
+{
+  "name": "效果：和平主义",
+  "icon": "minecraft:golden_apple",
+  "category": "patchouli:potion",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion{Potion:'extraalchemy:pacifism'}",
+      "text":"伤害带有和平主义效果的生物将会使伤害者虚弱且缓速"
+    }
+  ]
+}

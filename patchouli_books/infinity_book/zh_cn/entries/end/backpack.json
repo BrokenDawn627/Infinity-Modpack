@@ -1,0 +1,16 @@
+{
+  "name": "无限支配之剑",
+  "icon": "kubejs:infinity_sword",
+  "category": "patchouli:end",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kubejs:infinity_sword_a",
+      "recipe2": "kubejs:infinity_sword_b"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "crafttweaker:infinity_sword"
+    }
+  ]
+}

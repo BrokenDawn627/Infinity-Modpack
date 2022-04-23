@@ -1,0 +1,16 @@
+{
+  "name": "寒冰",
+  "icon": "victus:icy_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在移动时，它以一种有品位的方式冻结你的脚，赋予在冰上滑动更高的速度。然而，这也带来了副作用。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "victus:icy_heart_aspect",
+      "text": "您应该注意到，当寒冰之心破碎时，其内部的霜冻无法再被控制，这会冻结你的腿约10秒。"
+    }
+  ]
+}

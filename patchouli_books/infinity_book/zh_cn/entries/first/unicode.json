@@ -1,0 +1,14 @@
+{
+  "name": "取消Unicode字体",
+  "icon": "minecraft:grass_block",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"请您将语言选项中左下角的“强制使用Unicode字体”设置为$(c)关闭$()，因为开启将导致一些问题。"
+    },
+    {
+      "type": "patchouli:empty"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "空白之心",
+  "icon": "victus:blank_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "infinity:blank",
+      "text": "你可以通过制作，或破坏刷怪笼来获得空白之心。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"minecraft:potion{Potion:'victus:heartbleed'}",
+      "text":"你也可以通过杀死有心碎药水效果的生物来获得空白之心。"
+    }
+  ]
+}

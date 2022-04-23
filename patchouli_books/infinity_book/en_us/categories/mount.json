@@ -1,6 +1,6 @@
 {
-    "name": "坐骑",
-    "description": "各种坐骑的介绍",
+    "name": "Mounts",
+    "description": "An introduction to various mounts.",
     "icon": "minecraft:saddle",
     "sortnum": 5
   }

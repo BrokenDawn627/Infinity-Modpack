@@ -1,0 +1,14 @@
+{
+  "name": "特性：分解物品",
+  "icon": "minecraft:flint_and_steel",
+  "category": "patchouli:other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你可以将工具、防具等物品投入火中来获取到它的原材料。目前支持的材料有铜、铁、金、钻石、绿宝石等。"
+    },  
+    {
+      "type": "patchouli:empty"
+    }
+  ]
+}

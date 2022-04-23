@@ -1,11 +1,11 @@
 {
-  "name": "自定义心游玩须知",
+  "name": "Custom Hearts",
   "icon": "victus:victus_journal",
   "category": "patchouli:heart",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"自定义心分为两种激活方式。一种是破碎时激活(如黄金)，另一种是未破碎时激活(如钻石)。前者仅在该心受到伤害时发挥瞬时性功能，后者则是在该心未受到伤害时发挥被动效果。你吃下的第一颗自定义心将在血条的最左边，之后的心将往右推移。自定义心的冷却是从左到右进行的，也就是左边的心没完成冷却时，右边的心不会开始冷却，请注意各种心的冷却时长合理搭配。"
+      "text":"Custom hearts are activated in two ways. One is activated when broken (such as gold) and the other is activated when unbroken (such as diamond). The former only exerts an instantaneous function when the heart is damaged, while the latter exerts a passive effect when the heart is not harmed. The first custom heart you eat will be on the far left of the health bar, and the heart after that will move to the right. The cooling of the custom heart is carried out from left to right, that is, when the left heart does not finish cooling, the right heart will not begin to cool."
     },
     {
       "type": "patchouli:empty"

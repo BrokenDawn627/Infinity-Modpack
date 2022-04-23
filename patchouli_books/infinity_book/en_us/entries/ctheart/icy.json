@@ -1,16 +1,16 @@
 {
-  "name": "寒冰",
+  "name": "Icy",
   "icon": "victus:icy_heart_aspect",
   "category": "patchouli:heart",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "在移动时，它以一种有品位的方式冻结你的脚，赋予在冰上滑动更高的速度。然而，这也带来了副作用。"
+      "text": "Life can be a slippery slope sometimes, and such is the $(item)Icy Heart Aspect$(). While active, it sort of freezes your feet in a tasteful way, granting the increased speed that sliding on ice provides. This does come with a side effect however, namely precise movements might be significantly hampered."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "victus:icy_heart_aspect",
-      "text": "您应该注意到，当寒冰之心破碎时，其内部的霜冻无法再被控制，这会冻结你的腿约10秒。"
+      "text": "You should also notice that when the aspect breaks, some of its internal frost cannot be contained anymore and freezes your legs for about 10 seconds."
     }
   ]
 }

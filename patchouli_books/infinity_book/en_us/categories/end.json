@@ -1,6 +1,6 @@
 {
-    "name": "终局",
-    "description": "当你能够做出这把剑时，游戏已经结束了。",
+    "name": "End",
+    "description": "By the time you are able to make this sword, the game is over.",
     "icon": "kubejs:infinity_sword",
     "sortnum": 9
   }
