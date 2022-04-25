@@ -14,22 +14,22 @@ onEvent('item.registry.tool_tiers', event => {
   onEvent('item.registry', event => {
 
 	event.create('infinity_sword', item => {
-		item.tooltip(Text.of('§7游戏结束'))
+		item.tooltip(Text.translate('item.kubejs.infinity_sword.tooltip'))
 		item.tooltip('')
-		item.tooltip(Text.of('§7在主手时：'))
-		item.tooltip(Text.of('§6+∞ 攻击伤害'))
+		item.tooltip(Text.translate('item.kubejs.infinity_sword.tooltip1'))
+		item.tooltip(Text.translate('item.kubejs.infinity_sword.tooltip2'))
 		item.type('sword').tier('infinity')
 		item.rarity(Rarity.EPIC)
 		item.glow(true)
 	})
 
 	event.create('infinity_sword_a', item => {
-		item.tooltip(Text.of('§7制作材料')).unstackable()
+		item.tooltip(Text.translate('item.kubejs.infinity_sword_part.tooltip'))
 		item.rarity(Rarity.EPIC)
 	})
 
 	event.create('infinity_sword_b', item => {
-		item.tooltip(Text.of('§7制作材料')).unstackable()
+		item.tooltip(Text.translate('item.kubejs.infinity_sword_part.tooltip'))
 		item.rarity(Rarity.EPIC)
 	})
 
