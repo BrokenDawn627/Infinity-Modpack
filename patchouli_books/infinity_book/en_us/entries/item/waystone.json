@@ -1,11 +1,11 @@
 {
-  "name": "传送石碑与卷轴",
+  "name": "Waystones and scrolls",
   "icon": "waystones:waystone",
   "category": "patchouli:item",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"这些物品能够帮助你在多个地点之间传送。"
+      "text":"These items help you teleport between multiple locations."
     },
     {
       "type": "patchouli:crafting",

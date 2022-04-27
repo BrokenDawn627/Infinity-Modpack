@@ -1,17 +1,17 @@
 {
-  "name": "特性：抱起容器",
+  "name": "Feature: Pick up the container",
   "icon": "minecraft:chest",
   "category": "patchouli:other",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Shift+右键来抱起各种容器"
+      "text": "Shift+ right-click to pick up various containers"
       
     },    
     {
       "type": "patchouli:image",
       "images":["patchouli:textures/carrier.png"],
-      "text": "抱起容器时会减速",
+      "text": "Slows down when picking up the container",
       "border": true
     }
   ]

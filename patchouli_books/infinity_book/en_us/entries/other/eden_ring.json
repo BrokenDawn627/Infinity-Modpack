@@ -1,42 +1,42 @@
 {
-  "name": "伊甸之环",
+  "name": "Eden Ring",
   "icon": "edenring:guide_book",
   "category": "patchouli:other",
   "pages": [
     {
       "type":"patchouli:crafting",
       "recipe":"minecraft:waxed_copper_block_from_honeycomb",
-      "text":"进入伊甸之环前，我们需要准备12个涂蜡铜块。"
+      "text":"Before entering the Eden Ring, we need to prepare 12 waxed copper blocks."
     },
     {
       "type":"patchouli:crafting",
       "recipe":"minecraft:waxed_cut_copper_stairs",
-      "text":"以及12个涂蜡切制铜楼梯。"
+      "text":"and 12 wax-cut copper staircases."
     },
     {
       "type":"patchouli:crafting",
       "recipe":"minecraft:waxed_cut_copper_stairs",
-      "text":"以及12个涂蜡切制铜楼梯。"
+      "text":"and 12 wax-cut copper staircases."
     },
     {
       "type":"patchouli:crafting",
       "recipe":"infinity:amethyst_cluste",
-      "text":"4个紫水晶簇。"
+      "text":"4 amethyst clusters."
     },
     {
       "type":"patchouli:crafting",
       "recipe":"minecraft:amethyst_block",
-      "text":"4个紫水晶块。"
+      "text":"4 amethyst blocks."
     },
     {
       "type":"patchouli:crafting",
       "recipe":"minecraft:gold_block",
-      "text":"1个金块。"
+      "text":"1 gold block."
     },
     {
       "type":"patchouli:crafting",
       "recipe":"minecraft:flint_and_steel",
-      "text":"1个打火石。"
+      "text":"1 flint stone."
     },
     {
       "type":"patchouli:multiblock",
@@ -58,7 +58,7 @@
         },
         "symmetrical": true
     },
-      "text":"按照以上的多方块结构来摆放传送门，摆放完成后在金块上点火来开启传送门。"
+      "text":"Arrange the portal according to the above multi-block structure, and light a fire on the gold nugget to open the portal after the placement is completed."
     }
   ]
 }

@@ -1,0 +1,811 @@
+{
+  "configs": [
+    {
+      "itemid": "mcdw:crossbow_nautical_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:piercing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:gauntlet_soul_fists",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:enigma_resonator",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:whip_vine_whip",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:jungle_poison",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:spear_cackling_broom",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:smiting",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_slayer_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:ricochet",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_swift_striker",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:ambush",
+          "lvl": 1
+        },
+        {
+          "enchantment": "mcdw:echo",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_heartstealer",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:leeching",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_exploding_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:fuse_shot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_truthseeker",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:committed",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:hammer_gravity",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:gravity",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_the_end",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:void_strike",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_butterfly_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:bonus_shot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sickle_skull_scythe",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:freezing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_eternal_knife",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:soul_siphon",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_burst_gale_bow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:charge",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:hammer_flail",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:chains",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_frost_slayer",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:freezing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_shivering_bow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:tempo_theft",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:hammer_bone_cudgel",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:illagers_bane",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_scatter_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:multishot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_void_bow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:void_shot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_moon",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:enigma_resonator",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_freezing_foil",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:freezing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:axe_highland",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:stunning",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sickle_soul_scythe",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:soul_devourer",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_bonebow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:growing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_sinister",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:critical_hit",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_call_of_the_void",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:fuse_shot",
+          "lvl": 1
+        },
+        {
+          "enchantment": "mcdw:void_shot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:spear_fortune",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:looting",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_phantom_bow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:phantoms_mark",
+          "lvl": 1
+        },
+        {
+          "enchantment": "minecraft:power",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_pride_of_the_piglins",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:piercing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_chill_gale_knife",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:freezing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:axe_cursed",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:exploding",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sickle_last_laugh_silver",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:prospector",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:axe_firebrand",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:fire_aspect",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:spear_venom_glaive",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:poison_cloud",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_imploding_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:gravity",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_shear_dagger",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:swirling",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sickle_jailors_scythe",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:chains",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_dark_katana",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:smiting",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_masters_bow",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:power",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_twin_bow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:bonus_shot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_doom_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:punch",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_love_spell_bow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:radiance",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_backstabber",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:ambush",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_soul_hunter_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:enigma_resonator",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_fangs_of_frost",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:freezing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_broadsword",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:swirling",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_echo_of_the_valley",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:ricochet",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_hunters_promise",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:replenish",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sickle_nightmares_bite",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:poison_cloud",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_green_menace",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:poison_cloud",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_red_snake",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:fuse_shot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_baby_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:growing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:hammer_stormlander",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:thundering",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_auto_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:bonus_shot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_voidcaller_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:gravity",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:axe_encrusted_anchor",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:gravity",
+          "lvl": 1
+        },
+        {
+          "enchantment": "mcdw:jungle_poison",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_elite_power_bow",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:power",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_void_touched_blade",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:void_strike",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_bubble_burster",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:ricochet",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_feral_soul_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:enigma_resonator",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:axe_whirlwind",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:shockwave",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sickle_frost_scythe",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:freezing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:staff_battlestaff_of_terror",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:exploding",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_the_beginning",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:leeching",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:hammer_suns_grace",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:radiance",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:dagger_resolute_tempest_knife",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:committed",
+          "lvl": 1
+        },
+        {
+          "enchantment": "mcdw:rushdown",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_masters_katana",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:critical_hit",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_lightning_harp_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:multishot",
+          "lvl": 1
+        },
+        {
+          "enchantment": "mcdw:ricochet",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:gauntlet_maulers",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:rampaging",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_firebolt_thrower",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:chain_reaction",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_lost_souls",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:multishot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_sabrewing",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:radiance",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:spear_whispering_spear",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:echo",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sickle_last_laugh_gold",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:prospector",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_the_slicer",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:piercing",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_nocturnal_bow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:tempo_theft",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_web_bow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:cobweb_shot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:crossbow_harp_crossbow",
+      "enchantments": [
+        {
+          "enchantment": "minecraft:multishot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_dancers_sword",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:rampaging",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_hawkbrand",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:critical_hit",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_nameless_blade",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:weakening",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:spear_grave_bane",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:smiting",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:bow_haunted_bow",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:bonus_shot",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:sword_sponge_striker",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:enigma_resonator",
+          "lvl": 1
+        }
+      ]
+    },
+    {
+      "itemid": "mcdw:staff_growing_staff",
+      "enchantments": [
+        {
+          "enchantment": "mcdw:committed",
+          "lvl": 1
+        }
+      ]
+    }
+  ]
+}

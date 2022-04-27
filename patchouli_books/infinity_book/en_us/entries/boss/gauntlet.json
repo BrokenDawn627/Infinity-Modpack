@@ -1,5 +1,5 @@
 {
-  "name": "下界之手",
+  "name": "Nether Gauntlet",
   "icon": "bosses_of_mass_destruction:blazing_eye",
   "category": "patchouli:boss",
   "pages": [
@@ -7,12 +7,12 @@
       "type":"patchouli:spotlight",
       "item":"bosses_of_mass_destruction:blazing_eye",
       "link_recipe":true,
-      "text":"在下界底部会随机生成稀有的召唤祭坛，用下界合金或更高等级的镐子可挖开石柱的封印。"
+      "text":"Rare summon altars are randomly generated at the bottom of the Nether, and netherite or higher level pickaxes can be used to dig up the seals of stone pillars."
     },
     {
       "type":"patchouli:entity",
       "entity":"bosses_of_mass_destruction:gauntlet",
-      "text":"下界之手具有多种攻击方式，注意躲过它的拳头。"
+      "text":"The Nether Gauntlet has a variety of attack methods, pay attention to dodge its fists."
     }
   ]
 }

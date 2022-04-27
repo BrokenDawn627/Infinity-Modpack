@@ -37,31 +37,45 @@ onEvent('player.logged_in', event => {
     }
     if(event.player.getHeldItem(MAIN_HAND) == 'kubejs:jiushu_heart')
     {
-        costomd=event.server.runCommandSilent(`scoreboard players get ${event.player.name} customd`)
-        //减20点难度值，少于20点则归零
-        if(costomd>=20)
+        if(event.player.getHeldItem(OFF_HAND)!=null)
         {
-            event.server.runCommandSilent(`scoreboard players remove ${event.player.name} customd 20`)
-            event.player.addItemCooldown('kubejs:jiushu_heart', 6000)
-            event.player.mainHandItem.count -= 1
+            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"red"}`)
         }
-        else if(costomd>0)
+        else
         {
-            event.server.runCommandSilent(`scoreboard players set ${event.player.name} customd 0`)
-            event.player.addItemCooldown('kubejs:jiushu_heart', 6000)
-            event.player.mainHandItem.count -= 1
+            costomd = event.server.runCommandSilent(`scoreboard players get ${event.player.name} customd`)
+            //减20点难度值，少于20点则归零
+            if (costomd >= 20) {
+                event.server.runCommandSilent(`scoreboard players remove ${event.player.name} customd 20`)
+                event.player.addItemCooldown('kubejs:jiushu_heart', 6000)
+                event.player.mainHandItem.count -= 1
+            }
+            else if (costomd > 0) {
+                event.server.runCommandSilent(`scoreboard players set ${event.player.name} customd 0`)
+                event.player.addItemCooldown('kubejs:jiushu_heart', 6000)
+                event.player.mainHandItem.count -= 1
+            }
         }
+        
     }
     if(event.player.getHeldItem(MAIN_HAND) == 'kubejs:death_heart')
     {
-        event.server.runCommandSilent(`scoreboard players set ${event.player.name} customd 0`)
-        event.player.mainHandItem.count -= 1
-        event.server.runCommandSilent(`kill ${event.player.name}`)
+        if(event.player.getHeldItem(OFF_HAND)!=null)
+        {
+            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"red"}`)
+        }
+        else
+        {
+            event.server.runCommandSilent(`scoreboard players set ${event.player.name} customd 0`)
+            event.player.mainHandItem.count -= 1
+            event.server.runCommandSilent(`kill ${event.player.name}`)
+        }
+        
     }
     
 })
 
-/*onEvent('entity.hurt',event =>{
+onEvent('entity.hurt',event =>{
     let target = event.getEntity()
     let source = event.getSource().getActual()
     let damage = event.getDamage()
@@ -76,7 +90,7 @@ onEvent('player.logged_in', event => {
         //event.server.runCommand(`say ${armor_result}`)
         if(target.stages.has('difficulty_easy'))
         {
-            if(source!=null)
+            if(source!=null&&(source.type=="minecraft:ender_dragon"||source.type=="minecraft:wither"))
             {   
                 if(entity!=null && !entity.living)
                 {
@@ -90,7 +104,7 @@ onEvent('player.logged_in', event => {
         }
         else if(target.stages.has('difficulty_normal'))
         {
-            if(source!=null)
+            if(source!=null&&(source.type=="minecraft:ender_dragon"||source.type=="minecraft:wither"))
             {
                 //玩家受到的生物伤害额外增加10%
                 //event.cancel()
@@ -108,7 +122,7 @@ onEvent('player.logged_in', event => {
         }  
         else if(target.stages.has('difficulty_hard'))
         {
-            if(source!=null)
+            if(source!=null&&(source.type=="minecraft:ender_dragon"||source.type=="minecraft:wither"))
             {
                 //玩家受到的生物伤害额外增加20%
                 //event.cancel()
@@ -126,7 +140,7 @@ onEvent('player.logged_in', event => {
         }       
         else if(target.stages.has('difficulty_impossible'))
         {
-            if(source!=null)
+            if(source!=null&&(source.type=="minecraft:ender_dragon"||source.type=="minecraft:wither"))
             {
                 //玩家受到的生物伤害额外增加30%
                 if(entity!=null && !entity.living)
@@ -142,7 +156,7 @@ onEvent('player.logged_in', event => {
         }     
     }
     
-})*/
+})
 
 onEvent('entity.hurt',event =>{
     let target = event.getEntity()
@@ -222,57 +236,65 @@ onEvent('item.right_click', event => {
 
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:difficulty_changer')
     {     
-        if (event.player.stages.has('difficulty_easy')) {
-            event.player.stages.remove('difficulty_easy')
-            event.player.stages.remove('difficulty_normal')
-            event.player.stages.remove('difficulty_hard')
-            event.player.stages.remove('difficulty_impossible')
-
-            event.player.stages.add('difficulty_normal')
-            event.player.playSound('minecraft:entity.arrow.hit_player')
-            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：冒险","color":"yellow"}`)
-        }
-        else if (event.player.stages.has('difficulty_normal')) {
-            event.player.stages.remove('difficulty_easy')
-            event.player.stages.remove('difficulty_normal')
-            event.player.stages.remove('difficulty_hard')
-            event.player.stages.remove('difficulty_impossible')
-
-            event.player.stages.add('difficulty_hard')
-            event.player.playSound('minecraft:entity.arrow.hit_player')
-            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：困难","color":"red"}`)
-        }
-        else if (event.player.stages.has('difficulty_hard')) {
-            event.player.stages.remove('difficulty_easy')
-            event.player.stages.remove('difficulty_normal')
-            event.player.stages.remove('difficulty_hard')
-            event.player.stages.remove('difficulty_impossible')
-
-            event.player.stages.add('difficulty_impossible')
-            event.player.playSound('minecraft:entity.arrow.hit_player')
-            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：末日","color":"dark_red"}`)
-        }
-        else if (event.player.stages.has('difficulty_impossible')) {
-            event.player.stages.remove('difficulty_easy')
-            event.player.stages.remove('difficulty_normal')
-            event.player.stages.remove('difficulty_hard')
-            event.player.stages.remove('difficulty_impossible')
-
-            event.player.stages.add('difficulty_easy')
-            event.player.playSound('minecraft:entity.arrow.hit_player')
-            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：休闲","color":"green"}`)
+        if(event.player.getHeldItem(OFF_HAND)!=null)
+        {
+            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"red"}`)
         }
         else
         {
-            event.player.stages.remove('difficulty_easy')
-            event.player.stages.remove('difficulty_normal')
-            event.player.stages.remove('difficulty_hard')
-            event.player.stages.remove('difficulty_impossible')
-
-            event.player.stages.add('difficulty_easy')
-            event.player.playSound('minecraft:entity.arrow.hit_player')
-            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：休闲","color":"green"}`)
+            if (event.player.stages.has('difficulty_easy')) {
+                event.player.stages.remove('difficulty_easy')
+                event.player.stages.remove('difficulty_normal')
+                event.player.stages.remove('difficulty_hard')
+                event.player.stages.remove('difficulty_impossible')
+    
+                event.player.stages.add('difficulty_normal')
+                event.player.playSound('minecraft:entity.arrow.hit_player')
+                event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：冒险","color":"yellow"}`)
+            }
+            else if (event.player.stages.has('difficulty_normal')) {
+                event.player.stages.remove('difficulty_easy')
+                event.player.stages.remove('difficulty_normal')
+                event.player.stages.remove('difficulty_hard')
+                event.player.stages.remove('difficulty_impossible')
+    
+                event.player.stages.add('difficulty_hard')
+                event.player.playSound('minecraft:entity.arrow.hit_player')
+                event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：困难","color":"red"}`)
+            }
+            else if (event.player.stages.has('difficulty_hard')) {
+                event.player.stages.remove('difficulty_easy')
+                event.player.stages.remove('difficulty_normal')
+                event.player.stages.remove('difficulty_hard')
+                event.player.stages.remove('difficulty_impossible')
+    
+                event.player.stages.add('difficulty_impossible')
+                event.player.playSound('minecraft:entity.arrow.hit_player')
+                event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：末日","color":"dark_red"}`)
+            }
+            else if (event.player.stages.has('difficulty_impossible')) {
+                event.player.stages.remove('difficulty_easy')
+                event.player.stages.remove('difficulty_normal')
+                event.player.stages.remove('difficulty_hard')
+                event.player.stages.remove('difficulty_impossible')
+    
+                event.player.stages.add('difficulty_easy')
+                event.player.playSound('minecraft:entity.arrow.hit_player')
+                event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：休闲","color":"green"}`)
+            }
+            else
+            {
+                event.player.stages.remove('difficulty_easy')
+                event.player.stages.remove('difficulty_normal')
+                event.player.stages.remove('difficulty_hard')
+                event.player.stages.remove('difficulty_impossible')
+    
+                event.player.stages.add('difficulty_easy')
+                event.player.playSound('minecraft:entity.arrow.hit_player')
+                event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"当前难度：休闲","color":"green"}`)
+            }
         }
+        
     }
 })
 
@@ -440,19 +462,19 @@ onEvent('entity.hurt', event => {
         if(target.monster&&!target.tags.contains('attacked'))
         {
             //event.server.runCommand(`say 1`)
-            //血量加难度值*0.3
-            target.setMaxHealth(target.maxHealth+customd*0.6)
+            //血量加难度值
+            target.setMaxHealth(target.maxHealth*(1+customd*0.004))
             target.tags.add('attacked')
-            target.heal(customd*0.6)
+            target.heal(target.maxHealth)
             //攻击力加难度值*0.1
             result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)           
             event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result+customd*0.1}`)
             event.server.runCommandSilent(`attribute ${target.id} playerex:ranged_damage base set ${customd*0.1}`)
             //event.server.runCommand(`say ${result}`)
             //护甲值加难度值*0.05 上限120
-            result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base get`) 
+            /*result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base get`) 
             if(result+customd*0.05<=120) event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result+customd*0.05}`)
-            else event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set 120`)
+            else event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set 120`)*/
 
             result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)
             result1=event.server.runCommandSilent(`attribute ${target.id} playerex:ranged_damage base get`)
@@ -479,17 +501,17 @@ onEvent('entity.hurt', event => {
         if(source!=null&&source.monster&&!source.tags.contains('attacked'))
         {
             //最大生命值
-            source.setMaxHealth(source.maxHealth+customd*0.6)
+            source.setMaxHealth(source.maxHealth*(1+customd*0.004))
             source.tags.add('attacked')
-            source.heal(customd*0.6)
+            source.heal(source.maxHealth)
             //攻击力
             result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base get`)           
             event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base set ${result+customd*0.1}`)
             event.server.runCommandSilent(`attribute ${source.id} playerex:ranged_damage base set ${customd*0.1}`)
             //护甲值
-            result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base get`) 
+            /*result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base get`) 
             if(result+customd*0.05<=120) event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set ${result+customd*0.05}`)
-            else event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set 120`)
+            else event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.armor base set 120`)*/
 
             result=event.server.runCommandSilent(`attribute ${source.id} minecraft:generic.attack_damage base get`)
             result1=event.server.runCommandSilent(`attribute ${source.id} playerex:ranged_damage base get`)   

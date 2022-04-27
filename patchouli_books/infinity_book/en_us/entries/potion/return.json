@@ -1,12 +1,12 @@
 {
-  "name": "效果：回归",
+  "name": "Effect: Returning",
   "icon": "minecraft:prismarine_shard",
   "category": "patchouli:potion",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:potion{Potion:'extraalchemy:returning'}",
-      "text": "喝下后立即返回重生点"
+      "text": "Return to the respawn point immediately after drinking"
     }
   ]
 }

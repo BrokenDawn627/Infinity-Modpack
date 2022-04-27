@@ -1,11 +1,11 @@
 {
-  "name": "功能：背包整理",
+  "name": "Function: Backpack finishing",
   "icon": "minecraft:chest",
   "category": "patchouli:other",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "默认按鼠标中键可整理背包。可在模组列表中搜索Inventory Profiles Next进行详细配置。"
+      "text": "By default, press the middle mouse button to organize your backpack. You can search for Inventory Profiles Next in the module list for detailed configuration."
     },  
     {
       "type": "patchouli:empty"

@@ -5,34 +5,71 @@ function randomNum(min, max) {
 onEvent('item.right_click', event => {
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:random_enchant') {
         
-        lootno = randomNum(0, random1_loot.length-1)
-        event.player.give(random1_loot[lootno])
-        event.player.mainHandItem.count -= 1
+        if(event.player.getHeldItem(OFF_HAND)!=null)
+        {
+            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"red"}`)
+        }
+        else
+        {
+            lootno = randomNum(0, random1_loot.length - 1)
+            event.player.give(random1_loot[lootno])
+            event.player.mainHandItem.count -= 1
+        }
+        
 
     }
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:random_enchant2') {
+
+        if(event.player.getHeldItem(OFF_HAND)!=null)
+        {
+            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"red"}`)
+        }
+        else
+        {
+            lootno = randomNum(0, random2_loot.length - 1)
+            event.player.give(random2_loot[lootno])
+            event.player.mainHandItem.count -= 1
+        }
         
-        lootno = randomNum(0, random2_loot.length-1)
-        event.player.give(random2_loot[lootno])
-        event.player.mainHandItem.count -= 1
     }
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:random_enchant3') {
+        if(event.player.getHeldItem(OFF_HAND)!=null)
+        {
+            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"red"}`)
+        }
+        else
+        {
+            lootno = randomNum(0, random3_loot.length - 1)
+            event.player.give(random3_loot[lootno])
+            event.player.mainHandItem.count -= 1
+        }
         
-        lootno = randomNum(0, random3_loot.length-1)
-        event.player.give(random3_loot[lootno])
-        event.player.mainHandItem.count -= 1
     }
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:random_enchant4') {
+        if(event.player.getHeldItem(OFF_HAND)!=null)
+        {
+            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"red"}`)
+        }
+        else
+        {
+            lootno = randomNum(0, random4_loot.length - 1)
+            event.player.give(random4_loot[lootno])
+            event.player.mainHandItem.count -= 1
+        }
         
-        lootno = randomNum(0, random4_loot.length-1)
-        event.player.give(random4_loot[lootno])
-        event.player.mainHandItem.count -= 1
     }
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:random_enchant5') {
+        if(event.player.getHeldItem(OFF_HAND)!=null)
+        {
+            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"red"}`)
+        }
+        else
+        {
+            lootno = randomNum(0, random5_loot.length - 1)
+            event.player.give(random5_loot[lootno])
+            event.player.mainHandItem.count -= 1
+        }
         
-        lootno = randomNum(0, random5_loot.length-1)
-        event.player.give(random5_loot[lootno])
-        event.player.mainHandItem.count -= 1
     }
 })
 

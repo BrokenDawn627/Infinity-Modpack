@@ -1,11 +1,11 @@
 {
-  "name": "战斗法杖",
+  "name": "Combat Wand",
   "icon": "magiccombatwands:diamond_wand",
   "category": "patchouli:enchantment",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"战斗法杖可以发射远程射弹，需要消耗荧石粉。"
+      "text":"The Combat Wand can fire ranged projectiles and consumes glowstone powder."
     },
     {
       "type": "patchouli:crafting",

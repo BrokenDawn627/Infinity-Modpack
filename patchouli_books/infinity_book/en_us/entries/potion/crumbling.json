@@ -1,12 +1,12 @@
 {
-  "name": "效果：瓦解",
+  "name": "Effect: Crumbling",
   "icon": "minecraft:dirt",
   "category": "patchouli:potion",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:potion{Potion:'extraalchemy:crumbling'}",
-      "text":"拥有该效果时，脚下的泥土、沙子、沙砾将会被瓦解成掉落物"
+      "text":"When this effect is available, the dirt, sand, and gravel under your feet will disintegrate into drops"
     }
   ]
 }

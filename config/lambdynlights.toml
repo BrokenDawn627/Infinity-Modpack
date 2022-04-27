@@ -113,15 +113,6 @@ mode = "fancy"
 				spider = true
 				wither = true
 
-			[light_sources.settings.entities.bewitchment]
-				ghost = true
-				werewolf = true
-				raven = true
-				owl = true
-				snake = true
-				toad = true
-				hellhound = true
-
 			[light_sources.settings.entities.xtraarrows]
 				golden_ender_arrow = true
 				padded_arrow = true
@@ -142,13 +133,6 @@ mode = "fancy"
 				netherite_tracking_arrow = true
 				netherite_slime_arrow = true
 				netherite_ender_arrow = true
-
-			[light_sources.settings.entities.guardvillagers]
-				guard = true
-
-			[light_sources.settings.entities.icedchaiskeletons]
-				skeleton_knight = true
-				stray_knight = true
 
 			[light_sources.settings.entities.mobz]
 				islandknightnormal = true
@@ -211,21 +195,6 @@ mode = "fancy"
 				withender = true
 				gchicken = true
 
-			[light_sources.settings.entities.creeperoverhaul]
-				swamp_creeper = true
-				bamboo_creeper = true
-				jungle_creeper = true
-				cave_creeper = true
-				beach_creeper = true
-				savannah_creeper = true
-				spruce_creeper = true
-				hills_creeper = true
-				snowy_creeper = true
-				badlands_creeper = true
-				desert_creeper = true
-				dark_oak_creeper = true
-				dripstone_creeper = true
-
 			[light_sources.settings.entities.hookshot]
 				hookshot = true
 
@@ -234,18 +203,6 @@ mode = "fancy"
 
 			[light_sources.settings.entities.archon]
 				ice_ball = true
-
-			[light_sources.settings.entities.bosses_of_mass_destruction]
-				lich = true
-				blue_fireball = true
-				spore_ball = true
-				obsidilith = true
-				petal_blade = true
-				charged_ender_pearl = true
-				comet = true
-				gauntlet = true
-				soul_star = true
-				void_blossom = true
 
 			[light_sources.settings.entities.impaled]
 				atlan = true
@@ -265,20 +222,6 @@ mode = "fancy"
 			[light_sources.settings.entities.hoverpets]
 				ocelot_pet = true
 
-			[light_sources.settings.entities.mythicmounts]
-				netherbat = true
-				ridinglizard = true
-				courierbird = true
-				moth = true
-				nudibranch = true
-				direwolf = true
-				dragon = true
-				griffon = true
-				archelon = true
-				nightmare = true
-				acencia = true
-				geckotoalizard = true
-
 			[light_sources.settings.entities.betternether]
 				naga_projectile = true
 				firefly = true
@@ -287,9 +230,6 @@ mode = "fancy"
 				skull = true
 				jungle_skeleton = true
 				naga = true
-
-			[light_sources.settings.entities.the_aether]
-				aerbunny = true
 
 			[light_sources.settings.entities.adventurez]
 				deer = true
@@ -308,6 +248,76 @@ mode = "fancy"
 				void_shadow = true
 				void_bullet = true
 
+			[light_sources.settings.entities.edenring]
+				diskwing = true
+
+			[light_sources.settings.entities.gateofbabylon]
+				yoyo = true
+				boomerang = true
+
+			[light_sources.settings.entities.bewitchment]
+				ghost = true
+				werewolf = true
+				raven = true
+				owl = true
+				snake = true
+				toad = true
+				hellhound = true
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
+
+			[light_sources.settings.entities.icedchaiskeletons]
+				skeleton_knight = true
+				stray_knight = true
+
+			[light_sources.settings.entities.torchbowmod]
+				entitytorch = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				swamp_creeper = true
+				bamboo_creeper = true
+				jungle_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
+				spruce_creeper = true
+				hills_creeper = true
+				snowy_creeper = true
+				badlands_creeper = true
+				desert_creeper = true
+				dark_oak_creeper = true
+				dripstone_creeper = true
+
+			[light_sources.settings.entities.bosses_of_mass_destruction]
+				lich = true
+				blue_fireball = true
+				spore_ball = true
+				obsidilith = true
+				petal_blade = true
+				charged_ender_pearl = true
+				comet = true
+				gauntlet = true
+				soul_star = true
+				void_blossom = true
+
+			[light_sources.settings.entities.mythicmounts]
+				netherbat = true
+				ridinglizard = true
+				courierbird = true
+				moth = true
+				nudibranch = true
+				direwolf = true
+				dragon = true
+				griffon = true
+				archelon = true
+				nightmare = true
+				acencia = true
+				geckotoalizard = true
+
+			[light_sources.settings.entities.the_aether]
+				aerbunny = true
+
 			[light_sources.settings.entities.zombified]
 				arctic_zombie = true
 				miner_zombie = true
@@ -322,15 +332,8 @@ mode = "fancy"
 				arcane_barrier = true
 				magic_missile = true
 
-			[light_sources.settings.entities.edenring]
-				diskwing = true
-
 			[light_sources.settings.entities.tinyskeletons]
 				baby_stray = true
 				baby_wither_skeleton = true
 				baby_skeleton = true
-
-			[light_sources.settings.entities.gateofbabylon]
-				yoyo = true
-				boomerang = true
 

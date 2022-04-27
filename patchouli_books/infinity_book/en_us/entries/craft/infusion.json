@@ -1,17 +1,17 @@
 {
-  "name": "灌注",
+  "name": "Infusion",
   "icon": "betterend:infusion_pedestal",
   "category": "patchouli:craft",
   "pages": [
     {
       "type":"patchouli:crafting",
       "recipe":"betterend:infusion_pedestal",
-      "text":"需要先制作一个灌注基座"
+      "text":"You need to make a Infusion Pedestal first"
     },
     {
       "type":"patchouli:crafting",
       "recipe":"betterend:flavolite_pedestal",
-      "text":"然后制作8个任意材质的基座"
+      "text":"Then make 8 pedestals of any material"
     },
     {
       "type":"patchouli:multiblock",
@@ -25,7 +25,7 @@
         },
         "symmetrical": true
     },
-      "text":"按照以上的多方块结构来摆放灌注祭坛。"
+      "text":"The infusion altar is placed according to the above multi-block structure."
     }
   ]
 }

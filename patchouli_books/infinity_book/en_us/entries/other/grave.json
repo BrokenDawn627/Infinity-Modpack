@@ -1,17 +1,17 @@
 {
-  "name": "特性：不惧死亡",
+  "name": "Feature: Not afraid of death",
   "icon": "minecraft:player_head",
   "category": "patchouli:other",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "当你死亡时，将在死亡位置生成墓碑，墓碑将保留你身上所有除灵魂绑定外的物品。"
+      "text": "When you die, a tombstone will spawn at the place of death, and the tombstone will hold all the items on your body except soul binding."
       
     },    
     {
       "type": "patchouli:image",
       "images":["patchouli:textures/grave.png"],
-      "text":"墓碑无法在虚空中生成，小心不要掉入虚空!",
+      "text":"Tombstones cannot spawn in the Void, so be careful not to fall into the Void!",
       "border": true
     }
   ]

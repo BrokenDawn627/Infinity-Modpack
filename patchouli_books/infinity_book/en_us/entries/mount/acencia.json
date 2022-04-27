@@ -1,16 +1,16 @@
 {
-  "name": "豹",
+  "name": "Acencia",
   "icon": "mythicmounts:acencia_spawn_egg",
   "category": "patchouli:mount",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"神话坐骑模组中新增的坐骑。"
+      "text":"A new mount in the Mythical Mounts mod."
     },
     {
       "type":"patchouli:entity",
       "entity":"mythicmounts:acencia",
-      "text": "贴图错误属于正常状况，仅本书内存在该情况，坐骑请以实际为准。"
+      "text": "The texture error is a normal condition, only the book is stored in this case, and the mount please refer to the actual situation."
     }
   ]
 }

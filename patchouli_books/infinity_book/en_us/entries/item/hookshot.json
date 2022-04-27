@@ -1,12 +1,12 @@
 {
-  "name": "抓钩",
+  "name": "Hookshot",
   "icon": "hookshot:white_hookshot",
   "category": "patchouli:item",
   "pages": [
     {
       "type": "patchouli:crafting",
       "recipe": "hookshot:hookshot",
-      "text":"抓钩可以用来攀爬或是快速位移"
+      "text":"The Hookshot can be used for climbing or quick displacement"
     }
   ]
 }

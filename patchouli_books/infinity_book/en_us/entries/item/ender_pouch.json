@@ -1,11 +1,11 @@
 {
-  "name": "末影袋",
+  "name": "Ender Bag",
   "icon": "inmis:ender_pouch",
   "category": "patchouli:item",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"随身携带的末影箱"
+      "text":"Ender Box"
     },
     {
       "type": "patchouli:crafting",

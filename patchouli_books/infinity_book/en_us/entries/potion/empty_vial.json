@@ -1,12 +1,12 @@
 {
-  "name": "药水瓶",
+  "name": "Empty Vial",
   "icon": "extraalchemy:empty_vial",
   "category": "patchouli:potion",
   "pages": [
     {
       "type": "patchouli:crafting",
       "recipe": "extraalchemy:empty_vial",
-      "text":"与喷溅药水在工作台合成以制作，其相比饮用型药水具有使用更快的特点"
+      "text":"Combined with the splash potion on the workbench to make, it has the characteristics of being faster to use than the drinking type potion"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "name": "巨型鹦鹉",
+  "name": "Megaparrot",
   "icon": "megaparrot:spawn_egg",
   "category": "patchouli:mount",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"更大的鹦鹉，但它不能飞。"
+      "text":" "
     },
     {
       "type":"patchouli:entity",

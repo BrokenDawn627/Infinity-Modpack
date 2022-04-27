@@ -1,6 +1,6 @@
 {
 	"AlexSpawn": true,
-	"ArcherSpawn": true,
+	"ArcherSpawn": false,
 	"ArmoredZombieSpawn": true,
 	"BigBossSpawn": false,
 	"BlackBearSpawn": true,
@@ -21,7 +21,7 @@
 	"FrostBlazeSpawn": true,
 	"FrostCreeperSpawn": true,
 	"GoldenChickenSpawn": true,
-	"GrassSlimeSpawn": true,
+	"GrassSlimeSpawn": false,
 	"IceGolemSpawn": true,
 	"IllusionerSpawn": true,
 	"LavaGolemSpawn": true,

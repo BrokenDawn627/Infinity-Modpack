@@ -1,12 +1,12 @@
 {
-  "name": "技能之瓶",
+  "name": "Skill Bottle",
   "icon": "kubejs:skill_bottle",
   "category": "patchouli:item",
   "pages": [
     {
       "type": "patchouli:crafting",
       "recipe": "infinity:skill_bottle",
-      "text":"它可以用来返还一点技能点。使用后需要到技能界面手动减少某属性的点数。"
+      "text":"It can be used to return one skill point. After use, you need to go to the skill interface to manually reduce the number of points for a certain attribute."
     }
   ]
 }

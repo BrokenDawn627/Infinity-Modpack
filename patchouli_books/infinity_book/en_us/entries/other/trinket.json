@@ -1,11 +1,11 @@
 {
-  "name": "饰品栏",
+  "name": "Trinket",
   "icon": "minecraft:elytra",
   "category": "patchouli:other",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "饰品栏可以用来装备图腾、鞘翅、背包、潜影盒、戒指等"
+      "text": "The Trinket slot can be used to equip totems, elytra, backpacks, shadow boxes, rings, etc"
       
     },    
     {

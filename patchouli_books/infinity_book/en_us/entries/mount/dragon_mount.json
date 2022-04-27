@@ -1,11 +1,11 @@
 {
-  "name": "末影龙坐骑",
+  "name": "Ender Dragon mount",
   "icon": "minecraft:dragon_egg",
   "category": "patchouli:mount",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"孵化龙蛋前需要先击败虚空之影获得出名buff。获得该效果后等待在龙蛋旁(时间较久)龙蛋即可孵化。使用生肉或兽人皮来驯服末影龙,之后等待末影龙成年。当末影龙进入成年阶段时可以装备龙鞍并骑乘，进入壮年阶段可以喷火。"
+      "text":"Before hatching the Dragon Egg, you need to defeat the Shadow of the Void to get the famous buff. After obtaining this effect, wait for the dragon egg to hatch next to the dragon egg (for a long time). Use raw meat or orc skins to tame the Ender Dragon, after which you wait for the Ender Dragon to reach adulthood. When the Ender Dragon enters the adult stage, it can equip the dragon saddle and ride, and enter the prime stage to breathe fire."
     },
     {
       "type":"patchouli:entity",

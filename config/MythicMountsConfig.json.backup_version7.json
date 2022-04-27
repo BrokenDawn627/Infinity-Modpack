@@ -1,11 +1,10 @@
 {
     "globalSettings": {
-        "configVersion": 8,
+        "configVersion": 7,
         "printBiomes": false,
         "globalDebug": false,
         "enable3rdPersonFlying": false,
         "enableFlyingGravity": true,
-        "disableUiOverlay": false,
         "mobCap": 10,
         "mobCapRange": 192
     },
@@ -76,7 +75,7 @@
             "spawnDebug": false,
             "spawnWeight": 100,
             "spawnRandomChance": 10,
-            "chunkFreq": 3,
+            "chunkFreq": 5,
             "chunkOffset": 0,
             "spawnType": "subterranean",
             "minSpawnGroupSize": 1,
@@ -103,8 +102,8 @@
             "spawnYCeiling": 50000,
             "spawnYFloor": 60,
             "spawnRandomChance": 100,
-            "chunkFreq": 3,
-            "chunkOffset": 1,
+            "chunkFreq": 5,
+            "chunkOffset": 0,
             "spawnType": "subterranean",
             "minSpawnGroupSize": 1,
             "maxSpawnGroupSize": 1,
@@ -113,24 +112,13 @@
         "MothSpawnSettings": {
             "shouldSpawn": true,
             "spawnDebug": false,
-            "spawnWeight": 10,
-            "spawnRandomChance": 70,
+            "spawnWeight": 15,
+            "spawnRandomChance": 100,
             "chunkFreq": 0,
             "chunkOffset": 0,
             "spawnType": "overworld",
             "minSpawnGroupSize": 1,
             "maxSpawnGroupSize": 1
-        },
-        "ColelytraSpawnSettings": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
-            "spawnWeight": 20,
-            "spawnRandomChance": 100,
-            "chunkFreq": 0,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 3,
-            "maxSpawnGroupSize": 5
         },
         "NetherBatSpawnSettings": {
             "shouldSpawn": true,
@@ -186,7 +174,7 @@
             "chunkFreq": 0,
             "chunkOffset": 0,
             "spawnType": "overworld",
-            "a": 2,
+            "minSpawnGroupSize": 2,
             "maxSpawnGroupSize": 3
         },
         "ArchelonSpawnSettings": {
@@ -237,6 +225,7 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": false,
+            "followOwner": false,
             "loudness": 75
         },
         "COURIER_BIRD": {
@@ -255,6 +244,7 @@
             "playerHostile": false,
             "fleeFromPlayer": true,
             "battleWithOwner": true,
+            "followOwner": false,
             "loudness": 100
         },
         "DIREWOLF": {
@@ -273,6 +263,7 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
+            "followOwner": false,
             "loudness": 100
         },
         "DRAGON": {
@@ -291,8 +282,8 @@
             "playerHostile": true,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
-            "loudness": 100,
-            "specialAbilitiesEnabled": true
+            "followOwner": false,
+            "loudness": 100
         },
         "GRIFFON": {
             "health": 35,
@@ -310,6 +301,7 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
+            "followOwner": false,
             "loudness": 50
         },
         "GECKOTOA": {
@@ -328,8 +320,8 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": false,
-            "loudness": 50,
-            "specialAbilitiesEnabled": true
+            "followOwner": false,
+            "loudness": 50
         },
         "MOTH": {
             "health": 10,
@@ -348,24 +340,7 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": false,
-            "loudness": 100
-        },
-        "COLELYTRA": {
-            "health": 14,
-            "speed": 0.44999998807907104,
-            "attack": 2,
-            "inventorySize": 5,
-            "spawnCategory" : "ColelytraSpawnSettings",
-            "spawnBiomes": ["minecraft:mushroom_fields"],
-            "diet": "herbivore",
-            "tamingChance": 10,
-            "tamingItems": ["flowerItems","mushroomItems"],
-            "breedingItems": ["mushroomItems"],
-            "foodItems": ["flowerItems","mushroomItems"],
-            "hostileToMobs": [],
-            "playerHostile": false,
-            "fleeFromPlayer": false,
-            "battleWithOwner": false,
+            "followOwner": false,
             "loudness": 100
         },
         "NETHER_BAT": {
@@ -384,6 +359,7 @@
             "playerHostile": true,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
+            "followOwner": false,
             "loudness": 100
         },
         "NUDIBRANCH": {
@@ -403,8 +379,8 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": false,
-            "loudness": 100,
-            "specialAbilitiesEnabled": true
+            "followOwner": false,
+            "loudness": 100
         },
         "RIDING_LIZARD": {
             "health": 20,
@@ -422,6 +398,7 @@
             "playerHostile": true,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
+            "followOwner": false,
             "loudness": 100
         },
         "NIGHTMARE": {
@@ -440,6 +417,7 @@
             "playerHostile": true,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
+            "followOwner": false,
             "loudness": 100
         }
     }

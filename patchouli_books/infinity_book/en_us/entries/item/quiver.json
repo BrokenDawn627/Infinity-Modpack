@@ -1,11 +1,11 @@
 {
-  "name": "箭袋",
+  "name": "Quiver",
   "icon": "nyfsquiver:basic_quiver",
   "category": "patchouli:item",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"箭袋相当于只能用来存放箭矢的背包，但你可以直接射出存放在箭袋里面的箭（需要装备在饰品栏中），且当你拾取到箭矢时会自动存入箭袋。"
+      "text":"The quiver is equivalent to a backpack that can only be used to store arrows, but you can shoot arrows stored in the quiver directly (which need to be equipped in the jewelry slot) and will automatically be stored in the quiver when you pick them up."
     },
     {
       "type": "patchouli:crafting",

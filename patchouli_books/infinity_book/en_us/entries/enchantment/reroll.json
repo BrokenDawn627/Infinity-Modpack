@@ -1,11 +1,11 @@
 {
-  "name": "特性：重随附魔",
+  "name": "Features: Reroll",
   "icon": "minecraft:lapis_lazuli",
   "category": "patchouli:enchantment",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "点击附魔台附魔栏右下角的小按钮可以重随附魔，注意需要花费经验"
+      "text": "Tap the small button in the lower right corner of the enchantment bar of the enchantment table to reassemble the enchantment, noting that it costs experience"
       
     },    
     {

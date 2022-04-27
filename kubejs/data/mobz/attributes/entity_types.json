@@ -1,8 +1,5 @@
 {
     "values": {
-        "mobz:archer": {
-            "playerex:ranged_damage": 0.0
-        },
         "mobz:archer2": {
             "playerex:ranged_damage": 0.0
         },

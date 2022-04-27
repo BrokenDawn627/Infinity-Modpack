@@ -1,11 +1,11 @@
 {
-  "name": "伐木斧",
+  "name": "Treeaxe",
   "icon": "treeaxe:netherite_treeaxe",
   "category": "patchouli:item",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"伐木斧可以直接砍倒整棵树"
+      "text":"Treeaxe can directly cut down an entire tree"
     },
     {
       "type": "patchouli:crafting",

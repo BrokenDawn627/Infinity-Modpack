@@ -1,11 +1,11 @@
 {
-  "name": "背包",
+  "name": "Backpack",
   "icon": "inmis:plated_backpack",
   "category": "patchouli:item",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"各种不一样的背包，材质越好，容量越大"
+      "text":"A variety of different backpacks, the better the material, the greater the capacity"
     },
     {
       "type": "patchouli:crafting",

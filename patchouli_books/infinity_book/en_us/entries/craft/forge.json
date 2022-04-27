@@ -1,17 +1,17 @@
 {
-  "name": "锻炉",
+  "name": "Forges",
   "icon": "alloy_forgery:deepslate_bricks_forge_controller",
   "category": "patchouli:craft",
   "pages": [
     {
       "type":"patchouli:crafting",
       "recipe":"alloy_forgery:deepslate_bricks_forge",
-      "text":"需要先制作一个锻炉控制器(任意材质)，但请注意它的层级(如深板岩的为2)。部分配方需要高层级的锻炉才能冶炼。"
+      "text":"You'll need to make a forge controller (any material) first, but note its hierarchy (e.g. 2 for deep slate). Some formulations require high-rise forging furnaces to be smelted."
     },
     {
       "type":"patchouli:crafting",
       "recipe":"minecraft:deepslate_bricks",
-      "text":"然后制作与锻炉控制器相同材质的方块共26个"
+      "text":"A total of 26 blocks of the same material as the forge controller are then made"
     },
     {
       "type":"patchouli:multiblock",
@@ -28,7 +28,7 @@
         },
         "symmetrical": true
     },
-      "text":"按照以上的多方块结构来摆放锻炉。锻炉可以用来冶炼一些合金。"
+      "text":"The forging furnace is placed according to the above multi-block structure. Forging furnaces can be used to smelt some alloys."
     }
   ]
 }

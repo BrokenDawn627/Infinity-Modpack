@@ -1,12 +1,12 @@
 {
-  "name": "药水袋",
+  "name": "Potion Bag",
   "icon": "extraalchemy:potion_bag",
   "category": "patchouli:potion",
   "pages": [
     {
       "type": "patchouli:crafting",
       "recipe": "extraalchemy:potion_bag",
-      "text":"Shift+右键打开，可放入药水，切换选择模式，长按右键使用存入的药水"
+      "text":"Shift+ right-click to open, you can put in the potion, switch the selection mode, long press the right button to use the saved potion"
     }
   ]
 }

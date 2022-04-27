@@ -293,13 +293,18 @@ onEvent('player.tick', event => {
 onEvent('item.right_click', event => {
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:yecao')
      {
-        
-        let player=event.player
-        //右键使用获得5秒抗性5生命恢复5，冷却时间10秒
-        event.player.potionEffects.add('minecraft:regeneration',100,4,false,false)
-        event.player.potionEffects.add('minecraft:resistance',100,4,false,false)
-        event.player.addItemCooldown('kubejs:yecao', 200)
-        
+        if(event.player.getHeldItem(OFF_HAND)!=null)
+        {
+            event.server.runCommandSilent(`title ${event.player.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"red"}`)
+        }
+        else
+        {
+            let player = event.player
+            //右键使用获得5秒抗性5生命恢复5，冷却时间10秒
+            event.player.potionEffects.add('minecraft:regeneration', 100, 4, false, false)
+            event.player.potionEffects.add('minecraft:resistance', 100, 4, false, false)
+            event.player.addItemCooldown('kubejs:yecao', 200)
+        }
      }            
                      
 })

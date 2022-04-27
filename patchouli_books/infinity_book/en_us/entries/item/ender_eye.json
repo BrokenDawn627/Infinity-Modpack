@@ -1,5 +1,5 @@
 {
-  "name": "更好的末影之眼",
+  "name": "Better Ender Eye",
   "icon": "greater_eye:greater_eye",
   "category": "patchouli:item",
   "pages": [
@@ -11,7 +11,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "greater_eye:greater_eye_end",
-      "text":"这些末影之眼能带你找到一些原版的结构。"
+      "text":"These Ender Eyes can take you to some of the structures."
     }
   ]
 }

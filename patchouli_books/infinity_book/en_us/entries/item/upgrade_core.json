@@ -1,12 +1,12 @@
 {
-  "name": "升级核心——进化",
+  "name": "Upgrade core - Evolution",
   "icon": "kubejs:upgrade_core_evolution",
   "category": "patchouli:item",
   "pages": [
     {
       "type": "patchouli:smithing",
       "recipe": "crafttweaker:upgrade_core",
-      "text":"它可以用来强化某些武器和装备的基础属性。但请注意，这么做将不会保留你的原物品的附魔等等。"
+      "text":"It can be used to enhance the base attributes of certain weapons and equipment. Please note, however, that doing so will not retain the enchantment of your original item, etc."
     }
   ]
 }

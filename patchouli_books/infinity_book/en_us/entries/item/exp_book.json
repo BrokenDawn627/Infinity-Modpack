@@ -1,11 +1,11 @@
 {
-  "name": "经验书",
+  "name": "XP Book",
   "icon": "xp_storage:xp_book",
   "category": "patchouli:item",
   "pages": [
     {
       "type":"patchouli:text",
-      "text":"经验书可以用来存储你的经验，从而减少你死亡时的损失。"
+      "text":"XP books can be used to store your experiences, thereby reducing losses in the event of your death."
     },
     {
       "type": "patchouli:crafting",

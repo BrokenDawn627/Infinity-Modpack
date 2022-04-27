@@ -1,18 +1,18 @@
 {
-  "name": "黑石傀儡",
+  "name": "Blackstone Golem",
   "icon": "adventurez:stone_golem_heart",
   "category": "patchouli:boss",
   "pages": [
     {
       "type":"patchouli:stonecutting",
       "recipe":"adventurez:stone_holder_block",
-      "text":"通过切石机制作以上的方块，作为祭坛的基座。一共需要四个，摆放在9x9祭坛的四条边的中心。此外，还需要9x9即81个黑石方块。注意：只能在下界召唤。"
+      "text":"The above blocks are made by means of a stone cutting mechanism, which serves as the base of the altar. A total of four were needed, placed in the center of the four sides of the 9x9 altar. In addition, 81 Blackstone blocks are required. Note: Can only be summoned in the Nether."
 
     },
     {
       "type":"patchouli:spotlight",
       "item":"adventurez:gilded_stone",
-      "text":"用于放在基座上召唤黑石傀儡，一共需要四个。",
+      "text":"Used to summon blackstone golems on a pedestal, four are required.",
       "link_recipe":true
     },
     
@@ -29,7 +29,7 @@
         },
         "symmetrical": true
     },
-      "text":"在四条边中心的基座上放置镶金黑石碎片以召唤。"
+      "text":"Place gold-encrusted blackstone fragments on the base of the four edge centers to summon."
     },
     {
       "type":"patchouli:entity",

@@ -1,17 +1,17 @@
 {
-  "name": "夜巫妖",
+  "name": "Night Lich",
   "icon": "bosses_of_mass_destruction:soul_star",
   "category": "patchouli:boss",
   "pages": [
     {
       "type":"patchouli:crafting",
       "recipe":"infinity:soul_star",
-      "text":"右键使用灵魂之星将其丢出，它将指引你巫妖塔的方位。巫妖塔位于主世界的寒冷群系。你需要在巫妖塔的刷怪笼层的四个基座上各放置一颗灵魂之星来召唤巫妖。"
+      "text":"Right-click to use the Soul Star to throw it out, which will direct you in the direction of the Lich Tower. The Lich Tower is located in the cold biomes of the Overworld. You'll need to summon the Lich by placing a Soul Star on each of the four bases of the Lich Tower's spawner."
     },
     {
       "type":"patchouli:entity",
       "entity":"bosses_of_mass_destruction:lich",
-      "text":"它会召唤烦人的夜魅来扰乱你的攻击。"
+      "text":"She will summon annoying phantom to disrupt your attacks."
     }
   ]
 }
