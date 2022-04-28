@@ -185,7 +185,10 @@ onEvent('entity.hurt',event =>{
     }
     if(mainItem == 'kubejs:infinity_sword')
     {
-        target.kill()
+        if(player.crouching)
+        {
+            target.kill()
+        }
     }
 })
 
