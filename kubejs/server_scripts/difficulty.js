@@ -348,11 +348,32 @@ onEvent('entity.death', event => {
             //获取难度
             customdiff=event.server.runCommandSilent(`scoreboard players get ${player.name} customd`)
             
-            //击杀普通敌对生物难度值增加1，精英怪增加5
-            event.server.runCommandSilent(`scoreboard players add ${player.name} customd 1`)
-            if(entity.tags.contains('jingying'))
+            //击杀普通敌对生物30%难度值增加1，精英怪增加1
+            let if_increase=randomNum(1,10)
+            if(if_increase<=3)
             {
-                event.server.runCommandSilent(`scoreboard players add ${player.name} customd 4`)
+                event.server.runCommandSilent(`scoreboard players add ${player.name} customd 1`)
+                if (entity.tags.contains('jingying')) {
+                    event.server.runCommandSilent(`scoreboard players add ${player.name} customd 1`)
+                }
+            }
+            //难度上限 休闲250 冒险600 困难1000 末日1500
+            customdiff=event.server.runCommandSilent(`scoreboard players get ${player.name} customd`)
+            if(player.stages.has('difficulty_easy')&&customdiff>250)
+            {
+                event.server.runCommandSilent(`scoreboard players set ${player.name} customd 250`)
+            }
+            if(player.stages.has('difficulty_normal')&&customdiff>600)
+            {
+                event.server.runCommandSilent(`scoreboard players set ${player.name} customd 600`)
+            }
+            if(player.stages.has('difficulty_hard')&&customdiff>1000)
+            {
+                event.server.runCommandSilent(`scoreboard players set ${player.name} customd 1000`)
+            }
+            if(player.stages.has('difficulty_impossible')&&customdiff>1500)
+            {
+                event.server.runCommandSilent(`scoreboard players set ${player.name} customd 1500`)
             }
 
             //额外掉落概率-最大50%
@@ -533,3 +554,4 @@ onEvent('entity.hurt', event => {
         }
     }
 })
+

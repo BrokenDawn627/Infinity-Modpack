@@ -32,6 +32,22 @@ onEvent('item.registry.tool_tiers', event => {
 		tier.enchantmentValue = 25
 		tier.repairIngredient = 'minecraft:diamond'
 	})
+	event.add('shadow', tier => {
+		tier.uses = 2000
+		tier.speed = 12.0
+		tier.attackDamageBonus = 7.0
+		tier.level = 5
+		tier.enchantmentValue = 25
+		tier.repairIngredient = 'minecraft:diamond'
+	})
+	event.add('dig', tier => {
+		tier.uses = 2000
+		tier.speed = 20.0
+		tier.attackDamageBonus = 7.0
+		tier.level = 7
+		tier.enchantmentValue = 25
+		tier.repairIngredient = 'minecraft:diamond'
+	})
 })
 
 
@@ -122,6 +138,26 @@ onEvent('item.registry', event => {
 
 	event.create('shenqi_random', item => {
 		item.tooltip(Text.translate('item.kubejs.shenqi_random.tooltip'))
+		item.rarity(Rarity.EPIC)
+		item.unstackable()
+	})
+
+	event.create('shadow_katana', item => {
+		item.type('sword').tier('shadow')
+		item.tooltip(Text.translate('item.kubejs.shadow_katana.tooltip0'))
+		item.tooltip(Text.translate('item.kubejs.shadow_katana.tooltip'))
+		item.tooltip(Text.translate('item.kubejs.shadow_katana.tooltip1'))
+		item.rarity(Rarity.EPIC)
+	})
+
+	event.create('digger', item => {
+		item.type('pickaxe').tier('dig')
+		item.rarity(Rarity.EPIC)
+		item.tooltip(Text.translate('item.kubejs.digger.tooltip'))
+	})
+
+	event.create('dead_book', item => {
+		item.tooltip(Text.translate('item.kubejs.dead_book.tooltip'))
 		item.rarity(Rarity.EPIC)
 		item.unstackable()
 	})

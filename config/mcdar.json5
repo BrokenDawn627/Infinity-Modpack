@@ -7,7 +7,6 @@
 	},
 	"enableDamagingArtefact": {
 		"BLAST_FUNGUS": true,
-		"CORRUPTED_BEACON": true,
 		"HARVESTER": true,
 		"LIGHTNING_ROD": true,
 		"UPDRAFT_TOME": true

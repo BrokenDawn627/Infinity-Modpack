@@ -40,8 +40,8 @@
   },
   "extra_settings": {
     "overlay_corner": "TOP_LEFT",
-    "show_fps": false,
-    "show_f_p_s_extended": true,
+    "show_fps": true,
+    "show_f_p_s_extended": false,
     "show_coords": false,
     "reduce_resolution_on_mac": true,
     "cloud_height": 192,

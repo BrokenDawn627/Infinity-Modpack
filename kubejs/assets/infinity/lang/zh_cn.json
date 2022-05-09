@@ -143,5 +143,22 @@
 	"item.kubejs.end_gobber_plate" :"末影戈伯片",
 	"item.kubejs.gobber_wire" :"戈伯线",
 	"item.kubejs.nether_gobber_wire" :"下界戈伯线",
-	"item.kubejs.end_gobber_wire" :"末影戈伯线"
+	"item.kubejs.end_gobber_wire" :"末影戈伯线",
+	"item.kubejs.infinity_sword.tooltip3":"在潜行状态下使用/kill",
+	"item.kubejs.shadow_katana" :"§d名刀•夜影",
+    "item.kubejs.shadow_katana.tooltip0":"§6庆祝Infinity整合包在MCBBS上获得精华图标§b[活动限定]",
+    "item.kubejs.shadow_katana.tooltip":"§7累积出血量表 20",
+    "item.kubejs.shadow_katana.tooltip1":"§d战技-瞬影",
+    "item.kubejs.shadow_katana.tooltip2":"§7按住§b[Shift]§7查看战技介绍",
+    "item.kubejs.shadow_katana.tooltip3":"§7按下§b[Shift+空格]§7向前方瞬移一段距离，并给予自身一小段时间的无敌，冷却时间5秒。",
+	"item.kubejs.digger":"§6挖掘者",
+	"item.kubejs.digger.tooltip":"@赞助者-Ice_Illusion",
+	"item.kubejs.digger.tooltip1":"§7久经矿场",
+	"item.kubejs.digger.tooltip2":"§7常驻急迫二和夜视",
+	"item.kubejs.digger.tooltip3":"§7沉重打击",
+	"item.kubejs.digger.tooltip4":"§7攻击时使对方定身以及虚弱2s",
+	"text.shili.tooltip":"接下来，右键很有用。",
+	"text.item.disabled":"§c已禁用",
+	"item.kubejs.dead_book":"§6死灵之书",
+	"item.kubejs.dead_book.tooltip":"@赞助者-harling_san"
 }

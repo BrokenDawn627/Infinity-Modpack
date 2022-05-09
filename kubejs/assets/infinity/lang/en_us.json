@@ -143,5 +143,22 @@
 	"item.kubejs.end_gobber_plate" :"End Gobber Plate",
 	"item.kubejs.gobber_wire" :"Gobber Wire",
 	"item.kubejs.nether_gobber_wire" :"Nether Gobber Wire",
-	"item.kubejs.end_gobber_wire" :"End Gobber Wire"
+	"item.kubejs.end_gobber_wire" :"End Gobber Wire",
+	"item.kubejs.infinity_sword.tooltip3":"Use /kill when crouching.",
+	"item.kubejs.shadow_katana" :"§dKatana·Shadow",
+    "item.kubejs.shadow_katana.tooltip0":"§b[Activity-only]",
+    "item.kubejs.shadow_katana.tooltip":"§7Cumulative bleeding scale 20",
+    "item.kubejs.shadow_katana.tooltip1":"§dSkill-Instant Shadow",
+    "item.kubejs.shadow_katana.tooltip2":"§7Hold§b[Shift]§7View the introduction of skill",
+    "item.kubejs.shadow_katana.tooltip3":"§7Press§b[Shift+Space]§7Move instantly to the front and give yourself invincibility for a short period of time. The cooling time is 5 seconds.",
+	"item.kubejs.digger":"§6Digger",
+	"item.kubejs.digger.tooltip":"@Sponsor-Ice_Illusion",
+	"item.kubejs.digger.tooltip1":"§7Miner",
+	"item.kubejs.digger.tooltip2":"§7Haste II and NightVision.",
+	"item.kubejs.digger.tooltip3":"§7Heavy Attack",
+	"item.kubejs.digger.tooltip4":"§7Immobilize and weaken the target 2 seconds.",
+	"text.shili.tooltip":"Next, right-click is very useful.",
+	"text.item.disabled":"§cDisabled ",
+	"item.kubejs.dead_book":"§6Book of the dead",
+	"item.kubejs.dead_book.tooltip":"@Sponsor-harling_san"
 }

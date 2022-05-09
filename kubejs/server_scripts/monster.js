@@ -62,8 +62,8 @@ onEvent('entity.spawned', event => {
     if(entity.isLiving()&&entity.monster)
     {
         
-        //5%成为精英怪
-        jingying_chance=randomNum(1,20)
+        //2%成为精英怪
+        jingying_chance=randomNum(1,50)
         if(jingying_chance==1)
         {
             //基础特性-血量翻倍,攻击力翻倍
@@ -73,7 +73,7 @@ onEvent('entity.spawned', event => {
             entity.setCustomName("§d精英§r "+entity.name)
 
             //生成随机数的范围
-            let limits = 8;
+            let limits = 7;
             //生成的数字数量
             let num = 4;
             finalTags = randomtag(num, limits)
@@ -126,12 +126,12 @@ onEvent('entity.spawned', event => {
                     entity.tags.add('hanshuang')
                     entity.setCustomName("§9寒霜§r " + entity.name)
                 }
-                //8重生-怪物将持有不死图腾
+                /*//8重生-怪物将持有不死图腾
                 if(finalTags[i]==8)
                 {
                     entity.tags.add('chongsheng')
                     entity.setCustomName("§6重生§r " + entity.name)
-                }
+                }*/
             }
 
         }  
@@ -208,12 +208,12 @@ onEvent('level.tick', event => {
                 entities[i].potionEffects.add('minecraft:invisibility',20*99999,0,false,false)
                 entities[i].tags.add('finish')
             }
-            //重生
+            /*//重生
             if(entities[i].tags.contains('chongsheng'))
             {
                 entities[i].setHeldItem(OFF_HAND, 'minecraft:totem_of_undying')
                 entities[i].tags.add('finish')
-            }
+            }*/
             
         }
         i++

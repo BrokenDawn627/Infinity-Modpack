@@ -1,3 +1,7 @@
+function randomNum(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+  }
+
 //paper
 onEvent('recipes', event => {
     event.shapeless('kubejs:custom_paper', ['minecraft:paper','numismatic-overhaul:gold_coin']).id('infinity:custom_paper')
@@ -40,6 +44,14 @@ onEvent('item.right_click', event => {
         }
         if (event.player.name == 'A_wushi') {
             event.player.give('kubejs:qixing')
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'Ice_Illusion') {
+            event.player.give('kubejs:digger')
+            event.player.mainHandItem.count -= 1
+        }
+        if (event.player.name == 'harling_san') {
+            event.player.give('kubejs:dead_book')
             event.player.mainHandItem.count -= 1
         }
     }
@@ -394,4 +406,58 @@ onEvent('entity.hurt',event =>{
         }
     }
     
+})
+
+//挖掘者
+
+onEvent('entity.hurt',event =>{
+    
+    let target = event.getEntity()
+    let player = event.getSource().getPlayer()
+    let entity = event.getSource().getImmediate()
+    let actual = event.getSource().getActual()
+    let damage = event.getDamage()
+    if(player!=null)
+    {
+        let mainItem = player.getHeldItem(MAIN_HAND)
+        if (mainItem == 'kubejs:digger')
+        {
+            target.potionEffects.add('minecraft:slowness',40,9)
+            target.potionEffects.add('minecraft:weakness',40,9)
+        }
+    }
+    
+})
+
+onEvent('player.tick', event => {
+    let player = event.player
+    let mainItem = player.getHeldItem(MAIN_HAND)
+
+    if (mainItem == 'kubejs:digger')
+    {
+        player.potionEffects.add('minecraft:night_vision',240,0,false,false)
+        player.potionEffects.add('minecraft:haste',20,1,false,false)
+    }
+    
+})
+
+//死灵之书
+onEvent('item.right_click', event => {
+    let player=event.player
+    let item=event.getItem()
+    if(item=='kubejs:dead_book')
+    {
+        player.potionEffects.add('minecraft:resistance',1200,1,false,false)
+        player.potionEffects.add('minecraft:haste',1200,3,false,false)
+        player.addItemCooldown('kubejs:dead_book',1400)
+        player.setHealth(10)
+        
+        for(i=0;i<6;i++)
+        {
+            randomx = randomNum(-5, 5);
+            randomz = randomNum(-5, 5)
+            event.server.runCommandSilent(`execute at ${event.player.id} run summon graveyard:ghoul ${player.getX() + randomx} ${player.getY()} ${player.getZ() + randomz}`)
+        }
+
+    }
 })

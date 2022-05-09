@@ -18,6 +18,7 @@ onEvent('item.registry.tool_tiers', event => {
 		item.tooltip('')
 		item.tooltip(Text.translate('item.kubejs.infinity_sword.tooltip1'))
 		item.tooltip(Text.translate('item.kubejs.infinity_sword.tooltip2'))
+		item.tooltip(Text.translate('item.kubejs.infinity_sword.tooltip3'))
 		item.type('sword').tier('infinity')
 		item.rarity(Rarity.EPIC)
 		item.glow(true)
