@@ -70,7 +70,7 @@ onEvent('entity.spawned', event => {
             entity.tags.add('jingying')
             entity.setMaxHealth(entity.maxHealth*2)
             entity.setHealth(entity.maxHealth)
-            entity.setCustomName("§d精英§r "+entity.name)
+            entity.setCustomName("§dElite§r "+entity.name)
 
             //生成随机数的范围
             let limits = 7;
